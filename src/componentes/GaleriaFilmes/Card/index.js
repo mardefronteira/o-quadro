@@ -1,7 +1,7 @@
 import "./estilo.js";
 
-function Metro() {
+function Card() {
   return <></>;
 }
 
-export default Metro;
+export default Card;

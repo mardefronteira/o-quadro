@@ -1,7 +1,7 @@
 import "./estilo.js";
 
-function Metro() {
+function Botao() {
   return <></>;
 }
 
-export default Metro;
+export default Botao;
