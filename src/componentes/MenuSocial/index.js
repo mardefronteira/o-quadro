@@ -1,4 +1,4 @@
-import "./estilo.js";
+import { ItemMenuSocial,ConteinerMenuSocial } from "./estilo";
 
 function MenuSocial() {
   return <><p>MenuSocial</p></>;
