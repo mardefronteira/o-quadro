@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+import Menu from "./componentes/Menu"
+import MenuSocial from "./componentes/MenuSocial"
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MenuSocial />
+    <Menu />
   </React.StrictMode>,
   document.getElementById("root")
 );

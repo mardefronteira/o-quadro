@@ -1,7 +1,7 @@
 import "./estilo.js";
 
 function MenuSocial() {
-  return <></>;
+  return <><p>MenuSocial</p></>;
 }
 
 export default MenuSocial;
