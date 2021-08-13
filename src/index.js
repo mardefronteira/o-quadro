@@ -5,7 +5,7 @@ import MenuSocial from "./componentes/MenuSocial"
 
 ReactDOM.render(
   <React.StrictMode>
-    <MenuSocial />
+    <MenuSocial vermelho = {true} />
   </React.StrictMode>,
   document.getElementById("root")
 );
