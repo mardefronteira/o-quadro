@@ -43,7 +43,7 @@ font-weight:400;
 font-size:1.25em;
 border:transparent;
 background:#FFFFFF;
-&:hover,&:focus{
+&:hover,&:focus, .filmes:hover, .filmes:focus{
 color:#009F66;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 background:#FFFFFF;
