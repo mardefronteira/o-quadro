@@ -1,25 +1,27 @@
 import { ItemMenuSocial, ConteinerMenuSocial } from "./estilo";
 
-function MenuSocial() {
-  return <ConteinerMenuSocial>
+function MenuSocial(vermelho = false) {
+  return <ConteinerMenuSocial 
+  taVermelho = {vermelho}
+  >
       <ItemMenuSocial href = ""> 
-        <img src="./imagens/vimeoIcone.svg">
+        <img src="./imagens/icone/vimeoIcone.svg">
         </img> 
       </ItemMenuSocial>
       <ItemMenuSocial href = ""> 
-        <img src="./imagens/youtubeIcone.svg">
+        <img src="./imagens/icone/youtubeIcone.svg">
         </img> 
       </ItemMenuSocial>
       <ItemMenuSocial href = ""> 
-        <img src="./imagens/instagramIcone.svg">
+        <img src="./imagens/icone/instagramIcone.svg">
         </img> 
       </ItemMenuSocial>
       <ItemMenuSocial href = ""> 
-        <img src="./imagens/facebookIcone.svg">
+        <img src="./imagens/icone/facebookIcone.svg">
         </img> 
       </ItemMenuSocial>
       <ItemMenuSocial href = ""> 
-        <img src="./imagens/emailIcone.svg">
+        <img src="./imagens/icone/emailIcone.svg">
         </img> 
       </ItemMenuSocial>
     
