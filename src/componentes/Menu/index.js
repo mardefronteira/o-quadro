@@ -2,19 +2,20 @@ import {ConteinerItensMenu, ConteinerMenu, ConteinerLinguagem, ItemMenu , ItemLa
 
 
 
-function Menu() {
+function Menu({estado = 1}) {
   return (
   <ConteinerMenu>
     <Logo src="/imagens/oquadro_verde_vertical1.svg" ></Logo>
     <ConteinerItensMenu>
-      <ul className="filmes"><ItemMenu >FILMES </ItemMenu>
-        <li><ItemMenu>LONGAS METRAGEM </ItemMenu></li>
-        <li><ItemMenu>CURTAS METRAGENS </ItemMenu></li>
-        <li><ItemMenu>MÉDIAS METRAGENS </ItemMenu></li>
+      <ul className="filmes">
+        <ItemMenu to="/filmes">FILMES </ItemMenu>
+        <li><ItemMenu to="/filmes">LONGAS METRAGEM </ItemMenu></li>
+        <li><ItemMenu to="/filmes">CURTAS METRAGENS </ItemMenu></li>
+        <li><ItemMenu to="/filmes">MÉDIAS METRAGENS </ItemMenu></li>
       </ul>
-      <ItemMenu>FESTIVAL METRÔ </ItemMenu>
-      <ItemMenu>PUBLICAÇÕES </ItemMenu>
-      <ItemMenu>QUEM SOMOS </ItemMenu>
+      <ItemMenu to="/metro">FESTIVAL METRÔ </ItemMenu>
+      <ItemMenu to="/publicacoes">PUBLICAÇÕES </ItemMenu>
+      <ItemMenu to="/quem-somos">QUEM SOMOS </ItemMenu>
     </ConteinerItensMenu>
     <ConteinerLinguagem>
       <ItemLang>PT </ItemLang>/
