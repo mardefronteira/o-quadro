@@ -15,7 +15,8 @@ const dB = [
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <MenuSocial vermelho = {true} /> */}
+    <Menu />
+    <MenuSocial  /> 
     <Carrossel categoria = {dB} />
   </React.StrictMode>,
   document.getElementById("root")

@@ -1,7 +1,7 @@
 import { ItemMenuSocial, ConteinerMenuSocial } from "./estilo";
 
 function MenuSocial(vermelho = false) {
-  return <ConteinerMenuSocial 
+  return (<ConteinerMenuSocial 
   taVermelho = {vermelho}
   >
       <ItemMenuSocial href = ""> 
@@ -25,7 +25,7 @@ function MenuSocial(vermelho = false) {
         </img> 
       </ItemMenuSocial>
     
-    </ConteinerMenuSocial>;
+    </ConteinerMenuSocial>);
 }
 
 export default MenuSocial;

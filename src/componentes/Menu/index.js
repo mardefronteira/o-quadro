@@ -1,5 +1,5 @@
 import {ConteinerItensMenu, ConteinerMenu, ConteinerLinguagem, ItemMenu , ItemLang, Logo} from "./estilo.js";
-import MenuSocial from "./MenuSocial/index.js"
+
 
 
 
@@ -17,7 +17,8 @@ function Menu() {
   </ConteinerItensMenu>
   <ConteinerLinguagem>
     <ItemLang>PT </ItemLang>/
-  <ItemLang>EN</ItemLang></ConteinerLinguagem></ConteinerMenu>
+  <ItemLang>EN</ItemLang></ConteinerLinguagem>
+  </ConteinerMenu>  
 }
 
 export default Menu;
