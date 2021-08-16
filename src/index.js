@@ -7,8 +7,8 @@ import FestivalMetro from "./paginas/FestivalMetro";
 import Filmes from "./paginas/Filmes";
 import FilmeSelecionado from "./paginas/FilmeSelecionado";
 import Inicial from "./paginas/Inicial";
-import LivroSelecionado from "./paginas/LivroSelecionado";
-import Livros from "./paginas/Livros";
+import PublicacaoSelecionada from "./paginas/PublicacaoSelecionada";
+import Publicacoes from "./paginas/Publicacoes";
 import QuemSomos from "./paginas/QuemSomos";
 import QuatroZeroQuatro from "./paginas/QuatroZeroQuatro";
 //import ReactGA from 'react-ga';
@@ -21,8 +21,8 @@ ReactDOM.render(
     <Switch>
       <Route path="/filmes" component={Filmes}></Route>
       <Route path="/filme/:id" component={FilmeSelecionado} />
-      <Route path="/livros" component={Livros}></Route>
-      <Route path="/livro/:id" component={LivroSelecionado}></Route>
+      <Route path="/publicacoes" component={Publicacoes}></Route>
+      <Route path="/publicacao/:id" component={PublicacaoSelecionada}></Route>
       <Route path="/metro-festival" component={FestivalMetro}></Route>
       <Route path="/quem-somos" component={QuemSomos}></Route>
       <Route path="/" component={Inicial} exact />
