@@ -1,4 +1,6 @@
 import {ConteinerItensMenu, ConteinerMenu, ConteinerLinguagem, ItemMenu , ItemLang, Logo} from "./estilo.js";
+import MenuSocial from "./MenuSocial/index.js"
+
 
 
 
@@ -10,7 +12,6 @@ function Menu() {
   <li><ItemMenu>CURTAS METRAGENS </ItemMenu></li>
   <li><ItemMenu>MÉDIAS METRAGENS </ItemMenu></li></ul>
   <ItemMenu>FESTIVAL METRÔ </ItemMenu>
-  
   <ItemMenu>PUBLICAÇÕES </ItemMenu>
   <ItemMenu>QUEM SOMOS </ItemMenu>
   </ConteinerItensMenu>
