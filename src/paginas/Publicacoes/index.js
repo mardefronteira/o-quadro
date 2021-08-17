@@ -3,13 +3,13 @@ import {} from "./estilo.js";
 // importar componentes
 import Base from "../../componentes/Base";
 
-function Filmes() {
+function Publicacoes() {
    return (
   <Base 
   menuSocialVermelho = {false}>
-  Filmes
+  Publicacoes
   </Base>
   );
 }
 
-export default Filmes;
+export default Publicacoes;

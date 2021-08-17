@@ -1,15 +1,15 @@
-// importar estilo
-import "./estilo.js";
+// importar estilos
+import {} from "./estilo.js";
 // importar componentes
 import Base from "../../componentes/Base";
 
-function QuemSomos() {
-  return (
+function Inicial() {
+   return (
   <Base 
   menuSocialVermelho = {false}>
-  QUEM SOMOS
+  Inicial
   </Base>
   );
 }
 
-export default QuemSomos;
+export default Inicial;
