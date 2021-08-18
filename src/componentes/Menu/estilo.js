@@ -5,9 +5,17 @@ import { Link } from "react-router-dom";
 export const ConteinerItensMenu = styled.div`
 display:flex;
 justify-content:space-around;
+text-align:center;
+.filmes {
+  display: flex;
+  flex-direction: column;
+  align-self: initial;
+}
  .filmes:hover,filmes:focus{
   li{
-    display:flex}
+    display:flex;
+    position:relative;
+  }
 }
 .filmes li{
   display:none;
@@ -41,6 +49,9 @@ color:#009F66;
 }
 `;
 export const ItemMenu = styled(Link)`
+display: flex;
+justify-content: center;
+align-items: center;
 width:15vw;
 height: 7vh;
 font-weight:400;
@@ -55,6 +66,9 @@ color: inherit;
   background:#FFFFFF;
 }
 `;
+export const Text = styled.p`
+margin:0
+`
 export const Logo = styled.img`
 margin-top: 5vh;
 width:auto;
