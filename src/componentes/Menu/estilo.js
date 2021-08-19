@@ -1,5 +1,7 @@
 
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+
 export const ConteinerItensMenu = styled.div`
 display:flex;
 justify-content:space-around;
@@ -14,12 +16,14 @@ justify-content:space-around;
   background:#FFFFFF;
   margin-top:5px; 
 }`;
+
 export const ConteinerLinguagem = styled.div`
 position: absolute;
 left: 90.31%;
 right: 0%;
 top: 0%;
 bottom: 90.11%;`;
+
 export const ConteinerMenu = styled.nav`
 display: flex;
 flex-direction: column;
@@ -36,23 +40,24 @@ border: none;
 color:#009F66;
 }
 `;
-export const ItemMenu = styled.button`
-width:255px;
-height: 57px;
+export const ItemMenu = styled(Link)`
+width:15vw;
+height: 7vh;
 font-weight:400;
-font-size:1.25em;
+font-size:1.1em;
 border:transparent;
 background:#FFFFFF;
+text-decoration: none;
+color: inherit;
 &:hover,&:focus, .filmes:hover, .filmes:focus{
-color:#009F66;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-background:#FFFFFF;
-
+  color:#009F66;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background:#FFFFFF;
 }
 `;
 export const Logo = styled.img`
 margin-top: 5vh;
 width:auto;
-height: 500px;
+height: 60vh;
 align-self: center;
 `;
