@@ -6,6 +6,7 @@ export const Subtitulo = styled.h3`
   font-weight: 100;
   font-size: 1.65rem;
   color: #009F66;
+  margin:0;
 `;
 
 export const FundoCard = styled.a`
@@ -25,7 +26,7 @@ export const FundoCard = styled.a`
 export const Desc = styled.div`
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 1rem;
   width: 100%;
 `;
 

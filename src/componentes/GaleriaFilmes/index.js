@@ -1,7 +1,12 @@
 import "./estilo.js";
+import Card from "./Card"
 
 function GaleriaFilmes() {
-  return <></>;
+  return <>
+    <Card/>
+
+    
+  </>;
 }
 
 export default GaleriaFilmes;
