@@ -2,7 +2,7 @@ import {TituloDestaque, subTituloDestaque, TextoVerde, h3Destaque , ImgDestaque,
 import {Menu} from "./Menu/index.js";
 
 function SecaoInformacoes() {
-  return <></>;
+  return (<></>);
 }
 
 export default SecaoInformacoes;
