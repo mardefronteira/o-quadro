@@ -9,7 +9,8 @@ text-align:center;
 .filmes {
   display: flex;
   flex-direction: column;
-  align-self: initial;
+  justify-self: center;
+  
 }
  .filmes:hover,filmes:focus{
   li{
