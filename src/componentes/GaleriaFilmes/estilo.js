@@ -1,9 +1,14 @@
 import styled from "styled-components";
 
-export const GaleriaFilmes = styled.div`
-    display: flex;
-    flex-direction: wrap;
-    flex-wrap: wrap;
+export const Galeria = styled.div`
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: space-around;
+    align-items: center;
+    grid-gap: 10% 5%;
+    margin-bottom: 15%;
+
 `;
 
 

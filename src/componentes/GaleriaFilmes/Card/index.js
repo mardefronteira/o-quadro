@@ -1,12 +1,20 @@
-import {FundoCard} from "./estilo.js";
-import {Legenda} from "./estilo.js";
+import {FundoCard, Legenda, Info} from "./estilo.js";
+
 
 function Card() {
-  return <Legenda>
-    <FundoCard href="">
+  return (<FundoCard href="">
     <img src="./imagens/teste/previaCard.png"></img>
-    </FundoCard>
-    </Legenda>
+      <Legenda>
+        <Info>
+          Terror Noturno 
+          <br/>
+          de Evandro Scorsin 
+          <br/>
+          2019
+        </Info>
+      </Legenda>
+    </FundoCard>)
+    
 }
 
 export default Card;
