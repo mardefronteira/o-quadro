@@ -6,7 +6,8 @@ import GaleriaFilmes from "../../componentes/GaleriaFilmes";
 function Filmes() {
    return (
   <Base 
-  menuSocialVermelho = {false}>
+  menuSocialVermelho = {false}
+  estadoMenu = {1}>
     <GaleriaFilmes/>
   </Base>
   );

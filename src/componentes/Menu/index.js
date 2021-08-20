@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Menu({estado = 1}) {
   return (
   <ConteinerMenu>
-    <Logo src="/imagens/oquadro_verde_vertical1.svg" ></Logo>
+    <Logo src="/imagens/oquadro_verde_vertical1.svg" estado={estado} ></Logo>
     <ConteinerItensMenu>
       <ul className="filmes">
         <ItemMenu  as={Link} to="/filmes" >FILMES </ItemMenu>
