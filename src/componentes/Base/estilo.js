@@ -5,5 +5,5 @@ export const Pagina = styled.main`
     color: #000;
     flex: 1;
     margin:10vh 15vw;
-   }
+   
 `;

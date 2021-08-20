@@ -1,11 +1,9 @@
 import { ItemMenuSocial, ConteinerMenuSocial } from "./estilo";
 
-function MenuSocial({vermelho = false}) {
-
-  return (
-    <ConteinerMenuSocial 
-    taVermelho = {vermelho}
-    >
+function MenuSocial(vermelho = false) {
+  return (<ConteinerMenuSocial 
+  taVermelho = {vermelho}
+  >
       <ItemMenuSocial href = ""> 
         <img src="./imagens/icone/vimeoIcone.svg">
         </img> 

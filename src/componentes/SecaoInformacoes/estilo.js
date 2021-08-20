@@ -1,4 +1,12 @@
 import styled from "styled-components";
+export const ContainerFilmes = styled.div`
+display: flex;
+flex-direction:column;`
+export const InfoFilme = styled.div`
+`
+export const ContainerImgDestaqueDireita= styled.div`
+`
+
 export const TituloDestaque = styled.h1`
 font-size: 3em;
 
@@ -10,9 +18,8 @@ font-size:2em;
 export const TextoVerde = styled.span`
 font-size:1.125em;
 color:#009F66;
-
-
 `
+
 export const h3Destaque = styled.h3`
 font-size: 1em;
 font-weight:bold;
