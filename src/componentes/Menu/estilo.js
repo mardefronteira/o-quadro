@@ -71,8 +71,19 @@ export const Text = styled.p`
 margin:0
 `
 export const Logo = styled.img`
-margin-top: 5vh;
-width:auto;
-height: 60vh;
-align-self: center;
+  ${
+    (props) => { if(props.estado === 1){
+      return (`
+        width: 20%;
+        ` 
+      )
+    } 
+    else if(props.estado === 0){
+     return (`margin-top: 5vh;
+        width:auto;
+        height: 60vh;
+        align-self: center;`)}
+      }
+}
 `;
+

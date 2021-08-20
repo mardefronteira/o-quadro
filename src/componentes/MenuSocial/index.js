@@ -1,6 +1,6 @@
 import { ItemMenuSocial, ConteinerMenuSocial } from "./estilo";
 
-function MenuSocial(vermelho = false) {
+function MenuSocial({vermelho = false}) {
   return (<ConteinerMenuSocial 
   taVermelho = {vermelho}
   >
