@@ -10,7 +10,7 @@ function Base({estadoMenu = 1, menuSocialVermelho = false, children}) {
     <Menu estado={estadoMenu}/>
     <Pagina>
     {children}
-  </Pagina>
+    </Pagina>
   </>
   )
 }

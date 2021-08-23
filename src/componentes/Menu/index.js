@@ -8,8 +8,8 @@ function Menu({estado = 1}) {
   <ConteinerMenu>
     <Logo src="/imagens/oquadro_verde_vertical1.svg" ></Logo>
     <ConteinerItensMenu>
-      <ul className="filmes">
-        <ItemMenu  as={Link} to="/filmes" >FILMES </ItemMenu>
+      <ul className="dropdown">
+        <ItemMenu className="filmes" as={Link} to="/filmes" >FILMES </ItemMenu>
         <li><ItemMenu  as={Link} to="/filmes">LONGAS METRAGEM </ItemMenu></li>
         <li><ItemMenu as={Link} to="/filmes">CURTAS METRAGENS </ItemMenu></li>
         <li><ItemMenu as={Link} to="/filmes">MÉDIAS METRAGENS </ItemMenu></li>
