@@ -36,7 +36,7 @@ function SecaoInformacoes() {
       <DivFlex><span className="TextoVerde">Direção e roteiro:</span><span></span> </DivFlex>
       <DivFlex><span className="TextoVerde">Produção:</span><span></span></DivFlex>
       <DivFlex><span className="TextoVerde">Montagem:</span><span></span></DivFlex>
-      <DivFlex><span className="TextoVerde"></span><span></span></DivFlex>
+      <DivFlex><span className="TextoVerde">Produção</span><span></span></DivFlex>
       <DivFlex><span className="TextoVerde"></span><span></span></DivFlex>
       <DivFlex><span className="TextoVerde"></span><span></span></DivFlex>
       <DivFlex><span className="TextoVerde"></span><span></span></DivFlex>

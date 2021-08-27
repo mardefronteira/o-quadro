@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import FestivalMetro from "./paginas/FestivalMetro";
@@ -11,6 +10,8 @@ import PublicacaoSelecionada from "./paginas/PublicacaoSelecionada";
 import Publicacoes from "./paginas/Publicacoes";
 import QuemSomos from "./paginas/QuemSomos";
 import QuatroZeroQuatro from "./paginas/QuatroZeroQuatro";
+
+import {EstiloGlobal} from "./estilo";
 //import ReactGA from 'react-ga';
 
 //ReactGA.initialize('');
@@ -18,6 +19,7 @@ import QuatroZeroQuatro from "./paginas/QuatroZeroQuatro";
 
 ReactDOM.render(
   <BrowserRouter>
+  <EstiloGlobal/>
     <Switch>
       <Route path="/filmes" component={Filmes}></Route>
       <Route path="/filme/:id" component={FilmeSelecionado} />

@@ -1,7 +1,9 @@
 import styled from "styled-components";
+
+
 export const ConteinerCards = styled.div`
   display: flex;
-  // justify-content: space-around;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   height: auto;
@@ -19,11 +21,14 @@ export const TituloAnimado = styled.h2`
 `;
 
 export const FundoCarrossel = styled.div`
-  background-color: ${(props) => `var(--${props.corFundo || "branco"})`};
   padding: 5vh 0;
-  width: 100%;
+  width: 80%;
   height: auto;
   margin-bottom: 5vh;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto; 
+
 `;
 
 export const SetaCarrossel = styled.button`
@@ -32,6 +37,5 @@ export const SetaCarrossel = styled.button`
   // font-size: 5rem;
   background: none;
   border: none;
-  
   // cursor: pointer;
 `;

@@ -6,7 +6,6 @@ import Card from "./Card/index";
 import {
   FundoCarrossel,
   ConteinerCards,
-  TituloAnimado,
   SetaCarrossel,
 } from "./estilo";
 
@@ -18,11 +17,8 @@ const Carrossel = ({ categoria, corFundo }) => {
 
   return (
     <FundoCarrossel corFundo={corFundo}>
-      <TituloAnimado>
-        
-      </TituloAnimado>
-      <ConteinerCards>
-        <SetaCarrossel
+
+      <SetaCarrossel
           className={pos > 0 ? "" : "invisivel"}
           onClick={() => {
             moverCarrossel(-1, categoria.length);
@@ -32,6 +28,8 @@ const Carrossel = ({ categoria, corFundo }) => {
           <img src="./imagens/seta/esquerda.svg" alt="seta para a esquerda"></img>
           
         </SetaCarrossel>
+      <ConteinerCards>
+        
         <Card
           img={categoria[pos].img}
           titulo={categoria[pos].titulo}
@@ -47,7 +45,9 @@ const Carrossel = ({ categoria, corFundo }) => {
           titulo={categoria[pos + 2].titulo}
           desc={categoria[pos + 2].desc}
         ></Card>
-        <SetaCarrossel
+        
+      </ConteinerCards>
+      <SetaCarrossel
           className={pos < categoria.length - 3 ? "" : "invisivel"}
           onClick={() => {
             moverCarrossel(1, categoria.length);
@@ -56,7 +56,6 @@ const Carrossel = ({ categoria, corFundo }) => {
           {/* {">"} */}
           <img src="./imagens/seta/direita.svg" alt="seta para a direita"></img>
         </SetaCarrossel>
-      </ConteinerCards>
     </FundoCarrossel>
   );
 };
