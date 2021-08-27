@@ -16,7 +16,7 @@ export const Legenda = styled.div`
   height: 100%;
   color: #ffffff;
   position:absolute;
-  z-index: 1000;
+  z-index: 40;
   background-color: rgba( 0, 0, 0, 0.5);
   opacity: 0;
   transition-delay: 0.5s;
@@ -28,7 +28,7 @@ export const Legenda = styled.div`
 `;
 export const Info= styled.p`
   display: flex;
-  padding: 0 5%;
+  padding: 5% 5%;
   font-weight: bold;
   font-size: 1em;
   text-align: left;

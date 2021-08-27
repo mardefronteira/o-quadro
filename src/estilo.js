@@ -1,3 +1,6 @@
+import {createGlobalStyle} from "styled-components";
+
+export const EstiloGlobal = createGlobalStyle`
 @import url('http://fonts.cdnfonts.com/css/louis-george-cafe');
 *{
   font-family: 'Louis George Café', sans-serif;
@@ -19,3 +22,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+`;
+
