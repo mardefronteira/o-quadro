@@ -3,6 +3,20 @@ export const ContainerFilmes = styled.div`
 display: flex;
 flex-direction:column;
 align-items:center;
+gap:4em;
+.text-box{
+  width: 15.41vw;
+  height:21.77vh;
+}
+.section-title{
+  align-items:center;
+}
+.movies{
+  flex-wrap:wrap;
+  gap:30px;
+  align-items:center;
+  justify-content:center;
+}
 `
 export const DivFlex = styled.div`
 display: flex;
@@ -17,8 +31,8 @@ export const ContainerImgDestaqueDireita= styled.div`
 
 export const TituloDestaque = styled.h1`
 font-size: 3em;
-
 font-weight:bold;
+line-height: 1.5em;
 `
 export const SubTituloDestaque = styled.h2`
 font-size:2em;
