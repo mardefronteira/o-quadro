@@ -7,7 +7,6 @@ export const Galeria = styled.div`
     justify-items: space-around;
     align-items: center;
     grid-gap: 10% 5%;
-    margin-bottom: 15%;
 
 `;
 

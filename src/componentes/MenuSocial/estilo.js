@@ -3,7 +3,7 @@ export const ConteinerMenuSocial = styled.nav`
     background-color: ${(props)=> props.taVermelho ? `#CF0018` : `#007F50`};
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     width: 2vw;
     min-width: 30px;
     height: 50vh;
@@ -15,6 +15,7 @@ export const ConteinerMenuSocial = styled.nav`
     justify-content: space-around;
     top: 20vh;
     box-shadow: 1px 1px 1px #000000;
+    z-index: 55;
     `
 export const ItemMenuSocial = styled.a`
     width: 70%;
