@@ -4,23 +4,32 @@ display: flex;
 flex-direction:column;
 align-items:center;
 gap:4em;
-.text-box{
+.caixa-texto{
   width: 15.41vw;
   height:21.77vh;
 }
-.section-title{
+.titulo-secao{
   align-items:center;
 }
-.movies{
+.filmes{
   flex-wrap:wrap;
   gap:30px;
   align-items:center;
   justify-content:center;
+}.equipe{
+  align-self:flex-start;
+  gap:10px;
+  width:100%;
+}
+.mais-equipe{
+  gap:10px;
+  flex-wrap: wrap;
 }
 `
 export const DivFlex = styled.div`
 display: flex;
 flex-direction:${(props)=> props.eColuna ? `column` : `row`};
+
 `
 export const InfoFilme = styled.div`
 display: flex;
@@ -58,4 +67,9 @@ width:28.8vw;
 export const CardFilmeSelecionado = styled.img`
 height:24.3vh;
 width:19.5vw;
+`
+export const MaisInfo = styled.button`
+border: none;
+background:none;
+align-self:center;
 `
