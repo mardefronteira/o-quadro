@@ -11,6 +11,8 @@ import Publicacoes from "./paginas/Publicacoes";
 import QuemSomos from "./paginas/QuemSomos";
 import QuatroZeroQuatro from "./paginas/QuatroZeroQuatro";
 
+import dataBase from "./db"
+
 import {EstiloGlobal} from "./estilo";
 //import ReactGA from 'react-ga';
 

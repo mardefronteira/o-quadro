@@ -17,7 +17,7 @@ text-align:center;
     display:flex;
     position:relative;
     }
-    .filmes{
+    .dropdown{
     color:#009F66;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background:#FFFFFF;
@@ -30,6 +30,8 @@ text-align:center;
   background:#FFFFFF;
   margin-top:5px; 
   &:hover,&:focus{
+  
+   
   
 }}
 `;
@@ -114,7 +116,7 @@ export const ItemMenu = styled(Link)`
       background:#FFFFFF;
       text-decoration: none;
       color: inherit;
-      &:hover,&:focus, .filmes:hover, .filmes:focus, &.logo:not{
+      &:hover,&:focus, .dropdown:hover, .dropdown:focus, &.logo:not{
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         background:#FFFFFF;
       }
@@ -122,15 +124,19 @@ export const ItemMenu = styled(Link)`
 ${(props) => {
   if (props.estado === 2) {
       return (`
-      &:hover,&:focus, .filmes:hover, .filmes:focus{
+      &:hover,&:focus, .dropdown:hover, .dropdown:focus{
         color:#CF0018;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background:#FFFFFF;
       }
         `)}
 
       else {
       return (`
-        &:hover,&:focus, .filmes:hover, .filmes:focus{
+        &:hover,&:focus, .dropdown:hover, .dropdown:focus{
         color:#009F66;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background:#FFFFFF;
       }`)
     }
   }

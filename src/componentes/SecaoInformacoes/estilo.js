@@ -22,8 +22,11 @@ gap:4em;
   width:100%;
 }
 .mais-equipe{
-  gap:10px;
+  gap:1.5%;
   flex-wrap: wrap;
+}
+.secaoPrincipal{
+  
 }
 `
 export const DivFlex = styled.div`
@@ -32,6 +35,7 @@ flex-direction:${(props)=> props.eColuna ? `column` : `row`};
 
 `
 export const InfoFilme = styled.div`
+width:45%;
 display: flex;
 flex-direction:column;
 `
@@ -57,16 +61,12 @@ font-weight:bold;
 
 `
 export const ImgDestaque = styled.img`
-height:37vh;
-width:67.40vw;
+height:auto;
+width:100%;
 `
 export const ImgDestaqueDireita = styled.img`
-height:77.7vh;
-width:28.8vw;
-`
-export const CardFilmeSelecionado = styled.img`
-height:24.3vh;
-width:19.5vw;
+width:45%;
+height:auto;
 `
 export const MaisInfo = styled.button`
 border: none;
