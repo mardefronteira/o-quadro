@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Barra = styled.section`
 display: flex;
 flex-direction: row;
+margin: 2vh 0;
 `;
 
 export const Pesquisa = styled.input`

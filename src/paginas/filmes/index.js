@@ -10,8 +10,9 @@ function Filmes() {
   <Base 
   menuSocialVermelho = {false}
   estadoMenu = {1}>
-    <BarraPesquisa/>
     <Titulo>Filmes</Titulo>
+    <BarraPesquisa/>
+    
     
     <GaleriaFilmes/>
   </Base>
