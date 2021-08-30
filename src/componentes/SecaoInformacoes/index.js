@@ -1,16 +1,17 @@
-import { DivFlex, ContainerFilmes, InfoFilme, ContainerImgDestaqueDireita, TituloDestaque, SubTituloDestaque, TextoVerde, H3Destaque, ImgDestaque, ImgDestaqueDireita, cardFilmeSelecionado, MaisInfo } from "./estilo.js";
+import { DivFlex, ContainerFilmes, InfoFilme, ContainerImgDestaqueDireita, TituloDestaque, SubTituloDestaque, TextoVerde, H3Destaque, ImgDestaque, ImgDestaqueDireita, MaisInfo } from "./estilo.js";
 import Card from "../Carrossel/Card/"
 import Carrossel from "../Carrossel"
+import dataBase from "../../db"
 function SecaoInformacoes() {
   return (<ContainerFilmes>
     <DivFlex className="titulo-secao" eColuna={true}>
       <TituloDestaque> TERROR NOTURNO</TituloDestaque>
       <H3Destaque> DE EVANDRO SCORSIN</H3Destaque>
     </DivFlex>
-    <ImgDestaque src="/imagens/teste/img-destaque"></ImgDestaque>
-    <DivFlex>
+    <ImgDestaque src="https://placekitten.com//375/235"></ImgDestaque>
+    <DivFlex className="secaoPrincipal" style={{justifyContent:'space-around'}}>
       <InfoFilme>
-        <iframe width="650" height="367" src="https://www.youtube.com/embed/hv6xxNDV8PA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="367" src="https://www.youtube.com/embed/hv6xxNDV8PA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <SubTituloDestaque>TERROR NOTURNO, 2019 </SubTituloDestaque>
         <H3Destaque> DE EVANDRO SCORSIN</H3Destaque>
         <DivFlex>
@@ -22,7 +23,7 @@ function SecaoInformacoes() {
           </DivFlex>
         </DivFlex>
       </InfoFilme>
-      <ImgDestaqueDireita src="/imagens/teste/posterTerror">
+      <ImgDestaqueDireita src="https://placekitten.com//900/500">
       </ImgDestaqueDireita>
     </DivFlex>
     <DivFlex className="filmes">
@@ -67,7 +68,7 @@ function SecaoInformacoes() {
     <TextoVerde>Tradução espanhol:</TextoVerde><span>Niala Pessuto</span>
     
     </DivFlex>
-    <Carrossel>
+    <Carrossel categoria={dataBase} >
     </Carrossel>
   </ContainerFilmes>);
 }

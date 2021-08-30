@@ -9,14 +9,14 @@ import {
   SetaCarrossel,
 } from "./estilo";
 
-const Carrossel = ({ categoria, corFundo }) => {
+const Carrossel = ({ categoria, corDestaque = '#009F66' }) => {
   // pegar trabalhos da categoria como objeto
 
   // variável pra conter a posição do Carrossel
   const [pos, moverCarrossel] = DefinirPos(0);
 
   return (
-    <FundoCarrossel corFundo={corFundo}>
+    <FundoCarrossel corDestaque ={corDestaque }>
 
       <SetaCarrossel
           className={pos > 0 ? "" : "invisivel"}
