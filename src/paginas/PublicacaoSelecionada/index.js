@@ -6,7 +6,7 @@ import Base from "../../componentes/Base";
 function PublicacaoSelecionada() {
    return (
   <Base 
-  menuSocialVermelho = {false}>
+  menuSocialVermelho = {true}>
   PublicacaoSelecionada
   </Base>
   );

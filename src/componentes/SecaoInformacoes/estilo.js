@@ -1,18 +1,49 @@
 import styled from "styled-components";
 export const ContainerFilmes = styled.div`
 display: flex;
-flex-direction:column;`
+flex-direction:column;
+align-items:center;
+gap:4em;
+.caixa-texto{
+  width: 15.41vw;
+  height:21.77vh;
+}
+.titulo-secao{
+  align-items:center;
+}
+.filmes{
+  flex-wrap:wrap;
+  gap:30px;
+  align-items:center;
+  justify-content:center;
+}.equipe{
+  align-self:flex-start;
+  gap:10px;
+  width:100%;
+}
+.mais-equipe{
+  gap:10px;
+  flex-wrap: wrap;
+}
+`
+export const DivFlex = styled.div`
+display: flex;
+flex-direction:${(props)=> props.eColuna ? `column` : `row`};
+
+`
 export const InfoFilme = styled.div`
+display: flex;
+flex-direction:column;
 `
 export const ContainerImgDestaqueDireita= styled.div`
 `
 
 export const TituloDestaque = styled.h1`
 font-size: 3em;
-
 font-weight:bold;
+line-height: 1.5em;
 `
-export const subTituloDestaque = styled.h2`
+export const SubTituloDestaque = styled.h2`
 font-size:2em;
 `
 export const TextoVerde = styled.span`
@@ -20,7 +51,7 @@ font-size:1.125em;
 color:#009F66;
 `
 
-export const h3Destaque = styled.h3`
+export const H3Destaque = styled.h3`
 font-size: 1em;
 font-weight:bold;
 
@@ -33,7 +64,12 @@ export const ImgDestaqueDireita = styled.img`
 height:77.7vh;
 width:28.8vw;
 `
-export const cardFilmeSelecionado = styled.img`
+export const CardFilmeSelecionado = styled.img`
 height:24.3vh;
 width:19.5vw;
+`
+export const MaisInfo = styled.button`
+border: none;
+background:none;
+align-self:center;
 `

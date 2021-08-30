@@ -9,7 +9,7 @@ function Menu({estado = 1}) {
     {estado === 0 ? (<Logo src="/imagens/oquadro_verde_vertical1.svg" estado={estado} >
     </Logo>):""}
     <ConteinerItensMenu estado={estado}>
-      <ul className="filmes">
+      <ul className="dropdown">
         <ItemMenu  as={Link} to="/filmes" estado={estado} >FILMES </ItemMenu>
         <li><ItemMenu  as={Link} to="/filmes" estado={estado}>LONGAS METRAGEM </ItemMenu></li>
         <li><ItemMenu as={Link} to="/filmes" estado={estado}>CURTAS METRAGENS </ItemMenu></li>

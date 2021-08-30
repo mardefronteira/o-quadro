@@ -6,25 +6,33 @@ export const ConteinerItensMenu = styled.div`
 display:flex;
 justify-content:space-around;
 text-align:center;
-.filmes {
+.dropdown {
   display: flex;
   flex-direction: column;
   justify-self: center;
   
 }
- .filmes:hover,filmes:focus{
+ .dropdown:hover,dropdown:focus{
   li{
     display:flex;
     position:relative;
-  }
+    }
+    .filmes{
+    color:#009F66;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background:#FFFFFF;
+  }  
 }
-.filmes li{
+.dropdown li{
   display:none;
   list-style: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background:#FFFFFF;
   margin-top:5px; 
-}`;
+  &:hover,&:focus{
+  
+}}
+`;
 
 export const ConteinerLinguagem = styled.div`
     position: absolute;
@@ -126,7 +134,7 @@ ${(props) => {
       }`)
     }
   }
-  }
+  
 }`
 
 
