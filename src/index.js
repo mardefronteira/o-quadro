@@ -27,7 +27,7 @@ ReactDOM.render(
       <Route path="/filme/:id" component={FilmeSelecionado} />
       <Route path="/publicacoes" component={Publicacoes}></Route>
       <Route path="/publicacao/:id" component={PublicacaoSelecionada}></Route>
-      <Route path="/metro-festival" component={FestivalMetro}></Route>
+      <Route path="/metro" component={FestivalMetro}></Route>
       <Route path="/quem-somos" component={QuemSomos}></Route>
       <Route path="/" component={Inicial} exact />
       <Route component={QuatroZeroQuatro} />
