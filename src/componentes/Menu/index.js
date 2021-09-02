@@ -10,7 +10,7 @@ function Menu({estado = 1}) {
     </Logo>):""}
     <ConteinerItensMenu estado={estado}>
       <ul className="dropdown">
-        <ItemMenu  as={Link} to="/filmes" estado={estado} >FILMES </ItemMenu>
+       <li><ItemMenu  as={Link} to="/filmes" estado={estado} >FILMES </ItemMenu></li>
         <li><ItemMenu  as={Link} to="/filmes" estado={estado}>LONGAS METRAGEM </ItemMenu></li>
         <li><ItemMenu as={Link} to="/filmes" estado={estado}>CURTAS METRAGENS </ItemMenu></li>
         <li><ItemMenu as={Link} to="/filmes" estado={estado}>MÉDIAS METRAGENS </ItemMenu></li>
