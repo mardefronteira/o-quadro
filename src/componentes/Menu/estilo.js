@@ -13,6 +13,10 @@ text-align:center;
   
 }
  .dropdown:hover,dropdown:focus{
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background:transparent;
+  
   li{
     display:flex;
     position:relative;
@@ -34,6 +38,9 @@ text-align:center;
    
   
 }}
+.dropdown li:first-child{
+  display:flex !important;
+  box-shadow:inherit; }
 `;
 
 export const ConteinerLinguagem = styled.div`
