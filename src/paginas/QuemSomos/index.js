@@ -60,6 +60,7 @@ function QuemSomos() {
           lorem ipsum dolor sit amet, consectetur
           lorem ipsum dolor sit amet, consectetur
           lorem ipsum dolor sit amet, consectetur
+          lorem ipsum dolor sit amet, consectetur
           </p>
         </Info>
       </Card>
