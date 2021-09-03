@@ -25,7 +25,7 @@ const Carrossel = ({ categoria, corDestaque = '#009F66' }) => {
           }}
         >
           {/* {"<"} */}
-          <img src="./imagens/seta/esquerda.svg" alt="seta para a esquerda"></img>
+          <img src="../imagens/seta/esquerda.svg" alt="seta para a esquerda"></img>
           
         </SetaCarrossel>
       <ConteinerCards>
@@ -54,7 +54,7 @@ const Carrossel = ({ categoria, corDestaque = '#009F66' }) => {
           }}
         >
           {/* {">"} */}
-          <img src="./imagens/seta/direita.svg" alt="seta para a direita"></img>
+          <img src="../imagens/seta/direita.svg" alt="seta para a direita"></img>
         </SetaCarrossel>
     </FundoCarrossel>
   );

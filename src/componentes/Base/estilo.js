@@ -6,5 +6,4 @@ export const Pagina = styled.main`
     flex: 1;
     margin:20vh 15vw;
     position: absolute;
-   
 `;
