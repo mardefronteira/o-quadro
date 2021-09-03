@@ -4,9 +4,9 @@ function BarraPesquisa(){
     return(
         <Barra >
         <Pesquisa type="text" id="busca" placeholder="Buscar nome do Filme"/>
-        <BotaoPesquisa type="button" >
-            <img className="lupa" src="./imagens/barraPesquisa/lupaIcone.svg"/> 
-            <img className="lupaHover" src="./imagens/barraPesquisa/lupaIconeHover.svg"/> 
+        <BotaoPesquisa type="button" alt="Pesquisar">
+            <img className="lupa" src="./imagens/barraPesquisa/lupaIcone.svg" alt=""/> 
+            <img className="lupaHover" src="./imagens/barraPesquisa/lupaIconeHover.svg" alt=""/> 
         </BotaoPesquisa>
         </Barra>
     )

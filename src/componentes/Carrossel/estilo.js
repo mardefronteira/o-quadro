@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const ConteinerCards = styled.div`
   display: flex;
   justify-content: space-around;
@@ -22,20 +21,15 @@ export const TituloAnimado = styled.h2`
 
 export const FundoCarrossel = styled.div`
   padding: 5vh 0;
-  width: 80%;
+  width: 100%;
   height: auto;
   margin-bottom: 5vh;
   display: flex;
   flex-direction: row;
   margin: 0 auto; 
-
 `;
 
 export const SetaCarrossel = styled.button`
-  // font-family:Helvetica, sans-serif;
-  // font-weight: 300;
-  // font-size: 5rem;
   background: none;
   border: none;
-  // cursor: pointer;
 `;

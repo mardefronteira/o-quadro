@@ -1,8 +1,6 @@
 import {ConteinerItensMenu, ConteinerMenu, ConteinerLinguagem, ItemMenu , ItemLang, Logo} from "./estilo.js";
 import { Link } from "react-router-dom";
 
-
-
 function Menu({estado = 1}) {
   return (
   <ConteinerMenu estado={estado}>

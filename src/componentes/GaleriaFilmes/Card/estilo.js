@@ -26,6 +26,7 @@ export const Legenda = styled.div`
   }
   
 `;
+
 export const Info= styled.p`
   display: flex;
   padding: 5% 5%;

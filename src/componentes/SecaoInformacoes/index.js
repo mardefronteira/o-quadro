@@ -1,5 +1,4 @@
 import { DivFlex, ContainerFilmes, InfoFilme, ContainerImgDestaqueDireita, TituloDestaque, SubTituloDestaque, TextoVerde, H3Destaque, ImgDestaque, ImgDestaqueDireita, MaisInfo } from "./estilo.js";
-import Card from "../Carrossel/Card/"
 import Carrossel from "../Carrossel"
 import dataBase from "../../db"
 function SecaoInformacoes() {
