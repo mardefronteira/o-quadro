@@ -7,7 +7,7 @@ const Card = ({ img, titulo, desc }) => {
   console.log(img);
   return (
     <FundoCard>
-      <ImagemCard src={`/imagens/teste/${img}`}></ImagemCard>
+      <ImagemCard src={`/imagens/teste/${img}.png`}></ImagemCard>
       <Subtitulo>{titulo}</Subtitulo>
       <Desc>{desc}</Desc>
     </FundoCard>

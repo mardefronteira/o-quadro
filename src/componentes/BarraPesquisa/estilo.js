@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Barra = styled.section`
 display: flex;
 flex-direction: row;
+margin: 2vh 0;
 `;
 
 export const Pesquisa = styled.input`
@@ -38,22 +39,19 @@ export const BotaoPesquisa = styled.button`
     .lupaHover{
         width: 60%;
         visibility: hidden;
-     
         margin: 0 auto;
     }
     background-color:#ffffff;
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 1px;
-
-
     &:hover,&:focus{
         .lupa{
             display: none;
         }
         .lupaHover{
             visibility: visible;
+            
         }
-    
     }
 `;

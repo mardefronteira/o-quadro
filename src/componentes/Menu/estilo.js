@@ -10,13 +10,12 @@ text-align:center;
   display: flex;
   flex-direction: column;
   justify-self: center;
-  
+  gap:5px;
 }
  .dropdown:hover,dropdown:focus{
-
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background:transparent;
-  
+  transition: 0.3s;
   li{
     display:flex;
     position:relative;
@@ -31,17 +30,19 @@ text-align:center;
   display:none;
   list-style: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background:#FFFFFF;
-  margin-top:5px; 
-  &:hover,&:focus{
+  background:#FFFFFF; 
   
-   
-  
-}}
+}
+.logo:hover,.logo:focus{
+  box-shadow: none;
+  border:none;
+}
 .dropdown li:first-child{
   display:flex !important;
   align-self: inherit;
-  box-shadow:inherit; }
+  box-shadow:inherit; 
+  
+  }
 `;
 
 export const ConteinerLinguagem = styled.div`
@@ -61,7 +62,8 @@ ${(props) => {
     `)
     }
   }
-  }`;
+  }
+`;
 
 export const ConteinerMenu = styled.nav`
 position: fixed;
@@ -80,18 +82,18 @@ ${(props) => {
       return (`
       font-size: 0.85em;
       `)
-    }    
+    }
   }
-}
+  }
 `;
 
 export const ItemLang = styled.button`
 font-weight:400;
 background:transparent;
 border: none;
-      &:hover,&:focus{
-      color:#009F66;
-      }
+&:hover,&:focus{
+  color:#009F66;
+}
 margin-top: 1vh;
 font-size:0.85em;
 ${(props) => {
@@ -102,15 +104,15 @@ ${(props) => {
       `)
     }
     else if (props.estado === 2) {
-      return(`
-
+      return (`
       &:hover,&:focus{
         color:#CF0018;
-        }`
-        )
+        }
+        `)
     }
   }
-  }`;
+  }
+`;
 
 export const ItemMenu = styled(Link)`
 
@@ -131,48 +133,50 @@ export const ItemMenu = styled(Link)`
       }
       
 ${(props) => {
-  if (props.estado === 2) {
+    if (props.estado === 2) {
       return (`
       &:hover,&:focus, .dropdown:hover, .dropdown:focus{
         color:#CF0018;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         background:#FFFFFF;
-      }
-        `)}
-
-      else {
+        transition: 0.3s;
+        }
+      `)
+    }
+    else {
       return (`
         &:hover,&:focus, .dropdown:hover, .dropdown:focus{
         color:#009F66;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         background:#FFFFFF;
+        transition: 0.3s;
       }`)
     }
   }
-  
-}`
-
+  }
+`;
 
 export const Text = styled.p`
 margin:0
-`
+`;
+
 export const Logo = styled.img`
   ${(props) => {
-    
     if (props.estado === 0) {
       return (`
-        width:auto;
-        height: 55vh;
-        align-self: center;`)
+          width:auto;
+          height: 55vh;
+          align-self: center;
+          `)
     }
     else {
       return (`
-        display:flex;
-        width: 5vw;
-        margin: 0;
-        `)
+          display:flex;
+          width: 5vw;
+          margin: 0;
+          `)
     }
-    
   }
-  }`;
+  }
+`;
 

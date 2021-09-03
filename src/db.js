@@ -1,23 +1,23 @@
 const dataBase = [{
-  img:'qualquer coisa',
+  img:'posterTerror',
   titulo: 'Terror Noturno',
   desc:'blablabla whiskas sachê', 
     
 },
 {
-  img:'qualquer coisa',
+  img:'posterTerror',
   titulo: 'Terror Noturno',
   desc:'blablabla whiskas sachê', 
     
 },
 {
-  img:'qualquer coisa',
+  img:'posterTerror',
   titulo: 'Terror Noturno',
   desc:'blablabla whiskas sachê', 
     
 },
 {
-  img:'qualquer coisa',
+  img:'posterTerror',
   titulo: 'Terror Noturno',
   desc:'blablabla whiskas sachê', 
     

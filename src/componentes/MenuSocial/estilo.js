@@ -7,7 +7,6 @@ export const ConteinerMenuSocial = styled.nav`
     width: 2vw;
     min-width: 30px;
     height: 50vh;
-    //blend: PassThrough;
     opacity: 0.7;
     border: 1px solid transparent;
     border-radius: 0 0.938em 0.938em 0;
@@ -16,7 +15,8 @@ export const ConteinerMenuSocial = styled.nav`
     top: 20vh;
     box-shadow: 1px 1px 1px #000000;
     z-index: 55;
-    `
+    `;
+
 export const ItemMenuSocial = styled.a`
     width: 70%;
     align-self: center;
