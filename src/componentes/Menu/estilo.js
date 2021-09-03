@@ -40,6 +40,7 @@ text-align:center;
 }}
 .dropdown li:first-child{
   display:flex !important;
+  align-self: inherit;
   box-shadow:inherit; }
 `;
 
@@ -112,6 +113,7 @@ ${(props) => {
   }`;
 
 export const ItemMenu = styled(Link)`
+
       display: flex;
       justify-content: center;
       align-items: center;

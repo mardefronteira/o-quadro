@@ -43,6 +43,7 @@ export const ContainerImgDestaqueDireita= styled.div`
 `
 
 export const TituloDestaque = styled.h1`
+color:${(props)=> props.eVermelho ? `#CF0018` : `inherit`};
 font-size: 3em;
 font-weight:bold;
 line-height: 1.5em;
@@ -56,6 +57,7 @@ color:#009F66;
 `
 
 export const H3Destaque = styled.h3`
+color:${(props)=> props.eVermelho ? `#CF0018` : `inherit`};
 font-size: 1em;
 font-weight:bold;
 
