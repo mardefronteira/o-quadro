@@ -1,7 +1,7 @@
 import React from 'react';
 // importar estilos
 // import {} from "./estilo.js";
-import { Titulo } from './estilo';
+import Titulo from './estilo';
 // importar componentes
 import Base from '../../componentes/Base';
 import GaleriaFilmes from '../../componentes/GaleriaFilmes';
@@ -17,7 +17,7 @@ function Filmes() {
       <BarraPesquisa />
 
       <GaleriaFilmes />
- 
+
     </Base>
   );
 }

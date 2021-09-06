@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pagina } from './estilo';
+import Pagina from './estilo';
 // importar componentes
 import MenuSocial from '../MenuSocial';
 import Menu from '../Menu';

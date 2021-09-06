@@ -12,6 +12,26 @@ import {
 const Carrossel = ({ categoria, corDestaque = '#009F66' }) => {
   /* pegar trabalhos da categoria como objeto */
 
+  const restringir = (val, min, max) => {
+    let valor = val;
+    if (val < min) {
+      valor = min;
+    } else if (val > max) {
+      valor = max;
+    }
+    return valor;
+  };
+
+  const DefinirPos = () => {
+    const [pos, defPos] = useState(0);
+
+    const moverCarrossel = (direcao, numItens) => {
+      const moverPara = pos + 3 * direcao;
+      defPos(restringir(moverPara, 0, numItens - 3));
+    };
+
+    return [pos, moverCarrossel];
+  };
   /* variável pra conter a posição do Carrossel */
   const [pos, moverCarrossel] = DefinirPos(0);
 
@@ -58,26 +78,6 @@ const Carrossel = ({ categoria, corDestaque = '#009F66' }) => {
       </SetaCarrossel>
     </FundoCarrossel>
   );
-};
-
-const DefinirPos = () => {
-  const [pos, defPos] = useState(0);
-
-  const moverCarrossel = (direcao, numItens) => {
-    const moverPara = pos + 3 * direcao;
-    defPos(restringir(moverPara, 0, numItens - 3));
-  };
-
-  return [pos, moverCarrossel];
-};
-
-const restringir = (val, min, max) => {
-  if (val < min) {
-    val = min;
-  } else if (val > max) {
-    val = max;
-  }
-  return val;
 };
 
 export default Carrossel;

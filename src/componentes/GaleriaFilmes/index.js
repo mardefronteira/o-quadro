@@ -1,5 +1,5 @@
 import React from 'react';
-import { Galeria } from './estilo';
+import Galeria from './estilo';
 import Card from './Card/index';
 
 function GaleriaFilmes() {

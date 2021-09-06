@@ -5,15 +5,12 @@ import {
   FundoCard, Subtitulo, Desc, ImagemCard,
 } from './estilo';
 
-const Card = ({ img, titulo, desc }) => {
-  console.log(img);
-  return (
-    <FundoCard>
-      <ImagemCard src={`/imagens/teste/${img}.png`} />
-      <Subtitulo>{titulo}</Subtitulo>
-      <Desc>{desc}</Desc>
-    </FundoCard>
-  );
-};
+const Card = ({ img, titulo, desc }) => (
+  <FundoCard>
+    <ImagemCard src={`/imagens/teste/${img}.png`} />
+    <Subtitulo>{titulo}</Subtitulo>
+    <Desc>{desc}</Desc>
+  </FundoCard>
+);
 
 export default Card;

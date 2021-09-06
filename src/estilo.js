@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-export const EstiloGlobal = createGlobalStyle`
+const EstiloGlobal = createGlobalStyle`
 @import url('http://fonts.cdnfonts.com/css/louis-george-cafe');
 *{
   font-family: 'Louis George Café', sans-serif;
@@ -21,3 +21,5 @@ code {
     monospace;
 }
 `;
+
+export default EstiloGlobal;
