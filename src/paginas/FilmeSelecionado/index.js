@@ -1,12 +1,11 @@
-
+import React from 'react';
 // importar componentes
-import Base from "../../componentes/Base";
-import SecaoInformacoes from "../../componentes/SecaoInformacoes";
+import Base from '../../componentes/Base';
+import SecaoInformacoes from '../../componentes/SecaoInformacoes';
 
 function FilmeSelecionado() {
   return (
-    <Base
-      >
+    <Base>
       <SecaoInformacoes />
     </Base>
   );

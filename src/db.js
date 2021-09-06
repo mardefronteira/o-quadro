@@ -1,25 +1,25 @@
 const dataBase = [{
-  img:'posterTerror',
+  img: 'posterTerror',
   titulo: 'Terror Noturno',
-  desc:'blablabla whiskas sachê', 
-    
+  desc: 'blablabla whiskas sachê',
+
 },
 {
-  img:'posterTerror',
+  img: 'posterTerror',
   titulo: 'Terror Noturno',
-  desc:'blablabla whiskas sachê', 
-    
+  desc: 'blablabla whiskas sachê',
+
 },
 {
-  img:'posterTerror',
+  img: 'posterTerror',
   titulo: 'Terror Noturno',
-  desc:'blablabla whiskas sachê', 
-    
+  desc: 'blablabla whiskas sachê',
+
 },
 {
-  img:'posterTerror',
+  img: 'posterTerror',
   titulo: 'Terror Noturno',
-  desc:'blablabla whiskas sachê', 
-    
+  desc: 'blablabla whiskas sachê',
+
 }];
 export default dataBase;

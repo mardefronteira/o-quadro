@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Galeria = styled.div`
     display: grid;
@@ -7,5 +7,3 @@ export const Galeria = styled.div`
     align-items: center;
     grid-gap: 10% 5%;
 `;
-
-

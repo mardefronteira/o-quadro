@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import {Link} from "react-router-dom"
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const FundoCard = styled(Link)`
   position:relative;
@@ -24,10 +24,9 @@ export const Legenda = styled.div`
   &:hover,&:focus {
     opacity: 1;
   }
-  
 `;
 
-export const Info= styled.p`
+export const Info = styled.p`
   display: flex;
   padding: 5% 5%;
   font-weight: bold;
@@ -35,4 +34,3 @@ export const Info= styled.p`
   text-align: left;
   align-items: flex-end;
 `;
-
