@@ -8,7 +8,7 @@ function Menu({ estado = 1 }) {
   return (
     <ConteinerMenu estado={estado}>
       {estado === 0 ? (
-        <Logo src="/imagens/oquadro_verde_vertical1.svg" estado={estado} alt="Logo o quadro" />
+        <Logo src="/imagens/oquadro_verde_vertical1.svg" estado={estado} />
       ) : ''}
       <ConteinerItensMenu estado={estado}>
         <ul className="dropdown">
@@ -21,7 +21,10 @@ function Menu({ estado = 1 }) {
 
         {estado !== 0 ? (
           <ItemMenu as={Link} to="/" className="logo">
-            <Logo src={`/imagens/${estado === 1 ? 'oquadro_verde_vertical1' : 'aquadro_vermelho'}.svg`} estado={estado} />
+            <Logo
+              src={`/imagens/${estado === 1 ? 'oquadro_verde_vertical1' : 'aquadro_vermelho'}.svg`}
+              estado={estado}
+            />
           </ItemMenu>
         ) : ''}
 
