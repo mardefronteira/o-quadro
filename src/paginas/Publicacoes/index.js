@@ -1,29 +1,39 @@
+import React from 'react';
 // importar estilos
-import {} from "./estilo.js";
-// importar componentes
-import Base from "../../componentes/Base";
 import {
-  Titulo, Conteiner, ArtigoPrincipal, 
-  ConteinerLinha, ImagemLateral, ArtigoLateral, 
-  ListaLivro, Livro, CapaLivro, 
-  InfoLivro, TituloLivro, AutorLivro
-} from "./estilo"
+  Titulo,
+  Conteiner,
+  ArtigoPrincipal,
+  ConteinerLinha,
+  ImagemLateral,
+  ArtigoLateral,
+  ListaLivro,
+  Livro,
+  CapaLivro,
+  InfoLivro,
+  TituloLivro,
+  AutorLivro,
+} from './estilo';
+// importar componentes
+import Base from '../../componentes/Base';
 
 function Publicacoes() {
-   return (
-  <Base 
-  menuSocialVermelho = {true}
-  estadoMenu = {2}>
-    <Titulo>A QUADRO</Titulo>
+  return (
+    <Base
+      menuSocialVermelho
+      estadoMenu={2}
+    >
+      <Titulo>A QUADRO</Titulo>
       <Conteiner>
         <ArtigoPrincipal>
           <p>
 
-            A Edições A Quadro, selo para publicações da produtora audiovisual O Quadro, embora criada recentemente, era um
+            A Edições A Quadro, selo para publicações da produtora audiovisual O Quadro,
+            embora criada recentemente, era um
             desejo antigo da empresa, quando na criação do seu CNPJ,
             há 10 anos, estabeleceu entre as atividades econômicas a
             possibilidade de edição e publicação de textos.
-            
+
           </p>
           <p>
             Ela surge após um período de experiências diversas dos seus
@@ -35,10 +45,10 @@ function Publicacoes() {
             palestras e debates sobre a sétima arte, e realizam pesquisas
             acadêmicas, na conclusão de graduações e mestrados.
           </p>
-          
+
         </ArtigoPrincipal>
         <ConteinerLinha>
-          <ImagemLateral src="http://placekitten.com/400/250"/>
+          <ImagemLateral src="http://placekitten.com/400/250" />
           <ArtigoLateral>
             <p>
               Para Coleção Escrever o Cinema, a
@@ -52,7 +62,7 @@ function Publicacoes() {
               Lima Faissol, do cineasta e doutorando Alexandre
               Rafael Garcia, e da Mestre Juliana Rodrigues Pereira.
             </p>
-            
+
             <p>
               Atualmente, enquanto produz os 4 primeiros volumes
               da Coleção Escrever o Cinema, paralelamente busca a
@@ -62,24 +72,24 @@ function Publicacoes() {
             </p>
           </ArtigoLateral>
         </ConteinerLinha>
-      
+
         <ListaLivro>
           <Livro>
-            <CapaLivro src="http://placekitten.com/150/200"/>
+            <CapaLivro src="http://placekitten.com/150/200" />
             <InfoLivro>
               <TituloLivro>CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER</TituloLivro>
               <AutorLivro>DE ALEXANDRE RAFAEL GARCIA</AutorLivro>
             </InfoLivro>
           </Livro>
           <Livro>
-            <CapaLivro src="http://placekitten.com/150/200"/>
+            <CapaLivro src="http://placekitten.com/150/200" />
             <InfoLivro>
               <TituloLivro>CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER</TituloLivro>
               <AutorLivro>DE ALEXANDRE RAFAEL GARCIA</AutorLivro>
             </InfoLivro>
           </Livro>
           <Livro>
-            <CapaLivro src="http://placekitten.com/150/200"/>
+            <CapaLivro src="http://placekitten.com/150/200" />
             <InfoLivro>
               <TituloLivro>CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER</TituloLivro>
               <AutorLivro>DE ALEXANDRE RAFAEL GARCIA</AutorLivro>
@@ -87,7 +97,7 @@ function Publicacoes() {
           </Livro>
         </ListaLivro>
       </Conteiner>
-  </Base>
+    </Base>
   );
 }
 

@@ -1,6 +1,5 @@
-
-import styled from "styled-components";
-import { Link } from "react-router-dom";
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const ConteinerItensMenu = styled.div`
 display:flex;
@@ -49,16 +48,15 @@ ${(props) => {
     if (props.estado === 0) {
       return (`
       left: 90.31%;
-      bottom: 90.11%;`)
+      bottom: 90.11%;`);
     }
-    else {
-      return (`
+
+    return (`
     left: 95.31%;
     bottom: 96.11%;
-    `)
-    }
+    `);
   }
-  }
+}
 `;
 
 export const ConteinerMenu = styled.nav`
@@ -77,10 +75,10 @@ ${(props) => {
     if (props.estado === 1 || props.estado === 2) {
       return (`
       font-size: 0.85em;
-      `)
+      `);
     }
   }
-  }
+}
 `;
 
 export const ItemLang = styled.button`
@@ -97,17 +95,17 @@ ${(props) => {
       return (`
       margin-top: 5vh;
       font-size: 0.875em;
-      `)
+      `);
     }
-    else if (props.estado === 2) {
+    if (props.estado === 2) {
       return (`
       &:hover,&:focus{
         color:#CF0018;
         }
-        `)
+        `);
     }
   }
-  }
+}
 `;
 
 export const ItemMenu = styled(Link)`
@@ -135,19 +133,18 @@ ${(props) => {
         background:#FFFFFF;
         transition: 0.3s;
         }
-      `)
+      `);
     }
-    else {
-      return (`
+
+    return (`
         &:hover,&:focus, .dropdown:hover, .dropdown:focus{
         color:#009F66;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         background:#FFFFFF;
         transition: 0.3s;
-      }`)
-    }
+      }`);
   }
-  }
+}
 `;
 
 export const Text = styled.p`
@@ -161,16 +158,14 @@ export const Logo = styled.img`
           width:auto;
           height: 55vh;
           align-self: center;
-          `)
+          `);
     }
-    else {
-      return (`
+
+    return (`
           display:flex;
           width: 5vw;
           margin: 0;
-          `)
-    }
+          `);
   }
-  }
+}
 `;
-

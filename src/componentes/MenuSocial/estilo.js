@@ -1,6 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
+
 export const ConteinerMenuSocial = styled.nav`
-    background-color: ${(props)=> props.taVermelho ? `#CF0018` : `#007F50`};
+    background-color: ${(props) => (props.taVermelho ? '#CF0018' : '#007F50')};
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -22,10 +23,8 @@ export const ItemMenuSocial = styled.a`
     align-self: center;
     img{
         width: 100%;
-        
     }
     img:hover{
         opacity: 0.7;
-        
     }
     `;

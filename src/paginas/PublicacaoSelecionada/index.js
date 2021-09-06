@@ -1,14 +1,16 @@
+import React from 'react';
 // importar estilos
-import {} from "./estilo.js";
+import {} from './estilo';
 // importar componentes
-import Base from "../../componentes/Base";
+import Base from '../../componentes/Base';
 
 function PublicacaoSelecionada() {
-   return (
-  <Base 
-  menuSocialVermelho = {true}>
-  PublicacaoSelecionada
-  </Base>
+  return (
+    <Base
+      menuSocialVermelho
+    >
+      PublicacaoSelecionada
+    </Base>
   );
 }
 

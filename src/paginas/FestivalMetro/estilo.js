@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ConteinerPrincipal = styled.section`
 display: flex;
@@ -19,16 +19,11 @@ width: 50%;
 `;
 
 export const Logo = styled.h2`
-
-// img{
-//     width: 20vw;
-// }
 `;
 
 export const Artigo = styled.article`
 width: 55%;
 text-align: justify;
-// margin-top: -5vh;
 margin: 4vh 0;
 `;
 
@@ -44,5 +39,4 @@ box-shadow: 0px 2px 4px 0px #00000080;
 &:hover, &focus{
     opacity: 0.9;
 }
-
 `;
