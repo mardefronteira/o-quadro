@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import {
   ConteinerItensMenu, ConteinerMenu, ConteinerLinguagem, ItemMenu, ItemLang, Logo,
@@ -39,5 +40,9 @@ function Menu({ estado = 1 }) {
     </ConteinerMenu>
   );
 }
+
+Menu.propTypes = {
+  estado: PropTypes.number.isRequired,
+};
 
 export default Menu;

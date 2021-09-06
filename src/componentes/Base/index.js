@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Pagina from './estilo';
 // importar componentes
 import MenuSocial from '../MenuSocial';
@@ -15,5 +16,16 @@ function Base({ estadoMenu = 1, menuSocialVermelho = false, children }) {
     </>
   );
 }
+
+Base.propTypes = {
+  estadoMenu: PropTypes.number,
+  menuSocialVermelho: PropTypes.bool,
+  children: PropTypes.node.isRequired,
+};
+
+Base.defaultProps = {
+  estadoMenu: 1,
+  menuSocialVermelho: false,
+};
 
 export default Base;

@@ -1,5 +1,6 @@
 /* importar react */
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 /* importar componentes */
 import Card from './Card/index';
 /* importar estilos */
@@ -78,6 +79,11 @@ const Carrossel = ({ categoria, corDestaque = '#009F66' }) => {
       </SetaCarrossel>
     </FundoCarrossel>
   );
+};
+
+Carrossel.propTypes = {
+  categoria: PropTypes.arrayOf(PropTypes.string).isRequired,
+  corDestaque: PropTypes.string.isRequired,
 };
 
 export default Carrossel;

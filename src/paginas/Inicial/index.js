@@ -1,6 +1,5 @@
 import React from 'react';
-// importar estilos
-import {} from './estilo';
+
 // importar componentes
 import Base from '../../componentes/Base';
 
