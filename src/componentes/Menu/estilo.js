@@ -10,6 +10,7 @@ text-align:center;
   display: flex;
   flex-direction: column;
   justify-self: center;
+  gap:5px;
 }
  .dropdown:hover,dropdown:focus{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -29,16 +30,19 @@ text-align:center;
   display:none;
   list-style: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background:#FFFFFF;
-  margin-top:5px; 
-  &:hover,&:focus{ 
-    
-  }
+  background:#FFFFFF; 
+  
+}
+.logo:hover,.logo:focus{
+  box-shadow: none;
+  border:none;
 }
 .dropdown li:first-child{
   display:flex !important;
+  align-self: inherit;
   box-shadow:inherit; 
-}
+  
+  }
 `;
 
 export const ConteinerLinguagem = styled.div`
@@ -111,21 +115,23 @@ ${(props) => {
 `;
 
 export const ItemMenu = styled(Link)`
-display: flex;
-justify-content: center;
-align-items: center;
-width:15vw;
-height: 7vh;
-font-weight:400;
-font-size:1.1em;
-border:transparent;
-background:#FFFFFF;
-text-decoration: none;
-color: inherit;
-&:hover, &:focus, .dropdown:hover, .dropdown:focus{
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background:#FFFFFF;
-} 
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:15vw;
+      height: 7vh;
+      font-weight:400;
+      font-size:1.1em;
+      border:transparent;
+      background:#FFFFFF;
+      text-decoration: none;
+      color: inherit;
+      &:hover,&:focus, .dropdown:hover, .dropdown:focus, &.logo:not{
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background:#FFFFFF;
+      }
+      
 ${(props) => {
     if (props.estado === 2) {
       return (`
