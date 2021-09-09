@@ -1,6 +1,5 @@
 import React from 'react';
-// importar estilos
-
+import { Link } from 'react-router-dom';
 // importar componentes
 import {
   Titulo,
@@ -76,21 +75,21 @@ function Publicacoes() {
         </ConteinerLinha>
 
         <ListaLivro>
-          <Livro>
+          <Livro as={Link} to="Publicacao/1">
             <CapaLivro src="http://placekitten.com/150/200" />
             <InfoLivro>
               <TituloLivro>CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER</TituloLivro>
               <AutorLivro>DE ALEXANDRE RAFAEL GARCIA</AutorLivro>
             </InfoLivro>
           </Livro>
-          <Livro>
+          <Livro as={Link} to="Publicacao/1">
             <CapaLivro src="http://placekitten.com/150/200" />
             <InfoLivro>
               <TituloLivro>CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER</TituloLivro>
               <AutorLivro>DE ALEXANDRE RAFAEL GARCIA</AutorLivro>
             </InfoLivro>
           </Livro>
-          <Livro>
+          <Livro as={Link} to="Publicacao/1">
             <CapaLivro src="http://placekitten.com/150/200" />
             <InfoLivro>
               <TituloLivro>CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER</TituloLivro>

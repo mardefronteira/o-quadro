@@ -34,18 +34,24 @@ p{
 }
 `;
 
-export const ListaLivro = styled.section`
+export const ListaLivro = styled.ul`
 width: 100%;
 height: auto;
 margin: 7vh 0;
+decoration: none;
+
 `;
 
-export const Livro = styled.section`
+export const Livro = styled.li`
 display: flex;
 flex-direction: row;
 gap: 1.5vw;
 padding: 1%;
 margin-bottom: 2vh;
+text-decoration: none;
+:visited{
+  color: #000000;
+}
 &:hover,
   &:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
