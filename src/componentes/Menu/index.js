@@ -15,8 +15,8 @@ function Menu({ estado = 1 }) {
         <ul className="dropdown">
           <li><ItemMenu as={Link} to="/filmes" estado={estado}>FILMES </ItemMenu></li>
           <li><ItemMenu as={Link} to="/filmes" estado={estado}>LONGAS METRAGEM </ItemMenu></li>
-          <li><ItemMenu as={Link} to="/filmes" estado={estado}>CURTAS METRAGENS </ItemMenu></li>
           <li><ItemMenu as={Link} to="/filmes" estado={estado}>MÉDIAS METRAGENS </ItemMenu></li>
+          <li><ItemMenu as={Link} to="/filmes" estado={estado}>CURTAS METRAGENS </ItemMenu></li>
         </ul>
         <ItemMenu as={Link} to="/metro" estado={estado}>FESTIVAL METRÔ </ItemMenu>
 

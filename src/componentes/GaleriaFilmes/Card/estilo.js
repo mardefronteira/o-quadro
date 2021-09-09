@@ -13,7 +13,7 @@ export const FundoCard = styled(Link)`
 export const Legenda = styled.div`
   display: flex;
   width: 100%;
-  height: 100%;
+  height: auto;
   color: #ffffff;
   position:absolute;
   z-index: 40;

@@ -1,5 +1,6 @@
 /* importar react */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 /* importar estilos */
 import {
@@ -7,7 +8,7 @@ import {
 } from './estilo';
 
 const Card = ({ img, titulo, desc }) => (
-  <FundoCard>
+  <FundoCard as={Link} to="/filme/1">
     <ImagemCard src={`/imagens/teste/${img}.png`} />
     <Subtitulo>{titulo}</Subtitulo>
     <Desc>{desc}</Desc>
