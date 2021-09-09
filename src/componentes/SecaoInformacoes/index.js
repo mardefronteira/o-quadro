@@ -1,7 +1,10 @@
 import { DivFlex, ContainerFilmes, InfoFilme, ContainerImgDestaqueDireita, TituloDestaque, SubTituloDestaque, TextoVerde, H3Destaque, ImgDestaque, ImgDestaqueDireita, MaisInfo } from "./estilo.js";
 import Carrossel from "../Carrossel"
 import dataBase from "../../db"
+import useState from 'react'
 function SecaoInformacoes() {
+  const [taAtivo,setTaAtivo] = useState(false);
+
   return (<ContainerFilmes>
     <DivFlex className="titulo-secao" eColuna={true}>
       <TituloDestaque> TERROR NOTURNO</TituloDestaque>
@@ -43,7 +46,14 @@ function SecaoInformacoes() {
       <DivFlex eColuna={false}><TextoVerde>Direção de fotografia:</TextoVerde><span>André Senna</span></DivFlex>
       <DivFlex eColuna={false}><TextoVerde>Trilha Sonora:</TextoVerde><span>Felipe Ayres</span></DivFlex>
       <DivFlex eColuna={false}><TextoVerde>Finalização de som:</TextoVerde><span>Vitor Coroa e Vitor Morales</span></DivFlex>
-      <MaisInfo><img src="../imagens/seta_para_baixo.svg"/></MaisInfo>
+      <MaisInfo><img src="../imagens/seta_para_baixo.svg" onClick={ () =>{
+        setTaAtivo(true);
+        if(setTaAtivo === true){        
+          console.log('tô funcionando')
+      }}} />
+      <img src="../imagens/seta_para_cima.svg" style={{display:"none"}} />
+      </MaisInfo>
+      { }
     </DivFlex>
     <DivFlex className="mais-equipe" eColuna={false}>
     <TextoVerde>Elenco de apoio:</TextoVerde><span>Martha Chapieski e Altamar Cezar</span>
