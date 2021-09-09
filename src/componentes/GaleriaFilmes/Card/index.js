@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FundoCard, Legenda, Info } from './estilo';
 
 function Card() {
   return (
-    <FundoCard href="">
+    <FundoCard as={Link} to="/filme/1">
       <img src="./imagens/teste/previaCard.png" alt="" />
       <Legenda>
         <Info>

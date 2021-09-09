@@ -1,5 +1,6 @@
 /* importar react */
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 /* importar componentes */
 import Card from './Card/index';
 /* importar estilos */
@@ -12,6 +13,26 @@ import {
 const Carrossel = ({ categoria, corDestaque = '#009F66' }) => {
   /* pegar trabalhos da categoria como objeto */
 
+  const restringir = (val, min, max) => {
+    let valor = val;
+    if (val < min) {
+      valor = min;
+    } else if (val > max) {
+      valor = max;
+    }
+    return valor;
+  };
+
+  const DefinirPos = () => {
+    const [pos, defPos] = useState(0);
+
+    const moverCarrossel = (direcao, numItens) => {
+      const moverPara = pos + 3 * direcao;
+      defPos(restringir(moverPara, 0, numItens - 3));
+    };
+
+    return [pos, moverCarrossel];
+  };
   /* variável pra conter a posição do Carrossel */
   const [pos, moverCarrossel] = DefinirPos(0);
 
@@ -60,24 +81,9 @@ const Carrossel = ({ categoria, corDestaque = '#009F66' }) => {
   );
 };
 
-const DefinirPos = () => {
-  const [pos, defPos] = useState(0);
-
-  const moverCarrossel = (direcao, numItens) => {
-    const moverPara = pos + 3 * direcao;
-    defPos(restringir(moverPara, 0, numItens - 3));
-  };
-
-  return [pos, moverCarrossel];
-};
-
-const restringir = (val, min, max) => {
-  if (val < min) {
-    val = min;
-  } else if (val > max) {
-    val = max;
-  }
-  return val;
+Carrossel.propTypes = {
+  categoria: PropTypes.arrayOf(PropTypes.string).isRequired,
+  corDestaque: PropTypes.string.isRequired,
 };
 
 export default Carrossel;
