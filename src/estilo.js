@@ -1,4 +1,4 @@
-import {createGlobalStyle} from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export const EstiloGlobal = createGlobalStyle`
 @import url('http://fonts.cdnfonts.com/css/louis-george-cafe');
@@ -15,13 +15,9 @@ body {
 }
 h1,h2,h3,h4,h5,h6{
 line-height:2em;
-
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
 `;
-

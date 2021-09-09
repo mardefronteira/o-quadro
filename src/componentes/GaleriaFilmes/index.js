@@ -1,21 +1,24 @@
-import {Galeria} from "./estilo.js";
-import Card from "./Card/index.js"
+import React from 'react';
+import { Galeria } from './estilo';
+import Card from './Card/index';
 
 function GaleriaFilmes() {
-  return <Galeria>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-  </Galeria>;
+  return (
+    <Galeria>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </Galeria>
+  );
 }
 
 export default GaleriaFilmes;

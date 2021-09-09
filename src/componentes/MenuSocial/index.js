@@ -1,31 +1,29 @@
-import { ItemMenuSocial, ConteinerMenuSocial } from "./estilo";
+import React from 'react';
+import { ItemMenuSocial, ConteinerMenuSocial } from './estilo';
 
-function MenuSocial({vermelho = false}) {
-  return (<ConteinerMenuSocial 
-  taVermelho = {vermelho}
-  >
-      <ItemMenuSocial href = ""> 
-        <img src="./imagens/icone/vimeoIcone.svg">
-        </img> 
+function MenuSocial({ vermelho = false }) {
+  return (
+    <ConteinerMenuSocial
+      taVermelho={vermelho}
+    >
+      <ItemMenuSocial href="">
+        <img src="./imagens/icone/vimeoIcone.svg" alt="Vimeo Logo" />
       </ItemMenuSocial>
-      <ItemMenuSocial href = ""> 
-        <img src="./imagens/icone/youtubeIcone.svg">
-        </img> 
+      <ItemMenuSocial href="">
+        <img src="./imagens/icone/youtubeIcone.svg" alt="Youtube Logo" />
       </ItemMenuSocial>
-      <ItemMenuSocial href = ""> 
-        <img src="./imagens/icone/instagramIcone.svg">
-        </img> 
+      <ItemMenuSocial href="">
+        <img src="./imagens/icone/instagramIcone.svg" alt="Instagram Logo" />
       </ItemMenuSocial>
-      <ItemMenuSocial href = ""> 
-        <img src="./imagens/icone/facebookIcone.svg">
-        </img> 
+      <ItemMenuSocial href="">
+        <img src="./imagens/icone/facebookIcone.svg" alt="Facebook Logo" />
       </ItemMenuSocial>
-      <ItemMenuSocial href = ""> 
-        <img src="./imagens/icone/emailIcone.svg">
-        </img> 
+      <ItemMenuSocial href="">
+        <img src="./imagens/icone/emailIcone.svg" alt="E-mail Logo" />
       </ItemMenuSocial>
-    
-    </ConteinerMenuSocial>);
+
+    </ConteinerMenuSocial>
+  );
 }
 
 export default MenuSocial;
