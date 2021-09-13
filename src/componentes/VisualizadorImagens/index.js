@@ -1,9 +1,7 @@
-// import  React , { useState } from 'react';
+import React from 'react';
 import { ContainerBackGround, ContainerImagemAmpliada } from './estilo';
 
 function VisualizadorImagens() {
-  // const [visualizador, setVisualizador] = useState(false);
-
   return (
     <ContainerBackGround>
 
