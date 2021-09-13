@@ -22,7 +22,7 @@ gap:4em;
   gap:10px;
   width:100%;
 }
-.mais-equipe{
+#mais-equipe{
   gap:1.5%;
   flex-wrap: wrap;
 }

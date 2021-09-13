@@ -1,11 +1,15 @@
-import{ContainerBackGround, ContainerImagemAmpliada} from './estilo.js'
-import {React} from 'react';
+// import { React, useState } from 'react';
+import { ContainerBackGround, ContainerImagemAmpliada } from './estilo';
 
-function VisualizadorImagens(){
+function VisualizadorImagens() {
+  // const [visualizador, setVisualizador] = useState(false);
+
   return (
-    <ContainerBackGround>
-      <ContainerImagemAmpliada></ContainerImagemAmpliada>
-    </ContainerBackGround>
-  )
+    <>
+      <ContainerBackGround>
+        <ContainerImagemAmpliada />
+      </ContainerBackGround>
+    </>
+  );
 }
 export default VisualizadorImagens;
