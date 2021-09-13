@@ -7,7 +7,7 @@ function Card() {
     console.log('oi');
   }
   return (
-    <FundoCard as={Link} to="/filme/1" onClick={abrirVisualizador}>
+    <FundoCard as={Link} to="/filme/1" onClick={abrirVisualizador()}>
       <img src="./imagens/teste/previaCard.png" alt="" />
       <Legenda>
         <Info>
