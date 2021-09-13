@@ -38,7 +38,7 @@ export const ListaLivro = styled.ul`
 width: 100%;
 height: auto;
 margin: 7vh 0;
-decoration: none;
+list-style: none;
 
 `;
 
