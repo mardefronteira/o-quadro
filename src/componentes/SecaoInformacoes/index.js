@@ -21,33 +21,34 @@ function SecaoInformacoes() {
         <TituloDestaque> TERROR NOTURNO</TituloDestaque>
         <H3Destaque> DE EVANDRO SCORSIN</H3Destaque>
       </DivFlex>
-      <ImgDestaque src="https://placekitten.com//375/235" />
-      <DivFlex className="secaoPrincipal" style={{ justifyContent: 'space-around' }}>
+      <ImgDestaque src="/imagens/teste/previaCard.png" />
+      <DivFlex className="secaoPrincipal">
         <InfoFilme>
-          <iframe width="100%" height="367" src="https://www.youtube.com/embed/hv6xxNDV8PA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+          <iframe width="100%" height="300" src="https://www.youtube.com/embed/hv6xxNDV8PA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
           <SubTituloDestaque>TERROR NOTURNO, 2019 </SubTituloDestaque>
           <H3Destaque> DE EVANDRO SCORSIN</H3Destaque>
           <DivFlex>
             <DivFlex className="caixa-texto" eColuna>
               <H3Destaque> COM</H3Destaque>
-              <p>Gustavo Piaskoski e Marrara Mara</p>
+              <p>Gustavo Piaskoski e</p>
+              <p>Marrara Mara</p>
             </DivFlex>
-            <DivFlex className="caixa-texto" eColuna>
+            <DivFlex className="caixa-texto" id="sinopse" eColuna>
               <H3Destaque> SINOPSE</H3Destaque>
               {/* eslint-disable-next-line max-len */}
               <p>Após uma festa com muita bebedeira e diversão, um casal desperta no dia seguinte sem qualquer recordação sobre os eventos da noite anterior. Quando encontram vestígios de um provável atropelamento no para-choque do carro, passam a acreditar que podem ter cometido um assassinato.</p>
             </DivFlex>
           </DivFlex>
         </InfoFilme>
-        <ImgDestaqueDireita src="https://placekitten.com//900/500" />
+        <ImgDestaqueDireita src="../imagens/teste/posterTerrorGrande.png" />
       </DivFlex>
-      <DivFlex className="filmes">
-        <img src="https://placekitten.com//375/235" alt="" />
-        <img src="https://placekitten.com//375/235" alt="" />
-        <img src="https://placekitten.com//375/235" alt="" />
-        <img src="https://placekitten.com//375/235" alt="" />
-        <img src="https://placekitten.com//375/235" alt="" />
-        <img src="https://placekitten.com//375/235" alt="" />
+      <DivFlex className="galeria-fotos">
+        <img src="/imagens/teste/previaCard.png" alt="" />
+        <img src="/imagens/teste/previaCard.png" alt="" />
+        <img src="/imagens/teste/previaCard.png" alt="" />
+        <img src="/imagens/teste/previaCard.png" alt="" />
+        <img src="/imagens/teste/previaCard.png" alt="" />
+        <img src="/imagens/teste/previaCard.png" alt="" />
       </DivFlex>
       <DivFlex className="equipe" eColuna>
         <SubTituloDestaque>EQUIPE</SubTituloDestaque>

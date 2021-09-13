@@ -7,7 +7,8 @@ position: fixed;
 `;
 
 export const Poster = styled.img`
-height: 70vh;
+width: 30%;
+height: auto;
 `;
 
 export const Conteiner = styled.section`
