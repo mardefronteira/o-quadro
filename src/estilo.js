@@ -20,6 +20,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.invisivel{
+ display:none 
+}
 `;
 
 export default EstiloGlobal;

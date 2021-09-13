@@ -82,7 +82,7 @@ const Carrossel = ({ categoria, corDestaque = '#009F66' }) => {
 };
 
 Carrossel.propTypes = {
-  categoria: PropTypes.arrayOf(PropTypes.string).isRequired,
+  categoria: PropTypes.objectOf(PropTypes.string).isRequired,
   corDestaque: PropTypes.string.isRequired,
 };
 

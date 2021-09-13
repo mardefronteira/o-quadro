@@ -15,6 +15,7 @@ import Carrossel from '../Carrossel';
 import dataBase from '../../db';
 
 function SecaoInformacoes() {
+  // const [taAtivo, setTaAtivo] = useState(false);
   return (
     <ContainerFilmes>
       <DivFlex className="titulo-secao" eColuna>
@@ -85,9 +86,32 @@ function SecaoInformacoes() {
           <TextoVerde>Finalização de som:</TextoVerde>
           <span>Vitor Coroa e Vitor Morales</span>
         </DivFlex>
-        <MaisInfo><img src="../imagens/seta_para_baixo.svg" alt="Mais informações" /></MaisInfo>
+        <MaisInfo onClick={() => {
+          const maisEquipe = document.getElementById('mais-equipe');
+          maisEquipe.classList.toggle('invisivel');
+          /*
+          const taVisivel = !maisEquipe.classList.contains('invisivel');
+          console.log(maisEquipe);
+          console.log(taVisivel);
+          if (taVisivel) {
+            maisEquipe.classList.add('invisivel');
+          } else {
+            maisEquipe.classList.remove('invisivel');
+          }
+          setTaAtivo(true);
+          if (taAtivo === true) {
+            console.log('funcionando');
+          } */
+        }}
+        >
+          <img
+            src="../imagens/seta_para_baixo.svg"
+            alt="Mais informações"
+
+          />
+        </MaisInfo>
       </DivFlex>
-      <DivFlex className="mais-equipe" eColuna={false}>
+      <DivFlex id="mais-equipe" eColuna={false}>
         <TextoVerde>Elenco de apoio:</TextoVerde>
         <span>Martha Chapieski e Altamar Cezar</span>
         <TextoVerde>Operador de câmera:</TextoVerde>
@@ -128,7 +152,7 @@ function SecaoInformacoes() {
         <span>Niala Pessuto</span>
 
       </DivFlex>
-      <Carrossel categoria={dataBase} />
+      <Carrossel categoria={dataBase.filmes} />
     </ContainerFilmes>
   );
 }

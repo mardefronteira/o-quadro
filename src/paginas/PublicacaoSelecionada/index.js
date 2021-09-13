@@ -35,22 +35,23 @@ function PublicacaoSelecionada() {
               </p>
 
             </DivFlex>
+            <DivFlex eColuna>
+              <H3Destaque eVermelho>FICHA TÉCNICA</H3Destaque>
+              <span>Editora ‏ : ‎ Arte & Letra </span>
+              <span>1ª edição (21 março 2019)</span>
+              <span>Idioma ‏ : ‎ Português</span>
+              <span>Capa comum ‏ : ‎ 171 páginas</span>
+              <span>ISBN-10 ‏ : ‎ 8560499997</span>
+              <span>ISBN-13 ‏ : ‎ 978-8560499991</span>
+              <span>Dimensões ‏ : ‎ 16 x 1 x 23 cm</span>
+            </DivFlex>
           </DivFlex>
           <ImgDestaqueDireita src="https://placekitten.com//900/500" />
         </DivFlex>
 
       </DivFlex>
-      <DivFlex eColuna>
-        <H3Destaque eVermelho>FICHA TÉCNICA</H3Destaque>
-        <span>Editora ‏ : ‎ Arte & Letra </span>
-        <span>1ª edição (21 março 2019)</span>
-        <span>Idioma ‏ : ‎ Português</span>
-        <span>Capa comum ‏ : ‎ 171 páginas</span>
-        <span>ISBN-10 ‏ : ‎ 8560499997</span>
-        <span>ISBN-13 ‏ : ‎ 978-8560499991</span>
-        <span>Dimensões ‏ : ‎ 16 x 1 x 23 cm</span>
-      </DivFlex>
-      <Carrossel categoria={dataBase} />
+
+      <Carrossel categoria={dataBase.publicacoes} corDestaque="#CF0018" />
     </Base>
   );
 }
