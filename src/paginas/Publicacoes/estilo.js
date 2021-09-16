@@ -24,7 +24,8 @@ flex-direction: row;
 
 export const ImagemLateral = styled.img`
 display: flex;
-height: auto;
+height: 100%;
+width: auto;
 `;
 
 export const ArtigoLateral = styled.article`
@@ -59,7 +60,10 @@ text-decoration: none;
   }
 `;
 
-export const CapaLivro = styled.img``;
+export const CapaLivro = styled.img`
+height: 100%;
+width: auto;
+`;
 
 export const InfoLivro = styled.section``;
 

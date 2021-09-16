@@ -6,8 +6,10 @@ import Card from './Card/index';
 /* importar estilos */
 import {
   FundoCarrossel,
+  Conteiner,
   ConteinerCards,
   SetaCarrossel,
+  TituloCarrossel,
 } from './estilo';
 
 const Carrossel = ({ categoria, taVermelho = false }) => {
@@ -38,45 +40,49 @@ const Carrossel = ({ categoria, taVermelho = false }) => {
 
   return (
     <FundoCarrossel>
+      <TituloCarrossel taVermelho>
+        {taVermelho ? 'Livros' : 'Filmes'}
+      </TituloCarrossel>
+      <Conteiner>
+        <SetaCarrossel
+          className={pos > 0 ? '' : 'invisivel'}
+          onClick={() => {
+            moverCarrossel(-1, categoria.length);
+          }}
+        >
+          {/* {"<"} */}
+          <img src="../imagens/seta/esquerda.svg" alt="seta para a esquerda" />
 
-      <SetaCarrossel
-        className={pos > 0 ? '' : 'invisivel'}
-        onClick={() => {
-          moverCarrossel(-1, categoria.length);
-        }}
-      >
-        {/* {"<"} */}
-        <img src="../imagens/seta/esquerda.svg" alt="seta para a esquerda" />
+        </SetaCarrossel>
+        <ConteinerCards taVermelho={taVermelho}>
 
-      </SetaCarrossel>
-      <ConteinerCards taVermelho={taVermelho}>
+          <Card
+            img={categoria[pos].img}
+            titulo={categoria[pos].titulo}
+            desc={categoria[pos].desc}
+          />
+          <Card
+            img={categoria[pos + 1].img}
+            titulo={categoria[pos + 1].titulo}
+            desc={categoria[pos + 1].desc}
+          />
+          <Card
+            img={categoria[pos + 2].img}
+            titulo={categoria[pos + 2].titulo}
+            desc={categoria[pos + 2].desc}
+          />
 
-        <Card
-          img={categoria[pos].img}
-          titulo={categoria[pos].titulo}
-          desc={categoria[pos].desc}
-        />
-        <Card
-          img={categoria[pos + 1].img}
-          titulo={categoria[pos + 1].titulo}
-          desc={categoria[pos + 1].desc}
-        />
-        <Card
-          img={categoria[pos + 2].img}
-          titulo={categoria[pos + 2].titulo}
-          desc={categoria[pos + 2].desc}
-        />
-
-      </ConteinerCards>
-      <SetaCarrossel
-        className={pos < categoria.length - 3 ? '' : 'invisivel'}
-        onClick={() => {
-          moverCarrossel(1, categoria.length);
-        }}
-      >
-        {/* {">"} */}
-        <img src="../imagens/seta/direita.svg" alt="seta para a direita" />
-      </SetaCarrossel>
+        </ConteinerCards>
+        <SetaCarrossel
+          className={pos < categoria.length - 3 ? '' : 'invisivel'}
+          onClick={() => {
+            moverCarrossel(1, categoria.length);
+          }}
+        >
+          {/* {">"} */}
+          <img src="../imagens/seta/direita.svg" alt="seta para a direita" />
+        </SetaCarrossel>
+      </Conteiner>
     </FundoCarrossel>
   );
 };

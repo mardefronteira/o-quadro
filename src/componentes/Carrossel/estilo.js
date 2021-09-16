@@ -25,8 +25,17 @@ export const FundoCarrossel = styled.div`
   height: auto;
   margin-bottom: 5vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 0 auto; 
+`;
+
+export const TituloCarrossel = styled.h2`
+font-weight: 300;
+`;
+
+export const Conteiner = styled.div`
+display: flex;
+flex-direction: row;
 `;
 
 export const SetaCarrossel = styled.button`
