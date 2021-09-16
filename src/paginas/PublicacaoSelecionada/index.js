@@ -51,7 +51,7 @@ function PublicacaoSelecionada() {
 
       </DivFlex>
 
-      <Carrossel categoria={dataBase.publicacoes} corDestaque="#CF0018" />
+      <Carrossel categoria={dataBase.publicacoes} taVermelho />
     </Base>
   );
 }
