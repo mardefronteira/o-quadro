@@ -1,6 +1,6 @@
 const dataBase = {
   filmes: [{
-    img: 'posterTerror',
+    img: '/imagens/teste/previaCard.png',
     titulo: 'Terror Noturno',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
@@ -45,7 +45,7 @@ const dataBase = {
 
   },
   {
-    img: 'posterTerror',
+    img: '/imagens/teste/previaCard.png',
     titulo: 'Terror Noturno',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
@@ -90,7 +90,7 @@ const dataBase = {
 
   },
   {
-    img: 'posterTerror',
+    img: '/imagens/teste/previaCard.png',
     titulo: 'Terror Noturno',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
@@ -135,7 +135,7 @@ const dataBase = {
 
   },
   {
-    img: 'posterTerror',
+    img: '/imagens/teste/previaCard.png',
     titulo: 'Terror Noturno',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
@@ -179,11 +179,11 @@ const dataBase = {
 
   }],
   editora: {
-    img: 'posterTerror',
+    img: '/imagens/teste/previaCard.png',
     textos: ['A Edições A Quadro, selo para publicações da produtora audiovisual O Quadro, embora criada recentemente, era um desejo antigo da empresa, quando na criação do seu CNPJ, há 10 anos, estabeleceu entre as atividades econômicas a possibilidade de edição e publicação de textos. Ela surge após um período de experiências diversas dos seus idealizadores que, concomitante à produção de flmes, exercitaram a escrita crítica sobre cinema, em revistas eletrônicas, blogs e os mais diversos catálogos e publicações afins, exerceram e exercem atividades de ensino do audiovisual, a partir de oficinas, cineclubes, cursos livres, palestras e debates sobre a sétima arte, e realizam pesquisas acadêmicas, na conclusão de graduações e mestrados.', 'Para Coleção Escrever o Cinema, a editora recém criada, Edições A Quadro, alia-se à profissionais, autores e pesquisadores, com experiências acadêmicas bastante consistentes, tanto na escrita, como na revisão e na organização de publicações diversas, é o caso do professor e cineasta Doutor Eduardo Túlio Baggio, organizador de diversas publicações, do professor Doutor Pedro de Andrade Lima Faissol, do cineasta e doutorando Alexandre Rafael Garcia, e da Mestre Juliana Rodrigues Pereira. Atualmente, enquanto produz os 4 primeiros volumes da Coleção Escrever o Cinema, paralelamente busca a viabilização de mais 4 volumes determinados para nova fase da coleção, enquanto matura e idealiza demais projetos de escrita e publicação.'],
   },
   publicacoes: [{
-    img: 'posterTerror',
+    img: '/imagens/teste/previaCard.png',
     titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
     autor: 'DE ALEXANDRE GARCIA',
     sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
@@ -200,7 +200,7 @@ const dataBase = {
     Dimensões ‏ : ‎ 16 x 1 x 23 cm `
     ,
   }, {
-    img: 'posterTerror',
+    img: '/imagens/teste/previaCard.png',
     titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
     autor: 'DE ALEXANDRE GARCIA',
     sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
@@ -217,7 +217,7 @@ const dataBase = {
     Dimensões ‏ : ‎ 16 x 1 x 23 cm `
     ,
   }, {
-    img: 'posterTerror',
+    img: '/imagens/teste/previaCard.png',
     titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
     autor: 'DE ALEXANDRE GARCIA',
     sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
@@ -234,7 +234,7 @@ const dataBase = {
     Dimensões ‏ : ‎ 16 x 1 x 23 cm `
     ,
   }, {
-    img: 'posterTerror',
+    img: '/imagens/teste/previaCard.png',
     titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
     autor: 'DE ALEXANDRE GARCIA',
     sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
@@ -275,7 +275,7 @@ const dataBase = {
   metro: {
     titulo: 'FESTIVAL METRÔ',
     texto: 'Desde 2017, O Quadro produz o Metrô – Festival do Cinema Universitário Brasileiro. Voltado para a exibição, a reflexão e o debate sobre o cinema e as coisas da vida, o festival busca construir uma estação imaginária em que se encontrem e se cruzem diferentes formas de criação artística e de pessoas.',
-    img: 'posterTerror',
+    img: '/imagens/teste/previaCard.png',
 
   },
 

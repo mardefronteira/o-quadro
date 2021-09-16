@@ -11,11 +11,17 @@ import {
   ImgDestaqueDireita,
   MaisInfo,
 } from './estilo';
+import VisualizadorImagens from '../VisualizadorImagens';
 import Carrossel from '../Carrossel';
 import dataBase from '../../db';
 
 function SecaoInformacoes() {
   // const [taAtivo, setTaAtivo] = useState(false);
+  const galeria = dataBase.filmes.map((filme) => ({
+    src: filme.img,
+    alt: filme.desc,
+    key: filme.titulo.replace(' ', '-'),
+  }));
   return (
     <ContainerFilmes>
       <DivFlex className="titulo-secao" eColuna>
@@ -44,12 +50,8 @@ function SecaoInformacoes() {
         <ImgDestaqueDireita src="../imagens/teste/posterTerrorGrande.png" />
       </DivFlex>
       <DivFlex className="galeria-fotos">
-        <img src="/imagens/teste/previaCard.png" alt="" />
-        <img src="/imagens/teste/previaCard.png" alt="" />
-        <img src="/imagens/teste/previaCard.png" alt="" />
-        <img src="/imagens/teste/previaCard.png" alt="" />
-        <img src="/imagens/teste/previaCard.png" alt="" />
-        <img src="/imagens/teste/previaCard.png" alt="" />
+        <VisualizadorImagens galeria={galeria} />
+
       </DivFlex>
       <DivFlex className="equipe" eColuna>
         <SubTituloDestaque>EQUIPE</SubTituloDestaque>

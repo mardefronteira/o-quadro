@@ -18,14 +18,22 @@
         "react"
     ],
     "rules": {
-      "react/jsx-filename-extension": [1, {"extensions": [".js"] } ],
-      "linebreak-style": "off",
-      "prefer-destructuring": [
-        "error",
-        {
-            "object": true,
-            "array": false
-        }
-    ]
+        "react/prop-types": 0,
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js"
+                ]
+            }
+        ],
+        "linebreak-style": "off",
+        "prefer-destructuring": [
+            "error",
+            {
+                "object": true,
+                "array": false
+            }
+        ]
     }
 }
