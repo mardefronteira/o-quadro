@@ -4,14 +4,15 @@ import styled from 'styled-components';
 export const Subtitulo = styled.h3`
   font-family: Arial, sans-serif;
   font-weight: 100;
-  font-size: 1.65rem;
-  
-  margin:0;
+  font-size: 1em;
+  line-height: 1.15em;
+  margin: 0;
+  padding: 2vh 0;
   color: ${(props) => (props.taVermelho ? '#CF0018' : '#009F66')}
 `;
 
 export const FundoCard = styled.a`
-  width: 13vw;
+  width: 15vw;
   height: auto;
   text-align: center;
   text-decoration: none;
