@@ -4,7 +4,6 @@ import { FundoCard, Legenda, Info } from './estilo';
 
 function Card() {
   function abrirVisualizador() {
-    console.log('oi');
   }
   return (
     <FundoCard as={Link} to="/filme/1" onClick={abrirVisualizador()}>
