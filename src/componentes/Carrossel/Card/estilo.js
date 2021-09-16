@@ -5,8 +5,9 @@ export const Subtitulo = styled.h3`
   font-family: Arial, sans-serif;
   font-weight: 100;
   font-size: 1.65rem;
-  color: #009F66;
+  
   margin:0;
+  color: ${(props) => (props.taVermelho ? '#CF0018' : '#009F66')}
 `;
 
 export const FundoCard = styled.a`

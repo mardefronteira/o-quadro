@@ -10,7 +10,7 @@ import {
 const Card = ({ img, titulo, desc }) => (
   <FundoCard as={Link} to="/filme/1">
     <ImagemCard src={`/imagens/teste/${img}.png`} />
-    <Subtitulo>{titulo}</Subtitulo>
+    <Subtitulo taVermelho>{titulo}</Subtitulo>
     <Desc>{desc}</Desc>
   </FundoCard>
 );

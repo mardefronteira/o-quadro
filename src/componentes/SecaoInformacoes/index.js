@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   DivFlex,
   ContainerFilmes,
@@ -15,13 +15,14 @@ import VisualizadorImagens from '../VisualizadorImagens';
 import Carrossel from '../Carrossel';
 import dataBase from '../../db';
 
-function SecaoInformacoes() {
+function SecaoInformacoes(taVermelho = false) {
   // const [taAtivo, setTaAtivo] = useState(false);
   const galeria = dataBase.filmes.map((filme) => ({
     src: filme.img,
     alt: filme.desc,
     key: filme.titulo.replace(' ', '-'),
   }));
+  useEffect(() => { document.getElementById('mais-equipe').classList.add('invisivel'); }, []);
   return (
     <ContainerFilmes>
       <DivFlex className="titulo-secao" eColuna>
@@ -92,6 +93,7 @@ function SecaoInformacoes() {
         <MaisInfo onClick={() => {
           const maisEquipe = document.getElementById('mais-equipe');
           maisEquipe.classList.toggle('invisivel');
+
           /*
           const taVisivel = !maisEquipe.classList.contains('invisivel');
           console.log(maisEquipe);
@@ -155,7 +157,7 @@ function SecaoInformacoes() {
         <span>Niala Pessuto</span>
 
       </DivFlex>
-      <Carrossel categoria={dataBase.filmes} />
+      <Carrossel categoria={dataBase.filmes} taVermelho={taVermelho} />
     </ContainerFilmes>
   );
 }

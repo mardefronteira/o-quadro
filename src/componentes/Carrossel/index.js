@@ -10,7 +10,7 @@ import {
   SetaCarrossel,
 } from './estilo';
 
-const Carrossel = ({ categoria, corDestaque = '#009F66' }) => {
+const Carrossel = ({ categoria, taVermelho = false }) => {
   /* pegar trabalhos da categoria como objeto */
 
   const restringir = (val, min, max) => {
@@ -37,7 +37,7 @@ const Carrossel = ({ categoria, corDestaque = '#009F66' }) => {
   const [pos, moverCarrossel] = DefinirPos(0);
 
   return (
-    <FundoCarrossel corDestaque={corDestaque}>
+    <FundoCarrossel>
 
       <SetaCarrossel
         className={pos > 0 ? '' : 'invisivel'}
@@ -49,7 +49,7 @@ const Carrossel = ({ categoria, corDestaque = '#009F66' }) => {
         <img src="../imagens/seta/esquerda.svg" alt="seta para a esquerda" />
 
       </SetaCarrossel>
-      <ConteinerCards>
+      <ConteinerCards taVermelho={taVermelho}>
 
         <Card
           img={categoria[pos].img}
@@ -83,7 +83,7 @@ const Carrossel = ({ categoria, corDestaque = '#009F66' }) => {
 
 Carrossel.propTypes = {
   categoria: PropTypes.objectOf(PropTypes.string).isRequired,
-  corDestaque: PropTypes.string.isRequired,
+  taVermelho: PropTypes.bool.isRequired,
 };
 
 export default Carrossel;
