@@ -88,6 +88,7 @@ max-height: 70vh;
 `;
 
 export const MaisInfo = styled.button`
+transform:${(props) => (props.girou ? 'rotate(180dg)' : 'rotate(0dg)')};
 border: none;
 background:none;
 align-self:center;

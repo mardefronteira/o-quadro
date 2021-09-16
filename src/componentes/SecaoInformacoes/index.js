@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   DivFlex,
   ContainerFilmes,
@@ -17,6 +17,7 @@ import dataBase from '../../db';
 
 function SecaoInformacoes(taVermelho = false) {
   // const [taAtivo, setTaAtivo] = useState(false);
+  const [girou, setGirou] = useState(false);
   const galeria = dataBase.filmes.map((filme) => ({
     src: filme.img,
     alt: filme.desc,
@@ -90,11 +91,16 @@ function SecaoInformacoes(taVermelho = false) {
           <TextoVerde>Finalização de som:</TextoVerde>
           <span>Vitor Coroa e Vitor Morales</span>
         </DivFlex>
-        <MaisInfo onClick={() => {
-          const maisEquipe = document.getElementById('mais-equipe');
-          maisEquipe.classList.toggle('invisivel');
+        <MaisInfo
+          girou={girou}
+          onClick={() => {
+            const maisEquipe = document.getElementById('mais-equipe');
+            maisEquipe.classList.toggle('invisivel');
+            if (maisEquipe.classList.contains('invisivel')) {
+              setGirou(true);
+            }
 
-          /*
+            /*
           const taVisivel = !maisEquipe.classList.contains('invisivel');
           console.log(maisEquipe);
           console.log(taVisivel);
@@ -107,7 +113,7 @@ function SecaoInformacoes(taVermelho = false) {
           if (taAtivo === true) {
             console.log('funcionando');
           } */
-        }}
+          }}
         >
           <img
             src="../imagens/seta_para_baixo.svg"

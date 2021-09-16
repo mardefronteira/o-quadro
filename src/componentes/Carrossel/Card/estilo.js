@@ -7,7 +7,7 @@ export const Subtitulo = styled.h3`
   font-size: 1.65rem;
   
   margin:0;
-  color: ${(props) => (props.taVermelho ? '#CF0018' : '#009F66')}
+  color: ${(props) => (props.eVermelho ? '#CF0018' : '#009F66')}
 `;
 
 export const FundoCard = styled.a`
