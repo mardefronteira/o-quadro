@@ -7,10 +7,12 @@ import {
   FundoCard, Subtitulo, Desc, ImagemCard,
 } from './estilo';
 
-const Card = ({ img, titulo, desc }) => (
+const Card = ({
+  img, titulo, desc, taVermelho,
+}) => (
   <FundoCard as={Link} to="/filme/1">
     <ImagemCard src={`/imagens/teste/${img}.png`} />
-    <Subtitulo taVermelho>{titulo}</Subtitulo>
+    <Subtitulo taVermelho={taVermelho}>{titulo}</Subtitulo>
     <Desc>{desc}</Desc>
   </FundoCard>
 );

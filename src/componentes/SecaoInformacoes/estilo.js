@@ -33,13 +33,20 @@ gap:4em;
 #mais-equipe{
   gap:1.5%;
   flex-wrap: wrap;
+  transition:0.5s;
 }
 .secaoPrincipal{
   justify-content: space-around;
   width: 100%;
+  max-height: 50vh;
 }
 #sinopse{
-  width:80%;
+  max-width:50%;
+  
+}
+.sinopseWithInfos{
+  max-width:50vh;
+  gap:15px;
 }
 `;
 export const DivFlex = styled.div`
@@ -47,7 +54,7 @@ display: flex;
 flex-direction:${(props) => (props.eColuna ? 'column' : 'row')};
 `;
 export const InfoFilme = styled.div`
-width:55%;
+width:50%;
 display: flex;
 flex-direction:column;
 `;

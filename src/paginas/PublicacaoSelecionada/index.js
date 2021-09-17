@@ -49,7 +49,7 @@ function PublicacaoSelecionada() {
 
       </DivFlex>
 
-      <Carrossel categoria={dataBase.publicacoes} taVermelho />
+      <Carrossel categoria={dataBase.publicacoes} taVermelho eFilmes={false} />
     </Base>
   );
 }

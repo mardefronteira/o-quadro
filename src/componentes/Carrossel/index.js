@@ -1,6 +1,6 @@
 /* importar react */
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 /* importar componentes */
 import Card from './Card/index';
 /* importar estilos */
@@ -12,9 +12,9 @@ import {
   TituloCarrossel,
 } from './estilo';
 
-const Carrossel = ({ categoria, taVermelho = false }) => {
+const Carrossel = ({ categoria, taVermelho = true, eFilmes = false }) => {
   /* pegar trabalhos da categoria como objeto */
-
+  console.log(taVermelho);
   const restringir = (val, min, max) => {
     let valor = val;
     if (val < min) {
@@ -40,8 +40,8 @@ const Carrossel = ({ categoria, taVermelho = false }) => {
 
   return (
     <FundoCarrossel>
-      <TituloCarrossel taVermelho>
-        {taVermelho ? 'Livros' : 'Filmes'}
+      <TituloCarrossel eFilmes>
+        {eFilmes ? 'Filmes' : 'Livros'}
       </TituloCarrossel>
       <Conteiner>
         <SetaCarrossel
@@ -54,19 +54,22 @@ const Carrossel = ({ categoria, taVermelho = false }) => {
           <img src="../imagens/seta/esquerda.svg" alt="seta para a esquerda" />
 
         </SetaCarrossel>
-        <ConteinerCards taVermelho={taVermelho}>
+        <ConteinerCards>
 
           <Card
+            taVermelho={taVermelho}
             img={categoria[pos].img}
             titulo={categoria[pos].titulo}
             desc={categoria[pos].desc}
           />
           <Card
+            taVermelho={taVermelho}
             img={categoria[pos + 1].img}
             titulo={categoria[pos + 1].titulo}
             desc={categoria[pos + 1].desc}
           />
           <Card
+            taVermelho={taVermelho}
             img={categoria[pos + 2].img}
             titulo={categoria[pos + 2].titulo}
             desc={categoria[pos + 2].desc}
@@ -87,9 +90,9 @@ const Carrossel = ({ categoria, taVermelho = false }) => {
   );
 };
 
-Carrossel.propTypes = {
-  categoria: PropTypes.objectOf(PropTypes.string).isRequired,
-  taVermelho: PropTypes.bool.isRequired,
-};
+// Carrossel.propTypes = {
+//   categoria: PropTypes.objectOf(PropTypes.string).isRequired,
+//   taVermelho: PropTypes.bool.isRequired,
+// };
 
 export default Carrossel;

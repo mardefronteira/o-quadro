@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import {
   DivFlex,
   ContainerFilmes,
@@ -15,15 +15,15 @@ import VisualizadorImagens from '../VisualizadorImagens';
 import Carrossel from '../Carrossel';
 import dataBase from '../../db';
 
-function SecaoInformacoes(taVermelho = false) {
+function SecaoInformacoes({ taVermelho = false }) {
   // const [taAtivo, setTaAtivo] = useState(false);
-  const [girou, setGirou] = useState(false);
+
   const galeria = dataBase.filmes.map((filme) => ({
     src: filme.img,
     alt: filme.desc,
     key: filme.titulo.replace(' ', '-'),
   }));
-  useEffect(() => { document.getElementById('mais-equipe').classList.add('invisivel'); }, []);
+  useEffect(() => { document.getElementById('mais-equipe').classList.add('alturaZero'); }, []);
   return (
     <ContainerFilmes>
       <DivFlex className="titulo-secao" eColuna>
@@ -36,7 +36,7 @@ function SecaoInformacoes(taVermelho = false) {
           <iframe width="100%" height="300" src="https://www.youtube.com/embed/hv6xxNDV8PA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
           <SubTituloDestaque>TERROR NOTURNO, 2019 </SubTituloDestaque>
           <H3Destaque> DE EVANDRO SCORSIN</H3Destaque>
-          <DivFlex>
+          <DivFlex className="sinopseWithInfos">
             <DivFlex className="caixa-texto" eColuna>
               <H3Destaque> COM</H3Destaque>
               <p>Gustavo Piaskoski e</p>
@@ -52,7 +52,7 @@ function SecaoInformacoes(taVermelho = false) {
         <ImgDestaqueDireita src="../imagens/teste/posterTerrorGrande.png" />
       </DivFlex>
       <DivFlex className="galeria-fotos">
-        <VisualizadorImagens galeria={galeria} />
+        <VisualizadorImagens galeria={galeria} className="galeria-fotos" />
 
       </DivFlex>
       <DivFlex className="equipe" eColuna>
@@ -91,36 +91,7 @@ function SecaoInformacoes(taVermelho = false) {
           <TextoVerde>Finalização de som:</TextoVerde>
           <span>Vitor Coroa e Vitor Morales</span>
         </DivFlex>
-        <MaisInfo
-          girou={girou}
-          onClick={() => {
-            const maisEquipe = document.getElementById('mais-equipe');
-            maisEquipe.classList.toggle('invisivel');
-            if (maisEquipe.classList.contains('invisivel')) {
-              setGirou(true);
-            }
 
-            /*
-          const taVisivel = !maisEquipe.classList.contains('invisivel');
-          console.log(maisEquipe);
-          console.log(taVisivel);
-          if (taVisivel) {
-            maisEquipe.classList.add('invisivel');
-          } else {
-            maisEquipe.classList.remove('invisivel');
-          }
-          setTaAtivo(true);
-          if (taAtivo === true) {
-            console.log('funcionando');
-          } */
-          }}
-        >
-          <img
-            src="../imagens/seta_para_baixo.svg"
-            alt="Mais informações"
-
-          />
-        </MaisInfo>
       </DivFlex>
       <DivFlex id="mais-equipe" eColuna={false}>
         <TextoVerde>Elenco de apoio:</TextoVerde>
@@ -163,7 +134,36 @@ function SecaoInformacoes(taVermelho = false) {
         <span>Niala Pessuto</span>
 
       </DivFlex>
-      <Carrossel categoria={dataBase.filmes} taVermelho={taVermelho} />
+      <MaisInfo
+        onClick={() => {
+          const maisEquipe = document.getElementById('mais-equipe');
+          const verMais = document.getElementById('verMais');
+
+          maisEquipe.classList.toggle('alturaZero');
+          verMais.classList.toggle('rotate');
+
+          /*
+          const taVisivel = !maisEquipe.classList.contains('invisivel');
+          console.log(maisEquipe);
+          console.log(taVisivel);
+          if (taVisivel) {
+            maisEquipe.classList.add('invisivel');
+          } else {
+            maisEquipe.classList.remove('invisivel');
+          }
+          setTaAtivo(true);
+          if (taAtivo === true) {
+            console.log('funcionando');
+          } */
+        }}
+      >
+        <img
+          id="verMais"
+          src="../imagens/seta_para_baixo.svg"
+          alt="Mais informações"
+        />
+      </MaisInfo>
+      <Carrossel categoria={dataBase.filmes} eFilmes taVermelho={taVermelho} />
     </ContainerFilmes>
   );
 }
