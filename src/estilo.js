@@ -21,7 +21,16 @@ code {
     monospace;
 }
 .invisivel{
- display:none 
+ display:none;
+}
+.alturaZero{
+  height:0;
+  transition:0.7s;
+  overflow:hidden;
+}
+.rotate{
+  transform: rotate(180deg);
+  transition:0.5s;
 }
 `;
 
