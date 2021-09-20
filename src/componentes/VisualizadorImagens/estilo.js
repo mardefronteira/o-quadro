@@ -2,11 +2,12 @@ import styled from 'styled-components';
 
 export const ContainerBackGround = styled.div`
 width: 100%;
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(400px, auto));
-justify-items: space-around;
+height: auto;
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
 align-items: center;
-grid-gap: 5% 5%;
 
 `;
 
@@ -24,5 +25,6 @@ right:3%;
 `;
 
 export const ImagemCard = styled.img`
-max-width: 25%;
+width: 20%;
+padding-bottom: 5vh;
 `;
