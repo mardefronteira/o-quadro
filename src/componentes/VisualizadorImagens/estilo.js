@@ -1,19 +1,15 @@
 import styled from 'styled-components';
 
 export const ContainerBackGround = styled.div`
-width: 100vw;
-height: 100vh;
-background-color:#222222;
-display:flex;
-justify-content: center;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(400px, auto));
+justify-items: space-around;
+align-items: center;
+grid-gap: 5% 5%;
+
 `;
-export const ContainerImagemAmpliada = styled.div`
-display: flex;
-justify-content: flex-end;
-width: 80%;
-height: 80%;
-background-image:url("https://placekitten.com//900/500");
-`;
+
 export const Download = styled.button`
 background-image: url("../imagens/download.svg");
 width: 2rem;
@@ -25,4 +21,8 @@ position: fixed;
 background-color: transparent;
 top:2.8%;
 right:3%;
+`;
+
+export const ImagemCard = styled.img`
+max-width: 25%;
 `;

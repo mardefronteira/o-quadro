@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import ImageViewer from 'react-simple-image-viewer';
-import { ContainerBackGround, Download } from './estilo';
+import { ContainerBackGround, Download, ImagemCard } from './estilo';
 
 function VisualizadorImagens({ galeria = [] }) {
   const [imagemAtual, setimagemAtual] = useState(0);
@@ -18,12 +18,10 @@ function VisualizadorImagens({ galeria = [] }) {
     <ContainerBackGround>
 
       {galeria.map(({ src, alt, key }, index) => (
-        <img
+        <ImagemCard
           src={src}
           alt={alt}
           key={key}
-          width="200"
-          height="200"
           onClick={() => abrirVisualizador(index)}
           aria-hidden="true"
         />
