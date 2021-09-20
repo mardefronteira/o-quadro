@@ -6,8 +6,8 @@ flex-direction:column;
 align-items:center;
 gap:4em;
 .caixa-texto{
-  width: 50%;
-  height:21.77vh;
+  width: 40%;
+  height:auto;
   text-align: justify;
 }
 .titulo-secao{
@@ -38,14 +38,15 @@ gap:4em;
 .secaoPrincipal{
   justify-content: space-around;
   width: 100%;
-  max-height: 50vh;
+  height:auto;
 }
+
 #sinopse{
-  max-width:50%;
-  
+  width: 60%;
 }
+
 .sinopseWithInfos{
-  max-width:50vh;
+  max-width:50vw;
   gap:15px;
 }
 `;
@@ -91,7 +92,10 @@ object-fit: cover;
 `;
 export const ImgDestaqueDireita = styled.img`
 width: auto;
-max-height: 70vh;
+max-width: 50%;
+height: 70vh;
+object-fit: cover;
+
 `;
 
 export const MaisInfo = styled.button`
