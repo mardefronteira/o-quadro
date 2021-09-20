@@ -1,6 +1,8 @@
 const dataBase = {
   filmes: [{
+    id: '1',
     img: '/imagens/teste/previaCard.png',
+    galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Terror Noturno',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
@@ -46,6 +48,7 @@ const dataBase = {
   },
   {
     img: '/imagens/teste/previaCard.png',
+    galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Terror Noturno',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
@@ -91,6 +94,7 @@ const dataBase = {
   },
   {
     img: '/imagens/teste/previaCard.png',
+    galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Terror Noturno',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
@@ -136,6 +140,7 @@ const dataBase = {
   },
   {
     img: '/imagens/teste/previaCard.png',
+    galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Terror Noturno',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
