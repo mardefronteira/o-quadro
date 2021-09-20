@@ -23,7 +23,7 @@ function SecaoInformacoes({ taVermelho = false }) {
     alt: filme.desc,
     key: filme.titulo.replace(' ', '-'),
   }));
-  useEffect(() => { document.getElementById('mais-equipe').classList.add('alturaZero'); }, []);
+  useEffect(() => { document.getElementById('mais-equipe').classList.add('fadeOut'); }, []);
   return (
     <ContainerFilmes>
       <DivFlex className="titulo-secao" eColuna>
@@ -139,7 +139,9 @@ function SecaoInformacoes({ taVermelho = false }) {
           const maisEquipe = document.getElementById('mais-equipe');
           const verMais = document.getElementById('verMais');
 
-          maisEquipe.classList.toggle('alturaZero');
+          maisEquipe.classList.toggle('fadeIn');
+          maisEquipe.classList.toggle('fadeOut');
+
           verMais.classList.toggle('rotate');
 
           /*

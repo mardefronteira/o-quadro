@@ -23,11 +23,20 @@ code {
 .invisivel{
  display:none;
 }
-.alturaZero{
+/* .alturaZero{
   height:0;
-  transition:0.7s;
   overflow:hidden;
+
+} */
+.fadeIn{
+  opacity:1;
+  height:auto;
 }
+.fadeOut{
+  opacity:0;
+  height:0;
+}
+
 .rotate{
   transform: rotate(180deg);
   transition:0.5s;
