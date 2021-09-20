@@ -15,13 +15,14 @@ import VisualizadorImagens from '../VisualizadorImagens';
 import Carrossel from '../Carrossel';
 import dataBase from '../../db';
 
-function SecaoInformacoes({ taVermelho = false }) {
+function SecaoInformacoes({ taVermelho = false, id }) {
   // const [taAtivo, setTaAtivo] = useState(false);
+  const filme = dataBase.filmes.filter((filmeDb) => filmeDb.id === id)[0];
 
-  const galeria = dataBase.filmes.map((filme) => ({
-    src: filme.img,
-    alt: filme.desc,
-    key: filme.titulo.replace(' ', '-'),
+  const galeria = filme.galeria.map((imagem) => ({
+    src: imagem.src,
+    alt: imagem.desc,
+    key: imagem.titulo.replace(' ', '-'),
   }));
   useEffect(() => { document.getElementById('mais-equipe').classList.add('fadeOut'); }, []);
   return (
