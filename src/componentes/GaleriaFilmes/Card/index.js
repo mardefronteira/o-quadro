@@ -2,20 +2,22 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FundoCard, Legenda, Info } from './estilo';
 
-function Card() {
+function Card({ filme }) {
   // function abrirVisualizador() {
   //   console.log('oi');
   // }
   return (
-    <FundoCard as={Link} to="/filme/1">
-      <img src="./imagens/teste/previaCard.png" alt="" />
+    <FundoCard as={Link} to={`filme/${filme.url}`}>
+      <img src={filme.img.src} alt={filme.img.desc} />
       <Legenda>
         <Info>
-          Terror Noturno
+          {filme.titulo}
           <br />
-          de Evandro Scorsin
+          de
+          {' '}
+          {filme.autor}
           <br />
-          2019
+          {filme.ano}
         </Info>
       </Legenda>
     </FundoCard>

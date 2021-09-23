@@ -24,7 +24,9 @@ function SecaoInformacoes({ taVermelho = false, id }) {
     alt: imagem.desc,
     key: imagem.titulo.replace(' ', '-'),
   }));
-  useEffect(() => { document.getElementById('mais-equipe').classList.add('fadeOut'); }, []);
+  useEffect(() => {
+    document.getElementById('mais-equipe').classList.add('fadeOut', 'alturaZero');
+  }, []);
   return (
     <ContainerFilmes>
       <DivFlex className="titulo-secao" eColuna>
@@ -142,6 +144,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
 
           maisEquipe.classList.toggle('fadeIn');
           maisEquipe.classList.toggle('fadeOut');
+          maisEquipe.classList.toggle('alturaZero');
 
           verMais.classList.toggle('rotate');
 

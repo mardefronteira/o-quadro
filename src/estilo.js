@@ -28,13 +28,27 @@ code {
   overflow:hidden;
 
 } */
-.fadeIn{
-  opacity:1;
+@keyframes slidein {
+  from {
+    opacity:1;
   height:auto;
+  }
+
+  to {
+    opacity:0;
+    width: 100%;
+    height:0;
+  }
+}
+.fadeIn{
+  
 }
 .fadeOut{
-  opacity:0;
-  height:0;
+ 
+}
+.alturaZero{
+  
+  transition-delay: 0.5s
 }
 
 .rotate{

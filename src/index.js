@@ -21,7 +21,7 @@ ReactDOM.render(
   <BrowserRouter>
     <EstiloGlobal />
     <Switch>
-      <Route path="/filmes" component={Filmes} />
+      <Route exact path="/filmes" component={Filmes} />
       <Route path="/filmes/:categoria" component={Filmes} />
       <Route path="/filme/:id" component={FilmeSelecionado} />
       <Route path="/publicacoes" component={Publicacoes} />
