@@ -33,7 +33,9 @@ gap:4em;
 #mais-equipe{
   gap:1.5%;
   flex-wrap: wrap;
-  transition:0.5s;
+  transition: 1s ease-in-out;
+  overflow: hidden;
+ 
 }
 .secaoPrincipal{
   justify-content: space-around;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 // importar estilos
 // import {} from "./estilo.js";
 import Titulo from './estilo';
@@ -8,6 +9,9 @@ import GaleriaFilmes from '../../componentes/GaleriaFilmes';
 import BarraPesquisa from '../../componentes/BarraPesquisa';
 
 function Filmes() {
+  // eslint-disable-next-line prefer-const
+  let { categoria } = useParams();
+  console.log(categoria);
   return (
     <Base
       menuSocialVermelho={false}
@@ -16,7 +20,7 @@ function Filmes() {
       <Titulo>Filmes</Titulo>
       <BarraPesquisa />
 
-      <GaleriaFilmes />
+      <GaleriaFilmes categoria={categoria || null} />
 
     </Base>
   );
