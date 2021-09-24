@@ -23,11 +23,34 @@ code {
 .invisivel{
  display:none;
 }
-.alturaZero{
+/* .alturaZero{
   height:0;
-  transition:0.7s;
   overflow:hidden;
+
+} */
+@keyframes slidein {
+  from {
+    opacity:1;
+  height:auto;
+  }
+
+  to {
+    opacity:0;
+    width: 100%;
+    height:0;
+  }
 }
+.fadeIn{
+  
+}
+.fadeOut{
+ 
+}
+.alturaZero{
+  
+  transition-delay: 0.5s
+}
+
 .rotate{
   transform: rotate(180deg);
   transition:0.5s;
