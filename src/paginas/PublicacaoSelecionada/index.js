@@ -1,4 +1,5 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 // importar estilos
 import {
   DivFlex,
@@ -12,6 +13,9 @@ import Carrossel from '../../componentes/Carrossel';
 import dataBase from '../../db';
 
 function PublicacaoSelecionada() {
+  const { id } = useParams();
+  const publicacao = dataBase.publicacoes.filter((publicacaoDb) => publicacaoDb.url === id)[0];
+
   return (
     <Base
       menuSocialVermelho
@@ -19,7 +23,7 @@ function PublicacaoSelecionada() {
     >
       <DivFlexPublicacao id="conteiner-principal" eColuna>
         <DivFlex id="secao-cabecalho" eColuna>
-          <TituloLivro eVermelho>CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER </TituloLivro>
+          <TituloLivro eVermelho>{publicacao.titulo}</TituloLivro>
           <NomeAutor eVermelho={false}>DE ALEXANDRE GARCIA</NomeAutor>
         </DivFlex>
         <DivFlex id="conteiner-info" eColuna={false}>

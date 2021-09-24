@@ -1,13 +1,14 @@
 const dataBase = {
   filmes: [{
     id: '1',
-    img: '/imagens/teste/previaCard.png',
+    img: { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Terror Noturno',
-    imgDestaque: 'posterTerror',
+    ano: '2019',
+    imgDestaque: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeriaImagens: '',
     sinopse: 'Após uma festa com muita bebedeira e diversão, um casal desperta no dia seguinte sem qualquer recordação sobre os eventos da noite anterior. Quando encontram vestígios de um provável atropelamento no para-choque do carro, passam a acreditar que podem ter cometido um assassinato.',
-    autor: 'de evandro scorsin',
+    autor: 'evandro scorsin',
     participacao: 'Gustavo Piaskoski e Marrara Mara',
     desc: 'blablabla whiskas sachê',
     categoria: '',
@@ -15,36 +16,79 @@ const dataBase = {
     linkVideo: '',
     tags: [],
     equipe: {
-      direcao: 'Evandro SCORSIN',
-      producao: 'Anderson Simao',
-      coordenacao: 'Wellington Sari',
-      montagem: 'Christopher Faust',
-      direcaoFotografia: 'André Senna',
-      trilhaSonora: 'Felipe Ayres',
-      finalizacaoSom: 'Vitor Coroa e Vitor Morales',
-      maisEquipe: {
-        elenco: 'Martha Chapieski',
-        operadorCamera: 'André Senna',
-        assistenteCamera: 'Bianca Ono',
-        assistenteFotografia: 'Murilo Lazarin',
-        eletrica: 'Morgana Horst',
-        arteFigurinoMaquiagem: 'Lucas Machado',
-        estudioCorrecaoCor: 'House Films',
-        correcaoCor: 'Lucas Machado',
-        loggerEAssistenteDirecao: 'Christopher Faust',
-        somDireto: 'Anderson Simão',
-        edicaoSom: 'Rodrigo Sacic, Vitor Coroa e Vitor Moraes',
-        foley: 'Vitor Moraes',
-        dublagem: 'Luiz Lepchak',
-        estudioMixagem: 'Estúdio Desterro',
-        designerGrafico: 'Pietro Luigi',
-        acessibilidade: 'Etc Filmes',
-        traducoes: 'O Editorial - Traduções e Edições',
-        sincronizacaoPTBREtraducaoEN: 'Paulo Scarpa',
-        traducaoEspanhol: 'Niala Pessuto',
-      },
-    },
+      principal: ` <DivFlex eColuna={false}>
+      <TextoVerde>Direção e roteiro:</TextoVerde>
+      <span>Evandro Scorsin</span>
+    </DivFlex>
+    <DivFlex eColuna={false}>
+      <TextoVerde>Produção:</TextoVerde>
+      <span>Anderson Simão</span>
+    </DivFlex>
+    <DivFlex eColuna={false}>
+      <TextoVerde>Montagem:</TextoVerde>
+      <span>Christopher Faust</span>
+    </DivFlex>
+    <DivFlex eColuna={false}>
+      <TextoVerde>Produção:</TextoVerde>
+      <span>Wellington Sari</span>
+    </DivFlex>
+    <DivFlex eColuna={false}>
+      <TextoVerde>Coordenação:</TextoVerde>
+      <span>Gustavo Duarte</span>
+    </DivFlex>
+    <DivFlex eColuna={false}>
+      <TextoVerde>Direção de fotografia:</TextoVerde>
+      <span>André Senna</span>
+    </DivFlex>
+    <DivFlex eColuna={false}>
+      <TextoVerde>Trilha Sonora:</TextoVerde>
+      <span>Felipe Ayres</span>
+    </DivFlex>
+    <DivFlex eColuna={false}>
+      <TextoVerde>Finalização de som:</TextoVerde>
+      <span>Vitor Coroa e Vitor Morales</span>
+    </DivFlex>
+`,
+      adicional: `<TextoVerde>Elenco de apoio:</TextoVerde>
+      <span>Martha Chapieski e Altamar Cezar</span>
+      <TextoVerde>Operador de câmera:</TextoVerde>
+      <span>André Senna |</span>
+      <TextoVerde>Assistente de câmera:</TextoVerde>
+      <span>Bianca Ono | </span>
+      <TextoVerde>Assistente de fotografia:</TextoVerde>
+      <span>Murilo Lazarin |</span>
+      <TextoVerde>Elétrica:</TextoVerde>
+      <span>Morgana Horst |</span>
+      <TextoVerde>Arte, figurino e maquiagem:</TextoVerde>
+      <span>Lucas Machado |</span>
+      <TextoVerde>Estúdio de correção de cor: </TextoVerde>
+      <span>House Films |</span>
+      <TextoVerde>Correção de cor:</TextoVerde>
+      <span>Lucas Machado |</span>
+      <TextoVerde>Logger e assistente de direção:</TextoVerde>
+      <span>Christopher Faust |</span>
+      <TextoVerde>Som direto:</TextoVerde>
+      <span>Anderson Simão |</span>
+      <TextoVerde>Edição de som:</TextoVerde>
+      <span>Rodrigo Sacic, Vitor Coroa e Vitor Moraes |</span>
+      <TextoVerde>Foley:</TextoVerde>
+      <span>Vitor Moraes |</span>
+      <TextoVerde>Dublagem:</TextoVerde>
+      <span>Luiz Lepchak |</span>
+      <TextoVerde>Estúdio de mixagem:</TextoVerde>
+      <span>Estúdio Desterro</span>
+      <TextoVerde>Designer gráfico:</TextoVerde>
+      <span>Pietro Luigi</span>
+      <TextoVerde>Acessibilidade:</TextoVerde>
+      <span>Etc Filmes</span>
+      <TextoVerde>Traduções:</TextoVerde>
+      <span>O Editorial – Traduções e Edições</span>
+      <TextoVerde>Sincronização português e tradução inglês:</TextoVerde>
+      <span>Paulo Scarpa</span>
+      <TextoVerde>Tradução espanhol:</TextoVerde>
+      <span>Niala Pessuto</span>`,
 
+    },
   },
   {
     img: '/imagens/teste/previaCard.png',
@@ -188,6 +232,7 @@ const dataBase = {
     textos: ['A Edições A Quadro, selo para publicações da produtora audiovisual O Quadro, embora criada recentemente, era um desejo antigo da empresa, quando na criação do seu CNPJ, há 10 anos, estabeleceu entre as atividades econômicas a possibilidade de edição e publicação de textos. Ela surge após um período de experiências diversas dos seus idealizadores que, concomitante à produção de flmes, exercitaram a escrita crítica sobre cinema, em revistas eletrônicas, blogs e os mais diversos catálogos e publicações afins, exerceram e exercem atividades de ensino do audiovisual, a partir de oficinas, cineclubes, cursos livres, palestras e debates sobre a sétima arte, e realizam pesquisas acadêmicas, na conclusão de graduações e mestrados.', 'Para Coleção Escrever o Cinema, a editora recém criada, Edições A Quadro, alia-se à profissionais, autores e pesquisadores, com experiências acadêmicas bastante consistentes, tanto na escrita, como na revisão e na organização de publicações diversas, é o caso do professor e cineasta Doutor Eduardo Túlio Baggio, organizador de diversas publicações, do professor Doutor Pedro de Andrade Lima Faissol, do cineasta e doutorando Alexandre Rafael Garcia, e da Mestre Juliana Rodrigues Pereira. Atualmente, enquanto produz os 4 primeiros volumes da Coleção Escrever o Cinema, paralelamente busca a viabilização de mais 4 volumes determinados para nova fase da coleção, enquanto matura e idealiza demais projetos de escrita e publicação.'],
   },
   publicacoes: [{
+    url: 'contos-morais',
     img: '/imagens/teste/previaCard.png',
     titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
     autor: 'DE ALEXANDRE GARCIA',
