@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import dataBase from '../../db';
 // importar componentes
 import {
   Titulo,
@@ -19,83 +20,49 @@ import {
 import Base from '../../componentes/Base';
 
 function Publicacoes() {
+  const info = dataBase.editora;
+  // eslint-disable-next-line prefer-destructuring
+  const publicacoes = dataBase.publicacoes;
+
   return (
     <Base
       menuSocialVermelho
       estadoMenu={2}
     >
-      <Titulo>A QUADRO</Titulo>
+      <Titulo>{info.titulo.toUpperCase()}</Titulo>
       <Conteiner>
         <ArtigoPrincipal>
           <p>
-
-            A Edições A Quadro, selo para publicações da produtora audiovisual O Quadro,
-            embora criada recentemente, era um
-            desejo antigo da empresa, quando na criação do seu CNPJ,
-            há 10 anos, estabeleceu entre as atividades econômicas a
-            possibilidade de edição e publicação de textos.
-
+            {info.textos.primeiroParagrafo}
           </p>
           <p>
-            Ela surge após um período de experiências diversas dos seus
-            idealizadores que, concomitante à produção de flmes,
-            exercitaram a escrita crítica sobre cinema, em revistas
-            eletrônicas, blogs e os mais diversos catálogos e publicações
-            afins, exerceram e exercem atividades de ensino do
-            audiovisual, a partir de oficinas, cineclubes, cursos livres,
-            palestras e debates sobre a sétima arte, e realizam pesquisas
-            acadêmicas, na conclusão de graduações e mestrados.
+            {info.textos.segundoParagrafo}
           </p>
 
         </ArtigoPrincipal>
         <ConteinerLinha>
-          <ImagemLateral src="http://placekitten.com/400/250" />
+          <ImagemLateral src={info.img.src} />
           <ArtigoLateral>
             <p>
-              Para Coleção Escrever o Cinema, a
-              editora recém criada, Edições A Quadro, alia-se à
-              profissionais, autores e pesquisadores, com
-              experiências acadêmicas bastante consistentes, tanto
-              na escrita, como na revisão e na organização de
-              publicações diversas, é o caso do professor e cineasta
-              Doutor Eduardo Túlio Baggio, organizador de diversas
-              publicações, do professor Doutor Pedro de Andrade
-              Lima Faissol, do cineasta e doutorando Alexandre
-              Rafael Garcia, e da Mestre Juliana Rodrigues Pereira.
+              {info.textos.terceiroParagrafo}
             </p>
 
             <p>
-              Atualmente, enquanto produz os 4 primeiros volumes
-              da Coleção Escrever o Cinema, paralelamente busca a
-              viabilização de mais 4 volumes determinados para nova
-              fase da coleção, enquanto matura e idealiza demais
-              projetos de escrita e publicação.
+              {info.textos.quartoParagrafo}
             </p>
           </ArtigoLateral>
         </ConteinerLinha>
 
         <ListaLivro>
-          <Livro as={Link} to="Publicacao/1">
-            <CapaLivro src="http://placekitten.com/150/200" />
-            <InfoLivro>
-              <TituloLivro>CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER</TituloLivro>
-              <AutorLivro>DE ALEXANDRE RAFAEL GARCIA</AutorLivro>
-            </InfoLivro>
-          </Livro>
-          <Livro as={Link} to="Publicacao/1">
-            <CapaLivro src="http://placekitten.com/150/200" />
-            <InfoLivro>
-              <TituloLivro>CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER</TituloLivro>
-              <AutorLivro>DE ALEXANDRE RAFAEL GARCIA</AutorLivro>
-            </InfoLivro>
-          </Livro>
-          <Livro as={Link} to="Publicacao/1">
-            <CapaLivro src="http://placekitten.com/150/200" />
-            <InfoLivro>
-              <TituloLivro>CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER</TituloLivro>
-              <AutorLivro>DE ALEXANDRE RAFAEL GARCIA</AutorLivro>
-            </InfoLivro>
-          </Livro>
+          {publicacoes.map((publicacao) => (
+            <Livro as={Link} to={`publicacao/${publicacao.url}`}>
+              <CapaLivro src={publicacao.img.src} alt={publicacao.img.desc} />
+              <InfoLivro>
+                <TituloLivro>{publicacao.titulo.toUpperCase()}</TituloLivro>
+                <AutorLivro>{publicacao.autor.toUpperCase()}</AutorLivro>
+              </InfoLivro>
+            </Livro>
+          ))}
         </ListaLivro>
       </Conteiner>
     </Base>

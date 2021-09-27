@@ -33,7 +33,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
       <DivFlex className="titulo-secao" eColuna>
         <TituloDestaque>{filme.titulo.toUpperCase()}</TituloDestaque>
         <H3Destaque>
-          DE
+          {filme.textoEstatico.de}
           {' '}
           {filme.autor.toUpperCase()}
         </H3Destaque>
@@ -44,7 +44,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
           <iframe width="100%" height="300" src="https://www.youtube.com/embed/hv6xxNDV8PA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
           <SubTituloDestaque>
             {filme.titulo.toUpperCase()}
-            ,
+            {filme.textoEstatico.virgula}
             {' '}
             {filme.ano}
           </SubTituloDestaque>
@@ -55,11 +55,11 @@ function SecaoInformacoes({ taVermelho = false, id }) {
           </H3Destaque>
           <DivFlex className="sinopseWithInfos">
             <DivFlex className="caixa-texto" eColuna>
-              <H3Destaque> COM</H3Destaque>
+              <H3Destaque>{filme.textoEstatico.com}</H3Destaque>
               <p>{filme.participacao}</p>
             </DivFlex>
             <DivFlex className="caixa-texto" id="sinopse" eColuna>
-              <H3Destaque> SINOPSE</H3Destaque>
+              <H3Destaque>{filme.textoEstatico.sinopse}</H3Destaque>
               {/* eslint-disable-next-line max-len */}
               <p>{filme.sinopse}</p>
             </DivFlex>
@@ -72,7 +72,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
 
       </DivFlex>
       <DivFlex className="equipe" eColuna>
-        <SubTituloDestaque>EQUIPE</SubTituloDestaque>
+        <SubTituloDestaque>{filme.textoEstatico.equipe}</SubTituloDestaque>
         {filme.equipe.principal}
       </DivFlex>
       <DivFlex id="mais-equipe" eColuna={false}>
