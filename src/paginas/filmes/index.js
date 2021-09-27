@@ -11,7 +11,7 @@ import BarraPesquisa from '../../componentes/BarraPesquisa';
 function Filmes() {
   // eslint-disable-next-line prefer-const
   let { categoria } = useParams();
-  console.log(categoria);
+
   return (
     <Base
       menuSocialVermelho={false}

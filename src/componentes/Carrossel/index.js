@@ -13,8 +13,6 @@ import {
 } from './estilo';
 
 const Carrossel = ({ categoria, taVermelho = true, eFilmes = false }) => {
-  /* pegar trabalhos da categoria como objeto */
-  console.log(taVermelho);
   const restringir = (val, min, max) => {
     let valor = val;
     if (val < min) {

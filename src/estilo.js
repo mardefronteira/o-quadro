@@ -28,18 +28,7 @@ code {
   overflow:hidden;
 
 } */
-@keyframes slidein {
-  from {
-    opacity:1;
-  height:auto;
-  }
 
-  to {
-    opacity:0;
-    width: 100%;
-    height:0;
-  }
-}
 .fadeIn{
   
 }
