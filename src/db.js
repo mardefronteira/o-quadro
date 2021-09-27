@@ -12,11 +12,11 @@ const dataBase = {
     participacao: 'Gustavo Piaskoski e Marrara Mara',
     categoria: 'Curta Metragem',
     ano: 2019,
-    linkVideo: '',
     textoEstatico: [{
       de: 'de', virgula: ',', com: 'com', sinopse: 'sinopse', equipe: 'equipe',
     }],
     tags: ['Comédia', 'Adolescente', 'Terror'],
+    linkVideo: '',
     equipe: {
       direcao: 'Evandro SCORSIN',
       producao: 'Anderson Simao',
