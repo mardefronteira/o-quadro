@@ -19,7 +19,6 @@ import dataBase from '../../db';
 function SecaoInformacoes({ taVermelho = false, id }) {
   // const [taAtivo, setTaAtivo] = useState(false);
   const filme = dataBase.filmes.filter((filmeDb) => filmeDb.url === id)[0];
-  console.log(`Filme:${filme}`);
   const galeria = filme.galeria.map((imagem) => ({
     src: imagem.src,
     alt: imagem.desc,
