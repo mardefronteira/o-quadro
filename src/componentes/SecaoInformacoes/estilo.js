@@ -8,7 +8,7 @@ gap:4em;
 .caixa-texto{
   width: 40%;
   height:auto;
-  text-align: justify;
+  
 }
 .titulo-secao{
   align-items:center;
@@ -45,6 +45,7 @@ gap:4em;
 
 #sinopse{
   width: 60%;
+  text-align: justify;
 }
 
 .sinopseWithInfos{
