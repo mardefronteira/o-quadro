@@ -4,7 +4,6 @@ import Card from './Card/index';
 import dataBase from '../../db';
 
 function GaleriaFilmes({ categoria }) {
-  console.log(categoria);
   let categoriaSelecionada;
   switch (categoria) {
     case 'curtas':
@@ -19,19 +18,18 @@ function GaleriaFilmes({ categoria }) {
     default:
       categoriaSelecionada = 'todos';
   }
-  console.log(categoriaSelecionada);
+  console.log(`categoria: ${categoriaSelecionada}`);
 
   const filmesNaCategoria = categoriaSelecionada !== 'todos'
     ? dataBase.filmes.filter(
       (filme) => filme.categoria === categoriaSelecionada,
     ) : dataBase.filmes;
+  console.log(filmesNaCategoria);
   return (
     <Galeria>
       {filmesNaCategoria.map((filme) => {
         console.log(filme);
-        return (
-          <Card filme={filme} key={filme.url} />
-        );
+        return <Card filme={filme} key={filme.url} />;
       })}
       ;
 

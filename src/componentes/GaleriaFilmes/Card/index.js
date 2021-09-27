@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom';
 import { FundoCard, Legenda, Info } from './estilo';
 
 function Card({ filme }) {
-  // function abrirVisualizador() {
-  //   console.log('oi');
-  // }
   return (
     <FundoCard as={Link} to={`filme/${filme.url}`}>
       <img src={filme.img.src} alt={filme.img.desc} />

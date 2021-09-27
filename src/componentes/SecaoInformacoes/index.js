@@ -18,13 +18,20 @@ import dataBase from '../../db';
 
 function SecaoInformacoes({ taVermelho = false, id }) {
   // const [taAtivo, setTaAtivo] = useState(false);
-  const filme = dataBase.filmes.filter((filmeDb) => filmeDb.id === id)[0];
-
+  const filme = dataBase.filmes.filter((filmeDb) => filmeDb.url === id)[0];
+  console.log(`Filme:${filme}`);
   const galeria = filme.galeria.map((imagem) => ({
     src: imagem.src,
     alt: imagem.desc,
     key: imagem.titulo.replace(' ', '-'),
   }));
+
+  const filmesRelacionados = dataBase.filmes.filter(
+    (filmeDb) => filmeDb.tags.some(
+      (tag) => filme.tags.includes(tag),
+    ),
+  );
+
   useEffect(() => {
     document.getElementById('mais-equipe').classList.add('fadeOut', 'alturaZero');
   }, []);
@@ -89,20 +96,6 @@ function SecaoInformacoes({ taVermelho = false, id }) {
           maisEquipe.classList.toggle('alturaZero');
 
           verMais.classList.toggle('rotate');
-
-          /*
-          const taVisivel = !maisEquipe.classList.contains('invisivel');
-          console.log(maisEquipe);
-          console.log(taVisivel);
-          if (taVisivel) {
-            maisEquipe.classList.add('invisivel');
-          } else {
-            maisEquipe.classList.remove('invisivel');
-          }
-          setTaAtivo(true);
-          if (taAtivo === true) {
-            console.log('funcionando');
-          } */
         }}
       >
         <img
@@ -111,7 +104,8 @@ function SecaoInformacoes({ taVermelho = false, id }) {
           alt="Mais informações"
         />
       </MaisInfo>
-      <Carrossel categoria={dataBase.filmes} eFilmes taVermelho={taVermelho} />
+
+      <Carrossel categoria={filmesRelacionados} eFilmes taVermelho={taVermelho} />
     </ContainerFilmes>
   );
 }
