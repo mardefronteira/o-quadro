@@ -29,7 +29,7 @@ function Publicacoes() {
       menuSocialVermelho
       estadoMenu={2}
     >
-      <Titulo>{info.titulo.toUpperCase()}</Titulo>
+      <Titulo>A QUADRO</Titulo>
       <Conteiner>
         <ArtigoPrincipal>
           <p>
@@ -41,7 +41,7 @@ function Publicacoes() {
 
         </ArtigoPrincipal>
         <ConteinerLinha>
-          <ImagemLateral src={info.img.src} />
+          <ImagemLateral src={info.img.src} alt={info.img.desc} />
           <ArtigoLateral>
             <p>
               {info.textos.terceiroParagrafo}

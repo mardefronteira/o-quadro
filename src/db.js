@@ -12,9 +12,6 @@ const dataBase = {
     participacao: 'Gustavo Piaskoski e Marrara Mara',
     categoria: 'Curta Metragem',
     ano: 2019,
-    textoEstatico: [{
-      de: 'de', virgula: ',', com: 'com', sinopse: 'sinopse', equipe: 'equipe',
-    }],
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: '',
     equipe: {
@@ -211,7 +208,8 @@ const dataBase = {
     <span>Dimensões ‏ : ‎ 16 x 1 x 23 cm</span> `
     ,
   }, {
-    img: { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    url: 'contos-morais-2',
     titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
     autor: 'DE ALEXANDRE GARCIA',
     sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
@@ -227,7 +225,8 @@ const dataBase = {
     Dimensões ‏ : ‎ 16 x 1 x 23 cm `
     ,
   }, {
-    img: '/imagens/teste/previaCard.png',
+    img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    url: 'contos-morais-3',
     titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
     autor: 'DE ALEXANDRE GARCIA',
     sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
@@ -243,7 +242,8 @@ const dataBase = {
     Dimensões ‏ : ‎ 16 x 1 x 23 cm `
     ,
   }, {
-    img: '/imagens/teste/previaCard.png',
+    img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    url: 'contos-morais-4',
     titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
     autor: 'DE ALEXANDRE GARCIA',
     sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
@@ -263,27 +263,47 @@ const dataBase = {
   ],
   quemSomos: {
     titulo: 'QUEM SOMOS',
-    imgDestaque: 'posterTerror',
-    texto: ` Formada em 2010, O Quadro é uma produtora voltada para os filmes, com a paixão de quem gosta de fazer cinema porque ama ver cinema.
+    imgDestaque: { src: './imagens/teste/FotoPerfilQuadro1.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    texto: {
+      primeiroParagrafo: 'Formada em 2010, O Quadro é uma produtora voltada para os filmes, com a paixão de quem gosta de fazer cinema porque ama ver cinema.',
+      segundoParagrafo: 'Depois de mais de uma dezena de curtas-metragens premiados, com circulação nos principais festivais de cinema nacionais, além de canais de TV, como TNT, Canal Brasil, TCM, entre outros), a produtora lançou, em 2017, seu primeiro longa-metragem, “Bye Bye Jaqueline”. Com estreia em diversas capitais e exibido em festivais em Portugal e na África do Sul, o filme é uma comédia de espírito livre, que reúne diversas das características dos curtas-metragens realizados pela produtora ao longo dos anos.',
+      terceiroParagrafo: 'A partir de 2017, O Quadro passou a apontar o telescópio para outros quadrantes da galáxia, criando o Metrô – Festival do Cinema Universitário Brasileiro e produzindo o longa-metragem “Euller Miller Entre Dois Mundos”, dirigido por Fernando Severo.',
+      quartoParagrafo: 'Isso é só o começo.',
+    },
 
-    Depois de mais de uma dezena de curtas-metragens premiados, com circulação nos principais festivais de cinema nacionais, além de canais de TV, como TNT, Canal Brasil, TCM, entre outros), a produtora lançou, em 2017, seu primeiro longa-metragem, “Bye Bye Jaqueline”. Com estreia em diversas capitais e exibido em festivais em Portugal e na África do Sul, o filme é uma comédia de espírito livre, que reúne diversas das características dos curtas-metragens realizados pela produtora ao longo dos anos.
-    
-    A partir de 2017, O Quadro passou a apontar o telescópio para outros quadrantes da galáxia, criando o Metrô – Festival do Cinema Universitário Brasileiro e produzindo o longa-metragem “Euller Miller Entre Dois Mundos”, dirigido por Fernando Severo.
-    
-    Isso é só o começo.`,
-
-    autores: [{
-      nome: '',
-      img: '',
+    membros: [{
+      nome: 'Anderson',
+      img:
+    { src: './images/teste/posterTerror.png', desc: 'descrição da imagem' },
       sobre: 'lorem ipsum dolor sit',
-    }],
+    },
+    {
+      nome: 'Christopher',
+      img:
+    { src: './images/teste/posterTerror.png', desc: 'descrição da imagem' },
+      sobre: 'lorem ipsum dolor sit',
+    },
+    {
+      nome: 'Evandro',
+      img:
+    { src: './images/teste/posterTerror.png', desc: 'descrição da imagem' },
+      sobre: 'lorem ipsum dolor sit',
+    },
+    {
+      nome: 'Wellington',
+      img:
+    { src: './images/teste/posterTerror.png', desc: 'descrição da imagem' },
+      sobre: 'lorem ipsum dolor sit',
+    },
+
+    ],
 
   },
 
   metro: {
     titulo: 'FESTIVAL METRÔ',
     texto: 'Desde 2017, O Quadro produz o Metrô – Festival do Cinema Universitário Brasileiro. Voltado para a exibição, a reflexão e o debate sobre o cinema e as coisas da vida, o festival busca construir uma estação imaginária em que se encontrem e se cruzem diferentes formas de criação artística e de pessoas.',
-    img: '/imagens/teste/previaCard.png',
+    img: { src: './imagens/4edicao.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
 
   },
 
