@@ -29,21 +29,21 @@ function PublicacaoSelecionada() {
         <DivFlex id="conteiner-info" eColuna={false}>
           <DivFlex id="secao-info" eColuna>
             <DivFlex id="secao-titulo" eColuna>
-              <TituloVermelho eVermelho>{publicacao.textoEstatico.sinopse}</TituloVermelho>
+              <TituloVermelho eVermelho>SINOPSE</TituloVermelho>
               <p>{publicacao.sinopse}</p>
             </DivFlex>
             <DivFlex id="artigo" eColuna>
-              <TituloVermelho eVermelho>{publicacao.textoEstatico.sobreoAutor}</TituloVermelho>
+              <TituloVermelho eVermelho>SOBRE O AUTOR</TituloVermelho>
               <p>
                 {publicacao.sobreoAutor}
               </p>
             </DivFlex>
             <DivFlex id="ficha-tecnica" eColuna>
-              <TituloVermelho eVermelho>{publicacao.textoEstatico.fichaTecnica}</TituloVermelho>
+              <TituloVermelho eVermelho>FICHA TECNICA</TituloVermelho>
               {publicacao.fichaTecnica}
             </DivFlex>
           </DivFlex>
-          <ImgDestaqueDireita src={publicacao.img.src} />
+          <ImgDestaqueDireita src={publicacao.img.src} alt={publicacao.img.desc} />
         </DivFlex>
 
       </DivFlexPublicacao>

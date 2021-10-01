@@ -61,7 +61,7 @@ text-decoration: none;
 `;
 
 export const CapaLivro = styled.img`
-height: 100%;
+height: 25vh;
 width: auto;
 `;
 
@@ -71,4 +71,6 @@ export const TituloLivro = styled.h3`
 color: #CF0018;
 `;
 
-export const AutorLivro = styled.p``;
+export const AutorLivro = styled.p`
+color: #000000;
+`;
