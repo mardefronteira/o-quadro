@@ -4,7 +4,7 @@ const dataBase = {
     url: 'terror-noturno',
     img: { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
-    titulo: 'Curta Metragem',
+    titulo: 'Terror Noturno',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
     sinopse: 'Após uma festa com muita bebedeira e diversão, um casal desperta no dia seguinte sem qualquer recordação sobre os eventos da noite anterior. Quando encontram vestígios de um provável atropelamento no para-choque do carro, passam a acreditar que podem ter cometido um assassinato.',
@@ -15,34 +15,19 @@ const dataBase = {
     linkVideo: '',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     equipe: {
-      direcao: 'Evandro SCORSIN',
-      producao: 'Anderson Simao',
-      coordenacao: 'Wellington Sari',
-      montagem: 'Christopher Faust',
-      direcaoFotografia: 'André Senna',
-      trilhaSonora: 'Felipe Ayres',
-      finalizacaoSom: 'Vitor Coroa e Vitor Morales',
-      maisEquipe: {
-        elenco: 'Martha Chapieski',
-        operadorCamera: 'André Senna',
-        assistenteCamera: 'Bianca Ono',
-        assistenteFotografia: 'Murilo Lazarin',
-        eletrica: 'Morgana Horst',
-        arteFigurinoMaquiagem: 'Lucas Machado',
-        estudioCorrecaoCor: 'House Films',
-        correcaoCor: 'Lucas Machado',
-        loggerEAssistenteDirecao: 'Christopher Faust',
-        somDireto: 'Anderson Simão',
-        edicaoSom: 'Rodrigo Sacic, Vitor Coroa e Vitor Moraes',
-        foley: 'Vitor Moraes',
-        dublagem: 'Luiz Lepchak',
-        estudioMixagem: 'Estúdio Desterro',
-        designerGrafico: 'Pietro Luigi',
-        acessibilidade: 'Etc Filmes',
-        traducoes: 'O Editorial - Traduções e Edições',
-        sincronizacaoPTBREtraducaoEN: 'Paulo Scarpa',
-        traducaoEspanhol: 'Niala Pessuto',
-      },
+      principal: `Elenco: Gustavo Piaskoski e Marrara Mara
+      Direção e roteiro: Evandro Scorsin
+      Produção executiva: Anderson Simão
+      Montagem: Christopher Faust
+      Produção: Wellington Sari
+      Coordenação: Gustavo Duarte
+      Direção de fotografia: André Senna
+      Trilha sonora: Felipe Ayres
+      Finalização de som: Vitor Coroa e Vitor Moraes`,
+      adicional: `Elenco de apoio: Martha Chapieski e Altamar Cezar
+        Equipe: Operador de câmera: André Senna | Assistente de câmera: Murillo Marchesi | Assistente de fotografia: Bianca Ono | Elétrica: Murilo Lazarin | Arte, figurino e maquiagem: Morgana Horst | Correção de cor: Lucas Machado | Estúdio de correção de cor: House Films | Logger e assistente de direção: Christopher Faust | Som direto: Anderson Simão | Edição de som: Rodrigo Sacic, Vitor Coroa e Vitor Moraes | Foley: Vitor Moraes | Dublagem: Luiz Lepchak | Estúdio de mixagem: Estúdio Desterro | Designer gráfico: Pietro Luigi | Acessibilidade: Etc Filmes | Traduções: O Editorial – Traduções e Edições | Sincronização português e tradução inglês: Paulo Scarpa | Tradução espanhol: Niala Pessuto
+        Agradecimentos: Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc`,
+
     },
 
   },
@@ -50,44 +35,29 @@ const dataBase = {
     img: { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     url: 'bye-bye-jaqueline',
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
-    titulo: 'Média Metragem',
+    titulo: 'Bye Bye Jaqueline',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
-    sinopse: 'Após uma festa com muita bebedeira e diversão, um casal desperta no dia seguinte sem qualquer recordação sobre os eventos da noite anterior. Quando encontram vestígios de um provável atropelamento no para-choque do carro, passam a acreditar que podem ter cometido um assassinato.',
-    autor: 'de evandro scorsin',
+    sinopse: 'Ter 16 anos é fácil. O difícil é ter 16 anos e ser obrigada a ir à escola todo dia. Mais difícil ainda é ter 16, ser obrigada a frequentar a escola e acabar se apaixonando por Fernando, o menino da sala ao lado. Ser a Jaqueline é fácil. O difícil é ser a Jaqueline e saber que Fernando não está nem aí.',
+    autor: 'de Wellington Sari',
     participacao: 'Gustavo Piaskoski e Marrara Mara',
-    categoria: 'Média Metragem',
+    categoria: 'Longa Metragem',
     linkVideo: '',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     equipe: {
-      direcao: 'Evandro SCORSIN',
-      producao: 'Anderson Simao',
-      coordenacao: 'Wellington Sari',
-      montagem: 'Christopher Faust',
-      direcaoFotografia: 'André Senna',
-      trilhaSonora: 'Felipe Ayres',
-      finalizacaoSom: 'Vitor Coroa e Vitor Morales',
-      maisEquipe: {
-        elenco: 'Martha Chapieski',
-        operadorCamera: 'André Senna',
-        assistenteCamera: 'Bianca Ono',
-        assistenteFotografia: 'Murilo Lazarin',
-        eletrica: 'Morgana Horst',
-        arteFigurinoMaquiagem: 'Lucas Machado',
-        estudioCorrecaoCor: 'House Films',
-        correcaoCor: 'Lucas Machado',
-        loggerEAssistenteDirecao: 'Christopher Faust',
-        somDireto: 'Anderson Simão',
-        edicaoSom: 'Rodrigo Sacic, Vitor Coroa e Vitor Moraes',
-        foley: 'Vitor Moraes',
-        dublagem: 'Luiz Lepchak',
-        estudioMixagem: 'Estúdio Desterro',
-        designerGrafico: 'Pietro Luigi',
-        acessibilidade: 'Etc Filmes',
-        traducoes: 'O Editorial - Traduções e Edições',
-        sincronizacaoPTBREtraducaoEN: 'Paulo Scarpa',
-        traducaoEspanhol: 'Niala Pessuto',
-      },
+      principal: `Elenco: Gustavo Piaskoski e Marrara Mara
+      Direção e roteiro: Evandro Scorsin
+      Produção executiva: Anderson Simão
+      Montagem: Christopher Faust
+      Produção: Wellington Sari
+      Coordenação: Gustavo Duarte
+      Direção de fotografia: André Senna
+      Trilha sonora: Felipe Ayres
+      Finalização de som: Vitor Coroa e Vitor Moraes`,
+      adicional: `Elenco de apoio: Martha Chapieski e Altamar Cezar
+        Equipe: Operador de câmera: André Senna | Assistente de câmera: Murillo Marchesi | Assistente de fotografia: Bianca Ono | Elétrica: Murilo Lazarin | Arte, figurino e maquiagem: Morgana Horst | Correção de cor: Lucas Machado | Estúdio de correção de cor: House Films | Logger e assistente de direção: Christopher Faust | Som direto: Anderson Simão | Edição de som: Rodrigo Sacic, Vitor Coroa e Vitor Moraes | Foley: Vitor Moraes | Dublagem: Luiz Lepchak | Estúdio de mixagem: Estúdio Desterro | Designer gráfico: Pietro Luigi | Acessibilidade: Etc Filmes | Traduções: O Editorial – Traduções e Edições | Sincronização português e tradução inglês: Paulo Scarpa | Tradução espanhol: Niala Pessuto
+        Agradecimentos: Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc`,
+
     },
 
   },
@@ -95,89 +65,85 @@ const dataBase = {
     img: { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     url: 'paranoia-doce',
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
-    titulo: 'Longa Metragem',
+    titulo: 'Paranoia Doce',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
-    sinopse: 'Após uma festa com muita bebedeira e diversão, um casal desperta no dia seguinte sem qualquer recordação sobre os eventos da noite anterior. Quando encontram vestígios de um provável atropelamento no para-choque do carro, passam a acreditar que podem ter cometido um assassinato.',
+    sinopse: 'Quatro jovens viajam para uma cidade litorânea buscando diversão. Após uma noite de bebedeira, jogos e pegação, encontram uma gosma rosada e viscosa, que inexplicavelmente os seduz. O clima de curtição acaba, e um a um os jovens começam a morrer.',
     autor: 'de evandro scorsin',
     participacao: 'Gustavo Piaskoski e Marrara Mara',
-    categoria: 'Longa Metragem',
+    categoria: 'Curta Metragem',
     linkVideo: '',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     equipe: {
-      direcao: 'Evandro SCORSIN',
-      producao: 'Anderson Simao',
-      coordenacao: 'Wellington Sari',
-      montagem: 'Christopher Faust',
-      direcaoFotografia: 'André Senna',
-      trilhaSonora: 'Felipe Ayres',
-      finalizacaoSom: 'Vitor Coroa e Vitor Morales',
-      maisEquipe: {
-        elenco: 'Martha Chapieski',
-        operadorCamera: 'André Senna',
-        assistenteCamera: 'Bianca Ono',
-        assistenteFotografia: 'Murilo Lazarin',
-        eletrica: 'Morgana Horst',
-        arteFigurinoMaquiagem: 'Lucas Machado',
-        estudioCorrecaoCor: 'House Films',
-        correcaoCor: 'Lucas Machado',
-        loggerEAssistenteDirecao: 'Christopher Faust',
-        somDireto: 'Anderson Simão',
-        edicaoSom: 'Rodrigo Sacic, Vitor Coroa e Vitor Moraes',
-        foley: 'Vitor Moraes',
-        dublagem: 'Luiz Lepchak',
-        estudioMixagem: 'Estúdio Desterro',
-        designerGrafico: 'Pietro Luigi',
-        acessibilidade: 'Etc Filmes',
-        traducoes: 'O Editorial - Traduções e Edições',
-        sincronizacaoPTBREtraducaoEN: 'Paulo Scarpa',
-        traducaoEspanhol: 'Niala Pessuto',
-      },
+      principal: `Elenco: Gustavo Piaskoski e Marrara Mara
+      Direção e roteiro: Evandro Scorsin
+      Produção executiva: Anderson Simão
+      Montagem: Christopher Faust
+      Produção: Wellington Sari
+      Coordenação: Gustavo Duarte
+      Direção de fotografia: André Senna
+      Trilha sonora: Felipe Ayres
+      Finalização de som: Vitor Coroa e Vitor Moraes`,
+      adicional: `Elenco de apoio: Martha Chapieski e Altamar Cezar
+        Equipe: Operador de câmera: André Senna | Assistente de câmera: Murillo Marchesi | Assistente de fotografia: Bianca Ono | Elétrica: Murilo Lazarin | Arte, figurino e maquiagem: Morgana Horst | Correção de cor: Lucas Machado | Estúdio de correção de cor: House Films | Logger e assistente de direção: Christopher Faust | Som direto: Anderson Simão | Edição de som: Rodrigo Sacic, Vitor Coroa e Vitor Moraes | Foley: Vitor Moraes | Dublagem: Luiz Lepchak | Estúdio de mixagem: Estúdio Desterro | Designer gráfico: Pietro Luigi | Acessibilidade: Etc Filmes | Traduções: O Editorial – Traduções e Edições | Sincronização português e tradução inglês: Paulo Scarpa | Tradução espanhol: Niala Pessuto
+        Agradecimentos: Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc`,
+
     },
 
   },
   {
     img: { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
-    titulo: 'Terror Noturno',
+    titulo: 'Euller Miller Entre Dois Mundos',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
-    sinopse: 'Após uma festa com muita bebedeira e diversão, um casal desperta no dia seguinte sem qualquer recordação sobre os eventos da noite anterior. Quando encontram vestígios de um provável atropelamento no para-choque do carro, passam a acreditar que podem ter cometido um assassinato.',
+    sinopse: 'Euller Miller é um jovem indígena brasileiro da etnia kaiwá que sai de sua pequena aldeia nos arredores de Dourados (MS) para cursar odontologia em uma universidade pública na populosa capital do estado do Paraná. O filme acompanha sua complexa transição entre dois mundos contrastantes e a busca de novos horizontas que não impliquem na perda de suas raízes indígenas.',
     autor: 'de evandro scorsin',
     participacao: 'Gustavo Piaskoski e Marrara Mara',
-    categoria: '',
+    categoria: 'Longa Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     equipe: {
-      direcao: 'Evandro SCORSIN',
-      producao: 'Anderson Simao',
-      coordenacao: 'Wellington Sari',
-      montagem: 'Christopher Faust',
-      direcaoFotografia: 'André Senna',
-      trilhaSonora: 'Felipe Ayres',
-      finalizacaoSom: 'Vitor Coroa e Vitor Morales',
-      maisEquipe: {
-        elenco: 'Martha Chapieski',
-        operadorCamera: 'André Senna',
-        assistenteCamera: 'Bianca Ono',
-        assistenteFotografia: 'Murilo Lazarin',
-        eletrica: 'Morgana Horst',
-        arteFigurinoMaquiagem: 'Lucas Machado',
-        estudioCorrecaoCor: 'House Films',
-        correcaoCor: 'Lucas Machado',
-        loggerEAssistenteDirecao: 'Christopher Faust',
-        somDireto: 'Anderson Simão',
-        edicaoSom: 'Rodrigo Sacic, Vitor Coroa e Vitor Moraes',
-        foley: 'Vitor Moraes',
-        dublagem: 'Luiz Lepchak',
-        estudioMixagem: 'Estúdio Desterro',
-        designerGrafico: 'Pietro Luigi',
-        acessibilidade: 'Etc Filmes',
-        traducoes: 'O Editorial - Traduções e Edições',
-        sincronizacaoPTBREtraducaoEN: 'Paulo Scarpa',
-        traducaoEspanhol: 'Niala Pessuto',
-      },
+      principal: `Elenco: Gustavo Piaskoski e Marrara Mara
+      Direção e roteiro: Evandro Scorsin
+      Produção executiva: Anderson Simão
+      Montagem: Christopher Faust
+      Produção: Wellington Sari
+      Coordenação: Gustavo Duarte
+      Direção de fotografia: André Senna
+      Trilha sonora: Felipe Ayres
+      Finalização de som: Vitor Coroa e Vitor Moraes`,
+      adicional: `Elenco de apoio: Martha Chapieski e Altamar Cezar
+        Equipe: Operador de câmera: André Senna | Assistente de câmera: Murillo Marchesi | Assistente de fotografia: Bianca Ono | Elétrica: Murilo Lazarin | Arte, figurino e maquiagem: Morgana Horst | Correção de cor: Lucas Machado | Estúdio de correção de cor: House Films | Logger e assistente de direção: Christopher Faust | Som direto: Anderson Simão | Edição de som: Rodrigo Sacic, Vitor Coroa e Vitor Moraes | Foley: Vitor Moraes | Dublagem: Luiz Lepchak | Estúdio de mixagem: Estúdio Desterro | Designer gráfico: Pietro Luigi | Acessibilidade: Etc Filmes | Traduções: O Editorial – Traduções e Edições | Sincronização português e tradução inglês: Paulo Scarpa | Tradução espanhol: Niala Pessuto
+        Agradecimentos: Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc`,
+
     },
 
+  }, {
+    img: { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
+    titulo: 'Dias de Trovão',
+    imgDestaque: 'posterTerror',
+    galeriaImagens: '',
+    sinopse: 'Eric é apaixonado por sua melhor amiga, Eduarda. Mas, Michel é mais rápido e conquista primeiro a menina. Na pista de kart, Eric tem a chance de superar o adversário em uma feroz competição. Amor e velocidade, amor pela velocidade. Aqueles eram os Dias de Trovão.',
+    autor: 'de evandro scorsin',
+    participacao: 'Gustavo Piaskoski e Marrara Mara',
+    categoria: 'Média Metragem',
+    tags: ['Comédia', 'Adolescente', 'Terror'],
+    equipe: {
+      principal: `Elenco: Gustavo Piaskoski e Marrara Mara
+      Direção e roteiro: Evandro Scorsin
+      Produção executiva: Anderson Simão
+      Montagem: Christopher Faust
+      Produção: Wellington Sari
+      Coordenação: Gustavo Duarte
+      Direção de fotografia: André Senna
+      Trilha sonora: Felipe Ayres
+      Finalização de som: Vitor Coroa e Vitor Moraes`,
+      adicional: `Elenco de apoio: Martha Chapieski e Altamar Cezar
+        Equipe: Operador de câmera: André Senna | Assistente de câmera: Murillo Marchesi | Assistente de fotografia: Bianca Ono | Elétrica: Murilo Lazarin | Arte, figurino e maquiagem: Morgana Horst | Correção de cor: Lucas Machado | Estúdio de correção de cor: House Films | Logger e assistente de direção: Christopher Faust | Som direto: Anderson Simão | Edição de som: Rodrigo Sacic, Vitor Coroa e Vitor Moraes | Foley: Vitor Moraes | Dublagem: Luiz Lepchak | Estúdio de mixagem: Estúdio Desterro | Designer gráfico: Pietro Luigi | Acessibilidade: Etc Filmes | Traduções: O Editorial – Traduções e Edições | Sincronização português e tradução inglês: Paulo Scarpa | Tradução espanhol: Niala Pessuto
+        Agradecimentos: Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc`,
+
+    },
   }],
   editora: {
     img: '/imagens/teste/previaCard.png',
