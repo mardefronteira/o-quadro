@@ -1,4 +1,5 @@
 import React from 'react';
+import dataBase from '../../db';
 // importar estilos
 import {
   ConteinerPrincipal, Poster, Conteiner, Logo, Artigo, Embarque,
@@ -7,6 +8,7 @@ import {
 import Base from '../../componentes/Base';
 
 function FestivalMetro() {
+  const festival = dataBase.metro;
   return (
     <Base
       menuSocialVermelho={false}
@@ -14,17 +16,14 @@ function FestivalMetro() {
       <ConteinerPrincipal>
         <Conteiner>
           <Logo>
-            FESTIVAL METRÔ
+            {festival.titulo.toUpperCase()}
           </Logo>
           <Artigo>
-            Desde 2017, O Quadro produz o Metrô – Festival do Cinema Universitário Brasileiro.
-            Voltado para a exibição, a reflexão e o debate sobre o cinema e as coisas da vida,
-            o festival busca construir uma estação imaginária em que se encontrem e se cruzem
-            diferentes formas de criação artística e de pessoas.
+            {festival.texto}
           </Artigo>
           <Embarque type="button">Embarque</Embarque>
         </Conteiner>
-        <Poster src="./imagens/4edicao.png" />
+        <Poster src={festival.img.src} alt={festival.img.desc} />
       </ConteinerPrincipal>
     </Base>
   );

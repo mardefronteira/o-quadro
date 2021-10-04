@@ -39,7 +39,7 @@ const Carrossel = ({ categoria, taVermelho = true, eFilmes = false }) => {
   return (
     <FundoCarrossel>
       <TituloCarrossel eFilmes>
-        {eFilmes ? 'Filmes' : 'Livros'}
+        {eFilmes ? 'FILMES' : 'LIVROS'}
       </TituloCarrossel>
       <Conteiner>
         <SetaCarrossel
