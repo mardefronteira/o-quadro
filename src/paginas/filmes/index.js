@@ -17,7 +17,7 @@ function Filmes() {
       menuSocialVermelho={false}
       estadoMenu={1}
     >
-      <Titulo>A</Titulo>
+      <Titulo>Filmes</Titulo>
       <BarraPesquisa />
 
       <GaleriaFilmes categoria={categoria || null} />
