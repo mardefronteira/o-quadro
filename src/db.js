@@ -49,7 +49,7 @@ const dataBase = {
   {
     img: { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     url: 'bye-bye-jaqueline',
-    galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
+    galeria: [{ src: './imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Média Metragem',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
@@ -138,7 +138,7 @@ const dataBase = {
   },
   {
     img: { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
+    galeria: [{ src: './imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Terror Noturno',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
@@ -274,25 +274,25 @@ const dataBase = {
     membros: [{
       nome: 'Anderson',
       img:
-    { src: './images/teste/posterTerror.png', desc: 'descrição da imagem' },
+    { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
       sobre: 'lorem ipsum dolor sit',
     },
     {
       nome: 'Christopher',
       img:
-    { src: './images/teste/posterTerror.png', desc: 'descrição da imagem' },
+    { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
       sobre: 'lorem ipsum dolor sit',
     },
     {
       nome: 'Evandro',
       img:
-    { src: './images/teste/posterTerror.png', desc: 'descrição da imagem' },
+    { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
       sobre: 'lorem ipsum dolor sit',
     },
     {
       nome: 'Wellington',
       img:
-    { src: './images/teste/posterTerror.png', desc: 'descrição da imagem' },
+    { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
       sobre: 'lorem ipsum dolor sit',
     },
 
