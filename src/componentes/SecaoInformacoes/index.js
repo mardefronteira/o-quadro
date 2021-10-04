@@ -27,7 +27,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
 
   const filmesRelacionados = dataBase.filmes.filter(
     (filmeDb) => filmeDb.tags.some(
-      (tag) => filme.tags.includes(tag),
+      (tag) => filme.tags.includes(tag) && filme !== filmeDb,
     ),
   );
 

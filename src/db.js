@@ -32,8 +32,9 @@ const dataBase = {
 
   },
   {
-    img: { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    id: '2',
     url: 'bye-bye-jaqueline',
+    img: { src: 'http://www.oquadro.net/wp-content/uploads/2016/08/Cartaz-cinema-menor.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Bye Bye Jaqueline',
     imgDestaque: 'posterTerror',
@@ -62,8 +63,9 @@ const dataBase = {
 
   },
   {
-    img: { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    id: '3',
     url: 'paranoia-doce',
+    img: { src: 'http://www.oquadro.net/wp-content/uploads/2017/02/cartaz_paranoia-doce-A3_port_logos.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Paranoia Doce',
     imgDestaque: 'posterTerror',
@@ -92,8 +94,10 @@ const dataBase = {
 
   },
   {
-    img: { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
+    id: '4',
+    url: 'euller-miller-entre-dois-mundos',
+    img: { src: 'http://www.oquadro.net/wp-content/uploads/2017/08/cartaz_vertical_WEB_1-724x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    galeria: [{ src: 'http://www.oquadro.net/wp-content/uploads/2017/08/cartaz_vertical_WEB_1-724x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Euller Miller Entre Dois Mundos',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
@@ -119,8 +123,10 @@ const dataBase = {
     },
 
   }, {
-    img: { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
+    id: '5',
+    url: 'dias-de-trovao',
+    img: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    galeria: [{ src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Dias de Trovão',
     imgDestaque: 'posterTerror',
     galeriaImagens: '',
