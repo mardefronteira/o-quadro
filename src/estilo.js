@@ -30,14 +30,15 @@ code {
 } */
 
 .fadeIn{
-  
+  opacity:1;
 }
 .fadeOut{
- 
+ opacity:0;
 }
 .alturaZero{
-  
-  transition-delay: 0.5s
+  height: 0;
+  transition-delay: 0.5s;
+  overflow: hidden;
 }
 
 .rotate{

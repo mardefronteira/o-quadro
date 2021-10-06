@@ -21,7 +21,7 @@ function FestivalMetro() {
           <Artigo>
             {festival.texto}
           </Artigo>
-          <Embarque type="button">Embarque</Embarque>
+          <Embarque type="button">{festival.button}</Embarque>
         </Conteiner>
         <Poster src={festival.img.src} alt={festival.img.desc} />
       </ConteinerPrincipal>
