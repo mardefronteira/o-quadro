@@ -2,18 +2,18 @@ const dataBase = {
   filmes: [{
     id: '1',
     url: 'terror-noturno',
-    img: { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2019/02/poster_terror_not-716x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Terror Noturno',
-    imgDestaque: 'posterTerror',
+    imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2019/02/poster_terror_not-716x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeriaImagens: '',
     sinopse: 'Após uma festa com muita bebedeira e diversão, um casal desperta no dia seguinte sem qualquer recordação sobre os eventos da noite anterior. Quando encontram vestígios de um provável atropelamento no para-choque do carro, passam a acreditar que podem ter cometido um assassinato.',
-    autor: 'de evandro scorsin',
+    autor: 'Evandro Scorsin',
     participacao: 'Gustavo Piaskoski e Marrara Mara',
     categoria: 'Curta Metragem',
     ano: 2019,
     tags: ['Comédia', 'Adolescente', 'Terror'],
-    linkVideo: '',
+    linkVideo: 'https://player.vimeo.com/video/356585839?h=6667095',
     equipe: {
       principal: `Elenco: Gustavo Piaskoski e Marrara Mara
       Direção e roteiro: Evandro Scorsin
@@ -34,15 +34,16 @@ const dataBase = {
   {
     id: '2',
     url: 'bye-bye-jaqueline',
-    img: { src: 'http://www.oquadro.net/wp-content/uploads/2016/08/Cartaz-cinema-menor.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2016/08/Cartaz-cinema-menor.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Bye Bye Jaqueline',
-    imgDestaque: 'posterTerror',
+    imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2016/08/Cartaz-cinema-menor.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeriaImagens: '',
     sinopse: 'Ter 16 anos é fácil. O difícil é ter 16 anos e ser obrigada a ir à escola todo dia. Mais difícil ainda é ter 16, ser obrigada a frequentar a escola e acabar se apaixonando por Fernando, o menino da sala ao lado. Ser a Jaqueline é fácil. O difícil é ser a Jaqueline e saber que Fernando não está nem aí.',
-    autor: 'de Wellington Sari',
+    autor: 'Wellington Sari',
     participacao: 'Gustavo Piaskoski e Marrara Mara',
     categoria: 'Longa Metragem',
+    ano: 2019,
     linkVideo: '',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     equipe: {
@@ -65,15 +66,16 @@ const dataBase = {
   {
     id: '3',
     url: 'paranoia-doce',
-    img: { src: 'http://www.oquadro.net/wp-content/uploads/2017/02/cartaz_paranoia-doce-A3_port_logos.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2017/02/cartaz_paranoia-doce-A3_port_logos.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Paranoia Doce',
-    imgDestaque: 'posterTerror',
+    imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2017/02/cartaz_paranoia-doce-A3_port_logos.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeriaImagens: '',
     sinopse: 'Quatro jovens viajam para uma cidade litorânea buscando diversão. Após uma noite de bebedeira, jogos e pegação, encontram uma gosma rosada e viscosa, que inexplicavelmente os seduz. O clima de curtição acaba, e um a um os jovens começam a morrer.',
-    autor: 'de evandro scorsin',
+    autor: 'Evandro Scorsin',
     participacao: 'Gustavo Piaskoski e Marrara Mara',
     categoria: 'Curta Metragem',
+    ano: 2019,
     linkVideo: '',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     equipe: {
@@ -96,15 +98,17 @@ const dataBase = {
   {
     id: '4',
     url: 'euller-miller-entre-dois-mundos',
-    img: { src: 'http://www.oquadro.net/wp-content/uploads/2017/08/cartaz_vertical_WEB_1-724x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2017/08/cartaz_vertical_WEB_1-724x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: 'http://www.oquadro.net/wp-content/uploads/2017/08/cartaz_vertical_WEB_1-724x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Euller Miller Entre Dois Mundos',
-    imgDestaque: 'posterTerror',
+    imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2017/08/cartaz_vertical_WEB_1-724x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeriaImagens: '',
     sinopse: 'Euller Miller é um jovem indígena brasileiro da etnia kaiwá que sai de sua pequena aldeia nos arredores de Dourados (MS) para cursar odontologia em uma universidade pública na populosa capital do estado do Paraná. O filme acompanha sua complexa transição entre dois mundos contrastantes e a busca de novos horizontas que não impliquem na perda de suas raízes indígenas.',
-    autor: 'de evandro scorsin',
+    autor: 'Evandro Scorsin',
     participacao: 'Gustavo Piaskoski e Marrara Mara',
     categoria: 'Longa Metragem',
+    ano: 2019,
+    linkVideo: '',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     equipe: {
       principal: `Elenco: Gustavo Piaskoski e Marrara Mara
@@ -125,15 +129,17 @@ const dataBase = {
   }, {
     id: '5',
     url: 'dias-de-trovao',
-    img: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Dias de Trovão',
-    imgDestaque: 'posterTerror',
+    imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeriaImagens: '',
     sinopse: 'Eric é apaixonado por sua melhor amiga, Eduarda. Mas, Michel é mais rápido e conquista primeiro a menina. Na pista de kart, Eric tem a chance de superar o adversário em uma feroz competição. Amor e velocidade, amor pela velocidade. Aqueles eram os Dias de Trovão.',
-    autor: 'de evandro scorsin',
+    autor: 'Evandro Scorsin',
     participacao: 'Gustavo Piaskoski e Marrara Mara',
     categoria: 'Média Metragem',
+    ano: 2019,
+    linkVideo: '',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     equipe: {
       principal: `Elenco: Gustavo Piaskoski e Marrara Mara
@@ -274,6 +280,7 @@ const dataBase = {
 
   metro: {
     titulo: 'FESTIVAL METRÔ',
+    button: 'Embarque',
     texto: 'Desde 2017, O Quadro produz o Metrô – Festival do Cinema Universitário Brasileiro. Voltado para a exibição, a reflexão e o debate sobre o cinema e as coisas da vida, o festival busca construir uma estação imaginária em que se encontrem e se cruzem diferentes formas de criação artística e de pessoas.',
     img: { src: './imagens/4edicao.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
 

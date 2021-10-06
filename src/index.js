@@ -22,10 +22,10 @@ ReactDOM.render(
     <EstiloGlobal />
     <Switch>
       <Route exact path="/filmes" component={Filmes} />
-      <Route path="/filmes/:categoria" component={Filmes} />
       <Route path="/filme/:id" component={FilmeSelecionado} />
-      <Route path="/publicacoes" component={Publicacoes} />
+      <Route path="/filmes/:categoria" component={Filmes} />
       <Route path="/publicacao/:id" component={PublicacaoSelecionada} />
+      <Route path="/publicacoes" component={Publicacoes} />
       <Route path="/metro" component={FestivalMetro} />
       <Route path="/quem-somos" component={QuemSomos} />
       <Route path="/" component={Inicial} exact />

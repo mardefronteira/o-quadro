@@ -4,8 +4,8 @@ import { FundoCard, Legenda, Info } from './estilo';
 
 function Card({ filme }) {
   return (
-    <FundoCard as={Link} to={`filme/${filme.url}`}>
-      <img src={filme.img.src} alt={filme.img.desc} />
+    <FundoCard as={Link} to={`/filme/${filme.url}`}>
+      <img src={filme.imgDestaque.src} alt={filme.imgDestaque.desc} />
       <Legenda>
         <Info>
           {filme.titulo}

@@ -44,10 +44,10 @@ function SecaoInformacoes({ taVermelho = false, id }) {
           {filme.autor.toUpperCase()}
         </H3Destaque>
       </DivFlex>
-      <ImgDestaque src={filme.img.src} alt={filme.desc} />
+      <ImgDestaque src={filme.imgDestaque.src} alt={filme.imgDestaque.desc} />
       <DivFlex className="secaoPrincipal">
         <InfoFilme>
-          <iframe width="100%" height="300" src="https://www.youtube.com/embed/hv6xxNDV8PA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+          <iframe title="vimeo-player" src="https://player.vimeo.com/video/356585839?h=6667095b3e" width="640" height="360" frameBorder="0" allowFullScreen />
           <SubTituloDestaque>
             {filme.titulo.toUpperCase()}
             ,
@@ -71,7 +71,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
             </DivFlex>
           </DivFlex>
         </InfoFilme>
-        <ImgDestaqueDireita src={filme.imgDestaque.src} alt={filme.imgDestaque.desc} />
+        <ImgDestaqueDireita src={filme.imgPoster.src} alt={filme.imgPoster.desc} />
       </DivFlex>
       <DivFlex className="galeria-fotos">
         <VisualizadorImagens galeria={galeria} className="galeria-fotos" />

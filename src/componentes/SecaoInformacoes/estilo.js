@@ -5,6 +5,11 @@ display: flex;
 flex-direction:column;
 align-items:center;
 gap:4em;
+
+& iframe{
+  width:100%;
+  height:23em;
+}
 .caixa-texto{
   width: 40%;
   height:auto;
