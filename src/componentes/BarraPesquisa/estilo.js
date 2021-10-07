@@ -6,6 +6,10 @@ flex-direction: row;
 margin: 2vh 0;
 `;
 
+export const Formulario = styled.form`
+display:flex;
+`;
+
 export const Pesquisa = styled.input`
     height: 5vh;
     width: 20vw;

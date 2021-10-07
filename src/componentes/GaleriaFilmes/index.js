@@ -1,36 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Galeria from './estilo';
 import Card from './Card/index';
 import dataBase from '../../db';
 
 function GaleriaFilmes({ categoria }) {
-  let categoriaSelecionada;
+  const [categoriaSelecionada, setCategoriaSelecionada] = useState(categoria);
+  const [filmesCategoria, setFilmesCategoria] = useState([]);
   switch (categoria) {
     case 'curtas':
-      categoriaSelecionada = 'Curta Metragem';
+      setCategoriaSelecionada('Curta Metragem');
       break;
     case 'medias':
-      categoriaSelecionada = 'Média Metragem';
+      setCategoriaSelecionada('Média Metragem');
       break;
     case 'longas':
-      categoriaSelecionada = 'Longa Metragem';
+      setCategoriaSelecionada('Longa Metragem');
+      break;
+    case '':
+      setCategoriaSelecionada('todos');
       break;
     default:
-      categoriaSelecionada = 'todos';
   }
-  console.log(`categoria: ${categoriaSelecionada}`);
+  setFilmesGaleria(filmes.filter((filme) => filme.titulo.startsWith(busca)));
 
   const filmesNaCategoria = categoriaSelecionada !== 'todos'
     ? dataBase.filmes.filter(
       (filme) => filme.categoria === categoriaSelecionada,
     ) : dataBase.filmes;
-  console.log(filmesNaCategoria);
+    setFilmesCategoria(
+      () => {return(
+      if( categoriaSelecionada === 'todos'){
+        return dataBase.filmes
+      }
+      else if(['Curta Metragem', 'Média Metragem', 'Longa Metragem'].includes(categoriaSelecionada)){
+        return dataBase.filmes.filter(
+          (filme) => filme.categoria === categoriaSelecionada,
+        ) 
+      }
+      )
+      }
+      )
   return (
     <Galeria>
-      {filmesNaCategoria.map((filme) => {
-        console.log(filme);
-        return <Card filme={filme} key={filme.url} />;
-      })}
+      {filmesNaCategoria.map((filme) => <Card filme={filme} key={filme.url} />)}
       ;
 
     </Galeria>
