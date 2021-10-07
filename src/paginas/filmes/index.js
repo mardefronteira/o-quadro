@@ -6,7 +6,7 @@ import dataBase from '../../db';
 // importar estilos
 // import {} from "./estilo.js";
 import {
-  Titulo, Barra, Pesquisa, BotaoPesquisa, Formulario,
+  Titulo, Barra, Pesquisa, BotaoPesquisa,
 } from './estilo';
 // importar componentes
 import Base from '../../componentes/Base';
@@ -24,19 +24,17 @@ function Filmes() {
       estadoMenu={1}
     >
       <Barra>
-        <Formulario>
-          <Pesquisa
-            type="text"
-            id="busca"
-            value={busca}
-            placeholder="Buscar nome do Filme"
-            onChange={(ev) => setBusca(ev.target.value)}
-          />
-          {/* <BotaoPesquisa type="button" alt="Pesquisar">
+        <Pesquisa
+          type="text"
+          id="busca"
+          value={busca}
+          placeholder="Buscar nome do Filme"
+          onChange={(evento) => setBusca(evento.target.value)}
+        />
+        {/* <BotaoPesquisa type="button" alt="Pesquisar">
             <img className="lupa" src="./imagens/barraPesquisa/lupaIcone.svg" alt="" />
             <img className="lupaHover" src="./imagens/barraPesquisa/lupaIconeHover.svg" alt="" />
           </BotaoPesquisa> */}
-        </Formulario>
       </Barra>
       <Titulo>Filmes</Titulo>
       <GaleriaFilmes categoria={busca !== '' ? busca : categoria} />
