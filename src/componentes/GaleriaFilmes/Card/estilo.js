@@ -31,6 +31,7 @@ export const Info = styled.p`
   padding: 5% 5%;
   font-weight: bold;
   font-size: 1em;
+  line-height: 1.5em;
   text-align: left;
   align-items: flex-end;
 `;
