@@ -169,6 +169,8 @@ const dataBase = {
   },
   publicacoes: [{
     img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     url: 'contos-morais',
     titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
     autor: 'DE ALEXANDRE GARCIA',
@@ -187,6 +189,8 @@ const dataBase = {
     ,
   }, {
     img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     url: 'contos-morais-2',
     titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
     autor: 'DE ALEXANDRE GARCIA',
@@ -204,6 +208,8 @@ const dataBase = {
     ,
   }, {
     img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     url: 'contos-morais-3',
     titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
     autor: 'DE ALEXANDRE GARCIA',
@@ -221,6 +227,8 @@ const dataBase = {
     ,
   }, {
     img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     url: 'contos-morais-4',
     titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
     autor: 'DE ALEXANDRE GARCIA',
@@ -252,25 +260,25 @@ const dataBase = {
     membros: [{
       nome: 'Anderson',
       img:
-    { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
+        { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
       sobre: 'lorem ipsum dolor sit',
     },
     {
       nome: 'Christopher',
       img:
-    { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
+        { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
       sobre: 'lorem ipsum dolor sit',
     },
     {
       nome: 'Evandro',
       img:
-    { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
+        { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
       sobre: 'lorem ipsum dolor sit',
     },
     {
       nome: 'Wellington',
       img:
-    { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
+        { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
       sobre: 'lorem ipsum dolor sit',
     },
 
