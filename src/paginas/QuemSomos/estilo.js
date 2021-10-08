@@ -7,6 +7,7 @@ text-align: center;
 export const Conteiner = styled.section`
 display:flex;
 margin: 3vh 0;
+padding-bottom: 5vh;
 `;
 
 export const FotoPrincipal = styled.div`

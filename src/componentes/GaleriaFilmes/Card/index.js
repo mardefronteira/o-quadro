@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FundoCard, Legenda, Info } from './estilo';
+import {
+  FundoCard, Legenda, Info, ItemInfo,
+} from './estilo';
 
 function Card({ filme }) {
   return (
@@ -8,13 +10,15 @@ function Card({ filme }) {
       <img src={filme.imgDestaque.src} alt={filme.imgDestaque.desc} />
       <Legenda>
         <Info>
-          {filme.titulo}
-          <br />
-          de
-          {' '}
-          {filme.autor}
-          <br />
-          {filme.ano}
+          <ItemInfo>{filme.titulo}</ItemInfo>
+          <ItemInfo>
+            de
+            {' '}
+            {filme.autor}
+          </ItemInfo>
+          <ItemInfo>
+            {filme.ano}
+          </ItemInfo>
         </Info>
       </Legenda>
     </FundoCard>
