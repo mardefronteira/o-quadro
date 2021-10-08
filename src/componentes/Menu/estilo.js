@@ -14,7 +14,7 @@ text-align:center;
  .dropdown:hover,dropdown:focus{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background:transparent;
-  transition: 0.3s;
+  
   li{
     display:flex;
     position:relative;
@@ -23,6 +23,7 @@ text-align:center;
     color:#009F66;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background:#FFFFFF;
+    transition: 0.3s;
   }  
 }
 .dropdown li{

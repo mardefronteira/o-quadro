@@ -77,32 +77,34 @@ function SecaoInformacoes({ taVermelho = false, id }) {
         <VisualizadorImagens galeria={galeria} className="galeria-fotos" />
 
       </DivFlex>
-      <DivFlex className="equipe" eColuna>
-        <SubTituloDestaque>EQUIPE</SubTituloDestaque>
-        {filme.equipe.principal}
+      <DivFlex eColuna style={{ width: '100%', height: 'auto', gap: '1rem' }}>
+        <DivFlex className="equipe" eColuna>
+          <SubTituloDestaque>EQUIPE</SubTituloDestaque>
+          {filme.equipe.principal}
+        </DivFlex>
+        <DivFlex id="mais-equipe" eColuna={false}>
+          {filme.equipe.adicional}
+        </DivFlex>
+
+        <MaisInfo
+          onClick={() => {
+            const maisEquipe = document.getElementById('mais-equipe');
+            const verMais = document.getElementById('verMais');
+
+            maisEquipe.classList.toggle('fadeIn');
+            maisEquipe.classList.toggle('fadeOut');
+            maisEquipe.classList.toggle('alturaZero');
+
+            verMais.classList.toggle('rotate');
+          }}
+        >
+          <img
+            id="verMais"
+            src="../imagens/seta_para_baixo.svg"
+            alt="Mais informações"
+          />
+        </MaisInfo>
       </DivFlex>
-      <DivFlex id="mais-equipe" eColuna={false}>
-        {filme.equipe.adicional}
-      </DivFlex>
-
-      <MaisInfo
-        onClick={() => {
-          const maisEquipe = document.getElementById('mais-equipe');
-          const verMais = document.getElementById('verMais');
-
-          maisEquipe.classList.toggle('fadeIn');
-          maisEquipe.classList.toggle('fadeOut');
-          maisEquipe.classList.toggle('alturaZero');
-
-          verMais.classList.toggle('rotate');
-        }}
-      >
-        <img
-          id="verMais"
-          src="../imagens/seta_para_baixo.svg"
-          alt="Mais informações"
-        />
-      </MaisInfo>
 
       <Carrossel categoria={filmesRelacionados} eFilmes taVermelho={taVermelho} />
     </ContainerFilmes>
