@@ -21,7 +21,7 @@ function FestivalMetro() {
           <Artigo>
             {festival.texto}
           </Artigo>
-          <Embarque type="button">{festival.button}</Embarque>
+          <a href={festival.link} target="_blank" rel="noreferrer"><Embarque type="button">{festival.button}</Embarque></a>
         </Conteiner>
         <Poster src={festival.img.src} alt={festival.img.desc} />
       </ConteinerPrincipal>

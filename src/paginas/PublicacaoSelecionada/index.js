@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 // importar estilos
 import {
@@ -15,6 +15,10 @@ import dataBase from '../../db';
 function PublicacaoSelecionada() {
   const { id } = useParams();
   const publicacao = dataBase.publicacoes.filter((publicacaoDb) => publicacaoDb.url === id)[0];
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
 
   return (
     <Base
@@ -48,7 +52,7 @@ function PublicacaoSelecionada() {
 
       </DivFlexPublicacao>
 
-      <Carrossel categoria={dataBase.publicacoes} taVermelho eFilmes={false} />
+      <Carrossel categoria={dataBase.publicacoes} taVermelho />
     </Base>
   );
 }

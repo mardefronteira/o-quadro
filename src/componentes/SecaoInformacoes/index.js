@@ -106,7 +106,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
         </MaisInfo>
       </DivFlex>
 
-      <Carrossel categoria={filmesRelacionados} eFilmes taVermelho={taVermelho} />
+      <Carrossel categoria={filmesRelacionados} taVermelho={taVermelho} />
     </ContainerFilmes>
   );
 }
