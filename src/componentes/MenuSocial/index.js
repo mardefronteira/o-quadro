@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import {
   ItemMenuSocial, ConteinerMenuSocial, ItemBotao, TextoEmail, ConteinerIcones,
 } from './estilo';
 
 function MenuSocial({ vermelho = false }) {
+  const [email, setEmail] = useState({
+    __html: `<p class="email">oquadro@oquadro.net</p>
+            <p class="info">(Clique para copiar)</p>`,
+  });
+
   return (
     <ConteinerMenuSocial
       taVermelho={vermelho}
@@ -27,15 +32,21 @@ function MenuSocial({ vermelho = false }) {
         </ItemMenuSocial>
         <ItemBotao
           type="button"
-          onClick={() => navigator.clipboard.writeText('oquadro@oquadro.net')}
+          onClick={() => {
+            navigator.clipboard.writeText('oquadro@oquadro.net');
+            setEmail({ __html: '<p class="email">copiado!</p>' });
+            setTimeout(() => {
+              setEmail({
+                __html: `<p class="email">oquadro@oquadro.net</p>
+            <p class="info">(Clique para copiar)</p>`,
+              });
+            }, 500);
+          }}
         >
           <img src="../imagens/icone/emailIcone.svg" alt="E-mail Logo" />
+          <TextoEmail dangerouslySetInnerHTML={email} />
         </ItemBotao>
       </ConteinerIcones>
-      <TextoEmail>
-        <p>oquadro@oquadro.net</p>
-        <p>(Clique no ícone para copiar o texto)</p>
-      </TextoEmail>
     </ConteinerMenuSocial>
 
   );

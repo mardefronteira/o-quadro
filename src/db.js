@@ -293,7 +293,6 @@ const dataBase = {
     img: { src: '/imagens/4edicao.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     link: 'https://metrouniversitario.com.br',
 
-
   },
 
 };

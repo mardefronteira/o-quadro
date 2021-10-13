@@ -26,22 +26,9 @@ width: 70%;
 height: 150%;
 align-self: left;
 justify-content: space-around;
-
 `;
 
-export const ItemMenuSocial = styled.a`
-    
-    img{
-        width: 100%;
-    }
-    img:hover{
-        opacity: 0.7;
-    }
-    `;
-
-export const ItemBotao = styled.button`
-background-color: transparent;
-border: none;
+export const ItemMenuSocial = styled.a`    
 img{
     width: 100%;
 }
@@ -51,9 +38,42 @@ img:hover{
 `;
 
 export const TextoEmail = styled.div`
-display: flex;
-width:15vw;
-flex-direction: column;
-margin-right: -18vw;
+position: absolute;
+left: 110%;
+top: 80%;
 
+display: flex;
+flex-direction: column;
+
+background-color: white;
+box-shadow: 2px 2px;
+
+padding: 1vh 1vw;
+
+opacity: 0;
+
+.info {
+    font-size: .8em;
+}
+
+.email {
+    font-size: 1em;
+}
+`;
+
+export const ItemBotao = styled.button`
+background-color: transparent;
+border: none;
+img{
+    width: 100%;
+}
+&:hover{
+    img{
+        opacity: .7;
+    }
+
+    ${TextoEmail}{
+        opacity: 1;
+    }
+}
 `;
