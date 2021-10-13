@@ -8,11 +8,11 @@ import {
 } from './estilo';
 
 const Card = ({
-  img, titulo, desc, taVermelho,
+  img, titulo, desc, taVermelho, url,
 }) => {
   console.log(img, titulo, desc);
   return (
-    <FundoCard as={Link} to="/filme/1">
+    <FundoCard as={Link} to={`/${taVermelho ? 'publicacao' : 'filme'}/${url}`}>
       <ImagemCard src={img.src} alt={img.desc} />
       <Subtitulo taVermelho={taVermelho}>{titulo.toUpperCase()}</Subtitulo>
       <Desc>{desc}</Desc>

@@ -179,13 +179,13 @@ const dataBase = {
     participacao: 'Gustavo Piaskoski e Marrara Mara',
     textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'fica técnica' }],
     tags: [],
-    fichaTecnica: ` <span>Editora ‏ : ‎ Arte & Letra </span>
-    <span>1ª edição (21 março 2019)</span>
-    <span>Idioma ‏ : ‎ Português</span>
-    <span>Capa comum ‏ : ‎ 171 páginas</span>
-    <span>ISBN-10 ‏ : ‎ 8560499997</span>
-    <span>ISBN-13 ‏ : ‎ 978-8560499991</span>
-    <span>Dimensões ‏ : ‎ 16 x 1 x 23 cm</span> `
+    fichaTecnica: ` Editora ‏ : ‎ Arte & Letra 
+    1ª edição (21 março 2019)
+    Idioma ‏ : ‎ Português
+    Capa comum ‏ : ‎ 171 páginas
+    ISBN-10 ‏ : ‎ 8560499997
+    ISBN-13 ‏ : ‎ 978-8560499991
+    Dimensões ‏ : ‎ 16 x 1 x 23 cm `
     ,
   }, {
     img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -290,7 +290,8 @@ const dataBase = {
     titulo: 'FESTIVAL METRÔ',
     button: 'Embarque',
     texto: 'Desde 2017, O Quadro produz o Metrô – Festival do Cinema Universitário Brasileiro. Voltado para a exibição, a reflexão e o debate sobre o cinema e as coisas da vida, o festival busca construir uma estação imaginária em que se encontrem e se cruzem diferentes formas de criação artística e de pessoas.',
-    img: { src: './imagens/4edicao.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    img: { src: '/imagens/4edicao.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    link: 'https://metrouniversitario.com.br',
 
   },
 

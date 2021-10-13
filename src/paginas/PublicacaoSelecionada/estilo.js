@@ -14,11 +14,13 @@ export const DivFlexPublicacao = styled(DivFlex)`
 }
 #conteiner-info {
   gap: 2em;
+  width:100%;
 }
 #secao-info {
-
+  width:50%;
 }
 #secao-titulo {
+ 
   p{
     text-align: justify;
     padding-bottom: 2vh;

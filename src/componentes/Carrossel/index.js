@@ -12,7 +12,7 @@ import {
   TituloCarrossel,
 } from './estilo';
 
-const Carrossel = ({ categoria, taVermelho = true, eFilmes = false }) => {
+const Carrossel = ({ categoria, taVermelho = true }) => {
   const restringir = (val, min, max) => {
     let valor = val;
     if (val < min) {
@@ -38,8 +38,8 @@ const Carrossel = ({ categoria, taVermelho = true, eFilmes = false }) => {
 
   return (
     <FundoCarrossel>
-      <TituloCarrossel eFilmes>
-        {eFilmes ? 'FILMES' : 'LIVROS'}
+      <TituloCarrossel taVermelho>
+        {taVermelho ? 'LIVROS' : 'FILMES'}
       </TituloCarrossel>
       <Conteiner>
         <SetaCarrossel
@@ -59,18 +59,21 @@ const Carrossel = ({ categoria, taVermelho = true, eFilmes = false }) => {
             img={categoria[pos].imgDestaque}
             titulo={categoria[pos].titulo}
             desc={categoria[pos].desc}
+            url={categoria[pos].url}
           />
           <Card
             taVermelho={taVermelho}
             img={categoria[pos + 1].imgDestaque}
             titulo={categoria[pos + 1].titulo}
             desc={categoria[pos + 1].desc}
+            url={categoria[pos + 1].url}
           />
           <Card
             taVermelho={taVermelho}
             img={categoria[pos + 2].imgDestaque}
             titulo={categoria[pos + 2].titulo}
             desc={categoria[pos + 2].desc}
+            url={categoria[pos + 2].url}
           />
 
         </ConteinerCards>
