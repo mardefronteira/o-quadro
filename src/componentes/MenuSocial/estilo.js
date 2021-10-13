@@ -12,15 +12,25 @@ export const ConteinerMenuSocial = styled.nav`
     border: 1px solid transparent;
     border-radius: 0 0.938em 0.938em 0;
     padding: 5vh 0;
+    align-items: center;
     justify-content: space-around;
     top: 20vh;
     box-shadow: 1px 1px 1px #000000;
     z-index: 55;
     `;
 
+export const ConteinerIcones = styled.div`
+display: flex;
+flex-direction: column;
+width: 70%;
+height: 150%;
+align-self: left;
+justify-content: space-around;
+
+`;
+
 export const ItemMenuSocial = styled.a`
-    width: 70%;
-    align-self: center;
+    
     img{
         width: 100%;
     }
@@ -28,3 +38,22 @@ export const ItemMenuSocial = styled.a`
         opacity: 0.7;
     }
     `;
+
+export const ItemBotao = styled.button`
+background-color: transparent;
+border: none;
+img{
+    width: 100%;
+}
+img:hover{
+    opacity: 0.7;
+}
+`;
+
+export const TextoEmail = styled.div`
+display: flex;
+width:15vw;
+flex-direction: column;
+margin-right: -18vw;
+
+`;
