@@ -7,6 +7,7 @@ text-align: center;
 export const Conteiner = styled.section`
 display:flex;
 margin: 3vh 0;
+padding-bottom: 5vh;
 `;
 
 export const FotoPrincipal = styled.div`
@@ -36,7 +37,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 width: 13vw;
-
 img{
     width: 100%;
 }
@@ -47,7 +47,12 @@ text-align: center;
 color: #009F66;
 `;
 
+export const FotoPerfil = styled.img`
+padding: 1vh;
+`;
+
 export const Info = styled.article`
 text-align: left;
+line-height: 1.15em;
 
 `;
