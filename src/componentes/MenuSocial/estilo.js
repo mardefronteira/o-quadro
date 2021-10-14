@@ -42,15 +42,15 @@ position: absolute;
 left: 110%;
 top: 80%;
 
-display: flex;
 flex-direction: column;
 
 background-color: white;
 box-shadow: 2px 2px;
 
 padding: 1vh 1vw;
+opacity: 1;
 
-opacity: 0;
+display: none;
 
 .info {
     font-size: .8em;
@@ -73,7 +73,7 @@ img{
     }
 
     ${TextoEmail}{
-        opacity: 1;
+        display: flex;
     }
 }
 `;

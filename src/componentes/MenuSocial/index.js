@@ -40,7 +40,7 @@ function MenuSocial({ vermelho = false }) {
                 __html: `<p class="email">oquadro@oquadro.net</p>
             <p class="info">(Clique para copiar)</p>`,
               });
-            }, 500);
+            }, 1000);
           }}
         >
           <img src="../imagens/icone/emailIcone.svg" alt="E-mail Logo" />
