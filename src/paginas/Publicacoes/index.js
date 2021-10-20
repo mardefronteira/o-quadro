@@ -15,6 +15,7 @@ import {
   InfoLivro,
   TituloLivro,
   AutorLivro,
+  ImgPatrocinadores,
 } from './estilo';
 // importar componentes
 import Base from '../../componentes/Base';
@@ -23,6 +24,7 @@ function Publicacoes() {
   const info = dataBase.editora;
   // eslint-disable-next-line prefer-destructuring
   const publicacoes = dataBase.publicacoes;
+  const patrocinio = dataBase.patrocinadores;
 
   return (
     <Base
@@ -63,6 +65,7 @@ function Publicacoes() {
               </InfoLivro>
             </Livro>
           ))}
+          <ImgPatrocinadores src={patrocinio.src} alt={patrocinio.desc} />
         </ListaLivro>
       </Conteiner>
     </Base>
