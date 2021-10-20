@@ -174,84 +174,90 @@ const dataBase = {
       quartoParagrafo: 'Atualmente, enquanto produz os 4 primeiros volumes da Coleção Escrever o Cinema, paralelamente busca a viabilização de mais 4 volumes determinados para nova fase da coleção, enquanto matura e idealiza demais projetos de escrita e publicação.',
     },
   },
-  publicacoes: [{
-    img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    url: 'contos-morais',
-    titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
-    autor: 'DE ALEXANDRE GARCIA',
-    sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
-    sinopse: 'Alexandre Garcia segue o estilo de Rohmer na precisão seca do corte. Testemunha a matéria-prima do cineasta dos afetos e das sensações, dos gestos no mundo, em seu modo prosaico de fazer cena e reivindicar moral. Para Rohmer, vale mais o suspiro que a ilação, o inefável que o postulado – e assim atravessa a forma dura do mundo. As grandes emoções não se deixam levar, nem as grandes frases empoladas – os momentos cruciais não têm circunstância. O traço do moralismo como lição de afetos transpira com fôlego de juventude nos Contos morais, em toda intensidade e delicadeza. Garcia sabe captar este movimento e acerta na mosca do olhar rohmeriano. Pois Rohmer é o poeta do prosaico e das pequenas emoções que se expressam em micro movimentos, das superfícies do mundo, dos traços sutis na expressão, das paisagens e cenografias delicadamente construídas. - Fernão Pessoa Ramos',
-    participacao: 'Gustavo Piaskoski e Marrara Mara',
-    textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'fica técnica' }],
-    tags: [],
-    fichaTecnica: ` Editora ‏ : ‎ Arte & Letra 
-    1ª edição (21 março 2019)
-    Idioma ‏ : ‎ Português
-    Capa comum ‏ : ‎ 171 páginas
-    ISBN-10 ‏ : ‎ 8560499997
-    ISBN-13 ‏ : ‎ 978-8560499991
-    Dimensões ‏ : ‎ 16 x 1 x 23 cm `
-    ,
-  }, {
-    img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    url: 'contos-morais-2',
-    titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
-    autor: 'DE ALEXANDRE GARCIA',
-    sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
-    sinopse: 'Alexandre Garcia segue o estilo de Rohmer na precisão seca do corte. Testemunha a matéria-prima do cineasta dos afetos e das sensações, dos gestos no mundo, em seu modo prosaico de fazer cena e reivindicar moral. Para Rohmer, vale mais o suspiro que a ilação, o inefável que o postulado – e assim atravessa a forma dura do mundo. As grandes emoções não se deixam levar, nem as grandes frases empoladas – os momentos cruciais não têm circunstância. O traço do moralismo como lição de afetos transpira com fôlego de juventude nos Contos morais, em toda intensidade e delicadeza. Garcia sabe captar este movimento e acerta na mosca do olhar rohmeriano. Pois Rohmer é o poeta do prosaico e das pequenas emoções que se expressam em micro movimentos, das superfícies do mundo, dos traços sutis na expressão, das paisagens e cenografias delicadamente construídas. - Fernão Pessoa Ramos',
-    participacao: 'Gustavo Piaskoski e Marrara Mara',
-    tags: [],
-    fichaTecnica: ` Editora ‏ : ‎ Arte & Letra
-    1ª edição (21 março 2019)
-    Idioma ‏ : ‎ Português
-    Capa comum ‏ : ‎ 171 páginas
-    ISBN-10 ‏ : ‎ 8560499997
-    ISBN-13 ‏ : ‎ 978-8560499991
-    Dimensões ‏ : ‎ 16 x 1 x 23 cm `
-    ,
-  }, {
-    img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    url: 'contos-morais-3',
-    titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
-    autor: 'DE ALEXANDRE GARCIA',
-    sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
-    sinopse: 'Alexandre Garcia segue o estilo de Rohmer na precisão seca do corte. Testemunha a matéria-prima do cineasta dos afetos e das sensações, dos gestos no mundo, em seu modo prosaico de fazer cena e reivindicar moral. Para Rohmer, vale mais o suspiro que a ilação, o inefável que o postulado – e assim atravessa a forma dura do mundo. As grandes emoções não se deixam levar, nem as grandes frases empoladas – os momentos cruciais não têm circunstância. O traço do moralismo como lição de afetos transpira com fôlego de juventude nos Contos morais, em toda intensidade e delicadeza. Garcia sabe captar este movimento e acerta na mosca do olhar rohmeriano. Pois Rohmer é o poeta do prosaico e das pequenas emoções que se expressam em micro movimentos, das superfícies do mundo, dos traços sutis na expressão, das paisagens e cenografias delicadamente construídas. - Fernão Pessoa Ramos',
-    participacao: 'Gustavo Piaskoski e Marrara Mara',
-    tags: [],
-    fichaTecnica: ` Editora ‏ : ‎ Arte & Letra
-    1ª edição (21 março 2019)
-    Idioma ‏ : ‎ Português
-    Capa comum ‏ : ‎ 171 páginas
-    ISBN-10 ‏ : ‎ 8560499997
-    ISBN-13 ‏ : ‎ 978-8560499991
-    Dimensões ‏ : ‎ 16 x 1 x 23 cm `
-    ,
-  }, {
-    img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    url: 'contos-morais-4',
-    titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
-    autor: 'DE ALEXANDRE GARCIA',
-    sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
-    sinopse: 'Alexandre Garcia segue o estilo de Rohmer na precisão seca do corte. Testemunha a matéria-prima do cineasta dos afetos e das sensações, dos gestos no mundo, em seu modo prosaico de fazer cena e reivindicar moral. Para Rohmer, vale mais o suspiro que a ilação, o inefável que o postulado – e assim atravessa a forma dura do mundo. As grandes emoções não se deixam levar, nem as grandes frases empoladas – os momentos cruciais não têm circunstância. O traço do moralismo como lição de afetos transpira com fôlego de juventude nos Contos morais, em toda intensidade e delicadeza. Garcia sabe captar este movimento e acerta na mosca do olhar rohmeriano. Pois Rohmer é o poeta do prosaico e das pequenas emoções que se expressam em micro movimentos, das superfícies do mundo, dos traços sutis na expressão, das paisagens e cenografias delicadamente construídas. - Fernão Pessoa Ramos',
-    participacao: 'Gustavo Piaskoski e Marrara Mara',
-    tags: [],
-    fichaTecnica: ` Editora ‏ : ‎ Arte & Letra
-    1ª edição (21 março 2019)
-    Idioma ‏ : ‎ Português
-    Capa comum ‏ : ‎ 171 páginas
-    ISBN-10 ‏ : ‎ 8560499997
-    ISBN-13 ‏ : ‎ 978-8560499991
-    Dimensões ‏ : ‎ 16 x 1 x 23 cm `
-    ,
+  patrocinadores: {
+    titulo: 'Logo de Patrocinadores',
+    src: '/imagens/patrocinadores.png',
+    desc: 'descrição da imagem',
   },
+  publicacoes: [
+    {
+      img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      url: 'contos-morais',
+      titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
+      autor: 'DE ALEXANDRE GARCIA',
+      sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
+      sinopse: 'Alexandre Garcia segue o estilo de Rohmer na precisão seca do corte. Testemunha a matéria-prima do cineasta dos afetos e das sensações, dos gestos no mundo, em seu modo prosaico de fazer cena e reivindicar moral. Para Rohmer, vale mais o suspiro que a ilação, o inefável que o postulado – e assim atravessa a forma dura do mundo. As grandes emoções não se deixam levar, nem as grandes frases empoladas – os momentos cruciais não têm circunstância. O traço do moralismo como lição de afetos transpira com fôlego de juventude nos Contos morais, em toda intensidade e delicadeza. Garcia sabe captar este movimento e acerta na mosca do olhar rohmeriano. Pois Rohmer é o poeta do prosaico e das pequenas emoções que se expressam em micro movimentos, das superfícies do mundo, dos traços sutis na expressão, das paisagens e cenografias delicadamente construídas. - Fernão Pessoa Ramos',
+      participacao: 'Gustavo Piaskoski e Marrara Mara',
+      textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'fica técnica' }],
+      tags: [],
+      fichaTecnica: ` Editora ‏ : ‎ Arte & Letra 
+    1ª edição (21 março 2019)
+    Idioma ‏ : ‎ Português
+    Capa comum ‏ : ‎ 171 páginas
+    ISBN-10 ‏ : ‎ 8560499997
+    ISBN-13 ‏ : ‎ 978-8560499991
+    Dimensões ‏ : ‎ 16 x 1 x 23 cm `
+      ,
+    }, {
+      img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      url: 'contos-morais-2',
+      titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
+      autor: 'DE ALEXANDRE GARCIA',
+      sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
+      sinopse: 'Alexandre Garcia segue o estilo de Rohmer na precisão seca do corte. Testemunha a matéria-prima do cineasta dos afetos e das sensações, dos gestos no mundo, em seu modo prosaico de fazer cena e reivindicar moral. Para Rohmer, vale mais o suspiro que a ilação, o inefável que o postulado – e assim atravessa a forma dura do mundo. As grandes emoções não se deixam levar, nem as grandes frases empoladas – os momentos cruciais não têm circunstância. O traço do moralismo como lição de afetos transpira com fôlego de juventude nos Contos morais, em toda intensidade e delicadeza. Garcia sabe captar este movimento e acerta na mosca do olhar rohmeriano. Pois Rohmer é o poeta do prosaico e das pequenas emoções que se expressam em micro movimentos, das superfícies do mundo, dos traços sutis na expressão, das paisagens e cenografias delicadamente construídas. - Fernão Pessoa Ramos',
+      participacao: 'Gustavo Piaskoski e Marrara Mara',
+      tags: [],
+      fichaTecnica: ` Editora ‏ : ‎ Arte & Letra
+    1ª edição (21 março 2019)
+    Idioma ‏ : ‎ Português
+    Capa comum ‏ : ‎ 171 páginas
+    ISBN-10 ‏ : ‎ 8560499997
+    ISBN-13 ‏ : ‎ 978-8560499991
+    Dimensões ‏ : ‎ 16 x 1 x 23 cm `
+      ,
+    }, {
+      img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      url: 'contos-morais-3',
+      titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
+      autor: 'DE ALEXANDRE GARCIA',
+      sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
+      sinopse: 'Alexandre Garcia segue o estilo de Rohmer na precisão seca do corte. Testemunha a matéria-prima do cineasta dos afetos e das sensações, dos gestos no mundo, em seu modo prosaico de fazer cena e reivindicar moral. Para Rohmer, vale mais o suspiro que a ilação, o inefável que o postulado – e assim atravessa a forma dura do mundo. As grandes emoções não se deixam levar, nem as grandes frases empoladas – os momentos cruciais não têm circunstância. O traço do moralismo como lição de afetos transpira com fôlego de juventude nos Contos morais, em toda intensidade e delicadeza. Garcia sabe captar este movimento e acerta na mosca do olhar rohmeriano. Pois Rohmer é o poeta do prosaico e das pequenas emoções que se expressam em micro movimentos, das superfícies do mundo, dos traços sutis na expressão, das paisagens e cenografias delicadamente construídas. - Fernão Pessoa Ramos',
+      participacao: 'Gustavo Piaskoski e Marrara Mara',
+      tags: [],
+      fichaTecnica: ` Editora ‏ : ‎ Arte & Letra
+    1ª edição (21 março 2019)
+    Idioma ‏ : ‎ Português
+    Capa comum ‏ : ‎ 171 páginas
+    ISBN-10 ‏ : ‎ 8560499997
+    ISBN-13 ‏ : ‎ 978-8560499991
+    Dimensões ‏ : ‎ 16 x 1 x 23 cm `
+      ,
+    }, {
+      img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      imgPoster: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      url: 'contos-morais-4',
+      titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
+      autor: 'DE ALEXANDRE GARCIA',
+      sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
+      sinopse: 'Alexandre Garcia segue o estilo de Rohmer na precisão seca do corte. Testemunha a matéria-prima do cineasta dos afetos e das sensações, dos gestos no mundo, em seu modo prosaico de fazer cena e reivindicar moral. Para Rohmer, vale mais o suspiro que a ilação, o inefável que o postulado – e assim atravessa a forma dura do mundo. As grandes emoções não se deixam levar, nem as grandes frases empoladas – os momentos cruciais não têm circunstância. O traço do moralismo como lição de afetos transpira com fôlego de juventude nos Contos morais, em toda intensidade e delicadeza. Garcia sabe captar este movimento e acerta na mosca do olhar rohmeriano. Pois Rohmer é o poeta do prosaico e das pequenas emoções que se expressam em micro movimentos, das superfícies do mundo, dos traços sutis na expressão, das paisagens e cenografias delicadamente construídas. - Fernão Pessoa Ramos',
+      participacao: 'Gustavo Piaskoski e Marrara Mara',
+      tags: [],
+      fichaTecnica: ` Editora ‏ : ‎ Arte & Letra
+    1ª edição (21 março 2019)
+    Idioma ‏ : ‎ Português
+    Capa comum ‏ : ‎ 171 páginas
+    ISBN-10 ‏ : ‎ 8560499997
+    ISBN-13 ‏ : ‎ 978-8560499991
+    Dimensões ‏ : ‎ 16 x 1 x 23 cm `
+      ,
+    },
 
   ],
   quemSomos: {
@@ -294,12 +300,17 @@ const dataBase = {
   },
 
   metro: {
+    logo: { src: '/imagens/festivalMetro.svg', desc: 'Logo Festival Metro' },
     titulo: 'FESTIVAL METRÔ',
     button: 'Embarque',
     texto: 'Desde 2017, O Quadro produz o Metrô – Festival do Cinema Universitário Brasileiro. Voltado para a exibição, a reflexão e o debate sobre o cinema e as coisas da vida, o festival busca construir uma estação imaginária em que se encontrem e se cruzem diferentes formas de criação artística e de pessoas.',
     img: { src: '/imagens/4edicao.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     link: 'https://metrouniversitario.com.br',
-
+    slideshow: [
+      { src: '/imagens/4edicao.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/teste/fotoPerfilQuadro.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    ],
   },
 
 };
