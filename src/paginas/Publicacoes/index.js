@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import dataBase from '../../db';
 // importar componentes
@@ -15,14 +15,20 @@ import {
   InfoLivro,
   TituloLivro,
   AutorLivro,
+  DivFlexLivros,
 } from './estilo';
 // importar componentes
+
+import { MaisInfo } from '../../componentes/SecaoInformacoes/estilo';
 import Base from '../../componentes/Base';
 
 function Publicacoes() {
   const info = dataBase.editora;
   // eslint-disable-next-line prefer-destructuring
   const publicacoes = dataBase.publicacoes;
+  useEffect(() => {
+    document.getElementById('lista-livros').classList.add('fadeOut', 'alturaZero');
+  }, []);
 
   return (
     <Base
@@ -53,7 +59,7 @@ function Publicacoes() {
           </ArtigoLateral>
         </ConteinerLinha>
 
-        <ListaLivro>
+        <ListaLivro id="lista-livros">
           {publicacoes.map((publicacao) => (
             <Livro as={Link} to={`publicacao/${publicacao.url}`}>
               <CapaLivro src={publicacao.img.src} alt={publicacao.img.desc} />
@@ -64,6 +70,28 @@ function Publicacoes() {
             </Livro>
           ))}
         </ListaLivro>
+        <DivFlexLivros>
+          <MaisInfo
+            style={{}}
+            onClick={() => {
+              const livros = document.getElementById('lista-livros');
+              const verMais = document.getElementById('verMais');
+
+              livros.classList.toggle('fadeIn');
+              livros.classList.toggle('fadeOut');
+              livros.classList.toggle('alturaZero');
+
+              verMais.classList.toggle('rotate');
+            }}
+          >
+
+            <img
+              id="verMais"
+              src="../imagens/seta_para_baixo.svg"
+              alt="Mais informações"
+            />
+          </MaisInfo>
+        </DivFlexLivros>
       </Conteiner>
     </Base>
   );
