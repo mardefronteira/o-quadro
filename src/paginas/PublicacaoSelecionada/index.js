@@ -5,7 +5,13 @@ import {
   DivFlex,
 } from '../../componentes/SecaoInformacoes/estilo';
 import {
-  DivFlexPublicacao, ImgDestaqueDireita, TituloLivro, TituloVermelho, NomeAutor,
+  DivFlexPublicacao,
+  ImgDestaqueDireita,
+  TituloLivro,
+  TituloVermelho,
+  NomeAutor,
+  ImgPatrocinio,
+  Linha,
 } from './estilo';
 // importar componentes
 import Base from '../../componentes/Base';
@@ -15,7 +21,7 @@ import dataBase from '../../db';
 function PublicacaoSelecionada() {
   const { id } = useParams();
   const publicacao = dataBase.publicacoes.filter((publicacaoDb) => publicacaoDb.url === id)[0];
-
+  const patrocinio = dataBase.patrocinadores;
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [id]);
@@ -49,9 +55,10 @@ function PublicacaoSelecionada() {
           </DivFlex>
           <ImgDestaqueDireita src={publicacao.img.src} alt={publicacao.img.desc} />
         </DivFlex>
+        <ImgPatrocinio src={patrocinio.src} alt={patrocinio.desc} />
 
       </DivFlexPublicacao>
-
+      <Linha />
       <Carrossel categoria={dataBase.publicacoes} taVermelho />
     </Base>
   );

@@ -77,4 +77,5 @@ color: #000000;
 
 export const ImgPatrocinadores = styled.img`
 width: 100%;
+padding-top: 5vh;
 `;
