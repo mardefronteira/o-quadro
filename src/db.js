@@ -262,7 +262,7 @@ const dataBase = {
   ],
   quemSomos: {
     titulo: 'QUEM SOMOS',
-    imgDestaque: { src: './imagens/teste/FotoPerfilQuadro1.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: '/imagens/teste/FotoPerfilQuadro1.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     texto: {
       primeiroParagrafo: 'Formada em 2010, O Quadro é uma produtora voltada para os filmes, com a paixão de quem gosta de fazer cinema porque ama ver cinema.',
       segundoParagrafo: 'Depois de mais de uma dezena de curtas-metragens premiados, com circulação nos principais festivais de cinema nacionais, além de canais de TV, como TNT, Canal Brasil, TCM, entre outros), a produtora lançou, em 2017, seu primeiro longa-metragem, “Bye Bye Jaqueline”. Com estreia em diversas capitais e exibido em festivais em Portugal e na África do Sul, o filme é uma comédia de espírito livre, que reúne diversas das características dos curtas-metragens realizados pela produtora ao longo dos anos.',
