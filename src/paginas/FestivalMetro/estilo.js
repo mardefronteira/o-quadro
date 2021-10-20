@@ -33,7 +33,7 @@ background-color: #007F50;
 opacity:0.7;
 color: #ffffff;
 padding: 1vh 1vw;
-
+font-size: 1.15em;
 border: 1px solid transparent;
 border-radius: 0.2em;
 box-shadow: 0px 2px 4px 0px #00000080;

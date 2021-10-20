@@ -28,9 +28,17 @@ export const Legenda = styled.div`
 
 export const Info = styled.p`
   display: flex;
+  flex-direction: column;
   padding: 5% 5%;
   font-weight: bold;
   font-size: 1em;
   text-align: left;
-  align-items: flex-end;
+  align-content: flex-end;
+  justify-content: flex-end;
+  gap: 1.2vh;
+`;
+
+export const ItemInfo = styled.p`
+line-height: 1.1;
+
 `;
