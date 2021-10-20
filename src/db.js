@@ -293,6 +293,7 @@ const dataBase = {
   },
 
   metro: {
+    logo: { src: '/imagens/festivalMetro.svg', desc: 'Logo Festival Metro' },
     titulo: 'FESTIVAL METRÔ',
     button: 'Embarque',
     texto: 'Desde 2017, O Quadro produz o Metrô – Festival do Cinema Universitário Brasileiro. Voltado para a exibição, a reflexão e o debate sobre o cinema e as coisas da vida, o festival busca construir uma estação imaginária em que se encontrem e se cruzem diferentes formas de criação artística e de pessoas.',

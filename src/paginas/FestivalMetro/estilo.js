@@ -19,13 +19,13 @@ align-items: center;
 width: 50%;
 `;
 
-export const Logo = styled.h2`
+export const Logo = styled.img`
 `;
 
 export const Artigo = styled.article`
 width: 55%;
 text-align: justify;
-margin: 4vh 0;
+margin: 0 0 8vh 0;
 `;
 
 export const Embarque = styled.button`

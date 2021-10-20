@@ -15,9 +15,7 @@ function FestivalMetro() {
     >
       <ConteinerPrincipal>
         <Conteiner>
-          <Logo>
-            {festival.titulo.toUpperCase()}
-          </Logo>
+          <Logo src={festival.logo.src} alt={festival.logo.desc} />
           <Artigo>
             {festival.texto}
           </Artigo>
