@@ -2,6 +2,7 @@ const dataBase = {
   filmes: [{
     id: '1',
     url: 'terror-noturno',
+    imgIcone: { src: 'http://www.oquadro.net/wp-content/uploads/2019/02/poster_terror_not-716x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2019/02/poster_terror_not-716x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Terror Noturno',
@@ -14,26 +15,27 @@ const dataBase = {
     ano: 2019,
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://player.vimeo.com/video/356585839?h=6667095',
-    equipe: {
-      principal: `Elenco: Gustavo Piaskoski e Marrara Mara
-      Direção e roteiro: Evandro Scorsin
-      Produção executiva: Anderson Simão
-      Montagem: Christopher Faust
-      Produção: Wellington Sari
-      Coordenação: Gustavo Duarte
-      Direção de fotografia: André Senna
-      Trilha sonora: Felipe Ayres
-      Finalização de som: Vitor Coroa e Vitor Moraes`,
-      adicional: `Elenco de apoio: Martha Chapieski e Altamar Cezar
-        Equipe: Operador de câmera: André Senna | Assistente de câmera: Murillo Marchesi | Assistente de fotografia: Bianca Ono | Elétrica: Murilo Lazarin | Arte, figurino e maquiagem: Morgana Horst | Correção de cor: Lucas Machado | Estúdio de correção de cor: House Films | Logger e assistente de direção: Christopher Faust | Som direto: Anderson Simão | Edição de som: Rodrigo Sacic, Vitor Coroa e Vitor Moraes | Foley: Vitor Moraes | Dublagem: Luiz Lepchak | Estúdio de mixagem: Estúdio Desterro | Designer gráfico: Pietro Luigi | Acessibilidade: Etc Filmes | Traduções: O Editorial – Traduções e Edições | Sincronização português e tradução inglês: Paulo Scarpa | Tradução espanhol: Niala Pessuto
-        Agradecimentos: Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc`,
-
+    principal: {
+      __html: `<p><span class="texto-verde">Elenco:</span> Gustavo Piaskoski e Marrara Mara</p>
+      <p><span class="texto-verde">Direção e roteiro:</span> Evandro Scorsin</p>
+      <p><span class="texto-verde">Produção executiva:</span> Anderson Simão</p>
+      <p><span class="texto-verde">Montagem:</span> Christopher Faust</p>
+      <p><span class="texto-verde">Produção:</span> Wellington Sari</p>
+      <p><span class="texto-verde">Coordenação:</span> Gustavo Duarte</p>
+      <p><span class="texto-verde">Direção de fotografia:</span> André Senna</p>
+      <p><span class="texto-verde">Trilha sonora:</span> Felipe Ayres</p>
+      <p><span class="texto-verde">Finalização de som:</span> Vitor Coroa e Vitor Moraes</p>`,
+    },
+    adicional: {
+      __html: `<p><span class="texto-verde">Elenco de apoio:</span> Martha Chapieski e Altamar Cezar | <span class="texto-verde">Operador de câmera:</span> André Senna | <span class="texto-verde">Assistente de câmera:</span> Murillo Marchesi | <span class="texto-verde">Assistente de fotografia:</span> Bianca Ono | <span class="texto-verde">Elétrica:</span> Murilo Lazarin | <span class="texto-verde">Arte, figurino e maquiagem:</span> Morgana Horst | <span class="texto-verde">Correção de cor: Lucas Machado | <span class="texto-verde">Estúdio de correção de cor:</span> House Films | Logger e assistente de direção:</span> Christopher Faust | <span class="texto-verde">Som direto:</span> Anderson Simão | <span class="texto-verde">Edição de som:</span> Rodrigo Sacic, Vitor Coroa e Vitor Moraes | <span class="texto-verde">Foley:</span> Vitor Moraes | <span class="texto-verde">Dublagem:</span> Luiz Lepchak | <span class="texto-verde">Estúdio de mixagem:</span> Estúdio Desterro | <span class="texto-verde">Designer gráfico:</span> Pietro Luigi | <span class="texto-verde">Acessibilidade:</span> Etc Filmes | <span class="texto-verde">Traduções:</span> O Editorial – Traduções e Edições | <span class="texto-verde">Sincronização português e tradução inglês:</span> Paulo Scarpa | <span class="texto-verde">Tradução espanhol:</span> Niala Pessuto</p>
+        <p><span class="texto-verde">Agradecimentos:</span> Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc</p>`,
     },
 
   },
   {
     id: '2',
     url: 'bye-bye-jaqueline',
+    imgIcone: { src: 'http://www.oquadro.net/wp-content/uploads/2016/08/Cartaz-cinema-menor.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2016/08/Cartaz-cinema-menor.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Bye Bye Jaqueline',
@@ -47,25 +49,27 @@ const dataBase = {
     linkVideo: '',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     equipe: {
-      principal: `Elenco: Gustavo Piaskoski e Marrara Mara
-      Direção e roteiro: Evandro Scorsin
-      Produção executiva: Anderson Simão
-      Montagem: Christopher Faust
-      Produção: Wellington Sari
-      Coordenação: Gustavo Duarte
-      Direção de fotografia: André Senna
-      Trilha sonora: Felipe Ayres
-      Finalização de som: Vitor Coroa e Vitor Moraes`,
-      adicional: `Elenco de apoio: Martha Chapieski e Altamar Cezar
-        Equipe: Operador de câmera: André Senna | Assistente de câmera: Murillo Marchesi | Assistente de fotografia: Bianca Ono | Elétrica: Murilo Lazarin | Arte, figurino e maquiagem: Morgana Horst | Correção de cor: Lucas Machado | Estúdio de correção de cor: House Films | Logger e assistente de direção: Christopher Faust | Som direto: Anderson Simão | Edição de som: Rodrigo Sacic, Vitor Coroa e Vitor Moraes | Foley: Vitor Moraes | Dublagem: Luiz Lepchak | Estúdio de mixagem: Estúdio Desterro | Designer gráfico: Pietro Luigi | Acessibilidade: Etc Filmes | Traduções: O Editorial – Traduções e Edições | Sincronização português e tradução inglês: Paulo Scarpa | Tradução espanhol: Niala Pessuto
-        Agradecimentos: Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc`,
-
+      principal: {
+        __html: `<p><span class="texto-verde">Elenco:</span> Gustavo Piaskoski e Marrara Mara</p>
+      <p><span class="texto-verde">Direção e roteiro:</span> Evandro Scorsin</p>
+      <p><span class="texto-verde">Produção executiva:</span> Anderson Simão</p>
+      <p><span class="texto-verde">Montagem:</span> Christopher Faust</p>
+      <p><span class="texto-verde">Produção:</span> Wellington Sari</p>
+      <p><span class="texto-verde">Coordenação:</span> Gustavo Duarte</p>
+      <p><span class="texto-verde">Direção de fotografia:</span> André Senna</p>
+      <p><span class="texto-verde">Trilha sonora:</span> Felipe Ayres</p>
+      <p><span class="texto-verde">Finalização de som:</span> Vitor Coroa e Vitor Moraes</p>`,
+      },
+      adicional: {
+        __html: `<p><span class="texto-verde">Elenco de apoio:</span> Martha Chapieski e Altamar Cezar | <span class="texto-verde">Operador de câmera:</span> André Senna | <span class="texto-verde">Assistente de câmera:</span> Murillo Marchesi | <span class="texto-verde">Assistente de fotografia:</span> Bianca Ono | <span class="texto-verde">Elétrica:</span> Murilo Lazarin | <span class="texto-verde">Arte, figurino e maquiagem:</span> Morgana Horst | <span class="texto-verde">Correção de cor: Lucas Machado | <span class="texto-verde">Estúdio de correção de cor:</span> House Films | Logger e assistente de direção:</span> Christopher Faust | <span class="texto-verde">Som direto:</span> Anderson Simão | <span class="texto-verde">Edição de som:</span> Rodrigo Sacic, Vitor Coroa e Vitor Moraes | <span class="texto-verde">Foley:</span> Vitor Moraes | <span class="texto-verde">Dublagem:</span> Luiz Lepchak | <span class="texto-verde">Estúdio de mixagem:</span> Estúdio Desterro | <span class="texto-verde">Designer gráfico:</span> Pietro Luigi | <span class="texto-verde">Acessibilidade:</span> Etc Filmes | <span class="texto-verde">Traduções:</span> O Editorial – Traduções e Edições | <span class="texto-verde">Sincronização português e tradução inglês:</span> Paulo Scarpa | <span class="texto-verde">Tradução espanhol:</span> Niala Pessuto</p>
+        <p><span class="texto-verde">Agradecimentos:</span> Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc</p>`,
+      },
     },
-
   },
   {
     id: '3',
     url: 'paranoia-doce',
+    imgIcone: { src: 'http://www.oquadro.net/wp-content/uploads/2017/02/cartaz_paranoia-doce-A3_port_logos.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2017/02/cartaz_paranoia-doce-A3_port_logos.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Paranoia Doce',
@@ -79,25 +83,27 @@ const dataBase = {
     linkVideo: '',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     equipe: {
-      principal: `Elenco: Gustavo Piaskoski e Marrara Mara
-      Direção e roteiro: Evandro Scorsin
-      Produção executiva: Anderson Simão
-      Montagem: Christopher Faust
-      Produção: Wellington Sari
-      Coordenação: Gustavo Duarte
-      Direção de fotografia: André Senna
-      Trilha sonora: Felipe Ayres
-      Finalização de som: Vitor Coroa e Vitor Moraes`,
-      adicional: `Elenco de apoio: Martha Chapieski e Altamar Cezar
-        Equipe: Operador de câmera: André Senna | Assistente de câmera: Murillo Marchesi | Assistente de fotografia: Bianca Ono | Elétrica: Murilo Lazarin | Arte, figurino e maquiagem: Morgana Horst | Correção de cor: Lucas Machado | Estúdio de correção de cor: House Films | Logger e assistente de direção: Christopher Faust | Som direto: Anderson Simão | Edição de som: Rodrigo Sacic, Vitor Coroa e Vitor Moraes | Foley: Vitor Moraes | Dublagem: Luiz Lepchak | Estúdio de mixagem: Estúdio Desterro | Designer gráfico: Pietro Luigi | Acessibilidade: Etc Filmes | Traduções: O Editorial – Traduções e Edições | Sincronização português e tradução inglês: Paulo Scarpa | Tradução espanhol: Niala Pessuto
-        Agradecimentos: Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc`,
-
+      principal: {
+        __html: `<p><span class="texto-verde">Elenco:</span> Gustavo Piaskoski e Marrara Mara</p>
+      <p><span class="texto-verde">Direção e roteiro:</span> Evandro Scorsin</p>
+      <p><span class="texto-verde">Produção executiva:</span> Anderson Simão</p>
+      <p><span class="texto-verde">Montagem:</span> Christopher Faust</p>
+      <p><span class="texto-verde">Produção:</span> Wellington Sari</p>
+      <p><span class="texto-verde">Coordenação:</span> Gustavo Duarte</p>
+      <p><span class="texto-verde">Direção de fotografia:</span> André Senna</p>
+      <p><span class="texto-verde">Trilha sonora:</span> Felipe Ayres</p>
+      <p><span class="texto-verde">Finalização de som:</span> Vitor Coroa e Vitor Moraes</p>`,
+      },
+      adicional: {
+        __html: `<p><span class="texto-verde">Elenco de apoio:</span> Martha Chapieski e Altamar Cezar | <span class="texto-verde">Operador de câmera:</span> André Senna | <span class="texto-verde">Assistente de câmera:</span> Murillo Marchesi | <span class="texto-verde">Assistente de fotografia:</span> Bianca Ono | <span class="texto-verde">Elétrica:</span> Murilo Lazarin | <span class="texto-verde">Arte, figurino e maquiagem:</span> Morgana Horst | <span class="texto-verde">Correção de cor: Lucas Machado | <span class="texto-verde">Estúdio de correção de cor:</span> House Films | Logger e assistente de direção:</span> Christopher Faust | <span class="texto-verde">Som direto:</span> Anderson Simão | <span class="texto-verde">Edição de som:</span> Rodrigo Sacic, Vitor Coroa e Vitor Moraes | <span class="texto-verde">Foley:</span> Vitor Moraes | <span class="texto-verde">Dublagem:</span> Luiz Lepchak | <span class="texto-verde">Estúdio de mixagem:</span> Estúdio Desterro | <span class="texto-verde">Designer gráfico:</span> Pietro Luigi | <span class="texto-verde">Acessibilidade:</span> Etc Filmes | <span class="texto-verde">Traduções:</span> O Editorial – Traduções e Edições | <span class="texto-verde">Sincronização português e tradução inglês:</span> Paulo Scarpa | <span class="texto-verde">Tradução espanhol:</span> Niala Pessuto</p>
+        <p><span class="texto-verde">Agradecimentos:</span> Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc</p>`,
+      },
     },
-
   },
   {
     id: '4',
     url: 'euller-miller-entre-dois-mundos',
+    imgIcone: { src: 'http://www.oquadro.net/wp-content/uploads/2017/08/cartaz_vertical_WEB_1-724x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2017/08/cartaz_vertical_WEB_1-724x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: 'http://www.oquadro.net/wp-content/uploads/2017/08/cartaz_vertical_WEB_1-724x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Euller Miller Entre Dois Mundos',
@@ -111,24 +117,28 @@ const dataBase = {
     linkVideo: '',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     equipe: {
-      principal: `Elenco: Gustavo Piaskoski e Marrara Mara
-      Direção e roteiro: Evandro Scorsin
-      Produção executiva: Anderson Simão
-      Montagem: Christopher Faust
-      Produção: Wellington Sari
-      Coordenação: Gustavo Duarte
-      Direção de fotografia: André Senna
-      Trilha sonora: Felipe Ayres
-      Finalização de som: Vitor Coroa e Vitor Moraes`,
-      adicional: `Elenco de apoio: Martha Chapieski e Altamar Cezar
-        Equipe: Operador de câmera: André Senna | Assistente de câmera: Murillo Marchesi | Assistente de fotografia: Bianca Ono | Elétrica: Murilo Lazarin | Arte, figurino e maquiagem: Morgana Horst | Correção de cor: Lucas Machado | Estúdio de correção de cor: House Films | Logger e assistente de direção: Christopher Faust | Som direto: Anderson Simão | Edição de som: Rodrigo Sacic, Vitor Coroa e Vitor Moraes | Foley: Vitor Moraes | Dublagem: Luiz Lepchak | Estúdio de mixagem: Estúdio Desterro | Designer gráfico: Pietro Luigi | Acessibilidade: Etc Filmes | Traduções: O Editorial – Traduções e Edições | Sincronização português e tradução inglês: Paulo Scarpa | Tradução espanhol: Niala Pessuto
-        Agradecimentos: Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc`,
+      principal: {
+        __html: `<p><span class="texto-verde">Elenco:</span> Gustavo Piaskoski e Marrara Mara</p>
+      <p><span class="texto-verde">Direção e roteiro:</span> Evandro Scorsin</p>
+      <p><span class="texto-verde">Produção executiva:</span> Anderson Simão</p>
+      <p><span class="texto-verde">Montagem:</span> Christopher Faust</p>
+      <p><span class="texto-verde">Produção:</span> Wellington Sari</p>
+      <p><span class="texto-verde">Coordenação:</span> Gustavo Duarte</p>
+      <p><span class="texto-verde">Direção de fotografia:</span> André Senna</p>
+      <p><span class="texto-verde">Trilha sonora:</span> Felipe Ayres</p>
+      <p><span class="texto-verde">Finalização de som:</span> Vitor Coroa e Vitor Moraes</p>`,
+      },
+      adicional: {
+        __html: `<p><span class="texto-verde">Elenco de apoio:</span> Martha Chapieski e Altamar Cezar | <span class="texto-verde">Operador de câmera:</span> André Senna | <span class="texto-verde">Assistente de câmera:</span> Murillo Marchesi | <span class="texto-verde">Assistente de fotografia:</span> Bianca Ono | <span class="texto-verde">Elétrica:</span> Murilo Lazarin | <span class="texto-verde">Arte, figurino e maquiagem:</span> Morgana Horst | <span class="texto-verde">Correção de cor: Lucas Machado | <span class="texto-verde">Estúdio de correção de cor:</span> House Films | Logger e assistente de direção:</span> Christopher Faust | <span class="texto-verde">Som direto:</span> Anderson Simão | <span class="texto-verde">Edição de som:</span> Rodrigo Sacic, Vitor Coroa e Vitor Moraes | <span class="texto-verde">Foley:</span> Vitor Moraes | <span class="texto-verde">Dublagem:</span> Luiz Lepchak | <span class="texto-verde">Estúdio de mixagem:</span> Estúdio Desterro | <span class="texto-verde">Designer gráfico:</span> Pietro Luigi | <span class="texto-verde">Acessibilidade:</span> Etc Filmes | <span class="texto-verde">Traduções:</span> O Editorial – Traduções e Edições | <span class="texto-verde">Sincronização português e tradução inglês:</span> Paulo Scarpa | <span class="texto-verde">Tradução espanhol:</span> Niala Pessuto</p>
+        <p><span class="texto-verde">Agradecimentos:</span> Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc</p>`,
+      },
 
     },
 
   }, {
     id: '5',
     url: 'dias-de-trovao',
+    imgIcone: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Dias de Trovão',
@@ -142,19 +152,21 @@ const dataBase = {
     linkVideo: '',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     equipe: {
-      principal: `Elenco: Gustavo Piaskoski e Marrara Mara
-      Direção e roteiro: Evandro Scorsin
-      Produção executiva: Anderson Simão
-      Montagem: Christopher Faust
-      Produção: Wellington Sari
-      Coordenação: Gustavo Duarte
-      Direção de fotografia: André Senna
-      Trilha sonora: Felipe Ayres
-      Finalização de som: Vitor Coroa e Vitor Moraes`,
-      adicional: `Elenco de apoio: Martha Chapieski e Altamar Cezar
-        Equipe: Operador de câmera: André Senna | Assistente de câmera: Murillo Marchesi | Assistente de fotografia: Bianca Ono | Elétrica: Murilo Lazarin | Arte, figurino e maquiagem: Morgana Horst | Correção de cor: Lucas Machado | Estúdio de correção de cor: House Films | Logger e assistente de direção: Christopher Faust | Som direto: Anderson Simão | Edição de som: Rodrigo Sacic, Vitor Coroa e Vitor Moraes | Foley: Vitor Moraes | Dublagem: Luiz Lepchak | Estúdio de mixagem: Estúdio Desterro | Designer gráfico: Pietro Luigi | Acessibilidade: Etc Filmes | Traduções: O Editorial – Traduções e Edições | Sincronização português e tradução inglês: Paulo Scarpa | Tradução espanhol: Niala Pessuto
-        Agradecimentos: Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc`,
-
+      principal: {
+        __html: `<p><span class="texto-verde">Elenco:</span> Gustavo Piaskoski e Marrara Mara</p>
+      <p><span class="texto-verde">Direção e roteiro:</span> Evandro Scorsin</p>
+      <p><span class="texto-verde">Produção executiva:</span> Anderson Simão</p>
+      <p><span class="texto-verde">Montagem:</span> Christopher Faust</p>
+      <p><span class="texto-verde">Produção:</span> Wellington Sari</p>
+      <p><span class="texto-verde">Coordenação:</span> Gustavo Duarte</p>
+      <p><span class="texto-verde">Direção de fotografia:</span> André Senna</p>
+      <p><span class="texto-verde">Trilha sonora:</span> Felipe Ayres</p>
+      <p><span class="texto-verde">Finalização de som:</span> Vitor Coroa e Vitor Moraes</p>`,
+      },
+      adicional: {
+        __html: `<p><span class="texto-verde">Elenco de apoio:</span> Martha Chapieski e Altamar Cezar | <span class="texto-verde">Operador de câmera:</span> André Senna | <span class="texto-verde">Assistente de câmera:</span> Murillo Marchesi | <span class="texto-verde">Assistente de fotografia:</span> Bianca Ono | <span class="texto-verde">Elétrica:</span> Murilo Lazarin | <span class="texto-verde">Arte, figurino e maquiagem:</span> Morgana Horst | <span class="texto-verde">Correção de cor: Lucas Machado | <span class="texto-verde">Estúdio de correção de cor:</span> House Films | Logger e assistente de direção:</span> Christopher Faust | <span class="texto-verde">Som direto:</span> Anderson Simão | <span class="texto-verde">Edição de som:</span> Rodrigo Sacic, Vitor Coroa e Vitor Moraes | <span class="texto-verde">Foley:</span> Vitor Moraes | <span class="texto-verde">Dublagem:</span> Luiz Lepchak | <span class="texto-verde">Estúdio de mixagem:</span> Estúdio Desterro | <span class="texto-verde">Designer gráfico:</span> Pietro Luigi | <span class="texto-verde">Acessibilidade:</span> Etc Filmes | <span class="texto-verde">Traduções:</span> O Editorial – Traduções e Edições | <span class="texto-verde">Sincronização português e tradução inglês:</span> Paulo Scarpa | <span class="texto-verde">Tradução espanhol:</span> Niala Pessuto</p>
+        <p><span class="texto-verde">Agradecimentos:</span> Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc</p>`,
+      },
     },
   }],
   editora: {

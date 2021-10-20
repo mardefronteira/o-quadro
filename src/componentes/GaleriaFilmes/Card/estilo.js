@@ -40,5 +40,4 @@ export const Info = styled.p`
 
 export const ItemInfo = styled.p`
 line-height: 1.1;
-
 `;

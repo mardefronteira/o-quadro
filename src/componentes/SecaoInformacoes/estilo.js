@@ -4,20 +4,22 @@ export const ContainerFilmes = styled.div`
 display: flex;
 flex-direction:column;
 align-items:center;
-gap:4em;
+gap:8vh;
 
-& iframe{
+iframe{
   width:100%;
   height:23em;
 }
+
 .caixa-texto{
   width: 40%;
   height:auto;
-  
 }
+
 .titulo-secao{
   align-items:center;
 }
+
 .galeria-fotos{
   flex-wrap:wrap;
   gap:30px;
@@ -30,11 +32,13 @@ gap:4em;
     height: auto;
   }
 }
+
 .equipe{
   align-self:flex-start;
   gap:10px;
   width:100%;
 }
+
 #mais-equipe{
   gap:1.5%;
   flex-wrap: wrap;
@@ -43,7 +47,7 @@ gap:4em;
  
 }
 .secaoPrincipal{
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   height:auto;
 }
@@ -53,8 +57,7 @@ gap:4em;
   text-align: justify;
 }
 
-.sinopseWithInfos{
-  max-width:50vw;
+.info-filme{
   gap:15px;
 }
 `;
@@ -63,27 +66,21 @@ display: flex;
 flex-direction:${(props) => (props.eColuna ? 'column' : 'row')};
 `;
 export const InfoFilme = styled.div`
-width:50%;
+width:60%;
 display: flex;
 flex-direction:column;
-`;
-
-export const ContainerImgDestaqueDireita = styled.div`
-
 `;
 
 export const TituloDestaque = styled.h1`
 color:${(props) => (props.eVermelho ? '#CF0018' : 'inherit')};
 font-size: 3em;
 font-weight:bold;
-line-height: 1.5em;
+line-height: 1.2;
 `;
 export const SubTituloDestaque = styled.h2`
-font-size:2em;
-`;
-export const TextoVerde = styled.span`
-font-size:1.125em;
-color:#009F66;
+padding: 4vh 0 1.5vh 0;
+font-size:1.7em;
+line-height: 1.2;
 `;
 
 export const H3Destaque = styled.h3`

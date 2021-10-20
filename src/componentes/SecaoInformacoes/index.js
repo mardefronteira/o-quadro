@@ -5,8 +5,6 @@ import {
   InfoFilme,
   TituloDestaque,
   SubTituloDestaque,
-  // eslint-disable-next-line no-unused-vars
-  TextoVerde,
   H3Destaque,
   ImgDestaque,
   ImgDestaqueDireita,
@@ -32,7 +30,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
   );
 
   useEffect(() => {
-    document.getElementById('mais-equipe').classList.add('fadeOut', 'alturaZero');
+    if (document.getElementById('mais-equipe')) document.getElementById('mais-equipe').classList.add('fadeOut', 'alturaZero');
   }, []);
   return (
     <ContainerFilmes>
@@ -50,16 +48,14 @@ function SecaoInformacoes({ taVermelho = false, id }) {
           <iframe title="vimeo-player" src="https://player.vimeo.com/video/356585839?h=6667095b3e" width="640" height="360" frameBorder="0" allowFullScreen />
           <SubTituloDestaque>
             {filme.titulo.toUpperCase()}
-            ,
-            {' '}
+            {', '}
             {filme.ano}
           </SubTituloDestaque>
           <H3Destaque>
-            {' '}
+            {'DE '}
             {filme.autor.toUpperCase()}
-            {' '}
           </H3Destaque>
-          <DivFlex className="sinopseWithInfos">
+          <DivFlex className="info-filme">
             <DivFlex className="caixa-texto" eColuna>
               <H3Destaque>COM</H3Destaque>
               <p>{filme.participacao}</p>
@@ -80,30 +76,32 @@ function SecaoInformacoes({ taVermelho = false, id }) {
       <DivFlex eColuna style={{ width: '100%', height: 'auto', gap: '1rem' }}>
         <DivFlex className="equipe" eColuna>
           <SubTituloDestaque>EQUIPE</SubTituloDestaque>
-          {filme.equipe.principal}
+          <p dangerouslySetInnerHTML={filme.equipe.principal} />
         </DivFlex>
-        <DivFlex id="mais-equipe" eColuna={false}>
-          {filme.equipe.adicional}
-        </DivFlex>
+        {filme.equipe.adicional
+          && (
+            <>
+              <DivFlex id="mais-equipe" eColuna={false} dangerouslySetInnerHTML={filme.equipe.adicional} />
+              <MaisInfo
+                onClick={() => {
+                  const maisEquipe = document.getElementById('mais-equipe');
+                  const verMais = document.getElementById('verMais');
 
-        <MaisInfo
-          onClick={() => {
-            const maisEquipe = document.getElementById('mais-equipe');
-            const verMais = document.getElementById('verMais');
+                  maisEquipe.classList.toggle('fadeIn');
+                  maisEquipe.classList.toggle('fadeOut');
+                  maisEquipe.classList.toggle('alturaZero');
 
-            maisEquipe.classList.toggle('fadeIn');
-            maisEquipe.classList.toggle('fadeOut');
-            maisEquipe.classList.toggle('alturaZero');
-
-            verMais.classList.toggle('rotate');
-          }}
-        >
-          <img
-            id="verMais"
-            src="../imagens/seta_para_baixo.svg"
-            alt="Mais informações"
-          />
-        </MaisInfo>
+                  verMais.classList.toggle('rotate');
+                }}
+              >
+                <img
+                  id="verMais"
+                  src="../imagens/seta_para_baixo.svg"
+                  alt="Mais informações"
+                />
+              </MaisInfo>
+            </>
+          )}
       </DivFlex>
 
       <Carrossel categoria={filmesRelacionados} taVermelho={taVermelho} />
