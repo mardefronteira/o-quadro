@@ -3,12 +3,13 @@ import styled from 'styled-components';
 export const ConteinerPrincipal = styled.section`
 display: flex;
 flex-direction: row;
-position: fixed;
+padding-bottom: 15vh;
 `;
 
 export const Poster = styled.img`
-width: 30%;
-height: auto;
+width: 40%;
+height: 70vh;
+object-fit: contain;
 `;
 
 export const Conteiner = styled.section`
@@ -20,10 +21,11 @@ width: 50%;
 `;
 
 export const Logo = styled.img`
+width:35%;
 `;
 
 export const Artigo = styled.article`
-width: 55%;
+width: 80%;
 text-align: justify;
 margin: 0 0 8vh 0;
 `;
