@@ -15,11 +15,8 @@ import {
   InfoLivro,
   TituloLivro,
   AutorLivro,
-<<<<<<< HEAD
   ImgPatrocinadores,
-=======
   DivFlexLivros,
->>>>>>> a28789ae846faced409d18c966af0b97ef871b12
 } from './estilo';
 // importar componentes
 
@@ -30,13 +27,10 @@ function Publicacoes() {
   const info = dataBase.editora;
   // eslint-disable-next-line prefer-destructuring
   const publicacoes = dataBase.publicacoes;
-<<<<<<< HEAD
   const patrocinio = dataBase.patrocinadores;
-=======
   useEffect(() => {
     document.getElementById('lista-livros').classList.add('fadeOut', 'alturaZero');
   }, []);
->>>>>>> a28789ae846faced409d18c966af0b97ef871b12
 
   return (
     <Base
