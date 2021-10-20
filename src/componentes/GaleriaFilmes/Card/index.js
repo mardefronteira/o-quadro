@@ -7,7 +7,7 @@ import {
 function Card({ filme }) {
   return (
     <FundoCard as={Link} to={`/filme/${filme.url}`}>
-      <img src={filme.imgDestaque.src} alt={filme.imgDestaque.desc} />
+      <img src={filme.imgIcone.src} alt={filme.imgIcone.desc} />
       <Legenda>
         <Info>
           <ItemInfo>{filme.titulo}</ItemInfo>

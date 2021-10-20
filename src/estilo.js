@@ -17,6 +17,12 @@ h1,h2,h3,h4,h5,h6{
 line-height:2em;
 font-weight: 400;
 }
+
+p {
+  line-height: 1.5;
+  padding-bottom: 2px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -45,6 +51,10 @@ code {
 .rotate{
   transform: rotate(180deg);
   transition:0.5s;
+}
+
+.texto-verde{
+  color:#009F66;
 }
 `;
 

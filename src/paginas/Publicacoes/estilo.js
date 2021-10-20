@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+export const DivFlexLivros = styled.section`
+display: flex;
+justify-content: center;
+width: 100%;
+`;
+
 export const Titulo = styled.h2`
 text-align: center;
 `;
@@ -37,7 +43,7 @@ p{
 
 export const ListaLivro = styled.ul`
 width: 100%;
-height: auto;
+//height: auto;
 margin: 7vh 0;
 list-style: none;
 
