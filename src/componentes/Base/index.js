@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
-import Pagina from './estilo';
+import { Pagina, ConteinerBase } from './estilo';
 // importar componentes
 import MenuSocial from '../MenuSocial';
 import Menu from '../Menu';
@@ -12,13 +12,13 @@ function Base({ estadoMenu = 1, menuSocialVermelho = false, children }) {
   }, []);
 
   return (
-    <>
+    <ConteinerBase>
       <MenuSocial vermelho={menuSocialVermelho} />
       <Menu estado={estadoMenu} />
       <Pagina>
         {children}
       </Pagina>
-    </>
+    </ConteinerBase>
   );
 }
 
