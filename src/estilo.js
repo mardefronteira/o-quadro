@@ -2,11 +2,13 @@ import { createGlobalStyle } from 'styled-components';
 
 const EstiloGlobal = createGlobalStyle`
 @import url('http://fonts.cdnfonts.com/css/louis-george-cafe');
+
 *{
   font-family: 'Louis George Café', sans-serif;
   margin: 0;
   padding: 0;
 }
+
 body {
   margin: 0;
   font-family: 'Louis George Café', sans-serif;

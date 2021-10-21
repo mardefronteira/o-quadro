@@ -10,6 +10,7 @@ function Base({ estadoMenu = 1, menuSocialVermelho = false, children }) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <>
       <MenuSocial vermelho={menuSocialVermelho} />
