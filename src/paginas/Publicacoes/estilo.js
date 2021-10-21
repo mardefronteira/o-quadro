@@ -4,6 +4,10 @@ export const DivFlexLivros = styled.section`
 display: flex;
 justify-content: center;
 width: 100%;
+padding-bottom: 10vh;
+@media (max-width: 800px) {
+  flex-direction: column;
+}
 `;
 
 export const Titulo = styled.h2`
@@ -12,6 +16,10 @@ text-align: center;
 
 export const Conteiner = styled.section`
 font-weight: 500;
+@media (max-width: 800px) {
+ padding: 0 7vw;
+
+}
 `;
 
 export const ArtigoPrincipal = styled.article`
@@ -26,18 +34,28 @@ p{
 export const ConteinerLinha = styled.div`
 display: flex;
 flex-direction: row;
+@media (max-width: 800px) {
+  flex-direction: column;
+}
 `;
 
 export const ImagemLateral = styled.img`
 display: flex;
 height: 100%;
 width: auto;
+@media (max-width: 800px) {
+  padding-bottom: 5vh;
+  width: 100%;
+  }
 `;
 
 export const ArtigoLateral = styled.article`
 text-align: justify;
 p{
     padding: 0 0 2vh 2vw;
+}
+@media (max-width: 800px) {
+  padding: 0;
 }
 `;
 
