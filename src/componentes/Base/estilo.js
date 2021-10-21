@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Pagina = styled.main`
+export const Pagina = styled.main`
     width: 70vw;
     color: #000;
     flex: 1;
@@ -8,4 +8,7 @@ const Pagina = styled.main`
     position: absolute;
 `;
 
-export default Pagina;
+export const ConteinerBase = styled.div`
+    width: 100vw;
+    height: auto;
+`;
