@@ -14,8 +14,9 @@ const dataBase = {
     ano: 2019,
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://player.vimeo.com/video/356585839?h=6667095',
-    principal: {
-      __html: `<p><span class="texto-verde">Elenco:</span> Gustavo Piaskoski e Marrara Mara</p>
+    equipe: {
+      principal: {
+        __html: `<p><span class="texto-verde">Elenco:</span> Gustavo Piaskoski e Marrara Mara</p>
       <p><span class="texto-verde">Direção e roteiro:</span> Evandro Scorsin</p>
       <p><span class="texto-verde">Produção executiva:</span> Anderson Simão</p>
       <p><span class="texto-verde">Montagem:</span> Christopher Faust</p>
@@ -24,12 +25,12 @@ const dataBase = {
       <p><span class="texto-verde">Direção de fotografia:</span> André Senna</p>
       <p><span class="texto-verde">Trilha sonora:</span> Felipe Ayres</p>
       <p><span class="texto-verde">Finalização de som:</span> Vitor Coroa e Vitor Moraes</p>`,
-    },
-    adicional: {
-      __html: `<p><span class="texto-verde">Elenco de apoio:</span> Martha Chapieski e Altamar Cezar | <span class="texto-verde">Operador de câmera:</span> André Senna | <span class="texto-verde">Assistente de câmera:</span> Murillo Marchesi | <span class="texto-verde">Assistente de fotografia:</span> Bianca Ono | <span class="texto-verde">Elétrica:</span> Murilo Lazarin | <span class="texto-verde">Arte, figurino e maquiagem:</span> Morgana Horst | <span class="texto-verde">Correção de cor: Lucas Machado | <span class="texto-verde">Estúdio de correção de cor:</span> House Films | Logger e assistente de direção:</span> Christopher Faust | <span class="texto-verde">Som direto:</span> Anderson Simão | <span class="texto-verde">Edição de som:</span> Rodrigo Sacic, Vitor Coroa e Vitor Moraes | <span class="texto-verde">Foley:</span> Vitor Moraes | <span class="texto-verde">Dublagem:</span> Luiz Lepchak | <span class="texto-verde">Estúdio de mixagem:</span> Estúdio Desterro | <span class="texto-verde">Designer gráfico:</span> Pietro Luigi | <span class="texto-verde">Acessibilidade:</span> Etc Filmes | <span class="texto-verde">Traduções:</span> O Editorial – Traduções e Edições | <span class="texto-verde">Sincronização português e tradução inglês:</span> Paulo Scarpa | <span class="texto-verde">Tradução espanhol:</span> Niala Pessuto</p>
+      },
+      adicional: {
+        __html: `<p><span class="texto-verde">Elenco de apoio:</span> Martha Chapieski e Altamar Cezar | <span class="texto-verde">Operador de câmera:</span> André Senna | <span class="texto-verde">Assistente de câmera:</span> Murillo Marchesi | <span class="texto-verde">Assistente de fotografia:</span> Bianca Ono | <span class="texto-verde">Elétrica:</span> Murilo Lazarin | <span class="texto-verde">Arte, figurino e maquiagem:</span> Morgana Horst | <span class="texto-verde">Correção de cor: Lucas Machado | <span class="texto-verde">Estúdio de correção de cor:</span> House Films | Logger e assistente de direção:</span> Christopher Faust | <span class="texto-verde">Som direto:</span> Anderson Simão | <span class="texto-verde">Edição de som:</span> Rodrigo Sacic, Vitor Coroa e Vitor Moraes | <span class="texto-verde">Foley:</span> Vitor Moraes | <span class="texto-verde">Dublagem:</span> Luiz Lepchak | <span class="texto-verde">Estúdio de mixagem:</span> Estúdio Desterro | <span class="texto-verde">Designer gráfico:</span> Pietro Luigi | <span class="texto-verde">Acessibilidade:</span> Etc Filmes | <span class="texto-verde">Traduções:</span> O Editorial – Traduções e Edições | <span class="texto-verde">Sincronização português e tradução inglês:</span> Paulo Scarpa | <span class="texto-verde">Tradução espanhol:</span> Niala Pessuto</p>
         <p><span class="texto-verde">Agradecimentos:</span> Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc</p>`,
+      },
     },
-
   },
   {
     id: '2',
