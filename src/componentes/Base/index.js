@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
+import { useMediaQuery } from 'react-responsive';
 import Pagina from './estilo';
 // importar componentes
 import MenuSocial from '../MenuSocial';
@@ -10,10 +11,14 @@ function Base({ estadoMenu = 1, menuSocialVermelho = false, children }) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const eMovel = useMediaQuery({ query: '(max-width: 1224px)' });
+
   return (
     <>
-      <MenuSocial vermelho={menuSocialVermelho} />
-      <Menu estado={estadoMenu} />
+      {console.log(eMovel)}
+      <MenuSocial vermelho={menuSocialVermelho} eMovel />
+      <Menu estado={estadoMenu} eMovel />
       <Pagina>
         {children}
       </Pagina>
