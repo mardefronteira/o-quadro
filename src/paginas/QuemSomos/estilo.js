@@ -52,6 +52,7 @@ align-items: center;
 width: 80%;
 img{
     width: 100%;
+    height:70%;
 }
 @media (max-width: 800px) {
     padding: 0 5vw 5vh 5vw;
