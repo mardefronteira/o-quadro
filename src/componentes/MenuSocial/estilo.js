@@ -1,14 +1,13 @@
 import styled from 'styled-components';
 
 export const ConteinerMenuSocial = styled.nav`
-    background-color: ${(props) => (props.taVermelho ? '#CF0018' : '#007F50')};
+    background-color: ${(props) => (props.taVermelho ? '#DD4D5E' : '#4DA685')};
     display: flex;
     flex-direction: column;
     position: fixed;
     width: 2vw;
     min-width: 30px;
     height: 50vh;
-    opacity: 0.7;
     border: 1px solid transparent;
     border-radius: 0 0.938em 0.938em 0;
     padding: 5vh 0;
@@ -17,6 +16,16 @@ export const ConteinerMenuSocial = styled.nav`
     top: 20vh;
     box-shadow: 1px 1px 1px #000000;
     z-index: 55;
+    @media (max-width: 800px) {  
+    height: 5vh;
+    min-height: 30px;
+    width: 100vw;
+    padding:0;
+    justify-content: flex-end; 
+    top: auto;
+    bottom: 0;
+    border-radius: 0;
+    }
     `;
 
 export const ConteinerIcones = styled.div`
@@ -26,6 +35,11 @@ width: 70%;
 height: 150%;
 align-self: left;
 justify-content: space-around;
+@media (max-width: 800px) { 
+    flex-direction: row; 
+    width: 100%;
+    height: 25px;
+    }
 `;
 
 export const ItemMenuSocial = styled.a`    
@@ -35,6 +49,10 @@ img{
 img:hover{
     opacity: 0.7;
 }
+@media (max-width: 800px) { 
+    height:100%;
+    width:5vw;
+    }
 `;
 
 export const TextoEmail = styled.div`
@@ -76,4 +94,9 @@ img{
         display: flex;
     }
 }
+@media (max-width: 800px) { 
+    height:100%;
+    width:5vw;
+
+    }
 `;

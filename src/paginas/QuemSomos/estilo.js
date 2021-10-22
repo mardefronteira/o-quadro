@@ -8,11 +8,20 @@ export const Conteiner = styled.section`
 display:flex;
 margin: 3vh 0;
 padding-bottom: 5vh;
+@media(max-width: 800px){
+    flex-direction: column;
+}
 `;
 
 export const FotoPrincipal = styled.div`
 img{
     width: 30vw;
+}
+@media (max-width: 800px) {
+    img{
+        width: 80%;
+        padding:5vh 10vw;
+    }
 }
 `;
 
@@ -30,15 +39,22 @@ width: 100%;
 justify-content: space-between;
 grid-template-columns: auto auto auto auto;
 margin: 0 0 5% 0;
+@media (max-width: 800px) {
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
 `;
 
 export const Card = styled.section`
 display: flex;
 flex-direction: column;
 align-items: center;
-width: 13vw;
+width: 80%;
 img{
     width: 100%;
+}
+@media (max-width: 800px) {
+    padding: 0 5vw 5vh 5vw;
 }
 `;
 
@@ -49,6 +65,7 @@ color: #009F66;
 
 export const FotoPerfil = styled.img`
 padding: 1vh;
+
 `;
 
 export const Info = styled.article`

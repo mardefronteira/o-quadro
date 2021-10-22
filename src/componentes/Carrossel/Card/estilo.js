@@ -23,6 +23,9 @@ export const FundoCard = styled.a`
   &:focus {
     box-shadow: 2px 2px 5px #000000;
   }
+  @media (max-width: 800px) {
+  width:20vw;
+  }
 `;
 
 export const Desc = styled.div`
