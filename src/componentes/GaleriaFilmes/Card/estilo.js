@@ -4,10 +4,16 @@ import { Link } from 'react-router-dom';
 export const FundoCard = styled(Link)`
   position:relative;
   display: flex;
+  @media(max-width: 800px){
+    flex-direction: column;
+    align-items: center;
+  }
   img {
     width: 100%;
     height:auto;
   }
+  text-decoration: none;
+  color:inherit;
 `;
 
 export const Legenda = styled.div`
@@ -40,4 +46,13 @@ export const Info = styled.p`
 
 export const ItemInfo = styled.p`
 line-height: 1.1;
+`;
+
+export const InfoMovel = styled.div`
+   text-decoration:none;
+   display:flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
 `;
