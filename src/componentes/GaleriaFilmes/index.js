@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useMediaQuery } from 'react-responsive';
 import Galeria from './estilo';
 import Card from './Card/index';
 import dataBase from '../../db';
@@ -7,6 +8,8 @@ function GaleriaFilmes({ categoria }) {
   const { filmes } = dataBase;
   const [categoriaSelecionada, setCategoriaSelecionada] = useState(categoria);
   const [filmesCategoria, setFilmesCategoria] = useState(filmes);
+  const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' });
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' });
 
   useEffect(() => {
     setCategoriaSelecionada(categoria);
@@ -41,7 +44,13 @@ function GaleriaFilmes({ categoria }) {
 
   return (
     <Galeria>
-      {filmesCategoria.map((filme) => <Card filme={filme} key={filme.url} />)}
+      {isBigScreen && filmesCategoria.map((filme) => <Card filme={filme} key={filme.url} />)}
+      {isTabletOrMobile && filmesCategoria.map((filme) => (
+        <>
+          <Card filme={filme} key={filme.url} />
+          <p>{filme.titulo}</p>
+        </>
+      ))}
     </Galeria>
   );
 }
