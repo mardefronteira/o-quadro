@@ -8,8 +8,7 @@ function GaleriaFilmes({ categoria }) {
   const { filmes } = dataBase;
   const [categoriaSelecionada, setCategoriaSelecionada] = useState(categoria);
   const [filmesCategoria, setFilmesCategoria] = useState(filmes);
-  const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' });
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' });
+  const eMovel = useMediaQuery({ query: '(max-width: 799px)' });
 
   useEffect(() => {
     setCategoriaSelecionada(categoria);
@@ -44,8 +43,8 @@ function GaleriaFilmes({ categoria }) {
 
   return (
     <Galeria>
-      {isBigScreen && filmesCategoria.map((filme) => <Card filme={filme} key={filme.url} />)}
-      {isTabletOrMobile && filmesCategoria.map((filme) => (
+      {!eMovel && filmesCategoria.map((filme) => <Card filme={filme} key={filme.url} />)}
+      {eMovel && filmesCategoria.map((filme) => (
         <>
           <Card filme={filme} key={filme.url}>
             {' '}
