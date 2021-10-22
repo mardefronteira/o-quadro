@@ -47,8 +47,14 @@ function GaleriaFilmes({ categoria }) {
       {isBigScreen && filmesCategoria.map((filme) => <Card filme={filme} key={filme.url} />)}
       {isTabletOrMobile && filmesCategoria.map((filme) => (
         <>
-          <Card filme={filme} key={filme.url} />
-          <p>{filme.titulo}</p>
+          <Card filme={filme} key={filme.url}>
+            {' '}
+            <p>{filme.titulo}</p>
+            <p>{filme.autor}</p>
+            <p>{filme.ano}</p>
+            {' '}
+          </Card>
+
         </>
       ))}
     </Galeria>

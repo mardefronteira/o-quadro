@@ -5,6 +5,13 @@ display: flex;
 flex-direction:column;
 align-items:center;
 gap:8vh;
+@media(max-width: 800px){
+  div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 iframe{
   width:100%;

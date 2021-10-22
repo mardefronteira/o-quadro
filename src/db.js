@@ -2,7 +2,7 @@ const dataBase = {
   filmes: [{
     id: '1',
     url: 'terror-noturno',
-    imgIcone: { src: 'http://www.oquadro.net/wp-content/uploads/2019/02/poster_terror_not-716x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgIcone: { src: '/imagens/thumb_terror-noturno.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2019/02/poster_terror_not-716x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Terror Noturno',
@@ -35,7 +35,7 @@ const dataBase = {
   {
     id: '2',
     url: 'bye-bye-jaqueline',
-    imgIcone: { src: 'http://www.oquadro.net/wp-content/uploads/2016/08/Cartaz-cinema-menor.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgIcone: { src: '/imagens/thumb_bye-bye-jaqueline.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2016/08/Cartaz-cinema-menor.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Bye Bye Jaqueline',
@@ -68,7 +68,7 @@ const dataBase = {
   {
     id: '3',
     url: 'paranoia-doce',
-    imgIcone: { src: 'http://www.oquadro.net/wp-content/uploads/2017/02/cartaz_paranoia-doce-A3_port_logos.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgIcone: { src: '/imagens/thumb_paranoia-doce.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2017/02/cartaz_paranoia-doce-A3_port_logos.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Paranoia Doce',
@@ -101,7 +101,7 @@ const dataBase = {
   {
     id: '4',
     url: 'euller-miller-entre-dois-mundos',
-    imgIcone: { src: 'http://www.oquadro.net/wp-content/uploads/2017/08/cartaz_vertical_WEB_1-724x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgIcone: { src: '/imagens/thumb_euller.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2017/08/cartaz_vertical_WEB_1-724x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: 'http://www.oquadro.net/wp-content/uploads/2017/08/cartaz_vertical_WEB_1-724x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Euller Miller Entre Dois Mundos',
@@ -135,7 +135,7 @@ const dataBase = {
   }, {
     id: '5',
     url: 'dias-de-trovao',
-    imgIcone: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgIcone: { src: '/imagens/thumb_dias-trovao.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: 'http://www.oquadro.net/wp-content/uploads/2015/03/af_cartaz_dias-de-trovao-723x1024.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Dias de Trovão',
