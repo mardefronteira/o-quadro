@@ -178,3 +178,31 @@ export const Logo = styled.img`
   }
 }
 `;
+
+export const ConteinerMenuMobile = styled.section`
+
+`;
+
+export const Cabecalho = styled.div`
+
+`;
+
+export const BotaoMenu = styled.button`
+
+`;
+
+export const LogoMobile = styled.img`
+
+`;
+
+export const ConteinerItens = styled.section`
+
+`;
+
+export const OpcoesMenu = styled.ul`
+
+`;
+
+export const ItemMenuMobile = styled.li`
+
+`;

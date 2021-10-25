@@ -38,7 +38,7 @@ display: grid;
 width: 100%;
 justify-content: space-between;
 grid-template-columns: auto auto auto auto;
-margin: 0 0 5% 0;
+margin-bottom: 10vh;
 @media (max-width: 800px) {
     grid-template-columns: auto auto;
     justify-content: space-around;
@@ -55,7 +55,7 @@ img{
     height:70%;
 }
 @media (max-width: 800px) {
-    padding: 0 5vw 5vh 5vw;
+    padding: 0vh 5vw 5vh 5vw;
 }
 `;
 
