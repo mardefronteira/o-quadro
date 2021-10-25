@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import MediaQuery from 'react-responsive';
 import { Link } from 'react-router-dom';
@@ -16,22 +16,37 @@ import {
   ConteinerItens,
   OpcoesMenu,
   ItemMenuMobile,
+  ConteinerLinguagemMobile,
+  ItemLangMobile,
+  SubItemMenuMobile,
 } from './estilo';
 
 function Menu({ estado = 1 }) {
+  const [taAberto, setTaAberto] = useState(false);
   return (
     <>
       <MediaQuery maxWidth={799}>
         <ConteinerMenuMobile>
           <Cabecalho>
-            <LogoMobile src="/imagens/oquadro_verde_horizontal1.svg" alt="Logo o quadro" />
-            <BotaoMenu>
-              <img src="./imagens/menu_mobile.svg" alt="Botão Menu" />
+            <BotaoMenu onClick={() => { setTaAberto(!taAberto); }}>
+              <img src="/imagens/menu_mobile.svg" alt="Botão Menu" />
             </BotaoMenu>
+            <LogoMobile src="/imagens/oquadro_verde_horizontal1.svg" alt="Logo o quadro" />
+            <ConteinerLinguagemMobile>
+              <ItemLangMobile>PT </ItemLangMobile>
+              /
+              <ItemLangMobile>EN</ItemLangMobile>
+            </ConteinerLinguagemMobile>
           </Cabecalho>
-          <ConteinerItens>
+          <ConteinerItens taAberto={taAberto}>
             <OpcoesMenu>
-              <ItemMenuMobile />
+              <li><ItemMenuMobile as={Link} to="/filmes/">Filmes</ItemMenuMobile></li>
+              <li><SubItemMenuMobile as={Link} to="/filmes/longas">Curta Metragem</SubItemMenuMobile></li>
+              <li><SubItemMenuMobile as={Link} to="/filmes/medias">Média Metragem</SubItemMenuMobile></li>
+              <li><SubItemMenuMobile as={Link} to="/filmes/curtas">Longa Metragem</SubItemMenuMobile></li>
+              <li><ItemMenuMobile as={Link} to="/metro/">Festival Metrô</ItemMenuMobile></li>
+              <li><ItemMenuMobile as={Link} to="/publicacoes">Publicações</ItemMenuMobile></li>
+              <li><ItemMenuMobile as={Link} to="/quem-somos">Quem Somos</ItemMenuMobile></li>
             </OpcoesMenu>
           </ConteinerItens>
         </ConteinerMenuMobile>

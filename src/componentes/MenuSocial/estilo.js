@@ -26,6 +26,7 @@ export const ConteinerMenuSocial = styled.nav`
     border-radius: 0;
     flex-direction: row;
     }
+    z-index:120;
     `;
 
 export const ItemMenuSocial = styled.a`    

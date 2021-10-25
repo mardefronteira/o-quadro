@@ -180,29 +180,67 @@ export const Logo = styled.img`
 `;
 
 export const ConteinerMenuMobile = styled.section`
+background-color: transparent;
+height: auto;
+width: 100vw;
+position:fixed;
+z-index:100;
 
 `;
 
 export const Cabecalho = styled.div`
+display:flex;
+justify-content: space-between;
+align-items: center;
+height: 5vh;
+padding: 0 2vw;
+background-color: #FFFFFF;
 
 `;
 
 export const BotaoMenu = styled.button`
-
+background-color: #FFFFFF;
+border: none;
 `;
 
 export const LogoMobile = styled.img`
+width: 40vw;
+height:5vh;
+`;
 
+export const ConteinerLinguagemMobile = styled.section`
+
+`;
+
+export const ItemLangMobile = styled.button`
+background-color: #FFFFFF;
+border: none;
 `;
 
 export const ConteinerItens = styled.section`
-
+padding: 3vh 0;
+height: 95vh;
+width: 70vw;
+background-color: #FFFFFF;
+${(props) => !props.taAberto && 'display: none'}
 `;
 
 export const OpcoesMenu = styled.ul`
+padding-left: 8vw;
+list-style: none;
+li{
+  padding: 4vh 0; 
+}
+`;
+
+export const ItemMenuMobile = styled.a`
+text-decoration: none;
+color: #000;
 
 `;
 
-export const ItemMenuMobile = styled.li`
-
+export const SubItemMenuMobile = styled.a`
+text-decoration: none;
+color: #000;
+padding-left: 8.15vw;
 `;
