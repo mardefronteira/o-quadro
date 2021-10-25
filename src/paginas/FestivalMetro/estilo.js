@@ -6,6 +6,7 @@ flex-direction: row;
 padding-bottom: 15vh;
 @media (max-width: 800px) {
     flex-direction: column;
+    align-items: center;
 }
 `;
 
@@ -13,6 +14,12 @@ export const Poster = styled.img`
 width: 100%;
 height: 70vh;
 object-fit: contain;
+@media (max-width: 800px) {
+    padding: 0 5vw;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
 `;
 
 export const Conteiner = styled.section`

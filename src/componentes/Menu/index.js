@@ -3,14 +3,38 @@ import PropTypes from 'prop-types';
 import MediaQuery from 'react-responsive';
 import { Link } from 'react-router-dom';
 import {
-  ConteinerItensMenu, ConteinerMenu, ConteinerLinguagem, ItemMenu, ItemLang, Logo,
+  ConteinerItensMenu,
+  ConteinerMenu,
+  ConteinerLinguagem,
+  ItemMenu,
+  ItemLang,
+  Logo,
+  ConteinerMenuMobile,
+  Cabecalho,
+  BotaoMenu,
+  LogoMobile,
+  ConteinerItens,
+  OpcoesMenu,
+  ItemMenuMobile,
 } from './estilo';
 
 function Menu({ estado = 1 }) {
   return (
     <>
       <MediaQuery maxWidth={799}>
-        Menu mobile
+        <ConteinerMenuMobile>
+          <Cabecalho>
+            <LogoMobile src="/imagens/oquadro_verde_horizontal1.svg" alt="Logo o quadro" />
+            <BotaoMenu>
+              <img src="./imagens/menu_mobile.svg" alt="Botão Menu" />
+            </BotaoMenu>
+          </Cabecalho>
+          <ConteinerItens>
+            <OpcoesMenu>
+              <ItemMenuMobile />
+            </OpcoesMenu>
+          </ConteinerItens>
+        </ConteinerMenuMobile>
       </MediaQuery>
       <MediaQuery minWidth={800}>
         <ConteinerMenu estado={estado}>

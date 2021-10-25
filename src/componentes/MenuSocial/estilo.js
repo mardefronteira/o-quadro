@@ -21,37 +21,24 @@ export const ConteinerMenuSocial = styled.nav`
     min-height: 30px;
     width: 100vw;
     padding:0;
-    justify-content: flex-end; 
     top: auto;
     bottom: 0;
     border-radius: 0;
+    flex-direction: row;
     }
     `;
 
-export const ConteinerIcones = styled.div`
-display: flex;
-flex-direction: column;
-width: 70%;
-height: 150%;
-align-self: left;
-justify-content: space-around;
-@media (max-width: 800px) { 
-    flex-direction: row; 
-    width: 100%;
-    height: 25px;
-    }
-`;
-
 export const ItemMenuSocial = styled.a`    
 img{
-    width: 100%;
+    width: 80%;
 }
 img:hover{
     opacity: 0.7;
 }
 @media (max-width: 800px) { 
-    height:100%;
+    height:65%;
     width:5vw;
+
     }
 `;
 
@@ -83,7 +70,7 @@ export const ItemBotao = styled.button`
 background-color: transparent;
 border: none;
 img{
-    width: 100%;
+    width: 80%;
 }
 &:hover{
     img{
