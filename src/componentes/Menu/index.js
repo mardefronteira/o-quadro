@@ -31,7 +31,10 @@ function Menu({ estado = 1 }) {
             <BotaoMenu onClick={() => { setTaAberto(!taAberto); }}>
               <img src="/imagens/menu_mobile.svg" alt="Botão Menu" />
             </BotaoMenu>
-            <LogoMobile src="/imagens/oquadro_verde_horizontal1.svg" alt="Logo o quadro" />
+            <LogoMobile
+              src={`/imagens/${estado === 1 ? 'oquadro_verde_horizontal1' : 'aquadro_vermelho_horizontal'}.svg`}
+              estado={estado}
+            />
             <ConteinerLinguagemMobile>
               <ItemLangMobile>PT </ItemLangMobile>
               /

@@ -204,12 +204,11 @@ border: none;
 `;
 
 export const LogoMobile = styled.img`
-width: 40vw;
-height:5vh;
+height:4vh;
 `;
 
 export const ConteinerLinguagemMobile = styled.section`
-
+padding: 0 3vw;
 `;
 
 export const ItemLangMobile = styled.button`

@@ -9,6 +9,7 @@ export const Pagina = styled.main`
     @media (max-width: 800px) {
         margin: 0;
         width: 100%;
+        padding: 10vh 0;
     }
 `;
 

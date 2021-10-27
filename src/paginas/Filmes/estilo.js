@@ -29,7 +29,10 @@ export const Pesquisa = styled.input`
         border: 1px solid #009F66;
         outline:none;
     }
-    
+    @media (max-width: 800px) {
+        width: 80vw;
+        margin: 0 4vw;
+    }
 `;
 export const BotaoPesquisa = styled.button`
     height: 4.85vh;
