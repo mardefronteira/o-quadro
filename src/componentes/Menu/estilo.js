@@ -195,6 +195,7 @@ align-items: center;
 height: 5vh;
 padding: 0 2vw;
 background-color: #FFFFFF;
+z-index:110;
 
 `;
 
@@ -214,6 +215,12 @@ padding: 0 3vw;
 export const ItemLangMobile = styled.button`
 background-color: #FFFFFF;
 border: none;
+`;
+
+export const ConteinerTaAberto = styled.div`
+background-color: transparent;
+${(props) => props.taAberto && 'display: none'}
+
 `;
 
 export const ConteinerItens = styled.section`
