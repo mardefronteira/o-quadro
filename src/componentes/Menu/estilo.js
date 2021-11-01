@@ -235,7 +235,10 @@ export const OpcoesMenu = styled.ul`
 padding-left: 8vw;
 list-style: none;
 li{
-  padding: 4vh 0; 
+  width: 100%;
+  border-bottom: 1px solid rgba(222,222,222,0.7);
+  padding: 4vh 0;
+   
 }
 `;
 
