@@ -14,6 +14,7 @@ import {
   BotaoMenu,
   LogoMobile,
   ConteinerItens,
+  ConteinerTaAberto,
   OpcoesMenu,
   ItemMenuMobile,
   ConteinerLinguagemMobile,
@@ -43,17 +44,19 @@ function Menu({ estado = 1 }) {
               <ItemLangMobile>EN</ItemLangMobile>
             </ConteinerLinguagemMobile>
           </Cabecalho>
-          <ConteinerItens taAberto={taAberto}>
-            <OpcoesMenu>
-              <li><ItemMenuMobile as={Link} to="/filmes/">Filmes</ItemMenuMobile></li>
-              <li><SubItemMenuMobile as={Link} to="/filmes/longas">Curta Metragem</SubItemMenuMobile></li>
-              <li><SubItemMenuMobile as={Link} to="/filmes/medias">Média Metragem</SubItemMenuMobile></li>
-              <li><SubItemMenuMobile as={Link} to="/filmes/curtas">Longa Metragem</SubItemMenuMobile></li>
-              <li><ItemMenuMobile as={Link} to="/metro/">Festival Metrô</ItemMenuMobile></li>
-              <li><ItemMenuMobile as={Link} to="/publicacoes">Publicações</ItemMenuMobile></li>
-              <li><ItemMenuMobile as={Link} to="/quem-somos">Quem Somos</ItemMenuMobile></li>
-            </OpcoesMenu>
-          </ConteinerItens>
+          <ConteinerTaAberto onClick={() => { setTaAberto(!taAberto); }}>
+            <ConteinerItens taAberto={taAberto}>
+              <OpcoesMenu>
+                <li><ItemMenuMobile as={Link} to="/filmes/">Filmes</ItemMenuMobile></li>
+                <li><SubItemMenuMobile as={Link} to="/filmes/longas">Curta Metragem</SubItemMenuMobile></li>
+                <li><SubItemMenuMobile as={Link} to="/filmes/medias">Média Metragem</SubItemMenuMobile></li>
+                <li><SubItemMenuMobile as={Link} to="/filmes/curtas">Longa Metragem</SubItemMenuMobile></li>
+                <li><ItemMenuMobile as={Link} to="/metro/">Festival Metrô</ItemMenuMobile></li>
+                <li><ItemMenuMobile as={Link} to="/publicacoes">Publicações</ItemMenuMobile></li>
+                <li><ItemMenuMobile as={Link} to="/quem-somos">Quem Somos</ItemMenuMobile></li>
+              </OpcoesMenu>
+            </ConteinerItens>
+          </ConteinerTaAberto>
         </ConteinerMenuMobile>
       </MediaQuery>
       <MediaQuery minWidth={800}>

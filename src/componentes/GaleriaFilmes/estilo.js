@@ -11,6 +11,7 @@ const Galeria = styled.div`
     @media (max-width: 800px) {
         justify-items: center;
         grid-gap: 3% 3%;
+        padding: 3vh 5vw 10vh 5vw;
 
     }
 `;
