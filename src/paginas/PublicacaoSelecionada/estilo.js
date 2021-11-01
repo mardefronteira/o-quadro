@@ -7,7 +7,6 @@ export const DivFlexPublicacao = styled(DivFlex)`
   display: flex;
   align-items: center;
   gap: 2em;
-  
 
 }
 #secao-cabecalho {
@@ -30,7 +29,7 @@ export const DivFlexPublicacao = styled(DivFlex)`
 #secao-info {
   width:50%;
   @media (max-width: 800px) {
-    width: 90%;
+    width: 100%;
     padding: 0 5vw;
   }
 }
@@ -45,7 +44,9 @@ export const DivFlexPublicacao = styled(DivFlex)`
   p{
     text-align: justify;
     padding-bottom: 2vh;
+    
   }
+  
 
 }
 #ficha-tecnica {
