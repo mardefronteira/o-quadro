@@ -2,7 +2,7 @@ const dataBase = {
   filmes: [{
     id: '1',
     url: 'terror-noturno',
-    imgIcone: { src: '/imagens/thumb_terror-noturno.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgIcone: { src: '/imagens/thumb_terror.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/cartaz_terror-noturno.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Terror Noturno',
@@ -315,7 +315,7 @@ const dataBase = {
   },
   logos: {
     oquadro: {
-      verdeVertical: { src: '/imagens/oquadro_verde_vertical.svg', desc: 'O quadro produtora' },
+      verdeVertical: { src: '/imagens/oquadro_verde_vertical1.svg', desc: 'O quadro produtora' },
       verdeHorizontal: { src: '/imagens/oquadro_verde_horizontal.svg', desc: 'O quadro produtora' },
     },
     aquadro: {
