@@ -3,6 +3,9 @@ import styled from 'styled-components';
 export const Titulo = styled.h2`
  font-weight:200;
  font-size: 1.25em;
+ @media (max-width: 800px){
+     padding: 1vh 5vw;
+ }
 `;
 
 export const Barra = styled.section`
@@ -29,7 +32,10 @@ export const Pesquisa = styled.input`
         border: 1px solid #009F66;
         outline:none;
     }
-    
+    @media (max-width: 800px) {
+        width: 90vw;
+        margin: 0 5vw;
+    }
 `;
 export const BotaoPesquisa = styled.button`
     height: 4.85vh;
