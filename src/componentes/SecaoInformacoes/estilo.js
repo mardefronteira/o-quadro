@@ -14,8 +14,8 @@ gap:8vh;
 }
 
 iframe{
-  width:100%;
-  height:23em;
+  width:40vw;
+  height:45vh;
 }
 
 .caixa-texto{
@@ -65,6 +65,7 @@ iframe{
 }
 
 .info-filme{
+  width:40vw;
   gap:15px;
 }
 `;
