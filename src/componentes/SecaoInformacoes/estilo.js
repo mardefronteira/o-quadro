@@ -44,6 +44,9 @@ iframe{
   align-self:flex-start;
   gap:10px;
   width:100%;
+  p{
+  line-height: 2em;
+}
 }
 
 #mais-equipe{
