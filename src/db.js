@@ -1,34 +1,37 @@
 const dataBase = {
   filmes: [{
     id: '1',
-    url: 'terror-noturno',
+    url: 'amador',
+    titulo: 'AMADOR',
+    ano: 2011,
+    autor: 'WELLINGTON SARI',
     imgIcone: { src: '/imagens/thumb_terror-noturno.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/cartaz_terror-noturno.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
-    titulo: 'Terror Noturno',
     imgPoster: { src: '/imagens/cartaz_terror-noturno.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    sinopse: 'Após uma festa com muita bebedeira e diversão, um casal desperta no dia seguinte sem qualquer recordação sobre os eventos da noite anterior. Quando encontram vestígios de um provável atropelamento no para-choque do carro, passam a acreditar que podem ter cometido um assassinato.',
-    autor: 'Evandro Scorsin',
-    participacao: 'Gustavo Piaskoski e Marrara Mara',
+    galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }, { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
+    sinopse: 'Em setembro de 2009, três alunos da 7º série de uma escola estadual de Curitiba gravaram os mesmos pratando sexo no banheiro. Dois deles divulgaram o vídeo na internet. "Amador" trata das implicações que a facilidade em captar imagens traz ao mundo dos jovens, no ambiente escolar.',
+    participacao: 'elenco.',
     categoria: 'Curta Metragem',
-    ano: 2019,
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://player.vimeo.com/video/356585839?h=6667095',
     equipe: {
       principal: {
-        __html: `<p><span class="texto-verde">Elenco:</span> Gustavo Piaskoski e Marrara Mara</p>
-      <p><span class="texto-verde">Direção e roteiro:</span> Evandro Scorsin</p>
-      <p><span class="texto-verde">Produção executiva:</span> Anderson Simão</p>
-      <p><span class="texto-verde">Montagem:</span> Christopher Faust</p>
-      <p><span class="texto-verde">Produção:</span> Wellington Sari</p>
-      <p><span class="texto-verde">Coordenação:</span> Gustavo Duarte</p>
-      <p><span class="texto-verde">Direção de fotografia:</span> André Senna</p>
-      <p><span class="texto-verde">Trilha sonora:</span> Felipe Ayres</p>
-      <p><span class="texto-verde">Finalização de som:</span> Vitor Coroa e Vitor Moraes</p>`,
+        // eslint-disable-next-line quotes
+        __html: `<p><span class="texto-verde">Direção e roteiro:</span> Wellington Sari | 
+        <span class="texto-verde">Produção Executiva:</span>  Alexandre Rafael Garcia | 
+        <span class="texto-verde">Direção De Produção:</span> Anderson Simão, Evandro Scorsin | 
+        <span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa | 
+        <span class="texto-verde">Montagem:</span> Christopher Faust | 
+        <span class="texto-verde">Som Direto:</span> Nikola Matevski <p>
+        <p>Projeto realizado como parte de uma série documental criada pela Matizar Filmes, 
+        intitulado “Por que a gente é assim?”,
+        série composta por seis episódios, 
+        cujas exibições foram feitas pelo Canal Futura em 2011 e pelo Canal Brasil em 2012.<p>
+        `,
       },
       adicional: {
-        __html: `<p><span class="texto-verde">Elenco de apoio:</span> Martha Chapieski e Altamar Cezar | <span class="texto-verde">Operador de câmera:</span> André Senna | <span class="texto-verde">Assistente de câmera:</span> Murillo Marchesi | <span class="texto-verde">Assistente de fotografia:</span> Bianca Ono | <span class="texto-verde">Elétrica:</span> Murilo Lazarin | <span class="texto-verde">Arte, figurino e maquiagem:</span> Morgana Horst | <span class="texto-verde">Correção de cor: Lucas Machado | <span class="texto-verde">Estúdio de correção de cor:</span> House Films | Logger e assistente de direção:</span> Christopher Faust | <span class="texto-verde">Som direto:</span> Anderson Simão | <span class="texto-verde">Edição de som:</span> Rodrigo Sacic, Vitor Coroa e Vitor Moraes | <span class="texto-verde">Foley:</span> Vitor Moraes | <span class="texto-verde">Dublagem:</span> Luiz Lepchak | <span class="texto-verde">Estúdio de mixagem:</span> Estúdio Desterro | <span class="texto-verde">Designer gráfico:</span> Pietro Luigi | <span class="texto-verde">Acessibilidade:</span> Etc Filmes | <span class="texto-verde">Traduções:</span> O Editorial – Traduções e Edições | <span class="texto-verde">Sincronização português e tradução inglês:</span> Paulo Scarpa | <span class="texto-verde">Tradução espanhol:</span> Niala Pessuto</p>
-        <p><span class="texto-verde">Agradecimentos:</span> Alexandre Rogoski, Almeida Materiais de Construção, Bar do Jonas e Marcelo Anc</p>`,
+        __html: `<p><span class="texto-verde">Assistente De Direção:</span> Evandro Scorsin
+                  <p>`,
       },
     },
   },
