@@ -21,20 +21,22 @@ import {
   ItemLangMobile,
   SubItemMenuMobile,
 } from './estilo';
+import dataBase from '../../db';
 
 function Menu({ estado = 1 }) {
   const [taAberto, setTaAberto] = useState(false);
+  const { logos } = dataBase;
   return (
     <>
       <MediaQuery maxWidth={799}>
         <ConteinerMenuMobile>
           <Cabecalho>
             <BotaoMenu onClick={() => { setTaAberto(!taAberto); }}>
-              <img src="/imagens/menu_mobile.svg" alt="Botão Menu" />
+              <img src="/imagens/menu-mobile.svg" alt="Botão Menu" />
             </BotaoMenu>
             <LogoMobile
-              src={`/imagens/${estado === 1 ? 'oquadro_verde_horizontal1' : 'aquadro_vermelho_horizontal'}.svg`}
-              estado={estado}
+              src={logos.oquadro.verdeVertical.src}
+              alt={logos.oquadro.verdeVertical.desc}
             />
             <ConteinerLinguagemMobile>
               <ItemLangMobile>PT </ItemLangMobile>
@@ -60,7 +62,7 @@ function Menu({ estado = 1 }) {
       <MediaQuery minWidth={800}>
         <ConteinerMenu estado={estado}>
           {estado === 0 ? (
-            <Logo src="/imagens/oquadro_verde_vertical1.svg" estado={estado} />
+            <Logo src={logos.oquadro.verdeVertical.src} estado={estado} />
           ) : ''}
           <ConteinerItensMenu estado={estado}>
             <ul className="dropdown">
@@ -74,7 +76,7 @@ function Menu({ estado = 1 }) {
             {estado !== 0 ? (
               <ItemMenu as={Link} to="/" className="logo">
                 <Logo
-                  src={`/imagens/${estado === 1 ? 'oquadro_verde_vertical1' : 'aquadro_vermelho'}.svg`}
+                  src={`${estado === 1 ? logos.oquadro.verdeVertical.src : logos.aquadro.vermelhoVertical.src}`}
                   estado={estado}
                 />
               </ItemMenu>

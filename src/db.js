@@ -39,10 +39,10 @@ const dataBase = {
     id: '2',
     url: 'bye-bye-jaqueline',
     imgIcone: { src: '/imagens/thumb_bye-bye-jaqueline.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgDestaque: { src: '/imagens/cartaz_bye-bye-jaqueline.jng', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: '/imagens/cartaz_bye-bye-jaqueline.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Bye Bye Jaqueline',
-    imgPoster: { src: '/imagens/cartaz_bye-bye-jaqueline.jng', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: '/imagens/cartaz_bye-bye-jaqueline.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     sinopse: 'Ter 16 anos é fácil. O difícil é ter 16 anos e ser obrigada a ir à escola todo dia. Mais difícil ainda é ter 16, ser obrigada a frequentar a escola e acabar se apaixonando por Fernando, o menino da sala ao lado. Ser a Jaqueline é fácil. O difícil é ser a Jaqueline e saber que Fernando não está nem aí.',
     autor: 'Wellington Sari',
     participacao: 'Gustavo Piaskoski e Marrara Mara',
@@ -72,10 +72,10 @@ const dataBase = {
     id: '3',
     url: 'paranoia-doce',
     imgIcone: { src: '/imagens/thumb_paranoia-doce.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgDestaque: { src: '/imagens/cartaz_paranoia-doce.jng', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: '/imagens/cartaz_paranoia-doce.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [{ src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' }],
     titulo: 'Paranoia Doce',
-    imgPoster: { src: '/imagens/cartaz_paranoia-doce.jng', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: '/imagens/cartaz_paranoia-doce.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     sinopse: 'Quatro jovens viajam para uma cidade litorânea buscando diversão. Após uma noite de bebedeira, jogos e pegação, encontram uma gosma rosada e viscosa, que inexplicavelmente os seduz. O clima de curtição acaba, e um a um os jovens começam a morrer.',
     autor: 'Evandro Scorsin',
     participacao: 'Gustavo Piaskoski e Marrara Mara',
@@ -277,25 +277,25 @@ const dataBase = {
     membros: [{
       nome: 'Anderson',
       img:
-        { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
+        { src: '/imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
       sobre: 'lorem ipsum dolor sit',
     },
     {
       nome: 'Christopher',
       img:
-        { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
+        { src: '/imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
       sobre: 'lorem ipsum dolor sit',
     },
     {
       nome: 'Evandro',
       img:
-        { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
+        { src: '/imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
       sobre: 'lorem ipsum dolor sit',
     },
     {
       nome: 'Wellington',
       img:
-        { src: './imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
+        { src: '/imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
       sobre: 'lorem ipsum dolor sit',
     },
 
@@ -316,6 +316,24 @@ const dataBase = {
       { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
   },
+  logos: {
+    oquadro: {
+      verdeVertical: { src: '/imagens/oquadro_verde_vertical1.svg', desc: 'O quadro produtora' },
+      verdeHorizontal: { src: '/imagens/oquadro_verde_horizontal.svg', desc: 'O quadro produtora' },
+    },
+    aquadro: {
+      vermelhoHorizontal: { src: '/imagens/aquadro_vermelho_horizontal.svg', desc: 'A quadro produtora' },
+      vermelhoVertical: { src: '/imagens/aquadro_vermelho.svg', desc: 'A quadro produtora' },
+    },
+    sociais: {
+      twitter: { src: '/imagens/icone/twitterIcone.svg', desc: 'Twitter Logo' },
+      facebook: { src: '/imagens/icone/facebookIcone.svg', desc: 'Facebook Logo' },
+      instagram: { src: '/imagens/icone/instagramIcone.svg', desc: 'Instagram Logo' },
+      vimeo: { src: '/imagens/icone/vimeoIcone.svg', desc: 'Vimeo Logo' },
+      youtube: { src: '/imagens/icone/youtubeIcone.svg', desc: 'Youtube Logo' },
+      email: { src: '/imagens/icone/emailIcone.svg', desc: 'E-mail Logo' },
+    },
 
+  },
 };
 export default dataBase;
