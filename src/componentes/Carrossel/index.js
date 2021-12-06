@@ -1,8 +1,10 @@
 /* importar react */
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import MediaQuery from "react-responsive";
+
 // import PropTypes from 'prop-types';
 /* importar componentes */
-import Card from './Card/index';
+import Card from "./Card/index";
 /* importar estilos */
 import {
   FundoCarrossel,
@@ -10,7 +12,7 @@ import {
   ConteinerCards,
   SetaCarrossel,
   TituloCarrossel,
-} from './estilo';
+} from "./estilo";
 
 const Carrossel = ({ categoria, taVermelho = true }) => {
   const restringir = (val, min, max) => {
@@ -37,57 +39,121 @@ const Carrossel = ({ categoria, taVermelho = true }) => {
   const [pos, moverCarrossel] = DefinirPos(0);
 
   return (
-    <FundoCarrossel>
-      <TituloCarrossel taVermelho>
-        {taVermelho ? 'LIVROS' : 'FILMES'}
-      </TituloCarrossel>
-      <Conteiner>
-        <SetaCarrossel
-          className={pos > 0 ? '' : 'invisivel'}
-          onClick={() => {
-            moverCarrossel(-1, categoria.length);
-          }}
-        >
-          {/* {"<"} */}
-          <img src="../imagens/seta/esquerda.svg" alt="seta para a esquerda" />
+    <>
+      <MediaQuery maxWidth={799}>
+        <FundoCarrossel>
+          <TituloCarrossel taVermelho>
+            {taVermelho ? "LIVROS" : "FILMES"}
+          </TituloCarrossel>
+          <Conteiner>
+            <SetaCarrossel
+              className={pos > 0 ? "" : "invisivel"}
+              onClick={() => {
+                moverCarrossel(-1, categoria.length);
+              }}
+            >
+              {/* {"<"} */}
+              <img
+                src="../imagens/seta/esquerda.svg"
+                alt="seta para a esquerda"
+              />
+            </SetaCarrossel>
+            <ConteinerCards>
+              <Card
+                taVermelho={taVermelho}
+                img={categoria[pos].imgDestaque}
+                titulo={categoria[pos].titulo}
+                desc={categoria[pos].desc}
+                url={categoria[pos].url}
+              />
+              <Card
+                taVermelho={taVermelho}
+                img={categoria[pos + 1].imgDestaque}
+                titulo={categoria[pos + 1].titulo}
+                desc={categoria[pos + 1].desc}
+                url={categoria[pos + 1].url}
+              />
+              <Card
+                taVermelho={taVermelho}
+                img={categoria[pos + 2].imgDestaque}
+                titulo={categoria[pos + 2].titulo}
+                desc={categoria[pos + 2].desc}
+                url={categoria[pos + 2].url}
+              />
+            </ConteinerCards>
 
-        </SetaCarrossel>
-        <ConteinerCards>
-
-          <Card
-            taVermelho={taVermelho}
-            img={categoria[pos].imgDestaque}
-            titulo={categoria[pos].titulo}
-            desc={categoria[pos].desc}
-            url={categoria[pos].url}
-          />
-          <Card
-            taVermelho={taVermelho}
-            img={categoria[pos + 1].imgDestaque}
-            titulo={categoria[pos + 1].titulo}
-            desc={categoria[pos + 1].desc}
-            url={categoria[pos + 1].url}
-          />
-          <Card
-            taVermelho={taVermelho}
-            img={categoria[pos + 2].imgDestaque}
-            titulo={categoria[pos + 2].titulo}
-            desc={categoria[pos + 2].desc}
-            url={categoria[pos + 2].url}
-          />
-
-        </ConteinerCards>
-        <SetaCarrossel
-          className={pos < categoria.length - 3 ? '' : 'invisivel'}
-          onClick={() => {
-            moverCarrossel(1, categoria.length);
-          }}
-        >
-          {/* {">"} */}
-          <img src="../imagens/seta/direita.svg" alt="seta para a direita" />
-        </SetaCarrossel>
-      </Conteiner>
-    </FundoCarrossel>
+            <SetaCarrossel
+              className={pos < categoria.length - 3 ? "" : "invisivel"}
+              onClick={() => {
+                moverCarrossel(1, categoria.length);
+              }}
+            >
+              {/* {">"} */}
+              <img
+                src="../imagens/seta/direita.svg"
+                alt="seta para a direita"
+              />
+            </SetaCarrossel>
+          </Conteiner>
+        </FundoCarrossel>
+      </MediaQuery>
+      <MediaQuery minWidth={800}>
+        <FundoCarrossel>
+          <TituloCarrossel taVermelho>
+            {taVermelho ? "LIVROS" : "FILMES"}
+          </TituloCarrossel>
+          <Conteiner>
+            <SetaCarrossel
+              className={pos > 0 ? "" : "invisivel"}
+              onClick={() => {
+                moverCarrossel(-1, categoria.length);
+              }}
+            >
+              {/* {"<"} */}
+              <img
+                src="../imagens/seta/esquerda.svg"
+                alt="seta para a esquerda"
+              />
+            </SetaCarrossel>
+            <ConteinerCards>
+              <Card
+                taVermelho={taVermelho}
+                img={categoria[pos].imgDestaque}
+                titulo={categoria[pos].titulo}
+                desc={categoria[pos].desc}
+                url={categoria[pos].url}
+              />
+              <Card
+                taVermelho={taVermelho}
+                img={categoria[pos + 1].imgDestaque}
+                titulo={categoria[pos + 1].titulo}
+                desc={categoria[pos + 1].desc}
+                url={categoria[pos + 1].url}
+              />
+              <Card
+                taVermelho={taVermelho}
+                img={categoria[pos + 2].imgDestaque}
+                titulo={categoria[pos + 2].titulo}
+                desc={categoria[pos + 2].desc}
+                url={categoria[pos + 2].url}
+              />
+            </ConteinerCards>
+            <SetaCarrossel
+              className={pos < categoria.length - 2 ? "" : "invisivel"}
+              onClick={() => {
+                moverCarrossel(1, categoria.length);
+              }}
+            >
+              {/* {">"} */}
+              <img
+                src="../imagens/seta/direita.svg"
+                alt="seta para a direita"
+              />
+            </SetaCarrossel>
+          </Conteiner>
+        </FundoCarrossel>
+      </MediaQuery>
+    </>
   );
 };
 

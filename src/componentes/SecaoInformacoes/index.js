@@ -45,7 +45,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
       <ImgDestaque src={filme.imgDestaque.src} alt={filme.imgDestaque.desc} />
       <DivFlex className="secaoPrincipal">
         <InfoFilme>
-          <iframe title="vimeo-player" src="https://player.vimeo.com/video/356585839?h=6667095b3e" width="640" height="360" frameBorder="0" allowFullScreen />
+          <iframe title="vimeo-player" src="https://player.vimeo.com/video/356585839?h=6667095b3e" frameBorder="0" allowFullScreen />
           <SubTituloDestaque>
             {filme.titulo.toUpperCase()}
             {', '}

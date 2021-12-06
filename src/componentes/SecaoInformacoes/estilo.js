@@ -5,13 +5,6 @@ display: flex;
 flex-direction:column;
 align-items:center;
 gap:8vh;
-@media(max-width: 800px){
-  div{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
 
 iframe{
   width:40vw;
@@ -68,6 +61,23 @@ iframe{
   width:40vw;
   gap:15px;
 }
+@media(max-width: 800px){
+  div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-filme{
+    width:100%
+    
+  }
+  #mais-equipe p{
+  width:85%;
+  transition: 1s ease-in-out;
+  overflow: hidden;
+  }
+
+}
 `;
 export const DivFlex = styled.div`
 display: flex;
@@ -77,6 +87,22 @@ export const InfoFilme = styled.div`
 width:60%;
 display: flex;
 flex-direction:column;
+@media(max-width: 800px){
+  width:100%;
+  iframe{
+    width:100%;
+    height:50vh;
+  }
+  h2{
+    font-size:1.1em;
+    font-weight:bold;
+  }
+  h3{
+    font-size:0.9rem;
+    font-weight:semi-bold;
+  }
+}
+
 `;
 
 export const TituloDestaque = styled.h1`
@@ -96,6 +122,10 @@ color:${(props) => (props.eVermelho ? '#CF0018' : 'inherit')};
 display: flex;
 font-size: 1em;
 font-weight:bold;
+@media(max-width: 800px){
+  font-size:1em;
+  font-weight:bold;
+}
 `;
 
 export const ImgDestaque = styled.img`

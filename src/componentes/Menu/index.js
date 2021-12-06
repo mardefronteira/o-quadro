@@ -81,7 +81,6 @@ function Menu({ estado = 1 }) {
                 />
               </ItemMenu>
             ) : ''}
-
             <ItemMenu as={Link} to="/publicacoes" estado={estado}>PUBLICAÇÕES </ItemMenu>
             <ItemMenu as={Link} to="/quem-somos" estado={estado}>QUEM SOMOS </ItemMenu>
           </ConteinerItensMenu>
@@ -92,7 +91,6 @@ function Menu({ estado = 1 }) {
           </ConteinerLinguagem>
         </ConteinerMenu>
       </MediaQuery>
-
     </>
   );
 }
