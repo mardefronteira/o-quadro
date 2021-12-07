@@ -1,5 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import ImageViewer from 'react-simple-image-viewer';
+import { saveAs } from 'file-saver';
 import { ContainerBackGround, Download, ImagemCard } from './estilo';
 
 function VisualizadorImagens({ galeria = [] }) {
@@ -16,13 +17,11 @@ function VisualizadorImagens({ galeria = [] }) {
   };
   const imagens = galeria.map((imagem) => imagem.src); // flat map
   const downloadImage = () => {
-    saveAs(imagens.src, 'image.jpg') // Put your image url here.
-  }
+    saveAs(imagens.src, 'image.jpg'); // Put your image url here.
+  };
   return (
     <ContainerBackGround>
-
       {galeria.map(({ src, alt, key }, index) => (
-        
         <ImagemCard
           src={src}
           alt={alt}
@@ -44,7 +43,7 @@ function VisualizadorImagens({ galeria = [] }) {
               zIndex: 100, height: '100%', width: '100vw',
             }}
           />
-          <Download onClick={downloadImage}/>
+          <Download onClick={downloadImage} />
         </>
       )}
 
