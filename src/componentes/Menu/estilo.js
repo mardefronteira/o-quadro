@@ -192,10 +192,10 @@ export const Cabecalho = styled.div`
 display:flex;
 justify-content: space-between;
 align-items: center;
-height: 5vh;
+height: 12vh;
+width:100%;
 padding: 0 2vw;
 background-color: #FFFFFF;
-z-index:110;
 
 `;
 
@@ -205,7 +205,8 @@ border: none;
 `;
 
 export const LogoMobile = styled.img`
-height:4vh;
+height:10vh;
+width:10vh;
 `;
 
 export const ConteinerLinguagemMobile = styled.section`
@@ -220,6 +221,7 @@ border: none;
 export const ConteinerTaAberto = styled.div`
 background-color: transparent;
 ${(props) => props.taAberto && 'display: none'}
+
 
 `;
 

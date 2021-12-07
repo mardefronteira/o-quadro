@@ -35,7 +35,7 @@ function Menu({ estado = 1 }) {
               <img src="/imagens/menu-mobile.svg" alt="Botão Menu" />
             </BotaoMenu>
             <LogoMobile
-              src={logos.oquadro.verdeVertical.src}
+              src={`${estado === 1 ? logos.oquadro.verdeVertical.src : logos.aquadro.vermelhoVertical.src}`}
               alt={logos.oquadro.verdeVertical.desc}
             />
             <ConteinerLinguagemMobile>
