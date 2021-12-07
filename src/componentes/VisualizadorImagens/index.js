@@ -15,10 +15,14 @@ function VisualizadorImagens({ galeria = [] }) {
     setVisualizadorAberto(false);
   };
   const imagens = galeria.map((imagem) => imagem.src); // flat map
+  const downloadImage = () => {
+    saveAs(imagens.src, 'image.jpg') // Put your image url here.
+  }
   return (
     <ContainerBackGround>
 
       {galeria.map(({ src, alt, key }, index) => (
+        
         <ImagemCard
           src={src}
           alt={alt}
@@ -40,7 +44,7 @@ function VisualizadorImagens({ galeria = [] }) {
               zIndex: 100, height: '100%', width: '100vw',
             }}
           />
-          <Download />
+          <Download onClick={downloadImage}/>
         </>
       )}
 
