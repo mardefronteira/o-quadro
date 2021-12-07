@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const ConteinerCards = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content:center;
+  gap:2%;
   align-items: center;
   width: 100%;
   height: auto;
@@ -10,7 +11,7 @@ export const ConteinerCards = styled.div`
   padding: 0;
   @media (max-width: 800px) {
     width: 70%;
-    display: flex !important;
+    display: flex;
     height: auto;
     gap:2%;
     flex-direction: row !important;
@@ -18,6 +19,7 @@ export const ConteinerCards = styled.div`
     justify-content:center !important;
 
   }
+  
 `;
 
 export const TituloAnimado = styled.h2`
@@ -36,9 +38,12 @@ export const FundoCarrossel = styled.div`
   margin-bottom: 5vh;
   display: flex;
   flex-direction: column;
+  align-items:center;
   margin: 0 auto;
   @media (max-width: 800px) {
-    margin:
+    margin:0;
+    display:flex;
+    align-items:center;
     
   }
 `;
@@ -53,23 +58,26 @@ export const TituloCarrossel = styled.h2`
 export const Conteiner = styled.div`
   display: flex;
   flex-direction: row;
+  align-items:center;
+  gap:2%;
+  width:100%
   @media (max-width: 800px) {
     display: flex !important;
     flex-direction: row !important;
-    width: fit-content;
+    justify-content:center;
+    align-items:center;
+    width:100%;
     height:auto;
-    justify-content:space-around !important;
     gap:2%;
 
   }
 `;
 
 export const SetaCarrossel = styled.button`
-  background: none;
-  border: none;
+  background:none;
+  border:none;
   display:flex;
-  align-self:center;
-  .arrow-left {
+  .arrow-left{
     transform: rotate(90deg);
   }
   .arrow-right{
@@ -77,8 +85,11 @@ export const SetaCarrossel = styled.button`
   }
 
   @media (max-width: 800px) {
-    width: 10vw;
+    width:10%;
     height:auto;
+    background:transparent !important;
+    border:transparent !important;
+    
     
   }
 `;

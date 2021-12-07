@@ -23,8 +23,12 @@ export const FundoCard = styled.a`
     box-shadow: 2px 2px 5px #000000;
   }
   @media (max-width: 800px) {
+  &:hover,
+  &:focus {
+    box-shadow: none;
+  }
   width:35vw;
-  height:45vh;
+  height:45%;
   }
 `;
 

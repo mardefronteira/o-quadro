@@ -34,10 +34,12 @@ function Menu({ estado = 1 }) {
             <BotaoMenu onClick={() => { setTaAberto(!taAberto); }}>
               <img src="/imagens/menu-mobile.svg" alt="Botão Menu" />
             </BotaoMenu>
-            <LogoMobile
-              src={`${estado === 1 ? logos.oquadro.verdeVertical.src : logos.aquadro.vermelhoVertical.src}`}
-              alt={logos.oquadro.verdeVertical.desc}
-            />
+            <ItemMenu as={Link} to="/" className="logo">
+              <LogoMobile
+                src={`${estado === 1 ? logos.oquadro.verdeVertical.src : logos.aquadro.vermelhoVertical.src}`}
+                alt={logos.oquadro.verdeVertical.desc}
+              />
+            </ItemMenu>
             <ConteinerLinguagemMobile>
               <ItemLangMobile>PT </ItemLangMobile>
               /

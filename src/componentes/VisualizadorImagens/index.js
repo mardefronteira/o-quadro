@@ -4,6 +4,7 @@ import { ContainerBackGround, Download, ImagemCard } from './estilo';
 
 function VisualizadorImagens({ galeria = [] }) {
   const [imagemAtual, setimagemAtual] = useState(0);
+
   const [visualizadorAberto, setVisualizadorAberto] = useState(false);
   const abrirVisualizador = useCallback((index) => {
     setimagemAtual(index);
