@@ -8,7 +8,7 @@ flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-around;
 align-items: center;
-
+}
 `;
 
 export const Download = styled.button`
@@ -21,10 +21,11 @@ border:none;
 position: fixed;
 background-color: transparent;
 top:2.8%;
-right:3%;
+right:20%;
 `;
 
 export const ImagemCard = styled.img`
-width: 20%;
+width:40%;
+height:40%;
 padding-bottom: 5vh;
 `;
