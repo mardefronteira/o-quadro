@@ -27,7 +27,7 @@ export const FundoCard = styled.a`
   &:focus {
     box-shadow: none;
   }
-  width:35vw;
+  width:35%;
   height:45%;
   }
 `;
