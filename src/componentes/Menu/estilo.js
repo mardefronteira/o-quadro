@@ -76,6 +76,7 @@ background-color: #ffffff;
 z-index: 50;
 top: 0;
 left: 0;
+font-size: 0.80em;
 ${(props) => {
     if (props.estado === 1 || props.estado === 2) {
       return (`
@@ -165,8 +166,9 @@ export const Logo = styled.img`
     if (props.estado === 0) {
       return (`
           width:auto;
-          height: 55vh;
+          height: 50vh;
           align-self: center;
+          padding-top: 7vh;
           `);
     }
 
