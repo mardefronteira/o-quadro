@@ -15,7 +15,6 @@ import {
   InfoLivro,
   TituloLivro,
   AutorLivro,
-  ImgPatrocinadores,
   DivFlexLivros,
 } from './estilo';
 // importar componentes
@@ -27,7 +26,7 @@ function Publicacoes() {
   const info = dataBase.editora;
   // eslint-disable-next-line prefer-destructuring
   const publicacoes = dataBase.publicacoes;
-  const patrocinio = dataBase.patrocinadores;
+  // const patrocinio = dataBase.patrocinadores;
   useEffect(() => {
     document.getElementById('lista-livros').classList.add('fadeOut', 'alturaZero');
   }, []);
@@ -71,7 +70,7 @@ function Publicacoes() {
               </InfoLivro>
             </Livro>
           ))}
-          <ImgPatrocinadores src={patrocinio.src} alt={patrocinio.desc} />
+          {/* <ImgPatrocinadores src={patrocinio.src} alt={patrocinio.desc} /> */}
         </ListaLivro>
         <DivFlexLivros>
           <MaisInfo

@@ -47,7 +47,7 @@ const Carrossel = ({ categoria, taVermelho = true }) => {
           </TituloCarrossel>
           <Conteiner>
             <SetaCarrossel
-              className={pos > 0 ? '' : 'invisivel'}
+              className={pos > 0 ? '' : 'transparente'}
               onClick={() => {
                 moverCarrossel(-1, categoria.length);
               }}

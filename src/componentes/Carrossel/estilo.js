@@ -7,17 +7,15 @@ export const ConteinerCards = styled.div`
   align-items: center;
   width: 100%;
   height: auto;
-  margin: 0;
-  padding: 0;
   @media (max-width: 800px) {
     width: 70%;
     display: flex;
-    height: auto;
+    height: 100%;
     gap:2%;
-    flex-direction: row !important;
-    align-items:center !important;
-    justify-content:center !important;
-
+    flex-direction:row !important;
+    align-items:flex-start !important;
+    justify-content:center;
+    align-self:center;
   }
   
 `;
@@ -59,17 +57,14 @@ export const Conteiner = styled.div`
   display: flex;
   flex-direction: row;
   align-items:center;
-  gap:2%;
-  width:100%
+  width:100%;
   @media (max-width: 800px) {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content:center;
+    display:flex !important;
+    flex-direction:row !important;
+    justify-content:space-evenly;
     align-items:center;
     width:100%;
     height:auto;
-    gap:2%;
-
   }
 `;
 
@@ -78,7 +73,7 @@ export const SetaCarrossel = styled.button`
   border:none;
   display:flex;
   .arrow-left{
-    transform: rotate(90deg);
+    transform:rotate(90deg);
   }
   .arrow-right{
     transform:rotate(-90deg);
@@ -89,7 +84,10 @@ export const SetaCarrossel = styled.button`
     height:auto;
     background:transparent !important;
     border:transparent !important;
-    
-    
+    align-self:center !important; 
+    img{
+    width:100%;
+    height:100%;
+    } 
   }
 `;
