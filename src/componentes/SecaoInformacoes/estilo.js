@@ -117,7 +117,7 @@ line-height: 1.2;
   text-align:center;
   width:100%;
   font-size:2.5em;
-
+  }
 `;
 export const SubTituloDestaque = styled.h2`
 padding: 4vh 0 1.5vh 0;
