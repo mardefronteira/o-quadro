@@ -32,6 +32,9 @@ code {
 .invisivel{
  display:none;
 }
+.transparente{
+  visibility:hidden;
+}
 /* .alturaZero{
   height:0;
   overflow:hidden;
