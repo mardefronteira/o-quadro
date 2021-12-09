@@ -16,9 +16,20 @@ export const ContainerFilmes = styled.div`
     height: auto;
   }
 
+
+.equipe{
+  align-self:flex-start;
+  gap:10px;
+  width:100%;
+    p{
+    line-height: 2em;
+  }
+}
+
   .titulo-secao {
     align-items: center;
   }
+
 
   .galeria-fotos {
     flex-wrap: wrap;

@@ -47,7 +47,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
       <ImgDestaque src={filme.imgDestaque.src} alt={filme.imgDestaque.desc} />
       <DivFlex className="secaoPrincipal">
         <InfoFilme>
-          <iframe title="vimeo-player" src="https://player.vimeo.com/video/356585839?h=6667095b3e" frameBorder="0" allowFullScreen />
+          <iframe title="vimeo-player" src={filme.linkVideo} width="640" height="360" frameBorder="0" allowFullScreen />
           <SubTituloDestaque>
             {filme.titulo.toUpperCase()}
             {', '}
@@ -64,7 +64,6 @@ function SecaoInformacoes({ taVermelho = false, id }) {
             </DivFlex>
             <DivFlex className="caixa-texto" id="sinopse" eColuna>
               <H3Destaque>SINOPSE</H3Destaque>
-              {/* eslint-disable-next-line max-len */}
               <p>{filme.sinopse}</p>
             </DivFlex>
           </DivFlex>
@@ -75,7 +74,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
         <VisualizadorImagens galeria={galeria} className="galeria-fotos" />
 
       </DivFlex>
-      <DivFlex eColuna style={{ width: '100%', height: 'auto', gap: '1rem' }}>
+      <DivFlex eColuna>
         <DivFlex className="equipe" eColuna>
           <SubTituloDestaque>EQUIPE</SubTituloDestaque>
           <p dangerouslySetInnerHTML={filme.equipe.principal} />
