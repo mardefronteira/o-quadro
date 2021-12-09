@@ -9,6 +9,8 @@ import Inicial from './paginas/Inicial';
 import PublicacaoSelecionada from './paginas/PublicacaoSelecionada';
 import Publicacoes from './paginas/Publicacoes';
 import QuemSomos from './paginas/QuemSomos';
+import Sobre from './paginas/Sobre';
+import ColecaoEscreverCinema from './paginas/ColecaoEscreverCinema';
 import QuatroZeroQuatro from './paginas/QuatroZeroQuatro';
 
 import EstiloGlobal from './estilo';
@@ -26,6 +28,8 @@ ReactDOM.render(
       <Route path="/filmes/:categoria" component={Filmes} />
       <Route path="/publicacao/:id" component={PublicacaoSelecionada} />
       <Route path="/publicacoes" component={Publicacoes} />
+      <Route path="/sobre" component={Sobre} />
+      <Route path="/colecao" component={ColecaoEscreverCinema} />
       <Route path="/metro" component={FestivalMetro} />
       <Route path="/quem-somos" component={QuemSomos} />
       <Route path="/" component={Inicial} exact />

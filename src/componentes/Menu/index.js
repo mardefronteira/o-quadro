@@ -55,6 +55,8 @@ function Menu({ estado = 1 }) {
                 <li><SubItemMenuMobile as={Link} to="/filmes/curtas">Longa Metragem</SubItemMenuMobile></li>
                 <li><ItemMenuMobile as={Link} to="/metro/">Festival Metrô</ItemMenuMobile></li>
                 <li><ItemMenuMobile as={Link} to="/publicacoes">Publicações</ItemMenuMobile></li>
+                <li><SubItemMenuMobile as={Link} to="/sobre" estado={estado}>O QUE É? </SubItemMenuMobile></li>
+                <li><SubItemMenuMobile as={Link} to="/colecao" estado={estado}>COLEÇÃO ESCREVER O CINEMA </SubItemMenuMobile></li>
                 <li><ItemMenuMobile as={Link} to="/quem-somos">Quem Somos</ItemMenuMobile></li>
               </OpcoesMenu>
             </ConteinerItens>
@@ -83,7 +85,11 @@ function Menu({ estado = 1 }) {
                 />
               </ItemMenu>
             ) : ''}
-            <ItemMenu as={Link} to="/publicacoes" estado={estado}>PUBLICAÇÕES </ItemMenu>
+            <ul className="dropdown">
+              <ItemMenu as={Link} to="/publicacoes" estado={estado}>PUBLICAÇÕES </ItemMenu>
+              <li><ItemMenu as={Link} to="/sobre" estado={estado}>O QUE É? </ItemMenu></li>
+              <li><ItemMenu as={Link} to="/colecao" estado={estado}>COLEÇÃO ESCREVER O CINEMA </ItemMenu></li>
+            </ul>
             <ItemMenu as={Link} to="/quem-somos" estado={estado}>QUEM SOMOS </ItemMenu>
           </ConteinerItensMenu>
           <ConteinerLinguagem estado={estado}>
