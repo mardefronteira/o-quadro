@@ -56,21 +56,21 @@ const Carrossel = ({ categoria, taVermelho = true }) => {
 
           <Card
             taVermelho={taVermelho}
-            img={categoria[pos].imgDestaque}
+            img={categoria[pos].imgPoster}
             titulo={categoria[pos].titulo}
             desc={categoria[pos].desc}
             url={categoria[pos].url}
           />
           <Card
             taVermelho={taVermelho}
-            img={categoria[pos + 1].imgDestaque}
+            img={categoria[pos + 1].imgPoster}
             titulo={categoria[pos + 1].titulo}
             desc={categoria[pos + 1].desc}
             url={categoria[pos + 1].url}
           />
           <Card
             taVermelho={taVermelho}
-            img={categoria[pos + 2].imgDestaque}
+            img={categoria[pos + 2].imgPoster}
             titulo={categoria[pos + 2].titulo}
             desc={categoria[pos + 2].desc}
             url={categoria[pos + 2].url}

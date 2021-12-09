@@ -3,8 +3,10 @@ import PropTypes from 'prop-types';
 import {
   ItemMenuSocial, ConteinerMenuSocial, ItemBotao, TextoEmail,
 } from './estilo';
+import dataBase from '../../db';
 
 function MenuSocial({ vermelho = false }) {
+  const { logos } = dataBase;
   const [email, setEmail] = useState({
     __html: `<p class="email">oquadro@oquadro.net</p>
             <p class="info">(Clique para copiar)</p>`,
@@ -15,19 +17,19 @@ function MenuSocial({ vermelho = false }) {
       taVermelho={vermelho}
     >
       <ItemMenuSocial href="https://vimeo.com/oquadro" target="_blank">
-        <img src="../imagens/icone/vimeoIcone.svg" alt="Vimeo Logo" />
+        <img src={logos.sociais.vimeo.src} alt={logos.sociais.vimeo.desc} />
       </ItemMenuSocial>
       <ItemMenuSocial href="https://twitter.com/oquadrofilmes" target="_blank">
-        <img src="../imagens/icone/twitterIcone.svg" alt="Twitter Logo" />
+        <img src={logos.sociais.twitter.src} alt={logos.sociais.twitter.desc} />
       </ItemMenuSocial>
       <ItemMenuSocial href="https://www.youtube.com/user/OQuadroFilmes" target="_blank">
-        <img src="../imagens/icone/youtubeIcone.svg" alt="Youtube Logo" />
+        <img src={logos.sociais.youtube.src} alt={logos.sociais.youtube.desc} />
       </ItemMenuSocial>
       <ItemMenuSocial href="https://www.instagram.com/oquadrofilmes/" target="_blank">
-        <img src="../imagens/icone/instagramIcone.svg" alt="Instagram Logo" />
+        <img src={logos.sociais.instagram.src} alt={logos.sociais.instagram.desc} />
       </ItemMenuSocial>
       <ItemMenuSocial href="https://www.facebook.com/OQuadro" target="_blank">
-        <img src="../imagens/icone/facebookIcone.svg" alt="Facebook Logo" />
+        <img src={logos.sociais.facebook.src} alt={logos.sociais.facebook.desc} />
       </ItemMenuSocial>
       <ItemBotao
         type="button"
@@ -42,7 +44,7 @@ function MenuSocial({ vermelho = false }) {
           }, 1000);
         }}
       >
-        <img src="../imagens/icone/emailIcone.svg" alt="E-mail Logo" />
+        <img src={logos.sociais.email.src} alt={logos.sociais.email.desc} />
         <TextoEmail dangerouslySetInnerHTML={email} />
       </ItemBotao>
     </ConteinerMenuSocial>

@@ -14,8 +14,8 @@ gap:8vh;
 }
 
 iframe{
-  width:100%;
-  height:23em;
+  width:40vw;
+  height:45vh;
 }
 
 .caixa-texto{
@@ -44,9 +44,9 @@ iframe{
   align-self:flex-start;
   gap:10px;
   width:100%;
-  p{
-  line-height: 2em;
-}
+    p{
+    line-height: 2em;
+  }
 }
 
 #mais-equipe{
@@ -68,6 +68,7 @@ iframe{
 }
 
 .info-filme{
+  width:40vw;
   gap:15px;
 }
 `;
