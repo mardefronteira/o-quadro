@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import dataBase from '../../db';
 // importar componentes
 import {
-  Titulo,
   Conteiner,
   ArtigoPrincipal,
   ConteinerLinha,
@@ -36,7 +35,7 @@ function Publicacoes() {
       menuSocialVermelho
       estadoMenu={2}
     >
-      <Titulo>A QUADRO</Titulo>
+      {/* <Titulo>A QUADRO</Titulo> */}
       <Conteiner>
         <ArtigoPrincipal>
           <p>
