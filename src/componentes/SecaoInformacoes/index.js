@@ -13,6 +13,7 @@ import {
 import VisualizadorImagens from '../VisualizadorImagens';
 import Carrossel from '../Carrossel';
 import dataBase from '../../db';
+import { ImgPatrocinio } from '../../paginas/PublicacaoSelecionada/estilo';
 
 function SecaoInformacoes({ taVermelho = false, id }) {
   // const [taAtivo, setTaAtivo] = useState(false);
@@ -22,6 +23,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
     alt: imagem.desc,
     key: imagem.titulo.replace(' ', '-'),
   }));
+  const patrocinio = dataBase.patrocinadores;
 
   const filmesRelacionados = dataBase.filmes.filter(
     (filmeDb) => filmeDb.tags.some(
@@ -106,6 +108,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
             </>
           )}
       </DivFlex>
+      <ImgPatrocinio src={patrocinio.src} alt={patrocinio.desc} />
 
       <Carrossel categoria={filmesRelacionados} taVermelho={taVermelho} />
     </ContainerFilmes>

@@ -8,6 +8,12 @@ flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-around;
 align-items: center;
+@media(max-width: 800px){
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width:100%;
+}
 
 `;
 
@@ -21,10 +27,15 @@ border:none;
 position: fixed;
 background-color: transparent;
 top:2.8%;
-right:3%;
+right:20%;
 `;
 
 export const ImagemCard = styled.img`
-width: 20%;
+width:40%;
+height:40%;
 padding-bottom: 5vh;
+@media(max-width: 800px){
+  padding-bottom:2vh;
+}
+
 `;
