@@ -2,15 +2,22 @@ import styled from 'styled-components';
 
 export const ConteinerCards = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content:center;
+  gap:2%;
   align-items: center;
   width: 100%;
   height: auto;
-  margin: 0;
-  padding: 0;
-  @media (max-width: 800px){
-    width: 90%;
+  @media (max-width: 800px) {
+    width: 70%;
+    display: flex;
+    height: 100%;
+    gap:2%;
+    flex-direction:row !important;
+    align-items:flex-start !important;
+    justify-content:center;
+    align-self:center;
   }
+  
 `;
 
 export const TituloAnimado = styled.h2`
@@ -29,29 +36,58 @@ export const FundoCarrossel = styled.div`
   margin-bottom: 5vh;
   display: flex;
   flex-direction: column;
-  margin: 0 auto; 
+  align-items:center;
+  margin: 0 auto;
   @media (max-width: 800px) {
-  padding-bottom: 10vh;
+    margin:0;
+    display:flex;
+    align-items:center;
+    
   }
-  
 `;
 
 export const TituloCarrossel = styled.h2`
-font-weight: 300;
-@media (max-width: 800px) {
- margin: 0 10vw; 
-}
+  font-weight: 300;
+  @media (max-width: 800px) {
+    margin: 0 10vw;
+  }
 `;
 
 export const Conteiner = styled.div`
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  width:100%;
+  @media (max-width: 800px) {
+    display:flex !important;
+    flex-direction:row !important;
+    justify-content:space-evenly;
+    align-items:center;
+    width:100%;
+    height:auto;
+  }
 `;
 
 export const SetaCarrossel = styled.button`
-  background: none;
-  border: none;
+  background:none;
+  border:none;
+  display:flex;
+  .arrow-left{
+    transform:rotate(90deg);
+  }
+  .arrow-right{
+    transform:rotate(-90deg);
+  }
+
   @media (max-width: 800px) {
-  padding: 0 3vw;
+    width:10%;
+    height:auto;
+    background:transparent !important;
+    border:transparent !important;
+    align-self:center !important; 
+    img{
+    width:100%;
+    height:100%;
+    } 
   }
 `;

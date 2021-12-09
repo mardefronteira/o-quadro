@@ -34,10 +34,12 @@ function Menu({ estado = 1 }) {
             <BotaoMenu onClick={() => { setTaAberto(!taAberto); }}>
               <img src="/imagens/menu-mobile.svg" alt="Botão Menu" />
             </BotaoMenu>
-            <LogoMobile
-              src={logos.oquadro.verdeVertical.src}
-              alt={logos.oquadro.verdeVertical.desc}
-            />
+            <ItemMenu as={Link} to="/" className="logo">
+              <LogoMobile
+                src={`${estado === 1 ? logos.oquadro.verdeVertical.src : logos.aquadro.vermelhoVertical.src}`}
+                alt={logos.oquadro.verdeVertical.desc}
+              />
+            </ItemMenu>
             <ConteinerLinguagemMobile>
               <ItemLangMobile>PT </ItemLangMobile>
               /
@@ -81,7 +83,6 @@ function Menu({ estado = 1 }) {
                 />
               </ItemMenu>
             ) : ''}
-
             <ItemMenu as={Link} to="/publicacoes" estado={estado}>PUBLICAÇÕES </ItemMenu>
             <ItemMenu as={Link} to="/quem-somos" estado={estado}>QUEM SOMOS </ItemMenu>
           </ConteinerItensMenu>
@@ -92,7 +93,6 @@ function Menu({ estado = 1 }) {
           </ConteinerLinguagem>
         </ConteinerMenu>
       </MediaQuery>
-
     </>
   );
 }

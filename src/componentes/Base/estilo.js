@@ -4,12 +4,11 @@ export const Pagina = styled.main`
     width: 70vw;
     color: #000000;
     flex: 1;
-    margin:20vh 15vw;
-    position: absolute;
+    margin:25vh 15vw;
     @media (max-width: 800px) {
         margin: 0;
         width: 100%;
-        padding: 10vh 0;
+        padding:15vh 0;
     }
 `;
 

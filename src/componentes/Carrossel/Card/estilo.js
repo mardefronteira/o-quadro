@@ -17,14 +17,18 @@ export const FundoCard = styled.a`
   text-align: center;
   text-decoration: none;
   color: inherit;
-  padding: 4vh 2vw;
   transition-duration: 0.7s;
   &:hover,
   &:focus {
     box-shadow: 2px 2px 5px #000000;
   }
   @media (max-width: 800px) {
-  width:20vw;
+  &:hover,
+  &:focus {
+    box-shadow: none;
+  }
+  width:35%;
+  height:45%;
   }
 `;
 
