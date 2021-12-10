@@ -16,13 +16,13 @@ function MenuSocial({ vermelho = false }) {
     <ConteinerMenuSocial
       taVermelho={vermelho}
     >
-      <ItemMenuSocial href="https://vimeo.com/oquadro" target="_blank">
+      <ItemMenuSocial taVermelho={vermelho} href="https://vimeo.com/oquadro" target="_blank">
         <img src={logos.sociais.vimeo.src} alt={logos.sociais.vimeo.desc} />
       </ItemMenuSocial>
-      <ItemMenuSocial href="https://twitter.com/oquadrofilmes" target="_blank">
+      <ItemMenuSocial taVermelho={vermelho} href="https://twitter.com/oquadrofilmes" target="_blank">
         <img src={logos.sociais.twitter.src} alt={logos.sociais.twitter.desc} />
       </ItemMenuSocial>
-      <ItemMenuSocial href="https://www.youtube.com/user/OQuadroFilmes" target="_blank">
+      <ItemMenuSocial taVermelho={vermelho} href="https://www.youtube.com/user/OQuadroFilmes" target="_blank">
         <img src={logos.sociais.youtube.src} alt={logos.sociais.youtube.desc} />
       </ItemMenuSocial>
       <ItemMenuSocial href="https://www.instagram.com/oquadrofilmes/" target="_blank">
