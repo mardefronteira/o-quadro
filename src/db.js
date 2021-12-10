@@ -2127,15 +2127,13 @@ const dataBase = {
   },
   publicacoes: [
     {
-      img: { src: '/imagens/publicacoes/livro01antioni_capa_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      imgPoster: { src: '/imagens/cartaz_dias-de-trovao.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      imgDestaque: { src: '/imagens/cartaz_dias-de-trovao.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      imgPoster: { src: '/imagens/publicacoes/livro01antonioni_capa_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       url: 'a-aventura',
       titulo: 'A AVENTURA: NOTAS SOBRE O ESTILO DE MICHELANGELO ANTONIONI',
       autor: 'DE JULIANA RODRIGUES PEREIRA',
       sobreoAutor: 'Juliana Rodrigues Pereira é assessora de comunicação e pesquisadora. Nasceu no Rio de Janeiro e, depois de morar em três regiões diferentes do País, criou raiz em Curitiba. É mestre em História pela UFPR; e bacharel em Jornalismo pela PUC-PR e em Cinema e Audiovisual pela Faculdade de Artes do Paraná.',
       sinopse: 'A aventura: notas sobre o estilo de Michelangelo Antonioni evidencia os elementos que consolidaram as bases do estilo do cineasta italiano a partir de um filme-chave de sua carreira, A aventura, de 1960. Por meio da análise fílmica minuciosa, a autora explica e desfaz lugares-comuns sobre este artista fundamental para a história do cinema moderno. ',
-      participacao: 'Gustavo Piaskoski e Marrara Mara',
+      patrocinadores: { src: '/imagens/publicacoes/livro01_04_05_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'fica técnica' }],
       tags: [],
       fichaTecnica: ` 
@@ -2147,29 +2145,27 @@ const dataBase = {
       Edição: 1ª - 2021
       Editora: Edições A Quadro
       Coleção Escrever o Cinema  
-`
-      ,
+`,
     },
     {
-      img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      imgPoster: { src: '/imagens/cartaz_dias-de-trovao.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      imgDestaque: { src: '/imagens/cartaz_dias-de-trovao.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      url: 'contos-morais',
-      titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
-      autor: 'DE ALEXANDRE GARCIA',
-      sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
-      sinopse: 'Alexandre Garcia segue o estilo de Rohmer na precisão seca do corte. Testemunha a matéria-prima do cineasta dos afetos e das sensações, dos gestos no mundo, em seu modo prosaico de fazer cena e reivindicar moral. Para Rohmer, vale mais o suspiro que a ilação, o inefável que o postulado – e assim atravessa a forma dura do mundo. As grandes emoções não se deixam levar, nem as grandes frases empoladas – os momentos cruciais não têm circunstância. O traço do moralismo como lição de afetos transpira com fôlego de juventude nos Contos morais, em toda intensidade e delicadeza. Garcia sabe captar este movimento e acerta na mosca do olhar rohmeriano. Pois Rohmer é o poeta do prosaico e das pequenas emoções que se expressam em micro movimentos, das superfícies do mundo, dos traços sutis na expressão, das paisagens e cenografias delicadamente construídas. - Fernão Pessoa Ramos',
-      participacao: 'Gustavo Piaskoski e Marrara Mara',
+      imgPoster: { src: '/imagens/publicacoes/livro01antonioni_capa_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      url: 'eugene-green',
+      titulo: 'EUGÈNE GREEN E A HIPÓTESE DO CINEMA DESCORTINADO',
+      autor: 'DE PEDRO FAISSOL',
+      sobreoAutor: 'Pedro Faissol é pesquisador e professor de Cinema. Doutor e Mestre em Meios e Processos Audiovisuais pela Escola de Comunicações e Artes da Universidade de São Paulo (ECA/USP). Bacharel em Comunicação Social (Cinema) pela Universidade Federal Fluminense (UFF). Docente do curso de Bacharelado em Cinema e Audiovisual e do Programa de Pós-Graduação em Cinema e Artes do Vídeo da Universidade Estadual do Paraná (PPG-CINEAV/Unespar). ',
+      sinopse: 'Pedro Faissol lança luz sobre um intrigante padrão de encenação no cinema de Eugène Green. Para comprovar a hipótese, examina de perto os seus dois primeiros filmes: Todas as noites (2001) e O mundo vivente (2003). A abordagem proposta desfaz as fronteiras entre análise imanente, cotejo teórico e expressão pessoal, o que confere à escrita um mimetismo tonal capaz de prolongar a experiência singular do cinema de Eugène Green. ',
       textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'fica técnica' }],
-      tags: [],
-      fichaTecnica: ` Editora : Arte & Letra 
-    1ª edição (21 março 2019)
-    Idioma :  Português
-    Capa comum : 171 páginas
-    ISBN-10 : 8560499997
-    ISBN-13 : 978-8560499991
-    Dimensões : 16 x 1 x 23 cm `
-      ,
+      fichaTecnica: ` 
+      ISBN: 978-65-996017-2-9 
+      Páginas: 184
+      Idioma: Português 
+      Dimensões: 21 x 14 cm 
+      Formato: Livro - Brochura
+      Edição: 1ª - 2021
+      Editora: Edições A Quadro
+      Coleção Escrever o Cinema
+  
+`,
     }, {
       img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       imgPoster: { src: '/imagens/cartaz_dias-de-trovao.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -2179,7 +2175,7 @@ const dataBase = {
       autor: 'DE ALEXANDRE GARCIA',
       sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
       sinopse: 'Alexandre Garcia segue o estilo de Rohmer na precisão seca do corte. Testemunha a matéria-prima do cineasta dos afetos e das sensações, dos gestos no mundo, em seu modo prosaico de fazer cena e reivindicar moral. Para Rohmer, vale mais o suspiro que a ilação, o inefável que o postulado – e assim atravessa a forma dura do mundo. As grandes emoções não se deixam levar, nem as grandes frases empoladas – os momentos cruciais não têm circunstância. O traço do moralismo como lição de afetos transpira com fôlego de juventude nos Contos morais, em toda intensidade e delicadeza. Garcia sabe captar este movimento e acerta na mosca do olhar rohmeriano. Pois Rohmer é o poeta do prosaico e das pequenas emoções que se expressam em micro movimentos, das superfícies do mundo, dos traços sutis na expressão, das paisagens e cenografias delicadamente construídas. - Fernão Pessoa Ramos',
-      participacao: 'Gustavo Piaskoski e Marrara Mara',
+      patrocinadores: { src: '/imagens/publicacoes/livro02_03_creditos_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       tags: [],
       fichaTecnica: ` Editora ‏ : ‎ Arte & Letra
     1ª edição (21 março 2019)
