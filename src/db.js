@@ -2136,129 +2136,123 @@ const dataBase = {
       patrocinadores: { src: '/imagens/publicacoes/livro01_04_05_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'fica técnica' }],
       tags: [],
-      fichaTecnica: ` 
-      ISBN: 978-65-996017-0-5 
-      Páginas: 156 
-      Idioma: Português 
-      Dimensões: 21 x 14 cm 
-      Formato: Livro - Brochura
-      Edição: 1ª - 2021
-      Editora: Edições A Quadro
-      Coleção Escrever o Cinema  
-`,
+      fichaTecnica: {
+        isbn: '978-65-996017-0-5',
+        paginas: '156',
+        idioma: 'Português',
+        dimensoes: '21 x 14 cm',
+        formato: 'Livro - Brochura',
+        edicao: '1ª - 2021',
+        editora: 'Edições A Quadro',
+        colecao: 'Coleção Escrever o Cinema',
+      },
     },
     {
-      imgPoster: { src: '/imagens/publicacoes/livro01antonioni_capa_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      imgPoster: { src: '/imagens/publicacoes/livro02green_capa_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       url: 'eugene-green',
       titulo: 'EUGÈNE GREEN E A HIPÓTESE DO CINEMA DESCORTINADO',
       autor: 'DE PEDRO FAISSOL',
       sobreoAutor: 'Pedro Faissol é pesquisador e professor de Cinema. Doutor e Mestre em Meios e Processos Audiovisuais pela Escola de Comunicações e Artes da Universidade de São Paulo (ECA/USP). Bacharel em Comunicação Social (Cinema) pela Universidade Federal Fluminense (UFF). Docente do curso de Bacharelado em Cinema e Audiovisual e do Programa de Pós-Graduação em Cinema e Artes do Vídeo da Universidade Estadual do Paraná (PPG-CINEAV/Unespar). ',
       sinopse: 'Pedro Faissol lança luz sobre um intrigante padrão de encenação no cinema de Eugène Green. Para comprovar a hipótese, examina de perto os seus dois primeiros filmes: Todas as noites (2001) e O mundo vivente (2003). A abordagem proposta desfaz as fronteiras entre análise imanente, cotejo teórico e expressão pessoal, o que confere à escrita um mimetismo tonal capaz de prolongar a experiência singular do cinema de Eugène Green. ',
       textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'fica técnica' }],
-      fichaTecnica: ` 
-      ISBN: 978-65-996017-2-9 
-      Páginas: 184
-      Idioma: Português 
-      Dimensões: 21 x 14 cm 
-      Formato: Livro - Brochura
-      Edição: 1ª - 2021
-      Editora: Edições A Quadro
-      Coleção Escrever o Cinema
-  
-`,
-    }, {
-      img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      imgPoster: { src: '/imagens/cartaz_dias-de-trovao.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      imgDestaque: { src: '/imagens/cartaz_dias-de-trovao.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      url: 'contos-morais-2',
-      titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
-      autor: 'DE ALEXANDRE GARCIA',
-      sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
-      sinopse: 'Alexandre Garcia segue o estilo de Rohmer na precisão seca do corte. Testemunha a matéria-prima do cineasta dos afetos e das sensações, dos gestos no mundo, em seu modo prosaico de fazer cena e reivindicar moral. Para Rohmer, vale mais o suspiro que a ilação, o inefável que o postulado – e assim atravessa a forma dura do mundo. As grandes emoções não se deixam levar, nem as grandes frases empoladas – os momentos cruciais não têm circunstância. O traço do moralismo como lição de afetos transpira com fôlego de juventude nos Contos morais, em toda intensidade e delicadeza. Garcia sabe captar este movimento e acerta na mosca do olhar rohmeriano. Pois Rohmer é o poeta do prosaico e das pequenas emoções que se expressam em micro movimentos, das superfícies do mundo, dos traços sutis na expressão, das paisagens e cenografias delicadamente construídas. - Fernão Pessoa Ramos',
       patrocinadores: { src: '/imagens/publicacoes/livro02_03_creditos_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      tags: [],
-      fichaTecnica: ` Editora ‏ : ‎ Arte & Letra
-    1ª edição (21 março 2019)
-    Idioma ‏ : ‎ Português
-    Capa comum ‏ : ‎ 171 páginas
-    ISBN-10 ‏ : ‎ 8560499997
-    ISBN-13 ‏ : ‎ 978-8560499991
-    Dimensões ‏ : ‎ 16 x 1 x 23 cm `
-      ,
+      fichaTecnica: {
+        isbn: '978-65-996017-2-9',
+        paginas: '184',
+        idioma: 'Português',
+        dimensoes: '21 x 14 cm',
+        formato: 'Livro - Brochura',
+        edicao: '1ª - 2021',
+        editora: 'Edições A Quadro',
+        colecao: 'Coleção Escrever o Cinema',
+      },
     }, {
-      img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      imgPoster: { src: '/imagens/cartaz_dias-de-trovao.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      imgDestaque: { src: '/imagens/cartaz_dias-de-trovao.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      url: 'contos-morais-3',
+      imgPoster: { src: '/imagens/publicacoes/livro03rohmer_capa_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      url: 'contos-morais',
       titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
       autor: 'DE ALEXANDRE GARCIA',
-      sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
-      sinopse: 'Alexandre Garcia segue o estilo de Rohmer na precisão seca do corte. Testemunha a matéria-prima do cineasta dos afetos e das sensações, dos gestos no mundo, em seu modo prosaico de fazer cena e reivindicar moral. Para Rohmer, vale mais o suspiro que a ilação, o inefável que o postulado – e assim atravessa a forma dura do mundo. As grandes emoções não se deixam levar, nem as grandes frases empoladas – os momentos cruciais não têm circunstância. O traço do moralismo como lição de afetos transpira com fôlego de juventude nos Contos morais, em toda intensidade e delicadeza. Garcia sabe captar este movimento e acerta na mosca do olhar rohmeriano. Pois Rohmer é o poeta do prosaico e das pequenas emoções que se expressam em micro movimentos, das superfícies do mundo, dos traços sutis na expressão, das paisagens e cenografias delicadamente construídas. - Fernão Pessoa Ramos',
-      participacao: 'Gustavo Piaskoski e Marrara Mara',
-      tags: [],
-      fichaTecnica: ` Editora ‏ : ‎ Arte & Letra
-    1ª edição (21 março 2019)
-    Idioma ‏ : ‎ Português
-    Capa comum ‏ : ‎ 171 páginas
-    ISBN-10 ‏ : ‎ 8560499997
-    ISBN-13 ‏ : ‎ 978-8560499991
-    Dimensões ‏ : ‎ 16 x 1 x 23 cm `
-      ,
+      sobreoAutor: 'Alexandre Rafael Garcia nasceu em 1985 em Curitiba. É pesquisador, realizador e professor de cinema. Doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e bacharel em Cinema pela Faculdade de Artes do Paraná. Fundou e foi sócio da produtora O Quadro de 2010 a 2015. Criador da Coleção Escrever o Cinema e da série Dicionário de Cinema. Hoje trabalha na Universidade Estadual do Paraná (Unespar).',
+      sinopse: 'A partir da análise dos seis filmes do ciclo dos Contos Morais, realizados entre 1963 e 1972, Alexandre Rafael Garcia apresenta o estilo de Éric Rohmer. O recorte se constitui como importante porta de entrada para a compreensão dos modos de produção, da narrativa e da mise en scène do cineasta francês, singular personagem na história das artes.',
+      patrocinadores: { src: '/imagens/publicacoes/livro02_03_creditos_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      fichaTecnica: {
+        isbn: '978-65-996017-1-2',
+        paginas: '184',
+        idioma: 'Português',
+        dimensoes: '21 x 14 cm',
+        formato: 'Livro - Brochura',
+        edicao: '1ª - 2021',
+        editora: 'Edições A Quadro',
+        colecao: 'Coleção Escrever o Cinema',
+      },
     }, {
-      img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      imgPoster: { src: '/imagens/cartaz_dias-de-trovao.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      imgDestaque: { src: '/imagens/cartaz_dias-de-trovao.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      url: 'contos-morais-4',
-      titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
-      autor: 'DE ALEXANDRE GARCIA',
-      sobreoAutor: 'Nascido em 1985, em Curitiba, é pesquisador, realizador e professor de cinema. Trabalha na Universidade Estadual do Paraná (Unespar) e no Colégio Medianeira. É doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e graduado em Cinema pela Faculdade de Artes do Paraná (Unespar). Fundou e foi sócio da produtora O Quadro de 2010 a 2015.',
-      sinopse: 'Alexandre Garcia segue o estilo de Rohmer na precisão seca do corte. Testemunha a matéria-prima do cineasta dos afetos e das sensações, dos gestos no mundo, em seu modo prosaico de fazer cena e reivindicar moral. Para Rohmer, vale mais o suspiro que a ilação, o inefável que o postulado – e assim atravessa a forma dura do mundo. As grandes emoções não se deixam levar, nem as grandes frases empoladas – os momentos cruciais não têm circunstância. O traço do moralismo como lição de afetos transpira com fôlego de juventude nos Contos morais, em toda intensidade e delicadeza. Garcia sabe captar este movimento e acerta na mosca do olhar rohmeriano. Pois Rohmer é o poeta do prosaico e das pequenas emoções que se expressam em micro movimentos, das superfícies do mundo, dos traços sutis na expressão, das paisagens e cenografias delicadamente construídas. - Fernão Pessoa Ramos',
-      participacao: 'Gustavo Piaskoski e Marrara Mara',
-      tags: [],
-      fichaTecnica: ` Editora ‏ : ‎ Arte & Letra
-    1ª edição (21 março 2019)
-    Idioma ‏ : ‎ Português
-    Capa comum ‏ : ‎ 171 páginas
-    ISBN-10 ‏ : ‎ 8560499997
-    ISBN-13 ‏ : ‎ 978-8560499991
-    Dimensões ‏ : ‎ 16 x 1 x 23 cm `
-      ,
+      imgPoster: { src: '/imagens/publicacoes/livro04milagre_capa_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      url: 'a-representacao',
+      titulo: 'A REPRESENTAÇÃO DO MILAGRE NO CINEMA: ICONOGRAFIA, IDOLATRIA E CRENÇA',
+      autor: 'DE PEDRO FAISSOL',
+      sobreoAutor: 'Pedro Faissol é pesquisador e professor de Cinema. Doutor e Mestre em Meios e Processos Audiovisuais pela Escola de Comunicações e Artes da Universidade de São Paulo (ECA/USP). Bacharel em Comunicação Social (Cinema) pela Universidade Federal Fluminense (UFF). Docente do curso de Bacharelado em Cinema e Audiovisual e do Programa de Pós-Graduação em Cinema e Artes do Vídeo da Universidade Estadual do Paraná (PPG-CINEAV/Unespar).',
+      sinopse: 'O milagre no cinema se apresenta como um problema de representação. Essa premissa ensejou o recorte deste livro. Para cada milagre selecionado (Anunciação, Cura do cego, Ressurreição), foi eleito um dilema correspondente: 1. Como retrabalhar no cinema os motivos plásticos da iconografia cristã? 2. Como figurar o rosto de Cristo, sob o risco de provocar a idolatria? 3. Quais as estratégias adotadas para o problema da descrença na representação? As análises fílmicas mostram um amplo repertório de caminhos para essas perguntas.',
+      patrocinadores: { src: '/imagens/publicacoes/livro01_04_05_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      fichaTecnica: {
+        isbn: '978-65-996017-3-6',
+        paginas: '308',
+        idioma: 'Português',
+        dimensoes: '21 x 14 cm',
+        formato: 'Livro - Brochura',
+        edicao: '1ª - 2021',
+        editora: 'Edições A Quadro',
+        colecao: 'Coleção Escrever o Cinema',
+      },
+    },
+    {
+      imgPoster: { src: '/imagens/publicacoes/livro05documentario_capa_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      url: 'documentario',
+      titulo: 'DOCUMENTÁRIO: FILMES PARA SALAS DE CINEMA COM JANELAS',
+      autor: 'DE EDUARDO TULIO BAGGIO',
+      sobreoAutor: 'Eduardo Tulio Baggio é professor do Bacharelado em Cinema e Audiovisual e do Mestrado em Cinema e Artes do Vídeo, ambos da Unespar. Colíder do grupo de pesquisa Cinecriare (Unespar/CNPq). Membro do ST Teoria de Cineastas da Socine e do GT Teoria dos Cineastas da AIM. Publicou textos em revistas como Cine Documental, Aniki, Doc Online, Galáxia e Cognítio. Um dos organizadores dos livros Teoria dos Cineastas (Vols.1, 2 e 3). Entre seus filmes destacam-se A Alma do Gesto (2020), João & Maria (2016) e Santa Teresa (2014). ',
+      sinopse: 'Documentário: Filmes para Salas de Cinema com Janelas traça um percurso histórico-conceitual para debater criticamente definições de documentário. Pela perspectiva realista, o livro discute as relações, próprias desse tipo de filme, entre mundo fático experiencial, os processos de realização, a obra audiovisual em si e a recepção A partir desses quatro polos, o autor propõe a metáfora das salas de cinema com janelas para uma abordagem amplificada e relacional do cinema documentário.',
+      patrocinadores: { src: '/imagens/publicacoes/livro01_04_05_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      fichaTecnica: {
+        isbn: '978-65-996017-4-3',
+        paginas: '140',
+        idioma: 'Português',
+        dimensoes: '21 x 14 cm',
+        formato: 'Livro - Brochura',
+        edicao: '1ª - 2021',
+        editora: 'Edições A Quadro',
+        colecao: 'Coleção Escrever o Cinema',
+      },
     },
 
   ],
   quemSomos: {
     titulo: 'QUEM SOMOS',
-    imgDestaque: { src: '/imagens/teste/fotoPerfilQuadro1.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: '/imagens/quemsomos/integrantes_grupo_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     texto: {
-      primeiroParagrafo: 'Formada em 2010, O Quadro é uma produtora voltada para os filmes, com a paixão de quem gosta de fazer cinema porque ama ver cinema.',
-      segundoParagrafo: 'Depois de mais de uma dezena de curtas-metragens premiados, com circulação nos principais festivais de cinema nacionais, além de canais de TV, como TNT, Canal Brasil, TCM, entre outros), a produtora lançou, em 2017, seu primeiro longa-metragem, “Bye Bye Jaqueline”. Com estreia em diversas capitais e exibido em festivais em Portugal e na África do Sul, o filme é uma comédia de espírito livre, que reúne diversas das características dos curtas-metragens realizados pela produtora ao longo dos anos.',
-      terceiroParagrafo: 'A partir de 2017, O Quadro passou a apontar o telescópio para outros quadrantes da galáxia, criando o Metrô – Festival do Cinema Universitário Brasileiro e produzindo o longa-metragem “Euller Miller Entre Dois Mundos”, dirigido por Fernando Severo.',
-      quartoParagrafo: 'Isso é só o começo.',
+      primeiroParagrafo: 'Formada em 2010, a produtora O Quadro realiza filmes, um festival de cinema, mostras, oficinas e, também, lança livros.',
+      segundoParagrafo: 'São dezenas de curtas-metragens, longas, médias exibidos e premiados nos mais diversos festivais de cinema, lançados em circuito comercial, e programados em canais de TV e plataformas VOD.',
+      terceiroParagrafo: 'Em 2017, O Quadro criou o Metrô – Festival do Cinema Universitário Brasileiro, evento que vem se destacando no campo dos festivais, com a projeção de obras universitárias das mais diversas, além de numerosas atividades de formação.',
+      quartoParagrafo: 'Em 2021, a produtora amplia o campo de ação, a partir do lançamento do selo Edições A Quadro, responsável pelo lançamento de livros sobre cinema.',
     },
 
     membros: [{
-      nome: 'Anderson',
+      nome: 'Anderson Simão',
       img:
-        { src: '/imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
-      sobre: 'lorem ipsum dolor sit',
+        { src: '/imagens/quemsomos/integrantes_anderson_web.jpg', desc: 'descrição da imagem' },
     },
     {
-      nome: 'Christopher',
+      nome: 'Christopher Faust',
       img:
         { src: '/imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
-      sobre: 'lorem ipsum dolor sit',
     },
     {
-      nome: 'Evandro',
+      nome: 'Evandro Scorsin',
       img:
         { src: '/imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
-      sobre: 'lorem ipsum dolor sit',
     },
     {
-      nome: 'Wellington',
+      nome: 'Wellington Sari',
       img:
         { src: '/imagens/teste/posterTerror.png', desc: 'descrição da imagem' },
-      sobre: 'lorem ipsum dolor sit',
     },
 
     ],
