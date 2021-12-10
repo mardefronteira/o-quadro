@@ -12,7 +12,7 @@ function FestivalMetro() {
   const [indice, setIndice] = useState(0);
   useEffect(() => {
     // eslint-disable-next-line max-len
-    setTimeout(() => { setIndice(indice >= (festival.slideshow.length - 1) ? 0 : (indice + 1)); }, 5000);
+    setTimeout(() => { setIndice(indice >= (festival.slideshow.length - 1) ? 0 : (indice + 1)); }, 4000);
   }, [indice]);
 
   return (

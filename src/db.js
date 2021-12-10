@@ -2117,12 +2117,39 @@ const dataBase = {
       quartoParagrafo: 'Atualmente, enquanto produz os 4 primeiros volumes da Coleção Escrever o Cinema, paralelamente busca a viabilização de mais 4 volumes determinados para nova fase da coleção, enquanto matura e idealiza demais projetos de escrita e publicação.',
     },
   },
+  colecoes: {
+    texto: 'A Coleção Escrever o Cinema expande para a página dos livros o ato de se fazer cinema, trocando a lente pela letra, substituindo o roteiro pela reflexão. Nos volumes da coleção, pesquisadoras e pesquisadores ligados à universidade lançam luz sobre aspectos teóricos, históricos e críticos de diferentes obras da cinematografia mundial, em diálogo com outros campos do conhecimento, mas sempre retornando para os filmes em si.',
+  },
   patrocinadores: {
     titulo: 'Logo de Patrocinadores',
     src: '/imagens/patrocinadores.png',
     desc: 'descrição da imagem',
   },
   publicacoes: [
+    {
+      img: { src: '/imagens/publicacoes/livro01antioni_capa_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      imgPoster: { src: '/imagens/cartaz_dias-de-trovao.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      imgDestaque: { src: '/imagens/cartaz_dias-de-trovao.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      url: 'a-aventura',
+      titulo: 'A AVENTURA: NOTAS SOBRE O ESTILO DE MICHELANGELO ANTONIONI',
+      autor: 'DE JULIANA RODRIGUES PEREIRA',
+      sobreoAutor: 'Juliana Rodrigues Pereira é assessora de comunicação e pesquisadora. Nasceu no Rio de Janeiro e, depois de morar em três regiões diferentes do País, criou raiz em Curitiba. É mestre em História pela UFPR; e bacharel em Jornalismo pela PUC-PR e em Cinema e Audiovisual pela Faculdade de Artes do Paraná.',
+      sinopse: 'A aventura: notas sobre o estilo de Michelangelo Antonioni evidencia os elementos que consolidaram as bases do estilo do cineasta italiano a partir de um filme-chave de sua carreira, A aventura, de 1960. Por meio da análise fílmica minuciosa, a autora explica e desfaz lugares-comuns sobre este artista fundamental para a história do cinema moderno. ',
+      participacao: 'Gustavo Piaskoski e Marrara Mara',
+      textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'fica técnica' }],
+      tags: [],
+      fichaTecnica: ` 
+      ISBN: 978-65-996017-0-5 
+      Páginas: 156 
+      Idioma: Português 
+      Dimensões: 21 x 14 cm 
+      Formato: Livro - Brochura
+      Edição: 1ª - 2021
+      Editora: Edições A Quadro
+      Coleção Escrever o Cinema  
+`
+      ,
+    },
     {
       img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       imgPoster: { src: '/imagens/cartaz_dias-de-trovao.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -2135,13 +2162,13 @@ const dataBase = {
       participacao: 'Gustavo Piaskoski e Marrara Mara',
       textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'fica técnica' }],
       tags: [],
-      fichaTecnica: ` Editora ‏ : ‎ Arte & Letra 
+      fichaTecnica: ` Editora : Arte & Letra 
     1ª edição (21 março 2019)
-    Idioma ‏ : ‎ Português
-    Capa comum ‏ : ‎ 171 páginas
-    ISBN-10 ‏ : ‎ 8560499997
-    ISBN-13 ‏ : ‎ 978-8560499991
-    Dimensões ‏ : ‎ 16 x 1 x 23 cm `
+    Idioma :  Português
+    Capa comum : 171 páginas
+    ISBN-10 : 8560499997
+    ISBN-13 : 978-8560499991
+    Dimensões : 16 x 1 x 23 cm `
       ,
     }, {
       img: { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -2246,13 +2273,18 @@ const dataBase = {
     logo: { src: '/imagens/festivalMetro.svg', desc: 'Logo Festival Metro' },
     titulo: 'FESTIVAL METRÔ',
     button: 'Embarque',
-    texto: 'Desde 2017, O Quadro produz o Metrô – Festival do Cinema Universitário Brasileiro. Voltado para a exibição, a reflexão e o debate sobre o cinema e as coisas da vida, o festival busca construir uma estação imaginária em que se encontrem e se cruzem diferentes formas de criação artística e de pessoas.',
+    texto: 'O Metrô – Festival do Cinema Universitário Brasileiro, idealizado e produzido pelo O Quadro, com a ajuda valiosa de diversos parceiros, acontece desde 2017. Espaço para exibição e a reflexão do cinema brasileiro realizado por estudantes, o Metrô é a estação que possibilita a jornada, o encontro, a troca e a invenção.',
     img: { src: '/imagens/4edicao.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     link: 'https://metrouniversitario.com.br',
     slideshow: [
-      { src: '/imagens/4edicao.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/teste/fotoPerfilQuadro.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/teste/posterTerrorGrande.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/metro/metro2017_cartaz1_horizontal_WEB.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/metro/metro2017_cartaz2_horizontal_WEB.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/metro/metro2018_cartaz_WEB.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/metro/metro2019_cartaz_WEB.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/metro/metro2020_cartaz_WEB.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/metro/metro2021_cartaz1_WEB.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/metro/metro2021_cartaz2_WEB.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
     ],
   },
   logos: {
