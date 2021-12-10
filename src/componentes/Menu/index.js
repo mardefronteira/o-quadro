@@ -50,9 +50,9 @@ function Menu({ estado = 1 }) {
             <ConteinerItens taAberto={taAberto}>
               <OpcoesMenu>
                 <li><ItemMenuMobile as={Link} to="/filmes/">Filmes</ItemMenuMobile></li>
-                <li><SubItemMenuMobile as={Link} to="/filmes/longas">Curta Metragem</SubItemMenuMobile></li>
+                <li><SubItemMenuMobile as={Link} to="/filmes/curtas">Curta Metragem</SubItemMenuMobile></li>
                 <li><SubItemMenuMobile as={Link} to="/filmes/medias">Média Metragem</SubItemMenuMobile></li>
-                <li><SubItemMenuMobile as={Link} to="/filmes/curtas">Longa Metragem</SubItemMenuMobile></li>
+                <li><SubItemMenuMobile as={Link} to="/filmes/longas">Longa Metragem</SubItemMenuMobile></li>
                 <li><ItemMenuMobile as={Link} to="/metro/">Festival Metrô</ItemMenuMobile></li>
                 <li><ItemMenuMobile as={Link} to="/publicacoes">Publicações</ItemMenuMobile></li>
                 <li><SubItemMenuMobile as={Link} to="/sobre" estado={estado}>O que é? </SubItemMenuMobile></li>

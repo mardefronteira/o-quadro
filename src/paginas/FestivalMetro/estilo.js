@@ -12,6 +12,7 @@ padding-bottom: 15vh;
 
 export const Poster = styled.img`
 width: 100%;
+max-width:40vw;
 height: 70vh;
 object-fit: contain;
 @media (max-width: 800px) {
@@ -38,7 +39,7 @@ width:35%;
 `;
 
 export const Artigo = styled.article`
-width: 80%;
+width: 25vw;
 text-align: justify;
 margin: 0 0 8vh 0;
 @media (max-width: 800px) {
