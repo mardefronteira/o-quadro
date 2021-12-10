@@ -3,19 +3,18 @@ import styled from 'styled-components';
 export const ConteinerCards = styled.div`
   display: flex;
   justify-content:center;
-  gap:2%;
+  gap:5%;
   align-items: center;
   width: 100%;
   height: auto;
   align-items:flex-start !important;
-  justify-content:center;
   align-self:center;
   padding-top:2%;
   @media (max-width: 800px) {
-    width: 70%;
+    width: 90%;
     display: flex;
     height: 100%;
-    gap:2%;
+    gap:3%;
     flex-direction:row !important;
     align-items:flex-start !important;
     justify-content:center;
@@ -85,6 +84,7 @@ export const SetaCarrossel = styled.button`
 
   @media (max-width: 800px) {
     width:10%;
+    padding: 0 1%;
     height:auto;
     background:transparent !important;
     border:transparent !important;
