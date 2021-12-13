@@ -5,7 +5,7 @@ import {
 } from './estilo';
 import dataBase from '../../db';
 
-function MenuSocial({ vermelho = false }) {
+function MenuSocial({ vermelho = false, taVermelho = true }) {
   const { logos } = dataBase;
   const [email, setEmail] = useState({
     __html: `<p class="email">oquadro@oquadro.net</p>
@@ -16,19 +16,19 @@ function MenuSocial({ vermelho = false }) {
     <ConteinerMenuSocial
       taVermelho={vermelho}
     >
-      <ItemMenuSocial href="https://vimeo.com/oquadro" target="_blank">
+      <ItemMenuSocial taVermelho={vermelho} href="https://vimeo.com/oquadro" target="_blank">
         <img src={logos.sociais.vimeo.src} alt={logos.sociais.vimeo.desc} />
       </ItemMenuSocial>
-      <ItemMenuSocial href="https://twitter.com/oquadrofilmes" target="_blank">
+      <ItemMenuSocial taVermelho={vermelho} href="https://twitter.com/oquadrofilmes" target="_blank">
         <img src={logos.sociais.twitter.src} alt={logos.sociais.twitter.desc} />
       </ItemMenuSocial>
-      <ItemMenuSocial href="https://www.youtube.com/user/OQuadroFilmes" target="_blank">
+      <ItemMenuSocial taVermelho={vermelho} href="https://www.youtube.com/user/OQuadroFilmes" target="_blank">
         <img src={logos.sociais.youtube.src} alt={logos.sociais.youtube.desc} />
       </ItemMenuSocial>
-      <ItemMenuSocial href="https://www.instagram.com/oquadrofilmes/" target="_blank">
+      <ItemMenuSocial href={taVermelho ? 'https://instagram.com/aquadroedicoes' : 'https://www.instagram.com/oquadrofilmes/'} target="_blank">
         <img src={logos.sociais.instagram.src} alt={logos.sociais.instagram.desc} />
       </ItemMenuSocial>
-      <ItemMenuSocial href="https://www.facebook.com/OQuadro" target="_blank">
+      <ItemMenuSocial href={taVermelho ? 'https://facebook.com/aquadroedicoes' : 'https://www.facebook.com/OQuadro'} target="_blank">
         <img src={logos.sociais.facebook.src} alt={logos.sociais.facebook.desc} />
       </ItemMenuSocial>
       <ItemBotao

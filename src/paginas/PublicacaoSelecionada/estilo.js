@@ -65,6 +65,7 @@ height: 100%;
 
 export const TituloLivro = styled(TituloDestaque)`
 font-size: 2.5em;
+text-align:center;
 `;
 
 export const TituloVermelho = styled(H3Destaque)`
