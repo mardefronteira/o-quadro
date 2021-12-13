@@ -4,16 +4,25 @@ import { Link } from 'react-router-dom';
 export const FundoCard = styled(Link)`
   position:relative;
   display: flex;
+  text-decoration: none;
+  color:inherit;
+  
+  img {
+    width: 100%;
+    height: 23vh;
+    object-fit:cover;
+  }
+  
   @media(max-width: 800px){
+    img {
+    width: 100%;
+    height: auto;
+    object-fit:auto;
+  }
+  
     flex-direction: column;
     align-items: center;
   }
-  img {
-    width: 100%;
-    height:auto;
-  }
-  text-decoration: none;
-  color:inherit;
 `;
 
 export const Legenda = styled.div`
