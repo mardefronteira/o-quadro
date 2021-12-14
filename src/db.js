@@ -1331,7 +1331,7 @@ const dataBase = {
     autor: 'WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_banner1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgPoster: { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_cartaz_WEB.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_cartaz_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [
       { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
