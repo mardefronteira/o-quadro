@@ -13,9 +13,11 @@ function MenuSocial({ vermelho = false, taVermelho = true }) {
   });
   const clipboard = () => {
     if (taVermelho) {
+      console.log(taVermelho);
       navigator.clipboard.writeText('aquadro@oquadro.net');
     } else {
       navigator.clipboard.writeText('oquadro@oquadro.net');
+      console.log(taVermelho);
     }
 
     setEmail({ __html: '<p class="email">copiado!</p>' });

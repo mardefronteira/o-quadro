@@ -31,7 +31,7 @@ export const FundoCard = styled.a`
   &:focus {
     box-shadow: none;
   }
-  width:35%;
+  width:45%;
   height:45%;
   }
 `;
@@ -49,7 +49,7 @@ export const ImagemCard = styled.img`
   max-height:40vh;
   @media (max-width: 800px) {
     width:100%;
-    object-fit:cover;
+    object-fit:contain;
     height:30vh;
 
   }
