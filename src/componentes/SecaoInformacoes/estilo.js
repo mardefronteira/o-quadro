@@ -7,15 +7,13 @@ export const ContainerFilmes = styled.div`
   gap: 8vh;
 
   iframe {
-    width: 40vw;
-    height: 45vh;
+    width: 100%;
   }
 
   .caixa-texto {
     width: 40%;
     height: auto;
   }
-
 
 .equipe{
   align-self:flex-start;
@@ -59,6 +57,7 @@ export const ContainerFilmes = styled.div`
     transition: 1s ease-in-out;
     overflow: hidden;
   }
+
   .secaoPrincipal {
     justify-content: space-between;
     width: 100%;
@@ -71,9 +70,10 @@ export const ContainerFilmes = styled.div`
   }
 
   .info-filme {
-    width: 40vw;
+    width: 100%;
     gap: 15px;
   }
+
   @media (max-width: 800px) {
     gap: 4vh;
     div {
@@ -116,10 +116,7 @@ export const InfoFilme = styled.div`
   flex-direction: column;
   @media (max-width: 800px) {
     width: 100%;
-    iframe {
-      width: 100%;
-      height: 20vh;
-    }
+   
     h2 {
       font-size: 1.1em;
       font-weight: bold;
