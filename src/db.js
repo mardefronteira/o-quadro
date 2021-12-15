@@ -136,15 +136,15 @@ const dataBase = {
     titulo: 'BYE BYE JAQUELINE',
     ano: 2017,
     autor: 'ANDERSON SIMÃO',
-    imgIcone: { src: '/imagens/filmes/bye-bye-jaqueline/ByeByeJaqueline_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgDestaque: { src: '/imagens/filmes/bye-bye-jaqueline/ByeByeJaqueline_banner.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgPoster: { src: '/imagens/filmes/bye-bye-jaqueline/ByeByeJaqueline_Cartaz_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgIcone: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_banner.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_Cartaz_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [
-      { src: '/imagens/filmes/bye-bye-jaqueline/ByeByeJaqueline_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/filmes/bye-bye-jaqueline/ByeByeJaqueline_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/filmes/bye-bye-jaqueline/ByeByeJaqueline_still3.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/filmes/bye-bye-jaqueline/ByeByeJaqueline_still4.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/filmes/bye-bye-jaqueline/ByeByeJaqueline_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still3.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still4.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
     imgGaleriaAlta: [
       { src: '/imagens/filmes/bia-mais-um/biamaisum_cartaz_alta_01.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -1316,6 +1316,13 @@ const dataBase = {
       { src: '/imagens/filmes/meio-dia-isabela/meiodiaisabela_still02.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/meio-dia-isabela/meiodiaisabela_still03.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/meio-dia-isabela/meiodiaisabela_still01_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/meio-dia-isabela/meiodiaisabela_still02_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/meio-dia-isabela/meiodiaisabela_still03_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    ],
+    patrocinadores: { src: '', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Isabela Zanotim Da Silva, Amanda Saskoski Leal, Caroline Kerniske e Wellington Sari.',
     sinopse: 'E se esses forem os melhores dias de nossas vidas?',
     categoria: 'Curta Metragem',
@@ -1357,6 +1364,13 @@ const dataBase = {
       { src: '/imagens/filmes/memoria-a-dois/memoriaadois_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/memoria-a-dois/memoriaadois_still3.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/memoria-a-dois/memoriaadois_still1_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/memoria-a-dois/memoriaadois_still2_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/memoria-a-dois/memoriaadois_still3_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    ],
+    patrocinadores: { src: '', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Sarah Scorsin, José Zaleski, Ailen Scandurra e Pedro Henrique Mello.',
     sinopse: 'Diante de uma fotografia antiga, deve pensar que são possíveis a resgatar lembranças que instiguem as memórias da fotografia em questão.',
     categoria: 'Curta Metragem',
@@ -1392,6 +1406,18 @@ const dataBase = {
       { src: '/imagens/filmes/memorias-do-meu-tio/memoriasdomeutio_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/memorias-do-meu-tio/memoriasdomeutio_still6.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/memorias-do-meu-tio/memoriasdomeutio_cartaz_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/memorias-do-meu-tio/memoriasdomeutio_still1_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/memorias-do-meu-tio/memoriasdomeutio_still2_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/memorias-do-meu-tio/memoriasdomeutio_still3_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/memorias-do-meu-tio/memoriasdomeutio_still4_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/memorias-do-meu-tio/memoriasdomeutio_still5_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/memorias-do-meu-tio/memoriasdomeutio_still6_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
+    ],
+    patrocinadores: { src: '/imagens/filmes/memorias-do-meu-tio/celepar-mecenato_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Daniel Jorge, Roberto Innocente, Dulce Tramujas, Maureen Miranda, Luiz Godói, Rayane Lopes, Rossana Ceres, Blaise Musepere, Klaus Faryj.',
     sinopse: 'As aventuras de Ariel, um garoto de 10 anos que encontra seu falecido tio-avô e ao lado dele parte em busca de um tesouro inimaginável.',
     categoria: 'Curta Metragem',
@@ -1458,6 +1484,18 @@ const dataBase = {
       { src: '/imagens/filmes/meu-amigo-virtual/meuamigovirtual_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/meu-amigo-virtual/meuamigovirtual_still6.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/meu-amigo-virtual/meuamigovirtual_cartaz_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/meu-amigo-virtual/meuamigovirtual_still1_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/meu-amigo-virtual/meuamigovirtual_still2_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/meu-amigo-virtual/meuamigovirtual_still3_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/meu-amigo-virtual/meuamigovirtual_still4_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/meu-amigo-virtual/meuamigovirtual_still5_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/meu-amigo-virtual/meuamigovirtual_still6_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
+    ],
+    patrocinadores: { src: '/imagens/filmes/meu-amigo-virtual/quadro-rpc_mecenato_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Vitor Steinhaus, Luly Strapasson, Fernando Turri, Gabriel Merling, Edy Gahr, Kainã Jaquetti, Chiara Vedova, Lucas Vicenzo, Leonara Mariel, Aline Angela e Izabela Milita.',
     sinopse: 'André é um menino de 14 anos solitário e viciado em jogos de computador. Em um dia conturbado, um personagem criado em seu jogo de computador favorito se materializa em seu quarto. É a chance de André ter um amigo e se tornar popular em seu colégio.',
     categoria: 'Curta Metragem',
@@ -1534,6 +1572,18 @@ const dataBase = {
       { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_still6.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_cartaz_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_still1_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_still2_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_still3_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_still4_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_still5_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_still6_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
+    ],
+    patrocinadores: { src: '/imagens/filmes/monique-ao-sol/quadro-rpc_mecenato_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Monique Rau e Wellington Sari.',
     sinopse: 'Férias de inverno. Monique vai na praia com os pais. Sem amigos por perto, tenta arranjar algo pra fazer. Até que conhece um jovem na quadra de vôlei.',
     categoria: 'Curta Metragem',
@@ -1587,6 +1637,13 @@ const dataBase = {
       { src: '/imagens/filmes/o-ultimo-dia/oultimodia_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/o-ultimo-dia/oultimodia_still3.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/o-ultimo-dia/oultimodia_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/o-ultimo-dia/oultimodia_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/o-ultimo-dia/oultimodia_still3.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    ],
+    patrocinadores: { src: '', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Evandro Scorsin, Alexandre Canetta, Leandro Rocha, Monique Rau.',
     sinopse: 'Toni irá se mudar. Decide passar seu último dia na cidade bebendo com os amigos de infância.',
     categoria: 'Curta Metragem',
@@ -1628,6 +1685,13 @@ const dataBase = {
       { src: '/imagens/filmes/olhares/olhares_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/olhares/olhares_still3.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/olhares/olhares_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/olhares/olhares_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/olhares/olhares_still3.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    ],
+    patrocinadores: { src: '', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Gabriel Boso Alves, Anídria Stadler, Eloi Vieira Magalhães, Therezinha Alves Postui.',
     sinopse: 'Junior, um garoto de oito anos, encontra um retrato de uma família feliz no pátio de sua escola. Após isso, passa a buscar sorrisos no seu cotidiano.',
     categoria: 'Curta Metragem',
@@ -1678,6 +1742,13 @@ const dataBase = {
       { src: '/imagens/filmes/parabens-pra-vc/parabenspravc_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/parabens-pra-vc/parabenspravc_still3.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/parabens-pra-vc/parabenspravc_still1_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/parabens-pra-vc/parabenspravc_still2_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/parabens-pra-vc/parabenspravc_still3_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    ],
+    patrocinadores: { src: '', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Isabela Zanotim Da Silva, Aline Vanessa Santoro e Daniele Zanotin da Silva.',
     sinopse: 'É o dia do aniversário de Isabela. Ela planeja ter um dia legal com suas amigas e com sua família.',
     categoria: 'Curta Metragem',
@@ -1724,6 +1795,18 @@ const dataBase = {
       { src: '/imagens/filmes/paranoia-doce/paranoiadoce_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/paranoia-doce/paranoiadoce_still6.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/paranoia-doce/paranoiadoce_cartaz_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/paranoia-doce/paranoiadoce_still1_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/paranoia-doce/paranoiadoce_still2_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/paranoia-doce/paranoiadoce_still3_alta.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/paranoia-doce/paranoiadoce_still4_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/paranoia-doce/paranoiadoce_still5_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/paranoia-doce/paranoiadoce_still6_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
+    ],
+    patrocinadores: { src: '/imagens/filmes/paranoia-doce/paranoiadoce_creditos_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Gustavo Piaskoski, Letícia Roza, Isa Rocco, Daniel Alexs e Daniel Martins.',
     sinopse: 'Quatro jovens viajam para uma cidade litorânea buscando diversão. Após uma noite de bebedeira, jogos e pegação, desejamos uma gosma rosada e viscosa, que inexplicavelmente os seduz. O clima de curtição acaba, e um a um os jovens começar a morrer.',
     categoria: 'Curta Metragem',
@@ -1808,6 +1891,18 @@ const dataBase = {
       { src: '/imagens/filmes/pequenos/pequenos_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/pequenos/pequenos_still6.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/pequenos/pequenos_cartaz_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/pequenos/pequenos_still1_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/pequenos/pequenos_still2_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/pequenos/pequenos_still3_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/pequenos/pequenos_still4_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/pequenos/pequenos_still5_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/pequenos/pequenos_still6_alta.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
+    ],
+    patrocinadores: { src: '/imagens/filmes/pequenos/paranoiadoce_creditos_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Lucas Gabriel, Julia Yara, Augusto Cerqueira, Ana Henriqueta, Anderson Da Silva, Daniel Miqueias, Lucas Vicenzo e Luiz Godói.',
     sinopse: 'Férias de verão e o menino Lucas se diverte com seus amigos no bairro onde moram. Cada dia que passa, ele se aproxima mais de Ana.',
     categoria: 'Curta Metragem',
