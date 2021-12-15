@@ -42,11 +42,11 @@ export const Desc = styled.div`
 export const ImagemCard = styled.img`
   width:100%;
   object-fit:cover;
+  height:auto;
   @media (max-width: 800px) {
     width:100%;
     object-fit:contain;
     height:30vh;
 
   }
-  height: auto;
 `;
