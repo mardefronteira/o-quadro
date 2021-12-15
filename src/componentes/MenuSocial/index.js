@@ -8,10 +8,26 @@ import dataBase from '../../db';
 function MenuSocial({ vermelho = false }) {
   const { logos } = dataBase;
   const [email, setEmail] = useState({
-    __html: `<p class="email">oquadro@oquadro.net</p>
+    __html: ` ${vermelho ? '<p class="email">aquadro@oquadro.net</p>' : '<p class="email">oquadro@oquadro.net</p>'} 
             <p class="info">(Clique para copiar)</p>`,
   });
+  const clipboard = () => {
+    if (vermelho) {
+      console.log(vermelho);
+      navigator.clipboard.writeText('aquadro@oquadro.net');
+    } else {
+      navigator.clipboard.writeText('oquadro@oquadro.net');
+      console.log(vermelho);
+    }
 
+    setEmail({ __html: '<p class="email">copiado!</p>' });
+    setTimeout(() => {
+      setEmail({
+        __html: `${vermelho ? `<p class="email">aquadro@oquadro.net` : `<p class="email">oquadro@oquadro.net</p>`}
+      <p class="info">(Clique para copiar)</p>`,
+      });
+    }, 1000);
+  };
   return (
     <ConteinerMenuSocial
       taVermelho={vermelho}
@@ -33,16 +49,7 @@ function MenuSocial({ vermelho = false }) {
       </ItemMenuSocial>
       <ItemBotao
         type="button"
-        onClick={() => {
-          navigator.clipboard.writeText('oquadro@oquadro.net');
-          setEmail({ __html: '<p class="email">copiado!</p>' });
-          setTimeout(() => {
-            setEmail({
-              __html: `<p class="email">oquadro@oquadro.net</p>
-            <p class="info">(Clique para copiar)</p>`,
-            });
-          }, 1000);
-        }}
+        onClick={() => { clipboard(); }}
       >
         <img src={logos.sociais.email.src} alt={logos.sociais.email.desc} />
         <TextoEmail dangerouslySetInnerHTML={email} />
