@@ -13,7 +13,7 @@ import {
 import VisualizadorImagens from '../VisualizadorImagens';
 import Carrossel from '../Carrossel';
 import dataBase from '../../db';
-import { ImgPatrocinio } from '../../paginas/PublicacaoSelecionada/estilo';
+import { ImgPatrocinio, Linha } from '../../paginas/PublicacaoSelecionada/estilo';
 
 function SecaoInformacoes({ taVermelho = false, id }) {
   // const [taAtivo, setTaAtivo] = useState(false);
@@ -109,7 +109,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
           )}
       </DivFlex>
       <ImgPatrocinio src={patrocinio.src} alt={patrocinio.desc} />
-
+      <Linha />
       <Carrossel categoria={filmesRelacionados} taVermelho={taVermelho} />
     </ContainerFilmes>
   );
