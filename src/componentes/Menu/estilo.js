@@ -25,6 +25,7 @@ export const ConteinerItensMenu = styled.div`
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       background: #ffffff;
       transition: 0.3s;
+      
     }
   }
   .dropdown li {

@@ -59,9 +59,7 @@ function VisualizadorImagens({ galeria = [] }) {
               zIndex: 100, height: '100%', width: '100vw',
             }}
           />
-          <Download onClick={(e) => download(e)}>
-            <img src="../imagens/download.svg" alt="download" />
-          </Download>
+          <Download onClick={(e) => download(e)} />
         </>
       )}
 

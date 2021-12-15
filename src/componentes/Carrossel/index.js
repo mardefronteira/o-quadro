@@ -86,7 +86,7 @@ const Carrossel = ({ categoria, taVermelho = true }) => {
               /> */}
             </ConteinerCards>
             <SetaCarrossel
-              className={pos < categoria.length - 2 ? '' : 'transparente'}
+              className={pos < categoria.length - 2 ? '' : 'invisivel'}
               onClick={() => {
                 moverCarrossel(1, categoria.length);
               }}
@@ -107,7 +107,7 @@ const Carrossel = ({ categoria, taVermelho = true }) => {
           </TituloCarrossel>
           <Conteiner>
             <SetaCarrossel
-              className={pos > 0 ? '' : 'transparente'}
+              className={pos > 0 ? '' : 'invisivel'}
               onClick={() => {
                 moverCarrossel(-1, categoria.length);
               }}
@@ -142,7 +142,7 @@ const Carrossel = ({ categoria, taVermelho = true }) => {
               />
             </ConteinerCards>
             <SetaCarrossel
-              className={pos < categoria.length - 3 ? '' : 'transparente'}
+              className={pos < categoria.length - 3 ? '' : 'invisivel'}
               onClick={() => {
                 moverCarrossel(1, categoria.length);
               }}

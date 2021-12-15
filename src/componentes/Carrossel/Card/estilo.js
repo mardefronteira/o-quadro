@@ -8,11 +8,7 @@ export const Subtitulo = styled.h3`
   line-height: 1.15em;
   margin: 0;
   padding: 2vh 0;
-  color: ${(props) => (props.taVermelho ? '#CF0018' : '#009F66')};
-  @media (max-width: 800px) {
-    line-height:1em;
-  }
-  
+  color: ${(props) => (props.taVermelho ? '#CF0018' : '#009F66')}
 `;
 
 export const FundoCard = styled.a`
@@ -46,12 +42,11 @@ export const Desc = styled.div`
 export const ImagemCard = styled.img`
   width:100%;
   object-fit:cover;
-  max-height:40vh;
   @media (max-width: 800px) {
     width:100%;
     object-fit:contain;
     height:30vh;
 
   }
-
+  height: auto;
 `;

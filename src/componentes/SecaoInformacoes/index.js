@@ -13,7 +13,7 @@ import {
 import VisualizadorImagens from '../VisualizadorImagens';
 import Carrossel from '../Carrossel';
 import dataBase from '../../db';
-import { ImgPatrocinio } from '../../paginas/PublicacaoSelecionada/estilo';
+import { ImgPatrocinio, Linha } from '../../paginas/PublicacaoSelecionada/estilo';
 
 function SecaoInformacoes({ taVermelho = false, id }) {
   // const [taAtivo, setTaAtivo] = useState(false);
@@ -23,17 +23,54 @@ function SecaoInformacoes({ taVermelho = false, id }) {
     alt: imagem.desc,
     key: imagem.titulo.replace(' ', '-'),
   }));
-  const patrocinio = dataBase.patrocinadores;
 
-  const filmesRelacionados = dataBase.filmes.filter(
-    (filmeDb) => filmeDb.tags.some(
-      (tag) => filme.tags.includes(tag) && filme !== filmeDb,
-    ),
-  );
+  // não foram passadas tags nos dados dos filmes
+  // const filmesRelacionados = dataBase.filmes.filter(
+  //   (filmeDb) => filmeDb.tags.some(
+  //     (tag) => filme.tags.includes(tag) && filme !== filmeDb,
+  //   ),
+  // );
+  const filmesRelacionados = dataBase.filmes;
 
   useEffect(() => {
     if (document.getElementById('mais-equipe')) document.getElementById('mais-equipe').classList.add('fadeOut', 'alturaZero');
   }, []);
+
+  function adicionarEmbed(filmURL) {
+    let filmHost;
+    let filmId;
+
+    if (filmURL.includes('vimeo')) {
+      filmHost = 'vimeo';
+
+      const tId = filmURL.split(/(m\/)|(o\/)/);
+      filmId = tId[tId.length - 1].replace(/\//g, '');
+    } else if ((filmURL.includes('youtube')) || (filmURL.includes('youtu.be'))) {
+      filmHost = 'youtube';
+
+      // url parse based on YouTubeGetID by @takien (http://takien.com)
+      const tId = filmURL.replace(/(>|<)/gi, '').split(/(vi\/|v=|\/v\/|youtu\.be\/|\/embed\/)/);
+
+      if (tId[2] !== undefined) {
+        // aqui dizia 'no-useless-scape' por escapar o hífen final (/[^0-9a-z_\-]/i)
+        filmId = tId[2].split(/[^0-9a-z_-]/i);
+        filmId = filmId[0];
+      } else {
+        filmId = tId;
+      }
+    } else {
+      filmHost = 'error';
+      filmId = 'error';
+    }
+
+    if (filmHost === 'youtube') {
+      return `https://www.youtube.com/embed/${filmId}?autoplay=0&mute=1`;
+    } if (filmHost === 'vimeo') {
+      return `https://player.vimeo.com/video/${filmId}`;
+    }
+    return 'tá loco bicho';
+  }
+
   return (
     <ContainerFilmes>
       <DivFlex className="titulo-secao" eColuna>
@@ -47,7 +84,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
       <ImgDestaque src={filme.imgDestaque.src} alt={filme.imgDestaque.desc} />
       <DivFlex className="secaoPrincipal">
         <InfoFilme>
-          <iframe title="vimeo-player" src={filme.linkVideo} width="640" height="360" frameBorder="0" allowFullScreen />
+          <iframe title="player-filme" src={adicionarEmbed(filme.linkVideo)} width="640" height="360" frameBorder="0" allowFullScreen />
           <SubTituloDestaque>
             {filme.titulo.toUpperCase()}
             {', '}
@@ -108,8 +145,8 @@ function SecaoInformacoes({ taVermelho = false, id }) {
             </>
           )}
       </DivFlex>
-      <ImgPatrocinio src={patrocinio.src} alt={patrocinio.desc} />
-
+      <ImgPatrocinio src={filme.patrocinadores.src} alt={filme.patrocinadores.desc} />
+      <Linha />
       <Carrossel categoria={filmesRelacionados} taVermelho={taVermelho} />
     </ContainerFilmes>
   );
