@@ -5,9 +5,9 @@ export const ConteinerMenuSocial = styled.nav`
     display: flex;
     flex-direction: column;
     position: fixed;
-    width: 3vw;
+    width: 2vw;
     min-width: 30px;
-    height:${(props) => (props.taVermelho ? '30vh' : '50vh')};;
+    height: 50vh;
     border: 1px solid transparent;
     border-radius: 0 0.938em 0.938em 0;
     padding: 5vh 0;
@@ -16,14 +16,6 @@ export const ConteinerMenuSocial = styled.nav`
     top: 20vh;
     box-shadow: 1px 1px 1px #000000;
     z-index: 55;
-    img{
-        align-self:center;
-        width:100%;
-        height:100%;
-        padding-right:1vh;
-        padding-left:0.5vh;
-        object-fit:contain;
-    }
     @media (max-width: 800px) {  
     height: 5vh;
     min-height: 30px;
@@ -37,8 +29,7 @@ export const ConteinerMenuSocial = styled.nav`
     z-index:120;
     `;
 
-export const ItemMenuSocial = styled.a`  
-display:${(props) => (props.taVermelho ? 'none' : 'flex')}; 
+export const ItemMenuSocial = styled.a`    
 img{
     width: 80%;
 }
