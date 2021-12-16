@@ -76,6 +76,10 @@ export const ContainerFilmes = styled.div`
 
   @media (max-width: 800px) {
     gap: 4vh;
+    .equipe{
+      width: 85vw;
+      align-self:center;
+    }
     div {
       flex-direction: column;
       justify-content: center;
@@ -97,7 +101,7 @@ export const ContainerFilmes = styled.div`
       display: flex;
       flex-direction: row;
       flex-wrap:wrap;
-      gap:3%;      
+      gap:3%;
       width: 100%;
       img {
         width: 40%;
@@ -116,7 +120,10 @@ export const InfoFilme = styled.div`
   flex-direction: column;
   @media (max-width: 800px) {
     width: 100%;
-   
+    iframe{
+      width: 100%;
+      height: auto;
+    }
     h2 {
       font-size: 1.1em;
       font-weight: bold;
@@ -135,7 +142,7 @@ export const TituloDestaque = styled.h1`
   line-height: 1.2;
   @media (max-width: 800px) {
     text-align: center;
-    width: 100%;
+    width: 90%;
     font-size: 2.5em;
   }
 `;
@@ -143,6 +150,10 @@ export const SubTituloDestaque = styled.h2`
   padding: 4vh 0 1.5vh 0;
   font-size: 1.7em;
   line-height: 1.2;
+  @media (max-width: 800px) {
+    text-align: center;
+    width: 90%;
+  }
 `;
 
 export const H3Destaque = styled.h3`
@@ -160,12 +171,19 @@ export const ImgDestaque = styled.img`
   height: 38vh;
   width: 100%;
   object-fit: cover;
+  @media (max-width: 800px) {
+    width: 100%;
+    height: auto;
+  }
 `;
 export const ImgDestaqueDireita = styled.img`
   width: auto;
   max-width: 50%;
   height: 70vh;
   object-fit: cover;
+  @media (max-width: 800px) {
+    max-width: 85%;
+  }
 `;
 
 export const MaisInfo = styled.button`

@@ -62,7 +62,7 @@ function Publicacoes() {
         <ListaLivro id="lista-livros">
           {publicacoes.map((publicacao) => (
             <Livro as={Link} to={`publicacao/${publicacao.url}`}>
-              <CapaLivro src={publicacao.img.src} alt={publicacao.img.desc} />
+              <CapaLivro src={publicacao.imgPoster.src} alt={publicacao.imgPoster.desc} />
               <InfoLivro>
                 <TituloLivro>{publicacao.titulo.toUpperCase()}</TituloLivro>
                 <AutorLivro>{publicacao.autor.toUpperCase()}</AutorLivro>

@@ -24,6 +24,7 @@ export const DivFlexPublicacao = styled(DivFlex)`
   width:100%;
   @media (max-width: 800px) {
     flex-direction: column;
+    width: 90%;
   }
 }
 #secao-info {
