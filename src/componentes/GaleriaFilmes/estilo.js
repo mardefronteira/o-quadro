@@ -10,7 +10,7 @@ const Galeria = styled.div`
     padding-bottom: 10vh;
     @media (max-width: 800px) {
         justify-items: center;
-        grid-gap: 3% 3%;
+        grid-gap: 0.2% 3%;
         padding: 3vh 5vw 10vh 5vw;
 
     }

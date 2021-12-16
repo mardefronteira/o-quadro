@@ -50,10 +50,44 @@ function PublicacaoSelecionada() {
             </DivFlex>
             <DivFlex id="ficha-tecnica" eColuna>
               <TituloVermelho eVermelho>FICHA TECNICA</TituloVermelho>
-              {publicacao.fichaTecnica}
+              <p>
+                ISBN:
+                {publicacao.fichaTecnica.isbn}
+              </p>
+              <p>
+                Páginas:
+                {publicacao.fichaTecnica.paginas}
+              </p>
+              <p>
+                Idioma:
+                {publicacao.fichaTecnica.idioma}
+              </p>
+              <p>
+                Dimensões:
+                {publicacao.fichaTecnica.dimensoes}
+
+              </p>
+              <p>
+                Formato:
+                {publicacao.fichaTecnica.formato}
+              </p>
+              <p>
+                Edição:
+                {publicacao.fichaTecnica.edicao}
+
+              </p>
+              <p>
+                Editora:
+                {publicacao.fichaTecnica.editora}
+
+              </p>
+              <p>
+                Coleção:
+                {publicacao.fichaTecnica.colecao}
+              </p>
             </DivFlex>
           </DivFlex>
-          <ImgDestaqueDireita src={publicacao.img.src} alt={publicacao.img.desc} />
+          <ImgDestaqueDireita src={publicacao.imgPoster.src} alt={publicacao.imgPoster.desc} />
         </DivFlex>
         <ImgPatrocinio src={patrocinio.src} alt={patrocinio.desc} />
 

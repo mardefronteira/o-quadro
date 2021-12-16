@@ -58,7 +58,7 @@ const dataBase = {
     autor: 'WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/bia-mais-um/biamaisum_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/bia-mais-um/biamaisum_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgPoster: { src: '/imagens/filmes/bia-mais-um/biamaisum_Cartaz_web_01.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: '/imagens/filmes/bia-mais-um/biamaisum_cartaz_web_01.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [
       { src: '/imagens/filmes/bia-mais-um/biamaisum_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/bia-mais-um/biamaisum_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -138,7 +138,7 @@ const dataBase = {
     autor: 'ANDERSON SIMÃO',
     imgIcone: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_banner.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgPoster: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_Cartaz_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_cartaz_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [
       { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -211,7 +211,7 @@ const dataBase = {
     autor: 'CHRISTOPHER FAUST, EVANDRO SCORSIN',
     imgIcone: { src: '/imagens/filmes/coloridos/coloridos_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/coloridos/coloridos_banner.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgPoster: { src: '/imagens/filmes/coloridos/coloridos_Cartaz_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: '/imagens/filmes/coloridos/coloridos_cartaz_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [
       { src: '/imagens/filmes/coloridos/coloridos_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/coloridos/coloridos_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
