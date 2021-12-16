@@ -7,13 +7,14 @@ export const ConteinerMenuSocial = styled.nav`
     position: fixed;
     width: 2vw;
     min-width: 30px;
-    height: 50vh;
+    height: ${(props) => (props.taVermelho ? '30vh' : '50vh')};
     border: 1px solid transparent;
     border-radius: 0 0.938em 0.938em 0;
     padding: 5vh 0;
     align-items: center;
+    align-self:center;
     justify-content: space-around;
-    top: 20vh;
+    top:${(props) => (props.taVermelho ? '30vh' : '20vh')} ;
     box-shadow: 1px 1px 1px #000000;
     z-index: 55;
     @media (max-width: 800px) {  
@@ -29,9 +30,11 @@ export const ConteinerMenuSocial = styled.nav`
     z-index:120;
     `;
 
-export const ItemMenuSocial = styled.a`    
+export const ItemMenuSocial = styled.a`
+display: ${(props) => (props.taVermelho ? 'none' : 'flex')};
 img{
-    width: 80%;
+    width: 1.7rem;
+
 }
 img:hover{
     opacity: 0.7;
@@ -46,7 +49,7 @@ img:hover{
 export const TextoEmail = styled.div`
 position: absolute;
 left: 110%;
-top: 80%;
+top: 70%;
 
 flex-direction: column;
 
@@ -69,6 +72,7 @@ display: none;
 
 export const ItemBotao = styled.button`
 background-color: transparent;
+padding: 0 1px;
 border: none;
 img{
     width: 80%;
