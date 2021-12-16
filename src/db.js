@@ -1652,14 +1652,13 @@ const dataBase = {
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
-        __html: `<p>
+        __html: `
         <p><span class="texto-verde">Direção e roteiro:</span> Christopher Faust </p>
         <p><span class="texto-verde">Produção Executiva:</span> Christopher Faust e Wellington Sari </p> 
         <p><span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa</p> 
         <p><span class="texto-verde">Direção De Arte:</span> Christopher Faust </p>
         <p><span class="texto-verde">Montagem:</span> Diego Florentino </p> 
         <p><span class="texto-verde">Som Direto:</span> Wellington Sari e Rodrigo Janiszewski </p>
-        </p>
         `,
       },
       adicional: {
@@ -1757,7 +1756,7 @@ const dataBase = {
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
-        __html: `<p>
+        __html: `
         <p><span class="texto-verde">Direção e roteiro:</span> Anderson Simão </p>
         <p><span class="texto-verde">Produção:</span> Anderson Simão, Evandro Scorsin, Juliana Rodrigues, Nuno Chinaglia Poli </p> 
         <p><span class="texto-verde">Direção De Fotografia:</span> Juliana Rodrigues </p> 
@@ -1765,7 +1764,6 @@ const dataBase = {
         <p><span class="texto-verde">Montagem:</span> Tomás von der Osten </p>
         <p><span class="texto-verde">Som Direto:</span> Evandro Scorsin, Nuno Chinaglia Poli </p> 
         <p><span class="texto-verde">Edição De Som:</span> Nuno Chinaglia Poli </p>
-        </p>
         <p>
         Projeto realizado como TCC do curso de Cinema e Vídeo da Faculdade de Artes do Paraná.
         </p>
@@ -2390,14 +2388,13 @@ const dataBase = {
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
-        __html: `<p>
+        __html: `
         <p><span class="texto-verde">Direção, roteiro, produção executiva e montagem:</span> Christopher Faust </p> 
         <p><span class="texto-verde">Produção e Direção de Arte:</span> Ana Paula Câmara e Caroline Biagi </p>
         <p><span class="texto-verde">Direção De Fotografia:</span> Daniel Florencio </p>
         <p><span class="texto-verde">Som Direto:</span> João Menna Barreto </p>
         <p><span class="texto-verde">Microfonista:</span> Lucas Maffini </p>
         <p><span class="texto-verde">Desenho de Som:</span> Kleber Gregorio </p>
-        </p>
         <p>
         Projeto realizado como TCC do curso de Cinema e Vídeo da Faculdade de Artes do Paraná.
         </p>
