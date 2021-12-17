@@ -96,7 +96,7 @@ function MenuSocial({ vermelho = false, taVermelho = true }) {
         }}
       >
         <img src={logos.sociais.email.src} alt={logos.sociais.email.desc} />
-        <TextoEmail dangerouslySetInnerHTML={email} />
+        <TextoEmail taVermelho={vermelho} dangerouslySetInnerHTML={email} />
       </ItemBotao>
     </ConteinerMenuSocial>
   );
