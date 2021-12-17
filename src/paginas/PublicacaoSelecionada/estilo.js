@@ -77,9 +77,9 @@ export const NomeAutor = styled.h3`
 `;
 
 export const ImgPatrocinio = styled(ImgPatrocinadores)`
-width: 100%;
-padding-top: 10vh;
-
+width: auto;
+padding-top: 5vh;
+height: 20vh;
 `;
 
 export const Linha = styled.hr`
