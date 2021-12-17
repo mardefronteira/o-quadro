@@ -27,6 +27,7 @@ ReactDOM.render(
       <Route path="/filmes/:categoria" component={Filmes} />
       <Route path="/publicacao/:id" component={PublicacaoSelecionada} />
       <Route path="/publicacoes" component={Sobre} />
+      <Route path="/sobre" component={Sobre} />
       <Route path="/colecao" component={ColecaoEscreverCinema} />
       <Route path="/metro" component={FestivalMetro} />
       <Route path="/quem-somos" component={QuemSomos} />

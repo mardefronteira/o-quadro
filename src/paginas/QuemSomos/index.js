@@ -2,7 +2,7 @@ import React from 'react';
 import dataBase from '../../db';
 // importar estilo
 import {
-  Titulo, Conteiner, FotoPrincipal, Artigo, GridIntegrantes, Card, Nome, FotoPerfil, Info,
+  Titulo, Conteiner, FotoPrincipal, Artigo, GridIntegrantes, Card, Nome, FotoPerfil,
 } from './estilo';
 // importar componentes
 import Base from '../../componentes/Base';
@@ -42,11 +42,6 @@ function QuemSomos() {
           <Card>
             <Nome>{membro.nome.toUpperCase()}</Nome>
             <FotoPerfil src={membro.img.src} alt={membro.img.desc} />
-            <Info>
-              <p>
-                {membro.sobre}
-              </p>
-            </Info>
           </Card>
         ))}
 

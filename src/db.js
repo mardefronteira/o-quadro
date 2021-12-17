@@ -2480,15 +2480,20 @@ const dataBase = {
   editora: {
     titulo: 'A quadro',
     img: { src: '/imagens/teste/previaCard.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    textos: {
-      primeiroParagrafo: 'A Edições A Quadro, selo para publicações da produtora audiovisual O Quadro, embora criada recentemente, era um desejo antigo da empresa, quando na criação do seu CNPJ, há 10 anos, estabeleceu entre as atividades econômicas a possibilidade de edição e publicação de textos.',
-      segundoParagrafo: 'Ela surge após um período de experiências diversas dos seus idealizadores que, concomitante à produção de flmes, exercitaram a escrita crítica sobre cinema, em revistas eletrônicas, blogs e os mais diversos catálogos e publicações afins, exerceram e exercem atividades de ensino do audiovisual, a partir de oficinas, cineclubes, cursos livres, palestras e debates sobre a sétima arte, e realizam pesquisas acadêmicas, na conclusão de graduações e mestrados.',
-      terceiroParagrafo: 'Para Coleção Escrever o Cinema, a editora recém criada, Edições A Quadro, alia-se à profissionais, autores e pesquisadores, com experiências acadêmicas bastante consistentes, tanto na escrita, como na revisão e na organização de publicações diversas, é o caso do professor e cineasta Doutor Eduardo Túlio Baggio, organizador de diversas publicações, do professor Doutor Pedro de Andrade Lima Faissol, do cineasta e doutorando Alexandre Rafael Garcia, e da Mestre Juliana Rodrigues Pereira.',
-      quartoParagrafo: 'Atualmente, enquanto produz os 4 primeiros volumes da Coleção Escrever o Cinema, paralelamente busca a viabilização de mais 4 volumes determinados para nova fase da coleção, enquanto matura e idealiza demais projetos de escrita e publicação.',
-    },
+    texto: 'A Quadro é O Quadro, mas um pouco diferente. Sonho antigo da produtora, em 2021 conseguimos viabilizar um selo voltado para o lançamento de publicações sobre cinema. Para separar o joio da joia, demos um nome alternativo para a atividade, com a intenção de marcar a diferença, sem desmontar a unidade: fazemos cinema, seja produzindo filmes, um festival, ou editando e lançando livros.',
   },
   colecoes: {
+    logo: {
+      titulo: 'Logo da Coleção',
+      src: '/imagens/publicacoes/colecaoescreverocinema_logo_alta.jpg',
+      desc: 'descrição da imagem',
+    },
     texto: 'A Coleção Escrever o Cinema expande para a página dos livros o ato de se fazer cinema, trocando a lente pela letra, substituindo o roteiro pela reflexão. Nos volumes da coleção, pesquisadoras e pesquisadores ligados à universidade lançam luz sobre aspectos teóricos, históricos e críticos de diferentes obras da cinematografia mundial, em diálogo com outros campos do conhecimento, mas sempre retornando para os filmes em si.',
+    patrocinadores: {
+      titulo: 'Logo de Patrocinadores',
+      src: '/imagens/publicacoes/livro01_ 04_05_creditos_banner.png',
+      desc: 'descrição da imagem',
+    },
   },
   patrocinadores: {
     titulo: 'Logo de Patrocinadores',
