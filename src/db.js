@@ -1380,7 +1380,7 @@ const dataBase = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `
-        <p><span class="texto-verde">Realizado por:</span> Anderson Simão, Evandro Scorsin e Nuno Chinaglia Poli</p>
+        <span class="texto-verde">Realizado por:</span> Anderson Simão, Evandro Scorsin e Nuno Chinaglia Poli
         `,
       },
       adicional: {

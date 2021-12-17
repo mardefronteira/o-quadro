@@ -145,7 +145,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
             </>
           )}
       </DivFlex>
-      <ImgPatrocinio src={filme.patrocinadores.src} alt={filme.patrocinadores.desc} />
+      {filme.patrocinadores.src !== '' && <ImgPatrocinio src={filme.patrocinadores.src} alt={filme.patrocinadores.desc} />}
       <Linha />
       <Carrossel categoria={filmesRelacionados} taVermelho={taVermelho} />
     </ContainerFilmes>
