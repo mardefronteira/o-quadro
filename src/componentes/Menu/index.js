@@ -21,11 +21,12 @@ import {
   ItemLangMobile,
   SubItemMenuMobile,
 } from './estilo';
-import dataBase from '../../db';
+import { useGlobal } from '../../AcessoGlobal';
 
 function Menu({ estado = 1 }) {
+  const [global, mudarGlobal] = useGlobal();
   const [taAberto, setTaAberto] = useState(false);
-  const { logos } = dataBase;
+  const { logos } = global.db;
   return (
     <>
       <MediaQuery maxWidth={799}>
@@ -87,15 +88,31 @@ function Menu({ estado = 1 }) {
             ) : ''}
             <ul className="dropdown">
               <li><ItemMenu as={Link} to="/publicacoes" estado={estado}>PUBLICAÇÕES </ItemMenu></li>
-              <li><ItemMenu as={Link} to="/sobre" estado={estado}>O QUE É? </ItemMenu></li>
+              <li><ItemMenu as={Link} to="/publicacoes" estado={estado}>O QUE É? </ItemMenu></li>
               <li><ItemMenu as={Link} to="/colecao" estado={estado}>COLEÇÃO ESCREVER O CINEMA </ItemMenu></li>
             </ul>
             <ItemMenu as={Link} to="/quem-somos" estado={estado}>QUEM SOMOS </ItemMenu>
           </ConteinerItensMenu>
           <ConteinerLinguagem estado={estado}>
-            <ItemLang estado={estado}>PT </ItemLang>
+            <ItemLang
+              estado={estado}
+              lingua={global.ptBr}
+              onClick={() => {
+                mudarGlobal({ ptBr: true });
+              }}
+            >
+              {'PT '}
+            </ItemLang>
             /
-            <ItemLang estado={estado}>EN</ItemLang>
+            <ItemLang
+              estado={estado}
+              lingua={!global.ptBr}
+              onClick={() => {
+                mudarGlobal({ ptBr: false });
+              }}
+            >
+              {' EN'}
+            </ItemLang>
           </ConteinerLinguagem>
         </ConteinerMenu>
       </MediaQuery>

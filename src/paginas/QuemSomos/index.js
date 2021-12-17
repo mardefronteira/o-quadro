@@ -1,5 +1,5 @@
 import React from 'react';
-import dataBase from '../../db';
+import { useGlobal } from '../../AcessoGlobal';
 // importar estilo
 import {
   Titulo, Conteiner, FotoPrincipal, Artigo, GridIntegrantes, Card, Nome, FotoPerfil,
@@ -8,7 +8,10 @@ import {
 import Base from '../../componentes/Base';
 
 function QuemSomos() {
-  const somos = dataBase.quemSomos;
+  // eslint-disable-next-line no-unused-vars
+  const [global, mudarGlobal] = useGlobal();
+
+  const somos = global.db.quemSomos;
   console.log(somos);
   return (
     <Base menuSocialVermelho={false}>

@@ -1,8 +1,8 @@
-const database = {
+const databaseEn = {
   filmes: [{
     id: '1',
     url: 'amador',
-    titulo: 'AMADOR',
+    titulo: 'INGLEIS',
     ano: 2011,
     autor: 'WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/amador/amador_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -53,7 +53,7 @@ const database = {
   {
     id: '2',
     url: 'bia-mais-um',
-    titulo: 'BIA MAIS UM',
+    titulo: 'INGLEIS',
     ano: 2021,
     autor: 'WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/bia-mais-um/biamaisum_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -2672,4 +2672,4 @@ const database = {
 
   },
 };
-export default database;
+export default databaseEn;
