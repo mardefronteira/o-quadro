@@ -9,7 +9,6 @@ export const Subtitulo = styled.h3`
   margin: 0;
   padding: 2vh 0;
   color: ${(props) => (props.taVermelho ? '#CF0018' : '#009F66')}
-  
 `;
 
 export const FundoCard = styled.a`
@@ -25,11 +24,11 @@ export const FundoCard = styled.a`
     box-shadow: 2px 2px 5px #000000;
   }
   @media (max-width: 800px) {
+    width: 30vw;
   &:hover,
   &:focus {
     box-shadow: none;
   }
-  width: 30vw;
   }
 `;
 

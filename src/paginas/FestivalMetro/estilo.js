@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const ConteinerPrincipal = styled.section`
 display: flex;
 flex-direction: row;
-padding-bottom: 15vh;
+padding: 0;
 @media (max-width: 800px) {
+    padding-bottom: 15vh;
     flex-direction: column;
     align-items: center;
- 
 }
 `;
 
