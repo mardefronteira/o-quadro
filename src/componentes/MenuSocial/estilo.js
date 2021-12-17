@@ -14,7 +14,7 @@ export const ConteinerMenuSocial = styled.nav`
     align-items: center;
     align-self:center;
     justify-content: space-around;
-    top: 30vh;
+    top:${(props) => (props.taVermelho ? '30vh' : '20vh')} ;
     box-shadow: 1px 1px 1px #000000;
     z-index: 55;
     @media (max-width: 800px) {  

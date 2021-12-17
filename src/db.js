@@ -58,7 +58,7 @@ const dataBase = {
     autor: 'WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/bia-mais-um/biamaisum_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/bia-mais-um/biamaisum_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgPoster: { src: '/imagens/filmes/bia-mais-um/biamaisum_Cartaz_web_01.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: '/imagens/filmes/bia-mais-um/biamaisum_cartaz_web_01.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [
       { src: '/imagens/filmes/bia-mais-um/biamaisum_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/bia-mais-um/biamaisum_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -138,7 +138,7 @@ const dataBase = {
     autor: 'ANDERSON SIMÃO',
     imgIcone: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_banner.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgPoster: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_Cartaz_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_cartaz_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [
       { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -211,7 +211,7 @@ const dataBase = {
     autor: 'CHRISTOPHER FAUST, EVANDRO SCORSIN',
     imgIcone: { src: '/imagens/filmes/coloridos/coloridos_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/coloridos/coloridos_banner.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgPoster: { src: '/imagens/filmes/coloridos/coloridos_Cartaz_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: '/imagens/filmes/coloridos/coloridos_cartaz_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [
       { src: '/imagens/filmes/coloridos/coloridos_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/coloridos/coloridos_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -494,16 +494,16 @@ const dataBase = {
     titulo: 'EU TE AMO, BRESSAN',
     ano: 2020,
     autor: 'GABRIEL BORGES',
-    imgIcone: { src: '/imagens/filmes/eu-te-amo-bressan/etab_frame01.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgIcone: { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_still1.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/eu-te-amo-bressan/coco-quadro-mecenato_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgPoster: { src: '/imagens/filmes/eu-te-amo-bressan/cartaz_etab.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_cartaz_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [
-      { src: '/imagens/filmes/eu-te-amo-bressan/etab_frame01.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/filmes/eu-te-amo-bressan/etab_frame02.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/filmes/eu-te-amo-bressan/etab_frame03.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/filmes/eu-te-amo-bressan/etab_frame04.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/filmes/eu-te-amo-bressan/etab_frame05.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/filmes/eu-te-amo-bressan/etab_frame06.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_still1.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_still2.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_still3.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_still4.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_still5.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_still6.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
     imgGaleriaAlta: [
       { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_cartaz_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -1380,7 +1380,7 @@ const dataBase = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `
-        <p><span class="texto-verde">Realizado por:</span> Anderson Simão, Evandro Scorsin e Nuno Chinaglia Poli</p>
+        <span class="texto-verde">Realizado por:</span> Anderson Simão, Evandro Scorsin e Nuno Chinaglia Poli
         `,
       },
       adicional: {
@@ -1652,14 +1652,13 @@ const dataBase = {
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
-        __html: `<p>
+        __html: `
         <p><span class="texto-verde">Direção e roteiro:</span> Christopher Faust </p>
         <p><span class="texto-verde">Produção Executiva:</span> Christopher Faust e Wellington Sari </p> 
         <p><span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa</p> 
         <p><span class="texto-verde">Direção De Arte:</span> Christopher Faust </p>
         <p><span class="texto-verde">Montagem:</span> Diego Florentino </p> 
         <p><span class="texto-verde">Som Direto:</span> Wellington Sari e Rodrigo Janiszewski </p>
-        </p>
         `,
       },
       adicional: {
@@ -1757,7 +1756,7 @@ const dataBase = {
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
-        __html: `<p>
+        __html: `
         <p><span class="texto-verde">Direção e roteiro:</span> Anderson Simão </p>
         <p><span class="texto-verde">Produção:</span> Anderson Simão, Evandro Scorsin, Juliana Rodrigues, Nuno Chinaglia Poli </p> 
         <p><span class="texto-verde">Direção De Fotografia:</span> Juliana Rodrigues </p> 
@@ -1765,7 +1764,6 @@ const dataBase = {
         <p><span class="texto-verde">Montagem:</span> Tomás von der Osten </p>
         <p><span class="texto-verde">Som Direto:</span> Evandro Scorsin, Nuno Chinaglia Poli </p> 
         <p><span class="texto-verde">Edição De Som:</span> Nuno Chinaglia Poli </p>
-        </p>
         <p>
         Projeto realizado como TCC do curso de Cinema e Vídeo da Faculdade de Artes do Paraná.
         </p>
@@ -1901,7 +1899,7 @@ const dataBase = {
       { src: '/imagens/filmes/pequenos/pequenos_still6_alta.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
 
     ],
-    patrocinadores: { src: '/imagens/filmes/pequenos/paranoiadoce_creditos_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+    patrocinadores: { src: '/imagens/filmes/pequenos/cultura-inglesa_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
 
     participacao: 'Lucas Gabriel, Julia Yara, Augusto Cerqueira, Ana Henriqueta, Anderson Da Silva, Daniel Miqueias, Lucas Vicenzo e Luiz Godói.',
     sinopse: 'Férias de verão e o menino Lucas se diverte com seus amigos no bairro onde moram. Cada dia que passa, ele se aproxima mais de Ana.',
@@ -1963,6 +1961,14 @@ const dataBase = {
       { src: '/imagens/filmes/raceland/raceland_still2.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/raceland/raceland_still3.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/raceland/raceland_still1.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/raceland/raceland_still2.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/raceland/raceland_still3.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
+    ],
+    patrocinadores: { src: '/imagens/filmes/pequenos/cultura-inglesa_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: '',
     sinopse: 'O automobilismo como forma de superar a morte, ao vivo no vídeo. As tecnologias antigas desaparecem, mas algo permanece. Dois homens disputam uma corrida. Uma homenagem a Ayrton Senna.',
     categoria: 'Curta Metragem',
@@ -2008,6 +2014,18 @@ const dataBase = {
       { src: '/imagens/filmes/romance-edmottes/romanceedmottes_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/romance-edmottes/romanceedmottes_still6.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/romance-edmottes/romanceedmottes_banner.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/romance-edmottes/romanceedmottes_still1_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/romance-edmottes/romanceedmottes_still2_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/romance-edmottes/romanceedmottes_still3_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/romance-edmottes/romanceedmottes_still4_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/romance-edmottes/romanceedmottes_still5_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/romance-edmottes/romanceedmottes_still6_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
+    ],
+    patrocinadores: { src: '', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Arno Pruner, Viviane Oliveira, Sabine Villatore, Márcio Paes, Daniele Dorte, Wellington Sari, Vinícius Yurk.',
     sinopse: 'Tino gosta de duas meninas. Uma delas é sua namorada.',
     categoria: 'Curta Metragem',
@@ -2068,6 +2086,17 @@ const dataBase = {
       { src: '/imagens/filmes/sobrenatural/sobrenatural_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/sobrenatural/sobrenatural_still6.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/sobrenatural/sobrenatural_still1_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/sobrenatural/sobrenatural_still2_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/sobrenatural/sobrenatural_still3_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/sobrenatural/sobrenatural_still4_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/sobrenatural/sobrenatural_still5_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/sobrenatural/sobrenatural_still6_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
+    ],
+    patrocinadores: { src: '', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Evandro Scorsin, Fran Lipinski, Wellington Sari.',
     sinopse: 'Giovanni tem 20 anos, trabalha em uma videolocadora e torce para o Santos. Ele procura uma menina parecida com ele para se apaixonar. Até que conhece Nely.',
     categoria: 'Curta Metragem',
@@ -2122,6 +2151,18 @@ const dataBase = {
       { src: '/imagens/filmes/super-blue/superblue_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/super-blue/superblue_still6.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/super-blue/superblue_cartaz_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/super-blue/superblue_still1_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/super-blue/superblue_still2_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/super-blue/superblue_still3_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/super-blue/superblue_still4_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/super-blue/superblue_still5_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/super-blue/superblue_still6_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
+    ],
+    patrocinadores: { src: '', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Wellington Sari, Alana Ferri, Beatriz Oliveira, Evandro Scorsin.',
     sinopse: 'De coração partido graças ao fim de um namoro, Giba caminha sem direção. Ao acaso, encontra seu amigo Conrado, que lhe apresenta Bia.',
     categoria: 'Curta Metragem',
@@ -2182,6 +2223,18 @@ const dataBase = {
       { src: '/imagens/filmes/surf-surf/surfsurf_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/surf-surf/surfsurf_still6.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/surf-surf/surfsurf_cartaz_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/surf-surf/surfsurf_still1_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/surf-surf/surfsurf_still2_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/surf-surf/surfsurf_still3_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/surf-surf/surfsurf_still4_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/surf-surf/surfsurf_still5_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/surf-surf/surfsurf_still6_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
+    ],
+    patrocinadores: { src: '', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Monique Rau, Wellington Sari, Arno Pruner, Evandro Scorsin, Rodolfo Stancki e Paulo De Nadal.',
     sinopse: 'Bruna quer ficar com André, antes que ele viaje para a praia. Depois de encontrá-lo, a jovem passa o resto do dia com o melhor amigo Jota.',
     categoria: 'Curta Metragem',
@@ -2239,6 +2292,18 @@ const dataBase = {
       { src: '/imagens/filmes/terror-noturno/terrornoturno_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/terror-noturno/terrornoturno_still6.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/terror-noturno/terrornoturno_cartaz_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/terror-noturno/terrornoturno_still1_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/terror-noturno/terrornoturno_still2_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/terror-noturno/terrornoturno_still3_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/terror-noturno/terrornoturno_still4_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/terror-noturno/terrornoturno_still5_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/terror-noturno/terrornoturno_still6_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
+    ],
+    patrocinadores: { src: '/imagens/filmes/terror-noturno/terrornoturno_creditos_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Gustavo Piaskoski e Marrara Mara.',
     sinopse: 'Após uma festa com muita bebedeira e diversão, um casal desperta no dia seguinte sem qualquer recordação sobre os eventos da noite anterior. Quando encontram vestígios de um provável atropelamento no para-choque do carro, passam a acreditar que podem ter cometido um assassinato.',
     categoria: 'Curta Metragem',
@@ -2310,6 +2375,11 @@ const dataBase = {
       { src: '/imagens/filmes/tudo-bem/tudobem_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/tudo-bem/tudobem_still6.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/tudo-bem/tudobem_cartaz_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    ],
+    patrocinadores: { src: '', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Ailen Scandurra, Ana Azevedo, Evandro Scorsin, Ana Paula Málaga, Tomás von der Osten.',
     sinopse: 'Camila terminou seu namoro. Divide agora seu tempo entre baladas, amigas e seu cachorro.',
     categoria: 'Curta Metragem',
@@ -2318,14 +2388,13 @@ const dataBase = {
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
-        __html: `<p>
+        __html: `
         <p><span class="texto-verde">Direção, roteiro, produção executiva e montagem:</span> Christopher Faust </p> 
         <p><span class="texto-verde">Produção e Direção de Arte:</span> Ana Paula Câmara e Caroline Biagi </p>
         <p><span class="texto-verde">Direção De Fotografia:</span> Daniel Florencio </p>
         <p><span class="texto-verde">Som Direto:</span> João Menna Barreto </p>
         <p><span class="texto-verde">Microfonista:</span> Lucas Maffini </p>
         <p><span class="texto-verde">Desenho de Som:</span> Kleber Gregorio </p>
-        </p>
         <p>
         Projeto realizado como TCC do curso de Cinema e Vídeo da Faculdade de Artes do Paraná.
         </p>
@@ -2356,6 +2425,18 @@ const dataBase = {
       { src: '/imagens/filmes/um-verao-em-venus/umveraoemvenus_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/um-verao-em-venus/umveraoemvenus_still6.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     ],
+    imgGaleriaAlta: [
+      { src: '/imagens/filmes/um-verao-em-venus/umveraoemvenus_cartaz_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/um-verao-em-venus/umveraoemvenus_still1_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/um-verao-em-venus/umveraoemvenus_still2_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/um-verao-em-venus/umveraoemvenus_still3_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/um-verao-em-venus/umveraoemvenus_still4_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/um-verao-em-venus/umveraoemvenus_still5_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/um-verao-em-venus/umveraoemvenus_still6_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
+    ],
+    patrocinadores: { src: '', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+
     participacao: 'Evandro Scorsin e Morgana Horst.',
     sinopse: 'A passagem de Vênus pelo Sol pode reaproximar um casal com o amor desgastado.',
     categoria: 'Curta Metragem',

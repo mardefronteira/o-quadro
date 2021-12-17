@@ -7,6 +7,7 @@ padding-bottom: 15vh;
 @media (max-width: 800px) {
     flex-direction: column;
     align-items: center;
+ 
 }
 `;
 
@@ -16,8 +17,8 @@ max-width:40vw;
 height: 70vh;
 object-fit: contain;
 @media (max-width: 800px) {
-    padding: 0 5vw;
-    width: 90%;
+    width: 100%;
+    height: auto;
     justify-content: center;
     align-items: center;
 }
@@ -44,6 +45,7 @@ text-align: justify;
 margin: 0 0 8vh 0;
 @media (max-width: 800px) {
     margin: 0 0 0 0;
+    width: 80%;
 }
 `;
 

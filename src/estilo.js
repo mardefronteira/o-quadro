@@ -7,6 +7,7 @@ const EstiloGlobal = createGlobalStyle`
   font-family: 'Louis George Café', sans-serif;
   margin: 0;
   padding: 0;
+  
 }
 
 body {

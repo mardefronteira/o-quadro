@@ -24,6 +24,7 @@ export const DivFlexPublicacao = styled(DivFlex)`
   width:100%;
   @media (max-width: 800px) {
     flex-direction: column;
+    width: 90%;
   }
 }
 #secao-info {
@@ -76,9 +77,9 @@ export const NomeAutor = styled.h3`
 `;
 
 export const ImgPatrocinio = styled(ImgPatrocinadores)`
-width: 100%;
-padding-top: 10vh;
-
+width: auto;
+padding-top: 5vh;
+height: 20vh;
 `;
 
 export const Linha = styled.hr`
