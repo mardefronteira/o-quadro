@@ -86,8 +86,8 @@ function Menu({ estado = 1 }) {
               </ItemMenu>
             ) : ''}
             <ul className="dropdown">
-              <ItemMenu as={Link} to="/publicacoes" estado={estado}>PUBLICAÇÕES </ItemMenu>
-              <li><ItemMenu as={Link} to="/sobre" estado={estado}>O QUE É? </ItemMenu></li>
+              <li><ItemMenu as={Link} to="/publicacoes" estado={estado}>PUBLICAÇÕES </ItemMenu></li>
+              <li><ItemMenu as={Link} to="/publicacoes" estado={estado}>O QUE É? </ItemMenu></li>
               <li><ItemMenu as={Link} to="/colecao" estado={estado}>COLEÇÃO ESCREVER O CINEMA </ItemMenu></li>
             </ul>
             <ItemMenu as={Link} to="/quem-somos" estado={estado}>QUEM SOMOS </ItemMenu>

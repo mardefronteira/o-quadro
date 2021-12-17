@@ -16,6 +16,7 @@ export const FundoCard = styled.a`
   height: auto;
   text-align: center;
   text-decoration: none;
+  padding: 1%;
   color: inherit;
   transition-duration: 0.7s;
   &:hover,
@@ -27,8 +28,6 @@ export const FundoCard = styled.a`
   &:focus {
     box-shadow: none;
   }
-  width:45%;
-  height:45%;
   }
 `;
 
@@ -40,15 +39,13 @@ export const Desc = styled.div`
 `;
 
 export const ImagemCard = styled.img`
-
   width:100%;
-  object-fit:cover;
-  max-height:40vh;
+  object-fit:contain;
+  height:45vh;
   @media (max-width: 800px) {
     width:100%;
     object-fit:contain;
     height:30vh;
 
   }
-
 `;
