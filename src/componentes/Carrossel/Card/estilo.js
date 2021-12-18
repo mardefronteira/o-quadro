@@ -24,6 +24,7 @@ export const FundoCard = styled.a`
     box-shadow: 2px 2px 5px #000000;
   }
   @media (max-width: 800px) {
+    width: 30vw;
   &:hover,
   &:focus {
     box-shadow: none;

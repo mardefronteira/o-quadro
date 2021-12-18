@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import dataBase from '../../db';
+import { useGlobal } from '../../AcessoGlobal';
 
 // importar estilos
 // import {} from "./estilo.js";
@@ -13,8 +13,10 @@ import Base from '../../componentes/Base';
 import GaleriaFilmes from '../../componentes/GaleriaFilmes';
 
 function Filmes() {
+  const [global, mudarGlobal] = useGlobal();
+
   const { categoria } = useParams();
-  const { filmes } = dataBase;
+  const { filmes } = global.db;
   const [busca, setBusca] = useState('');
 
   return (

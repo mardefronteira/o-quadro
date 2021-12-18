@@ -3,25 +3,26 @@ import React from 'react';
 import { Container, Content } from './estilo';
 import Base from '../../componentes/Base';
 import Carrossel from '../../componentes/Carrossel';
-import dataBase from '../../db';
+import { useGlobal } from '../../AcessoGlobal';
 
 function Sobre() {
+  // eslint-disable-next-line no-unused-vars
+  const [global, mudarGlobal] = useGlobal();
+
   return (
     <Base menuSocialVermelho estadoMenu={2}>
       <Container>
         <Content>
-          <img src="http://placekitten.com/200/300" alt="imagem" />
+          <img
+            src={global.db.logos.aquadro.vermelhoVertical.src}
+            alt={global.db.logos.aquadro.vermelhoVertical.desc}
+          />
           <p>
-            A Quadro é O Quadro, mas um pouco diferente. Sonho antigo da
-            produtora, em 2021 conseguimos viabilizar um selo voltado para o
-            lançamento de publicações sobre cinema. Para separar o joio da joia,
-            demos um nome alternativo para a atividade, com a intenção de marcar
-            a diferença, sem desmontar a unidade: fazemos cinema, seja
-            produzindo filmes, um festival, ou editando e lançando livros.
+            {global.db.editora.texto}
           </p>
         </Content>
       </Container>
-      <Carrossel categoria={dataBase.publicacoes} taVermelho />
+      <Carrossel categoria={global.db.publicacoes} taVermelho />
     </Base>
   );
 }

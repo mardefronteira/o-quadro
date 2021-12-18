@@ -2,10 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import Galeria from './estilo';
 import Card from './Card/index';
-import dataBase from '../../db';
+import { useGlobal } from '../../AcessoGlobal';
 
 function GaleriaFilmes({ categoria }) {
-  const { filmes } = dataBase;
+  // eslint-disable-next-line no-unused-vars
+  const [global, mudarGlobal] = useGlobal();
+
+  const { filmes } = global.db;
   const [categoriaSelecionada, setCategoriaSelecionada] = useState(categoria);
   const [filmesCategoria, setFilmesCategoria] = useState(filmes);
   const eMovel = useMediaQuery({ query: '(max-width: 799px)' });

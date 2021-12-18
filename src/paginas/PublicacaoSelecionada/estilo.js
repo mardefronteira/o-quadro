@@ -80,10 +80,15 @@ export const ImgPatrocinio = styled(ImgPatrocinadores)`
 width: auto;
 padding-top: 5vh;
 height: 20vh;
+@media (max-width: 800px){
+  width: 90%;
+  height: auto;
+}
 `;
 
 export const Linha = styled.hr`
-margin: 5vh 0;
+margin: auto;
+width: 80%;
 background-color: #000000;
 border: 0.5px solid #000000;
 opacity: 0.4;

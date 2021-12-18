@@ -19,7 +19,7 @@ export const Content = styled.div`
   img {
     width: 40%;
     height: 45vh;
-    object-fit: cover;
+    object-fit: contain;
   }
   p {
     width: 40%;

@@ -50,7 +50,7 @@ export const FundoCarrossel = styled.div`
 export const TituloCarrossel = styled.h2`
   font-weight: 300;
   @media (max-width: 800px) {
-    margin: 0 10vw;
+    margin: 3vh 10vw;
   }
 `;
 

@@ -7,7 +7,7 @@ export const Pagina = styled.main`
     margin:25vh 15vw;
     @media (max-width: 800px) {
         margin: 0;
-        width: 100%;
+        width: 100vw;
         padding:15vh 0;
     }
 `;

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import dataBase from '../../db';
+import { useGlobal } from '../../AcessoGlobal';
 // importar estilos
 import {
   ConteinerPrincipal, Poster, Conteiner, Logo, Artigo, Embarque,
@@ -8,7 +8,10 @@ import {
 import Base from '../../componentes/Base';
 
 function FestivalMetro() {
-  const festival = dataBase.metro;
+  // eslint-disable-next-line no-unused-vars
+  const [global, mudarGlobal] = useGlobal();
+
+  const festival = global.db.metro;
   const [indice, setIndice] = useState(0);
   useEffect(() => {
     // eslint-disable-next-line max-len

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import {
@@ -6,34 +7,32 @@ import {
   ItemBotao,
   TextoEmail,
 } from './estilo';
-import dataBase from '../../db';
+import { useGlobal } from '../../AcessoGlobal';
 
 function MenuSocial({ vermelho = false, taVermelho = true }) {
-  const { logos } = dataBase;
+  const [global, mudarGlobal] = useGlobal();
+
+  const { logos } = global.db;
   const [email, setEmail] = useState({
-    __html: ` ${
-      vermelho
-        ? '<p class="email">aquadro@oquadro.net</p>'
-        : '<p class="email">oquadro@oquadro.net</p>'
+    __html: ` ${vermelho
+      ? '<p class="email">aquadro@oquadro.net</p>'
+      : '<p class="email">oquadro@oquadro.net</p>'
     } 
             <p class="info">(Clique para copiar)</p>`,
   });
   const clipboard = () => {
     if (vermelho) {
-      console.log(vermelho);
       navigator.clipboard.writeText('aquadro@oquadro.net');
     } else {
       navigator.clipboard.writeText('oquadro@oquadro.net');
-      console.log(vermelho);
     }
 
     setEmail({ __html: '<p class="email">copiado!</p>' });
     setTimeout(() => {
       setEmail({
-        __html: `${
-          vermelho
-            ? `<p class='email'>aquadro@oquadro.net`
-            : `<p class='email'>oquadro@oquadro.net</p>`
+        __html: `${vermelho
+          ? `<p class='email'>aquadro@oquadro.net`
+          : `<p class='email'>oquadro@oquadro.net</p>`
         }
       <p class="info">(Clique para copiar)</p>`,
       });
@@ -97,7 +96,7 @@ function MenuSocial({ vermelho = false, taVermelho = true }) {
         }}
       >
         <img src={logos.sociais.email.src} alt={logos.sociais.email.desc} />
-        <TextoEmail dangerouslySetInnerHTML={email} />
+        <TextoEmail taVermelho={vermelho} dangerouslySetInnerHTML={email} />
       </ItemBotao>
     </ConteinerMenuSocial>
   );

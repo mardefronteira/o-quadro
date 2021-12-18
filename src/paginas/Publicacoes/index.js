@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import dataBase from '../../db';
+import { useGlobal } from '../../AcessoGlobal';
 // importar componentes
 import {
   Conteiner,
@@ -22,10 +22,13 @@ import { MaisInfo } from '../../componentes/SecaoInformacoes/estilo';
 import Base from '../../componentes/Base';
 
 function Publicacoes() {
-  const info = dataBase.editora;
+  // eslint-disable-next-line no-unused-vars
+  const [global, mudarGlobal] = useGlobal();
+
+  const info = global.db.editora;
   // eslint-disable-next-line prefer-destructuring
-  const publicacoes = dataBase.publicacoes;
-  // const patrocinio = dataBase.patrocinadores;
+  const publicacoes = global.db.publicacoes;
+  // const patrocinio = global.db.patrocinadores;
   useEffect(() => {
     document.getElementById('lista-livros').classList.add('fadeOut', 'alturaZero');
   }, []);

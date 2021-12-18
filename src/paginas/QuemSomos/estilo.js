@@ -34,13 +34,12 @@ p{
 `;
 
 export const GridIntegrantes = styled.section`
-display: grid;
+display: flex;
+flex-wrap:wrap;
 width: 100%;
 justify-content: space-between;
-grid-template-columns: auto auto auto auto;
 margin-bottom: 10vh;
 @media (max-width: 800px) {
-    grid-template-columns: auto auto;
     justify-content: space-around;
 }
 `;
@@ -49,28 +48,33 @@ export const Card = styled.section`
 display: flex;
 flex-direction: column;
 align-items: center;
-width: 80%;
+width: 25%;
 img{
-    width: 100%;
-    height:70%;
+    width: 80%;
+    height:auto;
+    object-fit:contain;
 }
 @media (max-width: 800px) {
+    width: 40%;
     padding: 0vh 5vw 5vh 5vw;
+    img{
+        width: 100%;
+        height:auto;
+        object-fit:contain;
+    }
 }
 `;
 
 export const Nome = styled.h3`
 text-align: center;
 color: #009F66;
+font-size:1.2em;
+@media (max-width: 800px) {
+    font-size: .8em;
+}
 `;
 
 export const FotoPerfil = styled.img`
 padding: 1vh;
-
-`;
-
-export const Info = styled.article`
-text-align: left;
-line-height: 1.15em;
 
 `;

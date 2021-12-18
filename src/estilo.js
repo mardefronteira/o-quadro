@@ -15,7 +15,9 @@ body {
   font-family: 'Louis George Café', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
+
 h1,h2,h3,h4,h5,h6{
 line-height:2em;
 font-weight: 400;
