@@ -25,6 +25,11 @@ function SecaoInformacoes({ taVermelho = false, id }) {
     alt: imagem.desc,
     key: imagem.src.slice(-20),
   }));
+  const galeriaAlta = filme.imgGaleriaAlta.map((imagem) => ({
+    src: imagem.src,
+    alt: imagem.desc,
+    key: imagem.src.slice(-20),
+  }));
 
   // não foram passadas tags nos dados dos filmes
   // const filmesRelacionados = global.db.filmes.filter(
@@ -110,7 +115,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
         <ImgDestaqueDireita src={filme.imgPoster.src} alt={filme.imgPoster.desc} />
       </DivFlex>
       <DivFlex className="galeria-fotos">
-        <VisualizadorImagens galeria={galeria} className="galeria-fotos" />
+        <VisualizadorImagens galeria={galeria} galeriaAlta={galeriaAlta} className="galeria-fotos" />
 
       </DivFlex>
       <DivFlex eColuna>
