@@ -67,8 +67,11 @@ display: none;
 
 @media (max-width: 800px){
     position: fixed;
-    top: 50vh;
+    bottom: 5vh;
     left: 50vw;
+    height: max-content;
+    box-shadow: 2px 2px 7px 2px;
+    padding: 1vh 4vw;
 }
 
 `;

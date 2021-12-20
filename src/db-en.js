@@ -1121,7 +1121,7 @@ const databaseEn = {
     sinopse: 'Depois de levar o fora do namorado, Pri encontra um obstáculo no caminho.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
-    linkVideo: 'https://youtu.be/j96oOOQ4vXI',
+    linkVideo: 'https://youtu.be/ctGG9OL5nrQ',
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
