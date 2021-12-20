@@ -52,7 +52,7 @@ background-color: white;
 box-shadow: 2px 2px;
 padding: 1vh 1vw;
 opacity: 1;
-display: block;
+display: none;
 
 .info {
     font-size: .8em;
@@ -63,7 +63,7 @@ display: block;
 .email {
     font-size: 1em;
 }
-${(props) => (props.taVermelho ? (`top: 65%`) : ('top: 78%'))}
+    top:${(props) => (props.taVermelho ? '70%' : '82%')};
 
 @media (max-width: 800px){
     position: fixed;
