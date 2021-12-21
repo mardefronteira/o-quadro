@@ -7,13 +7,15 @@ const dataBase = {
     autor: 'WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/amador/amador_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/amador/amador_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgPoster: { src: '/imagens/filmes/amador/', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: '/imagens/filmes/amador/amador_cartaz_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [
       { src: '/imagens/filmes/amador/amador_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/amador/amador_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/amador/amador_still3.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/amador/amador_still4.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/amador/amador_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/amador/amador_still6.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
     ],
     imgGaleriaAlta: [
       { src: '/imagens/filmes/amador/amador_still1_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -65,6 +67,8 @@ const dataBase = {
       { src: '/imagens/filmes/bia-mais-um/biamaisum_still3.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/bia-mais-um/biamaisum_still4.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/bia-mais-um/biamaisum_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bia-mais-um/biamaisum_still6.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
     ],
     imgGaleriaAlta: [
       { src: '/imagens/filmes/bia-mais-um/biamaisum_cartaz_alta_01.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -74,6 +78,8 @@ const dataBase = {
       { src: '/imagens/filmes/bia-mais-um/biamaisum_still3_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/bia-mais-um/biamaisum_still4_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/bia-mais-um/biamaisum_still5_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bia-mais-um/biamaisum_still6_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
     ],
     patrocinadores: { src: '/imagens/filmes/bia-mais-um/ebanx-mecenato_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
     participacao: 'Gabrielle Pizzato, Gustavo Piaskoski, Ivo Müller, Dafne Viola.',
@@ -145,17 +151,21 @@ const dataBase = {
       { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still3.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still4.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still6.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
     ],
     imgGaleriaAlta: [
-      { src: '/imagens/filmes/bia-mais-um/biamaisum_cartaz_alta_01.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/filmes/bia-mais-um/biamaisum_cartaz_alta_02.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/filmes/bia-mais-um/biamaisum_still1_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/filmes/bia-mais-um/biamaisum_still2_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/filmes/bia-mais-um/biamaisum_still3_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/filmes/bia-mais-um/biamaisum_still4_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      { src: '/imagens/filmes/bia-mais-um/biamaisum_still5_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_cartaz_alta_01.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_cartaz_alta_02.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still1_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still2_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still3_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still4_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still5_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still6_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
     ],
-    patrocinadores: { src: '/imagens/filmes/bia-mais-um/ebanx-mecenato_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+    patrocinadores: { src: '/imagens/filmes/bye-bye-jaqueline/ebanx-mecenato_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
     participacao: 'Poliana Oliveira, Gabrielle Pizzato Santana, Victor Carlim, Leonardo Oliveira, Wellington Sari, Evandro Scorsin, Flávia Cassias e Iza Kürten.',
     sinopse: 'Ter 16 anos é fácil. O difícil é ter 16 anos e ser obrigada a ir à escola todo dia. Mais difícil ainda é ter 16, ser obrigada a frequentar a escola e acabar se apaixonando por Fernando, o menino da sala ao lado. Ser a Jaqueline é fácil. O difícil é ser Jaqueline e saber que Fernando não está nem aí.',
     categoria: 'Longa Metragem',
@@ -218,6 +228,8 @@ const dataBase = {
       { src: '/imagens/filmes/coloridos/coloridos_still3.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/coloridos/coloridos_still4.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/coloridos/coloridos_still5.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/coloridos/coloridos_still6.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
     ],
     imgGaleriaAlta: [
       { src: '/imagens/filmes/coloridos/coloridos_cartaz_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -226,6 +238,8 @@ const dataBase = {
       { src: '/imagens/filmes/coloridos/coloridos_still3_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/coloridos/coloridos_still4_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/coloridos/coloridos_still5_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/coloridos/coloridos_still6_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+
     ],
     patrocinadores: { src: '/imagens/filmes/coloridos/matizar_pagea_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
     participacao: 'Carol Louise, Felipe Schindler, Jenifer Kamila, Jéssica Tamaro Beckhauser, Lilan Camile Schelbauer Panek, Roberta A. P. Guimarães, Thamirys Ramos, Vaniele Cristina, Lucas Telles e Nadiele Ferreira Leal',
@@ -363,7 +377,7 @@ const dataBase = {
     sinopse: 'Eric é apaixonado por sua melhor amiga, Eduarda. Mas, Michel é mais rápido e conquista primeiro a menina. Na pista de kart, Eric tem uma chance de superar o adversário em uma competição feroz. Amor e velocidade, amor pela velocidade. Aqueles eram os Dias de Trovão',
     categoria: 'Média Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
-    linkVideo: 'https://youtu.be/HMkA8M9cSj4',
+    linkVideo: 'https://youtu.be/8LUHCTKb2Bs',
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
@@ -495,7 +509,7 @@ const dataBase = {
     ano: 2020,
     autor: 'GABRIEL BORGES',
     imgIcone: { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_still1.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-    imgDestaque: { src: '/imagens/filmes/eu-te-amo-bressan/coco-quadro-mecenato_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_banner.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_cartaz_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [
       { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_still1.jpeg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
@@ -678,6 +692,10 @@ const dataBase = {
     ],
     imgGaleriaAlta: [
       { src: '/imagens/filmes/festa-no-apartamento-da-suzana/festanoap_cartaz_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/festa-no-apartamento-da-suzana/festanoap_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/festa-no-apartamento-da-suzana/festanoap_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/festa-no-apartamento-da-suzana/festanoap_still3.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/festa-no-apartamento-da-suzana/festanoap_still4.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/festa-no-apartamento-da-suzana/festanoap_still5_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/festa-no-apartamento-da-suzana/festanoap_still6_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
 
@@ -688,7 +706,7 @@ const dataBase = {
     sinopse: 'Augusto é convidado para uma festa no apartamento de uma colega de faculdade.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
-    linkVideo: 'https://youtu.be/ca9pDxzPDfE',
+    linkVideo: 'https://youtu.be/5IdN79q8rWQ',
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
@@ -982,7 +1000,7 @@ const dataBase = {
 
     ],
     patrocinadores: { src: '', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
-
+    participacao: 'Thiago Millarch, Poliana Rosa, Willian Scholz, Ana Carolina de Morais, Danielle Silva, Diego Gutierrez, Emanuel Cruz, Erick Tavares, Erik Eleutério, Francisco Salviano, Jennyfer Berté, Nayra Lima.',
     sinopse: 'Pedro tem 16 anos, namora Ana e cursa o ensino médio. Em uma tarde qualquer: o colégio, olhares, a piscina. O azul.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
@@ -1247,6 +1265,7 @@ const dataBase = {
       { src: '/imagens/filmes/maquina-de-sorvetes/maquinadesorvetes_still3_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/maquina-de-sorvetes/maquinadesorvetes_still4_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/maquina-de-sorvetes/maquinadesorvetes_still5_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      { src: '/imagens/filmes/maquina-de-sorvetes/maquinadesorvetes_still6_alta.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
 
     ],
     patrocinadores: { src: '/imagens/filmes/maquina-de-sorvetes/cultura-inglesa_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
@@ -1967,7 +1986,7 @@ const dataBase = {
       { src: '/imagens/filmes/raceland/raceland_still3.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
 
     ],
-    patrocinadores: { src: '/imagens/filmes/pequenos/cultura-inglesa_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+    patrocinadores: { src: '', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
 
     participacao: '',
     sinopse: 'O automobilismo como forma de superar a morte, ao vivo no vídeo. As tecnologias antigas desaparecem, mas algo permanece. Dois homens disputam uma corrida. Uma homenagem a Ayrton Senna.',
@@ -2508,7 +2527,7 @@ const dataBase = {
       autor: 'DE JULIANA RODRIGUES PEREIRA',
       sobreoAutor: 'Juliana Rodrigues Pereira é assessora de comunicação e pesquisadora. Nasceu no Rio de Janeiro e, depois de morar em três regiões diferentes do País, criou raiz em Curitiba. É mestre em História pela UFPR; e bacharel em Jornalismo pela PUC-PR e em Cinema e Audiovisual pela Faculdade de Artes do Paraná.',
       sinopse: 'A aventura: notas sobre o estilo de Michelangelo Antonioni evidencia os elementos que consolidaram as bases do estilo do cineasta italiano a partir de um filme-chave de sua carreira, A aventura, de 1960. Por meio da análise fílmica minuciosa, a autora explica e desfaz lugares-comuns sobre este artista fundamental para a história do cinema moderno. ',
-      patrocinadores: { src: '/imagens/publicacoes/livro01_04_05_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      patrocinadores: { src: '/imagens/publicacoes/livro01_ 04_05_creditos_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'fica técnica' }],
       tags: [],
       fichaTecnica: {
@@ -2566,7 +2585,7 @@ const dataBase = {
       autor: 'DE PEDRO FAISSOL',
       sobreoAutor: 'Pedro Faissol é pesquisador e professor de Cinema. Doutor e Mestre em Meios e Processos Audiovisuais pela Escola de Comunicações e Artes da Universidade de São Paulo (ECA/USP). Bacharel em Comunicação Social (Cinema) pela Universidade Federal Fluminense (UFF). Docente do curso de Bacharelado em Cinema e Audiovisual e do Programa de Pós-Graduação em Cinema e Artes do Vídeo da Universidade Estadual do Paraná (PPG-CINEAV/Unespar).',
       sinopse: 'O milagre no cinema se apresenta como um problema de representação. Essa premissa ensejou o recorte deste livro. Para cada milagre selecionado (Anunciação, Cura do cego, Ressurreição), foi eleito um dilema correspondente: 1. Como retrabalhar no cinema os motivos plásticos da iconografia cristã? 2. Como figurar o rosto de Cristo, sob o risco de provocar a idolatria? 3. Quais as estratégias adotadas para o problema da descrença na representação? As análises fílmicas mostram um amplo repertório de caminhos para essas perguntas.',
-      patrocinadores: { src: '/imagens/publicacoes/livro01_04_05_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      patrocinadores: { src: '/imagens/publicacoes/livro01_ 04_05_creditos_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       fichaTecnica: {
         isbn: '978-65-996017-3-6',
         paginas: '308',
@@ -2585,7 +2604,7 @@ const dataBase = {
       autor: 'DE EDUARDO TULIO BAGGIO',
       sobreoAutor: 'Eduardo Tulio Baggio é professor do Bacharelado em Cinema e Audiovisual e do Mestrado em Cinema e Artes do Vídeo, ambos da Unespar. Colíder do grupo de pesquisa Cinecriare (Unespar/CNPq). Membro do ST Teoria de Cineastas da Socine e do GT Teoria dos Cineastas da AIM. Publicou textos em revistas como Cine Documental, Aniki, Doc Online, Galáxia e Cognítio. Um dos organizadores dos livros Teoria dos Cineastas (Vols.1, 2 e 3). Entre seus filmes destacam-se A Alma do Gesto (2020), João & Maria (2016) e Santa Teresa (2014). ',
       sinopse: 'Documentário: Filmes para Salas de Cinema com Janelas traça um percurso histórico-conceitual para debater criticamente definições de documentário. Pela perspectiva realista, o livro discute as relações, próprias desse tipo de filme, entre mundo fático experiencial, os processos de realização, a obra audiovisual em si e a recepção A partir desses quatro polos, o autor propõe a metáfora das salas de cinema com janelas para uma abordagem amplificada e relacional do cinema documentário.',
-      patrocinadores: { src: '/imagens/publicacoes/livro01_04_05_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+      patrocinadores: { src: '/imagens/publicacoes/livro01_ 04_05_creditos_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       fichaTecnica: {
         isbn: '978-65-996017-4-3',
         paginas: '140',

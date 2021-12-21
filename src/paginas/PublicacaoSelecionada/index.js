@@ -21,7 +21,7 @@ import dataBase from '../../db';
 function PublicacaoSelecionada() {
   const { id } = useParams();
   const publicacao = dataBase.publicacoes.filter((publicacaoDb) => publicacaoDb.url === id)[0];
-  const patrocinio = dataBase.patrocinadores;
+  const patrocinio = dataBase.publicacoes.patrocinadores;
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [id]);
