@@ -12,25 +12,32 @@ import {
 } from './estilo';
 import VisualizadorImagens from '../VisualizadorImagens';
 import Carrossel from '../Carrossel';
-import dataBase from '../../db';
+import { useGlobal } from '../../AcessoGlobal';
 import { ImgPatrocinio, Linha } from '../../paginas/PublicacaoSelecionada/estilo';
 
 function SecaoInformacoes({ taVermelho = false, id }) {
-  // const [taAtivo, setTaAtivo] = useState(false);
-  const filme = dataBase.filmes.filter((filmeDb) => filmeDb.url === id)[0];
+  // eslint-disable-next-line no-unused-vars
+  const [global, mudarGlobal] = useGlobal();
+
+  const filme = global.db.filmes.filter((filmeDb) => filmeDb.url === id)[0];
   const galeria = filme.galeria.map((imagem) => ({
     src: imagem.src,
     alt: imagem.desc,
-    key: imagem.titulo.replace(' ', '-'),
+    key: imagem.src.slice(-20),
+  }));
+  const galeriaAlta = filme.imgGaleriaAlta.map((imagem) => ({
+    src: imagem.src,
+    alt: imagem.desc,
+    key: imagem.src.slice(-20),
   }));
 
   // não foram passadas tags nos dados dos filmes
-  // const filmesRelacionados = dataBase.filmes.filter(
+  // const filmesRelacionados = global.db.filmes.filter(
   //   (filmeDb) => filmeDb.tags.some(
   //     (tag) => filme.tags.includes(tag) && filme !== filmeDb,
   //   ),
   // );
-  const filmesRelacionados = dataBase.filmes;
+  const filmesRelacionados = global.db.filmes;
 
   useEffect(() => {
     if (document.getElementById('mais-equipe')) document.getElementById('mais-equipe').classList.add('fadeOut', 'alturaZero');
@@ -108,7 +115,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
         <ImgDestaqueDireita src={filme.imgPoster.src} alt={filme.imgPoster.desc} />
       </DivFlex>
       <DivFlex className="galeria-fotos">
-        <VisualizadorImagens galeria={galeria} className="galeria-fotos" />
+        <VisualizadorImagens galeria={galeria} galeriaAlta={galeriaAlta} className="galeria-fotos" />
 
       </DivFlex>
       <DivFlex eColuna>

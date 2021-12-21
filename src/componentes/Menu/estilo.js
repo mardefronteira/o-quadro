@@ -25,6 +25,7 @@ export const ConteinerItensMenu = styled.div`
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       background: #ffffff;
       transition: 0.3s;
+      
     }
   }
   .dropdown li {
@@ -96,6 +97,7 @@ export const ItemLang = styled.button`
   }
   margin-top: 1vh;
   font-size: 0.85em;
+  ${(props) => props.lingua && ('color: #009f66')}
   ${(props) => {
     if (props.estado === 0) {
       return `

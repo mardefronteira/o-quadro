@@ -9,19 +9,16 @@ import {
 
 const Card = ({
   img, titulo, desc, taVermelho, url,
-}) => {
-  console.log(img, titulo, desc);
-  return (
-    <FundoCard as={Link} to={`/${taVermelho ? 'publicacao' : 'filme'}/${url}`}>
-      <ImagemCard src={img.src} alt={img.desc} />
-      <Subtitulo taVermelho={taVermelho}>{titulo.toUpperCase()}</Subtitulo>
-      <Desc>{desc}</Desc>
-    </FundoCard>
-  );
-};
+}) => (
+  <FundoCard as={Link} to={`/${taVermelho ? 'publicacao' : 'filme'}/${url}`}>
+    <ImagemCard src={img.src} alt={img.desc} />
+    <Subtitulo taVermelho={taVermelho}>{titulo.toUpperCase()}</Subtitulo>
+    <Desc>{desc}</Desc>
+  </FundoCard>
+);
 
 Card.propTypes = {
-  img: PropTypes.string.isRequired,
+  img: PropTypes.objectOf(PropTypes.string).isRequired,
   titulo: PropTypes.string.isRequired,
   desc: PropTypes.string,
 };

@@ -87,7 +87,8 @@ height: 20vh;
 `;
 
 export const Linha = styled.hr`
-margin: 5vh 0;
+margin: auto;
+width: 80%;
 background-color: #000000;
 border: 0.5px solid #000000;
 opacity: 0.4;

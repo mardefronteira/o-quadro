@@ -12,7 +12,7 @@ export const ConteinerMenuSocial = styled.nav`
     border-radius: 0 0.938em 0.938em 0;
     padding: 5vh 0;
     align-items: center;
-    align-self:center;
+    align-self: center;
     justify-content: space-around;
     top:${(props) => (props.taVermelho ? '30vh' : '20vh')} ;
     box-shadow: 1px 1px 1px #000000;
@@ -33,8 +33,7 @@ export const ConteinerMenuSocial = styled.nav`
 export const ItemMenuSocial = styled.a`
 display: ${(props) => (props.taVermelho ? 'none' : 'flex')};
 img{
-    width: 1.7rem;
-
+    width: 90%;
 }
 img:hover{
     opacity: 0.7;
@@ -42,32 +41,39 @@ img:hover{
 @media (max-width: 800px) { 
     height:65%;
     width:5vw;
-
     }
 `;
 
 export const TextoEmail = styled.div`
 position: absolute;
 left: 110%;
-top: 70%;
-
 flex-direction: column;
-
 background-color: white;
 box-shadow: 2px 2px;
-
 padding: 1vh 1vw;
 opacity: 1;
-
 display: none;
 
 .info {
     font-size: .8em;
+    @media (max-width: 800px) {
+        display:none;
+    }
 }
-
 .email {
     font-size: 1em;
 }
+    top:${(props) => (props.taVermelho ? '70%' : '82%')};
+
+@media (max-width: 800px){
+    position: fixed;
+    bottom: 5vh;
+    left: 50vw;
+    height: max-content;
+    box-shadow: 2px 2px 7px 2px;
+    padding: 1vh 4vw;
+}
+
 `;
 
 export const ItemBotao = styled.button`
@@ -75,7 +81,8 @@ background-color: transparent;
 padding: 0 1px;
 border: none;
 img{
-    width: 80%;
+    width: 90%;
+    margin: auto;
 }
 &:hover{
     img{
@@ -83,12 +90,12 @@ img{
     }
 
     ${TextoEmail}{
-        display: flex;
+        display: block;
     }
 }
-@media (max-width: 800px) { 
-    height:100%;
-    width:5vw;
-
+@media (max-width: 800px) {
+    img{
+        width: 4.5vw;
     }
+}
 `;

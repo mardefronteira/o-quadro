@@ -4,22 +4,26 @@ import { Container, Content } from '../Sobre/estilo';
 
 import Base from '../../componentes/Base';
 import Carrossel from '../../componentes/Carrossel';
-import dataBase from '../../db';
+import { useGlobal } from '../../AcessoGlobal';
 import ImagemPatrocinio from './estilo';
 
 function ColecaoEscreverCinema() {
+  // eslint-disable-next-line no-unused-vars
+  const [global, mudarGlobal] = useGlobal();
+
   return (
     <>
       <Base menuSocialVermelho estadoMenu={2}>
         <Container>
           <Content>
-            <img src={dataBase.colecoes.logo.src} alt={dataBase.colecoes.logo.desc} />
+            <img src={global.db.colecoes.logo.src} alt={global.db.colecoes.logo.desc} />
             <p>
-              {dataBase.colecoes.texto}
+              {global.db.colecoes.texto}
             </p>
           </Content>
-          {dataBase.colecoes.patrocinadores.src !== '' && <ImagemPatrocinio src={dataBase.colecoes.patrocinadores.src} alt={dataBase.colecoes.patrocinadores.desc} />}
-          <Carrossel categoria={dataBase.publicacoes} taVermelho />
+          {global.db.colecoes.patrocinadores.src !== '' && <ImagemPatrocinio src={global.db.colecoes.patrocinadores.src} alt={global.db.colecoes.patrocinadores.desc} />}
+
+          <Carrossel categoria={global.db.publicacoes} taVermelho />
         </Container>
       </Base>
     </>

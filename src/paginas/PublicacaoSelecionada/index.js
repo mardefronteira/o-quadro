@@ -16,12 +16,16 @@ import {
 // importar componentes
 import Base from '../../componentes/Base';
 import Carrossel from '../../componentes/Carrossel';
-import dataBase from '../../db';
+
+import { useGlobal } from '../../AcessoGlobal';
 
 function PublicacaoSelecionada() {
+  // eslint-disable-next-line no-unused-vars
+  const [global, mudarGlobal] = useGlobal();
+
   const { id } = useParams();
-  const publicacao = dataBase.publicacoes.filter((publicacaoDb) => publicacaoDb.url === id)[0];
-  const patrocinio = dataBase.publicacoes.patrocinadores;
+  const publicacao = global.db.publicacoes.filter((publicacaoDb) => publicacaoDb.url === id)[0];
+  const patrocinio = global.db.patrocinadores;
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [id]);
@@ -93,7 +97,7 @@ function PublicacaoSelecionada() {
 
       </DivFlexPublicacao>
       <Linha />
-      <Carrossel categoria={dataBase.publicacoes} taVermelho />
+      <Carrossel categoria={global.db.publicacoes} taVermelho />
     </Base>
   );
 }

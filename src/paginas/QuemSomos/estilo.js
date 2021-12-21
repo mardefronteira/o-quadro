@@ -68,9 +68,9 @@ img{
 export const Nome = styled.h3`
 text-align: center;
 color: #009F66;
-font-size:1.5em;
+font-size:1.2em;
 @media (max-width: 800px) {
-    font-size: 1.15em;
+    font-size: .8em;
 }
 `;
 
