@@ -110,7 +110,7 @@ const database = {
         Jean Guilherme Filho, 
         Laura Gomes Tizzoni Lunas, 
         Caterina Malucelli Neves <p>
-        <p><span class="texto-verde">Produtor Executivo Associado:</span> Lucas Kosinski |
+        <p><span class="texto-verde">Produtor Executivo Associado:</span> Gustavo Piaskoski |
         <span class="texto-verde">Assistente De Direção:</span> Stefano Lopes |
         <span class="texto-verde">Assistente De Produção:</span> Vanessa Leal |
         <span class="texto-verde">Operador De Câmera:</span> Rosano Mauro Jr. |
@@ -190,8 +190,10 @@ const database = {
         `,
       },
       adicional: {
-        __html: `<p><span class="texto-verde">Assistente De Direção:</span> Evandro Scorsin <p>
-        <p><span class="texto-verde">Direção de Arte:</span> G. Sari |
+        __html: `
+        <p><span class="texto-verde">Elenco de Apoio:</span> Lois Schmidt, Bruno Ito, Christopher Faust</p>
+        <p><span class="texto-verde">Assistente De Direção:</span> Evandro Scorsin |
+        <span class="texto-verde">Direção de Arte:</span> G. Sari |
         <span class="texto-verde">Assistente De Produção: </span> Alexandre Rafael Garcia |
         <span class="texto-verde">Assistente de Fotografia/Operador De Câmera:</span> Marcelo Tanaka |
         <span class="texto-verde">Assistente De Som Direto:</span> Alexandre Magno | 
@@ -206,10 +208,10 @@ const database = {
         <span class="texto-verde">Estúdio de Som:</span> Off-Beat Audio | 
         <span class="texto-verde">Legendas Espanhol:</span> Larissa Mehl  | 
         <span class="texto-verde">Legendas Inglês:</span> Raquel Ribeiro |
-        <p>
+        </p>
         <p>
         <span class="texto-verde">Figurantes / Extras:</span> Andreia A. A. Porto | Andressa F. Souza | Caroline Altvater | Douglas Bayer Monteiro | Eduarda Borges | Fabio Padilha | Gabrielle Gutierrez Aragão | Giulia Giovanella | Isabella Boddy da Silva | João Guilherme Pellanda | Kesley Ladaninski Garriga | Larissa Antonio | Larissa Tatiana Duarte | Luiza Mayer Seixas Narciso | Valentina V. C. Nogaroto | Vitor Trelinski de Carvalho | Willian Gabriel Molari | Yan Cabral Ramos
-        <p>`,
+        </p>`,
       },
     },
   },
@@ -546,8 +548,10 @@ const database = {
         <p><span class="texto-verde">Direção De Fotografia:</span> Nani Colomé</p> 
         <p><span class="texto-verde">Direção De Arte:</span> Pedro Vilo</p> 
         <p><span class="texto-verde">Montagem:</span> Rodrigo Tomita</p> 
+        <p><span class="texto-verde">Som Direto:</span> Vinicius André Maciel e Bruno Araújo</p>
         <p><span class="texto-verde">Colorização e Finalização:</span> André F. Diniz</p>
         <p><span class="texto-verde">Desenho de Som:</span> Vinicius André Maciel</p>
+        <p><span class="texto-verde">Desenho de Som e Trilha Sonora: </span>Gustavo Mazuroski</p>
         <p><span class="texto-verde">Produção:</span> Coco Filmes</p>
         <p><span class="texto-verde">Co-Produção:</span> O Quadro</p>
         </p>
@@ -716,11 +720,6 @@ const database = {
         <p><span class="texto-verde">Direção De Arte:</span> Caroline Biagi</p>  
         <p><span class="texto-verde">Captação de Áudio:</span> Tomás von der Osten</p> 
         <p><span class="texto-verde">Narração:</span> Diego Florentino</p> 
-        <p><span class="texto-verde">Montagem:</span> Rodrigo Tomita</p> 
-        <p><span class="texto-verde">Colorização e Finalização:</span> André F. Diniz</p>
-        <p><span class="texto-verde">Desenho de Som:</span> Vinicius André Maciel</p>
-        <p><span class="texto-verde">Produção:</span> Coco Filmes</p>
-        <p><span class="texto-verde">Co-Produção:</span> O Quadro</p>
         </p>
         <p>
         Projeto realizado para a Oficina Tomada Única, ofertada pelo 7º Curta Oito - Festival Internacional de Cinema Super8 de Curitiba.
@@ -846,7 +845,7 @@ const database = {
         <p><span class="texto-verde">Direção De Arte:</span> Alex Rocca e Ana Paula Málaga</p>
         <p><span class="texto-verde">Maquiagem:</span> Marcelino de Miranda </p>  
         <p><span class="texto-verde">Montagem:</span> Diego Florentino </p> 
-        <p><span class="texto-verde">Finalização de Som:</span> Nathália Okimoto<p>
+        <p><span class="texto-verde">Finalização de Imagem:</span> Nathália Okimoto<p>
         <p><span class="texto-verde">Som Direto:</span> João Marcelo Gomes </p>
         <p><span class="texto-verde">Desenho de Som:</span> Alexandre Rogoski </p>
         </p>
@@ -859,7 +858,8 @@ const database = {
         __html: `<p>
           <p>
             <span class="texto-verde">Elenco Secundário: </span> Joel José da Silva Junior, Pedro Albigo, Ricardo da Rocha, Robert Tomal, Sandro B. Strapasson, Débora Vecchi, Sabine Villatore, Marcel Szymanski, Everaldo Sant 'Anna, Bruno de Oliveira, João Pedro Rocha, Wagner Jovanaci, Camila Jorge, There Postui, Celso Moreira, Matheus Correia Mancini, Handerson Banks.
-            <span class="texto-verde">Narração:</span> Bruno de Oliveira e Evandro Scorsin |
+            <span class="texto-verde">Narração:</span> Luciano lacerda |
+            <span class="texto-verde">Assistente de Direção:</span> Bruno de Oliveira e Evandro Scorsin |
             <span class="texto-verde">Assistente de Fotografia:</span> André Chesini |
             <span class="texto-verde">Assistente de Arte:</span> Caroline Biagi e Leandro Telles |
             <span class="texto-verde">Figurino:</span> Karina de Souza |
@@ -2636,19 +2636,18 @@ const database = {
     {
       nome: 'Christopher Faust',
       img:
-        { src: '/imagens/teste/posterTerror.png', desc: '' },
+        { src: '/imagens/quemsomos/integrantes_christopher_web.jpg', desc: '' },
     },
     {
       nome: 'Evandro Scorsin',
       img:
-        { src: '/imagens/teste/posterTerror.png', desc: '' },
+        { src: '/imagens/quemsomos/integrantes_evandro_web.jpg', desc: '' },
     },
     {
       nome: 'Wellington Sari',
       img:
-        { src: '/imagens/teste/posterTerror.png', desc: '' },
+        { src: '/imagens/quemsomos/integrantes_wellington_web.jpg', desc: '' },
     },
-
     ],
 
   },

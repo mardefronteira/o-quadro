@@ -2,9 +2,9 @@ const databaseEn = {
   filmes: [{
     id: '1',
     url: 'amador',
-    titulo: 'INGLEIS',
+    titulo: 'AMADOR',
     ano: 2011,
-    autor: 'WELLINGTON SARI',
+    autor: 'Dir: WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/amador/amador_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/amador/amador_banner.png', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/amador/', desc: '', titulo: 'Titulo da Imagem' },
@@ -24,38 +24,35 @@ const databaseEn = {
       { src: '/imagens/filmes/amador/amador_still6_alta.jpg', desc: '', titulo: 'Titulo da Imagem' },
     ],
     patrocinadores: { src: '/imagens/filmes/amador/matizar_pagea_banner.png', desc: '', titulo: 'titulo da imagem' },
-    sinopse: 'Em setembro de 2009, três alunos da 7º série de uma escola estadual de Curitiba gravaram os mesmos pratando sexo no banheiro. Dois deles divulgaram o vídeo na internet. "Amador" trata das implicações que a facilidade em captar imagens traz ao mundo dos jovens, no ambiente escolar.',
-    participacao: 'elenco.',
+    sinopse: 'In September 2009, three 7th grade students from a state school in Curitiba recorded themselves having sex in a bathroom. Two of them posted the video on the internet. “Amador” explores the consequences of easily captured images in the lives of young people and in the school environment.',
+    participacao: 'cast.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://vimeo.com/26117500',
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
-        __html: `<p><span class="texto-verde">Direção e roteiro:</span> Wellington Sari </p> 
-        <p><span class="texto-verde">Produção Executiva:</span>  Alexandre Rafael Garcia </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Anderson Simão, Evandro Scorsin </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa </p> 
-        <p><span class="texto-verde">Montagem:</span> Christopher Faust </p> 
-        <p><span class="texto-verde">Som Direto:</span> Nikola Matevski <p>
-        <p>Projeto realizado como parte de uma série documental criada pela Matizar Filmes, 
-        intitulado “Por que a gente é assim?”,
-        série composta por seis episódios, 
-        cujas exibições foram feitas pelo Canal Futura em 2011 e pelo Canal Brasil em 2012.<p>
+        __html: `<p><span class="texto-verde">Direction and Screenplay:</span> Wellington Sari </p> 
+        <p><span class="texto-verde">Executive Production:</span>  Alexandre Rafael Garcia </p> 
+        <p><span class="texto-verde">Production Manager:</span> Anderson Simão, Evandro Scorsin </p> 
+        <p><span class="texto-verde">Cinematography:</span> Renata Corrêa </p> 
+        <p><span class="texto-verde">Editing:</span> Christopher Faust </p> 
+        <p><span class="texto-verde">Direct Sound:</span> Nikola Matevski </p>
+        <p>Project developed as part of a documentary series created by Matizar Filmes, titled “Why are we like this?”, consisting of six episodes screened by Canal Futura in 2011 and by Canal Brasil in 2012.</p>
         `,
       },
       adicional: {
-        __html: `<p><span class="texto-verde">Assistente De Direção:</span> Evandro Scorsin
-                  <p>`,
+        __html: `<p><span class="texto-verde">Assistant Director:</span> Evandro Scorsin
+                  </p>`,
       },
     },
   },
   {
     id: '2',
     url: 'bia-mais-um',
-    titulo: 'INGLEIS',
+    titulo: 'PLUS ONE',
     ano: 2021,
-    autor: 'WELLINGTON SARI',
+    autor: 'Dir: WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/bia-mais-um/biamaisum_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/bia-mais-um/biamaisum_banner.png', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/bia-mais-um/biamaisum_cartaz_web_01.jpeg', desc: '', titulo: 'Titulo da Imagem' },
@@ -77,55 +74,55 @@ const databaseEn = {
     ],
     patrocinadores: { src: '/imagens/filmes/bia-mais-um/ebanx-mecenato_banner.png', desc: '', titulo: 'titulo da imagem' },
     participacao: 'Gabrielle Pizzato, Gustavo Piaskoski, Ivo Müller, Dafne Viola.',
-    sinopse: 'Bia tenta lidar com várias mudanças. Quando conhece Jean, tenta dormir um pouco mais antes de acordar para a realidade.',
+    sinopse: 'Bia is struggling to deal with numerous changes. When she meets Jean, she tries to get some more sleep before waking up to reality.',
     categoria: 'Longa Metragem',
     linkVideo: 'https://vimeo.com/611281456',
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
-        __html: `<p><span class="texto-verde">Direção e roteiro:</span> Wellington Sari </p> 
-        <p><span class="texto-verde">Produção Executiva:</span> Anderson Simão, Christopher Faust </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Leonardo Otto, Evandro Scorsin </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> André Senna </p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Aricia Machado </p> 
-        <p><span class="texto-verde">Montagem:</span> Tomás Von Der Osten </p> 
-        <p><span class="texto-verde">Som Direto:</span> Bruno Ito </p>
-        <p><span class="texto-verde">Colorista:</span> Lucas Kosinski </p>
-        <p><span class="texto-verde">Edição De Som E Mixagem:</span> Leandro Cordeiro <p>
-        <p>Projeto realizado com o apoio do Programa de Apoio e Incentivo à Cultura - Fundação Cultural de Curitiba e da Prefeitura Municipal de Curitiba, com incentivo da empresa Ebanx.
+        __html: `<p><span class="texto-verde">Direction and Screenplay:</span> Wellington Sari </p> 
+        <p><span class="texto-verde">Executive Production:</span> Anderson Simão, Christopher Faust </p> 
+        <p><span class="texto-verde">Production Management:</span> Leonardo Otto, Evandro Scorsin </p> 
+        <p><span class="texto-verde">Cinematography:</span> André Senna </p> 
+        <p><span class="texto-verde">Art Direction:</span> Aricia Machado </p> 
+        <p><span class="texto-verde">Editing:</span> Tomás Von Der Osten </p> 
+        <p><span class="texto-verde">Direct Sound:</span> Bruno Ito </p>
+        <p><span class="texto-verde">Colorist:</span> Lucas Kosinski </p>
+        <p><span class="texto-verde">Sound Editing and Mixing:</span> Leandro Cordeiro <p>
         <p>
+        Project developed with the support of the Cultural Support and Incentive Program - Cultural Foundation of Curitiba and the City of Curitiba, with incentives from the Ebanx corporation.        </p>
         `,
       },
       adicional: {
-        __html: `<p><span class="texto-verde">Elenco Secundário:</span> Juliana Spricigo, 
+        __html: `<p><span class="texto-verde">Secondary Cast:</span> Juliana Spricigo, 
         Alex Barbosa, 
         Lorena Lima, 
         Beatriz Rodrigues, 
         Jean Guilherme Filho, 
         Laura Gomes Tizzoni Lunas, 
-        Caterina Malucelli Neves <p>
-        <p><span class="texto-verde">Produtor Executivo Associado:</span> Lucas Kosinski |
-        <span class="texto-verde">Assistente De Direção:</span> Stefano Lopes |
-        <span class="texto-verde">Assistente De Produção:</span> Vanessa Leal |
-        <span class="texto-verde">Operador De Câmera:</span> Rosano Mauro Jr. |
-        <span class="texto-verde">1º Assistente De Câmera:</span> Murillo Marchesi |
-        <span class="texto-verde">Assistentes De Fotografia:</span> Bianca Ono, Gabriel Mont'Serrat |
-        <span class="texto-verde">Elétrica / Maquinária:</span> Danilo Custódio, Murilo Lazarin |
-        <span class="texto-verde">Assistentes De Arte:</span> Lara Maria, José Lucas Alves | 
-        <span class="texto-verde">Assistente De Figurino:</span> Larissa Monteiro | 
-        <span class="texto-verde">Assistente De Som Direto:</span> Yasmin Sier | 
-        <span class="texto-verde">Assistente De Produção (O Quadro):</span> Anna Clara Oliveira | 
-        <span class="texto-verde">Assistente De Produção (Transporte):</span> Fernanda Stancik | 
-        <span class="texto-verde">Assistente De Produção (Platô):</span> Lucas Ajuz | 
+        Caterina Malucelli Neves </p>
+        <p><span class="texto-verde">Associate Executive Producer:</span> Gustavo Piaskoski |
+        <span class="texto-verde">Assistant Director:</span> Stefano Lopes |
+        <span class="texto-verde">Production Assistant:</span> Vanessa Leal |
+        <span class="texto-verde">Camera Operator:</span> Rosano Mauro Jr. |
+        <span class="texto-verde">First Assistant Camera:</span> Murillo Marchesi |
+        <span class="texto-verde">Photography Assistants:</span> Bianca Ono, Gabriel Mont'Serrat |
+        <span class="texto-verde">Electrician / Machinery:</span> Danilo Custódio, Murilo Lazarin |
+        <span class="texto-verde">Assistant Art Directors:</span> Lara Maria, José Lucas Alves | 
+        <span class="texto-verde">Costume Assistant:</span> Larissa Monteiro | 
+        <span class="texto-verde">Direct Sound Assistant:</span> Yasmin Sier | 
+        <span class="texto-verde">Production Assistant (O Quadro):</span> Anna Clara Oliveira | 
+        <span class="texto-verde">Production Assistant (Transporte):</span> Fernanda Stancik | 
+        <span class="texto-verde">Production Assistant (Platô):</span> Lucas Ajuz | 
         <span class="texto-verde">Logger:</span> Matheus Kerniski | 
-        <span class="texto-verde">Finalização:</span> Onda Finalização | 
-        <span class="texto-verde">Estúdio De Som:</span> Ambiente Audio | 
-        <span class="texto-verde">Consultoria De Roteiro:</span> Ana Johann | 
+        <span class="texto-verde">Post Production:</span> Onda Finalização | 
+        <span class="texto-verde">Sound Studio:</span> Ambiente Audio | 
+        <span class="texto-verde">Script Supervisor:</span> Ana Johann | 
         <span class="texto-verde">Designer:</span> Pedro Giongo | 
-        <span class="texto-verde">Legendagem:</span> Paulo Scarpa - Ó Editorial | 
+        <span class="texto-verde">Subtitles:</span> Paulo Scarpa - Ó Editorial | 
         <p>
         <p>
-        <span class="texto-verde">Apoio:</span> GP7 Cinema, Movimento, Onda Finalização, Ambiente Audio
+        <span class="texto-verde">Support:</span> GP7 Cinema, Movimento, Onda Finalização, Ambiente Audio
         <p>`,
       },
     },
@@ -135,7 +132,7 @@ const databaseEn = {
     url: 'bye-bye-jaqueline',
     titulo: 'BYE BYE JAQUELINE',
     ano: 2017,
-    autor: 'ANDERSON SIMÃO',
+    autor: 'Dir: ANDERSON SIMÃO',
     imgIcone: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -156,8 +153,8 @@ const databaseEn = {
       { src: '/imagens/filmes/bia-mais-um/biamaisum_still5_alta.png', desc: '', titulo: 'Titulo da Imagem' },
     ],
     patrocinadores: { src: '/imagens/filmes/bia-mais-um/ebanx-mecenato_banner.png', desc: '', titulo: 'titulo da imagem' },
-    participacao: 'Poliana Oliveira, Gabrielle Pizzato Santana, Victor Carlim, Leonardo Oliveira, Wellington Sari, Evandro Scorsin, Flávia Cassias e Iza Kürten.',
-    sinopse: 'Ter 16 anos é fácil. O difícil é ter 16 anos e ser obrigada a ir à escola todo dia. Mais difícil ainda é ter 16, ser obrigada a frequentar a escola e acabar se apaixonando por Fernando, o menino da sala ao lado. Ser a Jaqueline é fácil. O difícil é ser Jaqueline e saber que Fernando não está nem aí.',
+    participacao: 'Poliana Oliveira, Gabrielle Pizzato Santana, Victor Carlim, Leonardo Oliveira, Wellington Sari, Evandro Scorsin, Flávia Cassias and Iza Kürten.',
+    sinopse: `It’s easy being sixteen. The hard part is being sixteen and having to go to school every day. It's even harder being sixteen and having to go to school and falling in love with Fernando, the boy in the next class. It's easy being Jaqueline. The hard part is being Jaqueline and knowing Fernando doesn't care.`,
     categoria: 'Longa Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://vimeo.com/244453031',
@@ -165,41 +162,43 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção:</span> Anderson Simão </p>
-        <p><span class="texto-verde">Roteiro:</span> Wellington Sari </p> 
-        <p><span class="texto-verde">Produção Executiva:</span> Christopher Faust e Anderson Simão </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Evandro Scorsin e Wellington Sari </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Daniel Florencio </p> 
-        <p><span class="texto-verde">Figurino:</span> Isbella Fonseca </p> 
-        <p><span class="texto-verde">Montagem:</span> Christopher Faust </p> 
-        <p><span class="texto-verde">Som Direto:</span> Bruno Ito </p>
-        <p><span class="texto-verde">Colorista:</span> Marcelo Tanaka </p>
-        <p><span class="texto-verde">Finalização De Som:</span> Alexandre Rogoski<p>
-        <p>Projeto realizado com o apoio do Programa de Apoio e Incentivo à Cultura - Fundação Cultural de Curitiba e da Prefeitura Municipal de Curitiba, com incentivo da Robert Bosch e do Pátio Batel. Distribuição da Lança Filmes.</p>
-        </p>  
+        <p><span class="texto-verde">Direction:</span> Anderson Simão </p>
+        <p><span class="texto-verde">Screenplay:</span> Wellington Sari </p> 
+        <p><span class="texto-verde">Executive Production:</span> Christopher Faust and Anderson Simão </p> 
+        <p><span class="texto-verde">Production Management:</span> Evandro Scorsin and Wellington Sari </p> 
+        <p><span class="texto-verde">Cinematography:</span> Daniel Florencio </p> 
+        <p><span class="texto-verde">Costume:</span> Isbella Fonseca </p> 
+        <p><span class="texto-verde">Editing:</span> Christopher Faust </p> 
+        <p><span class="texto-verde">Direct Sound:</span> Bruno Ito </p>
+        <p><span class="texto-verde">Colorist:</span> Marcelo Tanaka </p>
+        <p><span class="texto-verde">Sound Post-Production:</span> Alexandre Rogoski<p>
+        <p>
+        Project developed with the support of the Cultural Support and Incentive Program - Cultural Foundation of Curitiba and the City of Curitiba, with incentives from Robert Bosch and Pátio Batel. Distribution by Lança Filmes.         </p>  
         `,
       },
       adicional: {
-        __html: `<p><span class="texto-verde">Assistente De Direção:</span> Evandro Scorsin <p>
-        <p><span class="texto-verde">Direção de Arte:</span> G. Sari |
-        <span class="texto-verde">Assistente De Produção: </span> Alexandre Rafael Garcia |
-        <span class="texto-verde">Assistente de Fotografia/Operador De Câmera:</span> Marcelo Tanaka |
-        <span class="texto-verde">Assistente De Som Direto:</span> Alexandre Magno | 
-        <span class="texto-verde">Assistente De Figurino:</span> Laís Lubel | 
-        <span class="texto-verde">Claquete:</span> Annabel Poly e Paulo Vitor M. Costa |
+        __html: `
+        <p><span class="texto-verde">Supporting cast:</span> Lois Schmidt, Bruno Ito, Christopher Faust</p>
+        <p><span class="texto-verde">Assistant Director:</span> Evandro Scorsin |
+        <span class="texto-verde">Art Direction:</span> G. Sari |
+        <span class="texto-verde">Production Assistant: </span> Alexandre Rafael Garcia |
+        <span class="texto-verde">Photography Assistant/Camera Operator:</span> Marcelo Tanaka |
+        <span class="texto-verde">Direct Sound Assistant:</span> Alexandre Magno | 
+        <span class="texto-verde">Costume Assistant:</span> Laís Lubel | 
+        <span class="texto-verde">Clapperboard:</span> Annabel Poly and Paulo Vitor M. Costa |
         <span class="texto-verde">Still:</span> Paula Negri |
-        <span class="texto-verde">Produção de Objetos:</span> Cassiana Maranha |
-        <span class="texto-verde">Design Gráfico:</span> Melina Correia | 
-        <span class="texto-verde">Edição de Diálogo e ADR:</span> Samuel Jacintho | 
-        <span class="texto-verde">Edição de Foley e Efeitos Sonoros:</span> Adriano Elias | 
-        <span class="texto-verde">Edição de Efeitos Sonoros:</span> Felipe Ayres, Bruno Ito | 
-        <span class="texto-verde">Estúdio de Som:</span> Off-Beat Audio | 
-        <span class="texto-verde">Legendas Espanhol:</span> Larissa Mehl  | 
-        <span class="texto-verde">Legendas Inglês:</span> Raquel Ribeiro |
+        <span class="texto-verde">Object Production:</span> Cassiana Maranha |
+        <span class="texto-verde">Graphic Design:</span> Melina Correia | 
+        <span class="texto-verde">Dialogue Editing and ADR:</span> Samuel Jacintho | 
+        <span class="texto-verde"> Foley Editing and Sound Effects:</span> Adriano Elias | 
+        <span class="texto-verde">Sound Effects Editor:</span> Felipe Ayres, Bruno Ito | 
+        <span class="texto-verde">Sound Studio:</span> Off-Beat Audio | 
+        <span class="texto-verde">Spanish Subtitles:</span> Larissa Mehl  | 
+        <span class="texto-verde">English Subtitles:</span> Raquel Ribeiro |
+        </p>
         <p>
-        <p>
-        <span class="texto-verde">Figurantes / Extras:</span> Andreia A. A. Porto | Andressa F. Souza | Caroline Altvater | Douglas Bayer Monteiro | Eduarda Borges | Fabio Padilha | Gabrielle Gutierrez Aragão | Giulia Giovanella | Isabella Boddy da Silva | João Guilherme Pellanda | Kesley Ladaninski Garriga | Larissa Antonio | Larissa Tatiana Duarte | Luiza Mayer Seixas Narciso | Valentina V. C. Nogaroto | Vitor Trelinski de Carvalho | Willian Gabriel Molari | Yan Cabral Ramos
-        <p>`,
+        <span class="texto-verde">Extras:</span> Andreia A. A. Porto | Andressa F. Souza | Caroline Altvater | Douglas Bayer Monteiro | Eduarda Borges | Fabio Padilha | Gabrielle Gutierrez Aragão | Giulia Giovanella | Isabella Boddy da Silva | João Guilherme Pellanda | Kesley Ladaninski Garriga | Larissa Antonio | Larissa Tatiana Duarte | Luiza Mayer Seixas Narciso | Valentina V. C. Nogaroto | Vitor Trelinski de Carvalho | Willian Gabriel Molari | Yan Cabral Ramos
+        </p>`,
       },
     },
   },
@@ -208,7 +207,7 @@ const databaseEn = {
     url: 'coloridos',
     titulo: 'COLORIDOS',
     ano: 2011,
-    autor: 'CHRISTOPHER FAUST, EVANDRO SCORSIN',
+    autor: 'Dir: CHRISTOPHER FAUST, EVANDRO SCORSIN',
     imgIcone: { src: '/imagens/filmes/coloridos/coloridos_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/coloridos/coloridos_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/coloridos/coloridos_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -228,8 +227,8 @@ const databaseEn = {
       { src: '/imagens/filmes/coloridos/coloridos_still5_alta.jpg', desc: '', titulo: 'Titulo da Imagem' },
     ],
     patrocinadores: { src: '/imagens/filmes/coloridos/matizar_pagea_banner.png', desc: '', titulo: 'titulo da imagem' },
-    participacao: 'Carol Louise, Felipe Schindler, Jenifer Kamila, Jéssica Tamaro Beckhauser, Lilan Camile Schelbauer Panek, Roberta A. P. Guimarães, Thamirys Ramos, Vaniele Cristina, Lucas Telles e Nadiele Ferreira Leal',
-    sinopse: 'É domingo. Sol, roupas brilhantes, cabelos esquisitos, óculos coloridos. Um grupo de jovens se reúne para debater o lugar que ocupam na sociedade.',
+    participacao: 'Carol Louise, Felipe Schindler, Jenifer Kamila, Jéssica Tamaro Beckhauser, Lilan Camile Schelbauer Panek, Roberta A. P. Guimarães, Thamirys Ramos, Vaniele Cristina, Lucas Telles and Nadiele Ferreira Leal',
+    sinopse: `It's Sunday. Shining sun, bright clothes, weird hair, colored glasses. A group of young people gather to debate their place in society.`,
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/qd6OBAcnN74',
@@ -237,14 +236,14 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Christopher Faust, Evandro Scorsin </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Alexandre Rafael Garcia </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Anderson Simao, Juliana Rodrigues </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa </p> 
-        <p><span class="texto-verde">Montagem:</span> Tomás von der Osten </p> 
-        <p><span class="texto-verde">Som Direto:</span> Nikola Matevski </p>
-        <p>Projeto realizado como parte de uma série documental criada pela Matizar Filmes, intitulado “Por que a gente é assim?”, série composta por seis episódios, cujas exibições foram feitas pelo Canal Futura em 2011 e pelo Canal Brasil em 2012.
+        <p><span class="texto-verde">Direction and Screenplay:</span> Christopher Faust, Evandro Scorsin </p>
+        <p><span class="texto-verde">Executive Production:</span> Alexandre Rafael Garcia </p> 
+        <p><span class="texto-verde">Production Management:</span> Anderson Simao, Juliana Rodrigues </p> 
+        <p><span class="texto-verde">Cinematography:</span> Renata Corrêa </p> 
+        <p><span class="texto-verde">Editing:</span> Tomás von der Osten </p> 
+        <p><span class="texto-verde">Direct Sound:</span> Nikola Matevski </p>
         <p>
+        Project developed as part of a documentary series created by Matizar Filmes, titled “Why are we like this?”, consisting of six episodes screened by Canal Futura in 2011 and by Canal Brasil in 2012.         </p>
         `,
       },
       adicional: {
@@ -256,9 +255,9 @@ const databaseEn = {
   {
     id: '5',
     url: 'coracao-azul',
-    titulo: 'CORAÇÃO AZUL',
+    titulo: 'BLUE HEART',
     ano: 2014,
-    autor: 'WELLINGTON SARI',
+    autor: 'Dir: WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/coracao-azul/coracaoazul_still1.png', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/coracao-azul/coracaoazul_banner.png', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/coracao-azul/coracaoazul_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -282,7 +281,7 @@ const databaseEn = {
     ],
     patrocinadores: { src: '/imagens/filmes/coracao-azul/condor-mecenato_banner.png', desc: '', titulo: 'titulo da imagem' },
     participacao: 'Jean Guilherme Filho, Guilherme Penna Moro, Eduarda Scheffer, Augusto Cerqueira, Larissa Freitas.',
-    sinopse: 'Janco e Samuel são donos de uma agência de detetives, na escola. Enquanto investigam o desaparecimento de uma bola de vôlei, Janco tenta se aproximar de Dariana, menina por quem é apaixonado.',
+    sinopse: 'Janco and Samuel are the owners of a detective agency at school. While they investigate the case of a missing volleyball, Janco tries to get closer to the girl he fell in love with, Dariana.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/HMkA8M9cSj4',
@@ -290,42 +289,41 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Wellington Sari </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Anderson Simão </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Alexandre Rafael Garcia e Evandro Scorsin </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Daniel Florencio </p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Alex Rocca </p> 
-        <p><span class="texto-verde">Montagem:</span> Christopher Faust </p> 
-        <p><span class="texto-verde">Som Direto:</span> Guilherme Cordova </p>
-        <p><span class="texto-verde">Edição De Som E Mixagem:</span> Alexandre Rogoski </p>
+        <p><span class="texto-verde">Direction and Screenplay:</span> Wellington Sari </p>
+        <p><span class="texto-verde">Executive Production:</span> Anderson Simão </p> 
+        <p><span class="texto-verde">Production Management:</span> Alexandre Rafael Garcia and Evandro Scorsin </p> 
+        <p><span class="texto-verde">Cinematography:</span> Daniel Florencio </p> 
+        <p><span class="texto-verde">Art Direction:</span> Alex Rocca </p> 
+        <p><span class="texto-verde">Editing:</span> Christopher Faust </p> 
+        <p><span class="texto-verde">Direct Sound:</span> Guilherme Cordova </p>
+        <p><span class="texto-verde">Sound Editing and Mixing:</span> Alexandre Rogoski </p>
         <p>
-        Projeto realizado com o apoio do Programa de Apoio e Incentivo à Cultura - Fundação Cultural de Curitiba e da Prefeitura Municipal de Curitiba, com incentivo do Condor.
-        <p>
+        Project developed with the support of the Cultural Support and Incentive Program - Cultural Foundation of Curitiba and the City of Curitiba, with incentives from Condor.        <p>
         `,
       },
       adicional: {
         __html: `<p>
-        <span class="texto-verde">Elenco Secundário:</span> Nicolas Hübler Mosko, Wellington Sari, Julio Cesar Heupa e Evandro Scorsin.</p>
-        <span class="texto-verde">Assistente De Direção:</span> Christopher Faust |
-        <span class="texto-verde">Assistente de Fotografia e Finalização de Imagem:</span> Marcelo Tanaka |
-        <span class="texto-verde">Elétrica:</span> Leandro Telles |
-        <span class="texto-verde">Assistente De Som Direto:</span> Felipe Ribeiro | 
+        <span class="texto-verde">Secondary Cast:</span> Nicolas Hübler Mosko, Wellington Sari, Julio Cesar Heupa and Evandro Scorsin.</p>
+        <span class="texto-verde">Assistant Director:Assistant Director:</span> Christopher Faust |
+        <span class="texto-verde">Photography Assistant and Image Post-Production:</span> Marcelo Tanaka |
+        <span class="texto-verde">Electrician:</span> Leandro Telles |
+        <span class="texto-verde">Direct Sound Assistant:</span> Felipe Ribeiro | 
         <span class="texto-verde">Designer:</span> Melina Correia |
-        <span class="texto-verde">Edição de som:</span> Henrique Bertol | 
-        <span class="texto-verde">Assistência de Edição de Som: </span> Samuel Jacintho |
-        <span class="texto-verde">Estúdio de Som:</span> Off-Beat Audio |
+        <span class="texto-verde">Sound Editing:</span> Henrique Bertol | 
+        <span class="texto-verde">Sound Editing Assistant: </span> Samuel Jacintho |
+        <span class="texto-verde">Sound Studio:</span> Off-Beat Audio |
         <span class="texto-verde">Still:</span> Tomás Von Der Osten |
-        <span class="texto-verde"> Claquete e Logagem:</span> Paula Negri | 
-        <span class="texto-verde">Assistente de Produção e Assistente de Figurinista:</span> Caroline Biagi | 
-        <span class="texto-verde">Assistente de Arte e Produtora de Objetos:</span> Carolina Angelo | 
-        <span class="texto-verde">Assistente de Arte:</span> Fernando Moreira | 
-        <span class="texto-verde">Legendas Inglês:</span> Raquel Ribeiro |
-        <span class="texto-verde">Legendas Espanhol:</span> Larissa Mehl  | 
-        <span class="texto-verde">Autoração do Dvd:</span> Guilherme Delamuta |
-        <span class="texto-verde">Captadores:</span> Adenilson Sutil de Oliveira, Angela Maria Cordeiro de Oliveira e Jonatan Kovalski |
+        <span class="texto-verde">Clapperboard and Logging:</span> Paula Negri | 
+        <span class="texto-verde">Production Assistant  and Assistant Costume Designer:</span> Caroline Biagi | 
+        <span class="texto-verde">Assistant Art Director and Object Producer:</span> Carolina Angelo | 
+        <span class="texto-verde">Assistant Art Director:</span> Fernando Moreira | 
+        <span class="texto-verde">English Subtitles:</span> Raquel Ribeiro |
+        <span class="texto-verde">Spanish Subtitles:</span> Larissa Mehl  | 
+        <span class="texto-verde">DVD Authoring:</span> Guilherme Delamuta |
+        <span class="texto-verde">Sound Recordists:</span> Adenilson Sutil de Oliveira, Angela Maria Cordeiro de Oliveira and Jonatan Kovalski |
         </p>
         <p>
-        <span class="texto-verde">Apoio:</span> Colégio Medianeira, Prefeitura de Curitiba, Sanepar, Topt Bonecos
+        <span class="texto-verde">Support:</span> Colégio Medianeira, Prefeitura de Curitiba, Sanepar, Topt Bonecos
         </p>`,
       },
     },
@@ -333,9 +331,9 @@ const databaseEn = {
   {
     id: '6',
     url: 'dias-de-trovao',
-    titulo: 'DIAS DE TROVÃO',
+    titulo: 'DAYS OF THUNDER',
     ano: 2015,
-    autor: 'ALEXANDRE RAFAEL GARCIA',
+    autor: 'Dir: ALEXANDRE RAFAEL GARCIA',
     imgIcone: { src: '/imagens/filmes/dias-de-trovao/diasdetrovao_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/dias-de-trovao/diasdetrovao_banner1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/dias-de-trovao/diasdetrovao_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -359,8 +357,8 @@ const databaseEn = {
     ],
     patrocinadores: { src: '/imagens/filmes/dias-de-trovao/condor-mecenato_banner.png', desc: '', titulo: 'titulo da imagem' },
 
-    participacao: 'Gustavo Piaskoski, Bruna Roveda, João Maurílio, Wellington Sari, Jean Guilherme Filho, Pedro Gaeta, Izabela Cruz e Pâmela Branchi.',
-    sinopse: 'Eric é apaixonado por sua melhor amiga, Eduarda. Mas, Michel é mais rápido e conquista primeiro a menina. Na pista de kart, Eric tem uma chance de superar o adversário em uma competição feroz. Amor e velocidade, amor pela velocidade. Aqueles eram os Dias de Trovão',
+    participacao: 'Gustavo Piaskoski, Bruna Roveda, João Maurílio, Wellington Sari, Jean Guilherme Filho, Pedro Gaeta, Izabela Cruz and Pâmela Branchi.',
+    sinopse: 'Eric is in love with his best friend Eduarda. But Michel is quicker and wins her heart first. At the kart tracks, Eric has a chance to beat his opponent in a wild competition. Love and speed, love for speed. Those were the Days of Thunder.',
     categoria: 'Média Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/HMkA8M9cSj4',
@@ -368,55 +366,54 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção:</span> Alexandre Rafael Garcia </p>
-        <p><span class="texto-verde">Roteiro:</span> Wellington Sari </p> 
-        <p><span class="texto-verde">Produção Executiva:</span>  Anderson Simão </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Evandro Scorsin e Wellington Sari </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Daniel Florencio </p> 
-        <p><span class="texto-verde">Montagem:</span> Christopher Faust </p> 
-        <p><span class="texto-verde">Som Direto:</span> Bruno Ito </p>
-        <p><span class="texto-verde">Finalização De Som:</span> Alexandre Rogoski<p>
+        <p><span class="texto-verde">Direction:</span> Alexandre Rafael Garcia </p>
+        <p><span class="texto-verde">Screenplay:</span> Wellington Sari </p> 
+        <p><span class="texto-verde">Executive Production:</span>  Anderson Simão </p> 
+        <p><span class="texto-verde">Production Management:</span> Evandro Scorsin and Wellington Sari </p> 
+        <p><span class="texto-verde">Cinematography:</span> Daniel Florencio </p> 
+        <p><span class="texto-verde">Editing:</span> Christopher Faust </p> 
+        <p><span class="texto-verde">Direct Sound:</span> Bruno Ito </p>
+        <p><span class="texto-verde">Sound Post-Production:</span> Alexandre Rogoski<p>
         <p>
-        Projeto realizado com o apoio do Programa de Apoio e Incentivo à Cultura - Fundação Cultural de Curitiba e da Prefeitura Municipal de Curitiba, via Lei do Mecenato Subsidiado, com incentivo do Condor.
-        <p>
+        Project developed with the support of the Cultural Support and Incentive Program - Cultural Foundation of Curitiba and the City of Curitiba, via the Subsidized Patronage Law, with incentives from Condor        <p>
         `,
       },
       adicional: {
         __html: `<p>
-        <span class="texto-verde">Assistente De Direção:</span> Christopher Faust |
-        <span class="texto-verde">Direção de Arte:</span> Wildebrand S. Loyola |
-        <span class="texto-verde">Assistente de Fotografia/Operador De Câmera:</span> Marcelo Tanaka |
-        <span class="texto-verde">Direção Musical:</span> Wellington Sari |
-        <span class="texto-verde">Produção Musical:</span> Anderson Simão |
-        <span class="texto-verde">Figurino:</span> Ana Deliberador |
-        <span class="texto-verde">Assistente de Arte:</span> Cinthia Manochio |
-        <span class="texto-verde">Assistente De Som Direto:</span> Felipe Ribeiro | 
-        <span class="texto-verde">Diretores de segunda unidade:</span> Christopher Faust, Evandro Scorsin e Wellington Sari | 
-        <span class="texto-verde">Elétrica:</span> Leandro Telles |
-        <span class="texto-verde">Assistente de Elétrica:</span> Edson Mazuco |
-        <span class="texto-verde">Designer de Arte:</span> Bruna Michelin |
+        <span class="texto-verde">Assistant Director:</span> Christopher Faust |
+        <span class="texto-verde">Art Direction:</span> Wildebrand S. Loyola |
+        <span class="texto-verde">Camera Operator/Photography Assistant:</span> Marcelo Tanaka |
+        <span class="texto-verde">Musical Direction:</span> Wellington Sari |
+        <span class="texto-verde">Music Production:</span> Anderson Simão |
+        <span class="texto-verde">Costume Designer:</span> Ana Deliberador |
+        <span class="texto-verde">Assistant Art Director:</span> Cinthia Manochio |
+        <span class="texto-verde">Direct Sound Assistant:</span> Felipe Ribeiro | 
+        <span class="texto-verde">Second Unit Directors:</span> Christopher Faust, Evandro Scorsin and Wellington Sari | 
+        <span class="texto-verde">Electrician:</span> Leandro Telles |
+        <span class="texto-verde"> Assistant Electrician:</span> Edson Mazuco |
+        <span class="texto-verde">Art Designer:</span> Bruna Michelin |
         <span class="texto-verde">Still:</span> Ana Paula Málaga | 
-        <span class="texto-verde">Claquete:</span> Dewi Jost | 
-        <span class="texto-verde">Edição de Som:</span> Adriano Elias e Bruno Ito | 
-        <span class="texto-verde">Estúdio de Som:</span> Off-Beat Audio | 
-        <span class="texto-verde">Finalização de imagem:</span> Marcelo Tanaka | 
+        <span class="texto-verde">Clapperboard:</span> Dewi Jost | 
+        <span class="texto-verde">Sound Editing:</span> Adriano Elias and Bruno Ito | 
+        <span class="texto-verde">Sound Studio:</span> Off-Beat Audio | 
+        <span class="texto-verde">Image Post-Production:</span> Marcelo Tanaka | 
         <span class="texto-verde">Storyboard:</span> Maurício Ramos Marques | 
         <span class="texto-verde">Making of:</span> Patrícia Evans | 
-        <span class="texto-verde">Designer Gráfico:</span> Melina Correia |
-        <span class="texto-verde">Legendas Inglês:</span> Raquel Ribeiro |
-        <span class="texto-verde">Legendas Espanhol:</span> Larissa Mehl | 
-        <span class="texto-verde">Autoração de Dvd e Blu-ray:</span> Guilherme Delamuta | 
-        <span class="texto-verde">Captadores:</span>  Adenilson Sutil de Oliveira, Angela Maria Cordeiro de Oliveira, Itamar Paciornkik e Jonatan Kovalski 
+        <span class="texto-verde">Graphic Designer:</span> Melina Correia |
+        <span class="texto-verde">English Subtitles:</span> Raquel Ribeiro |
+        <span class="texto-verde">Spanish Subtitles:</span> Larissa Mehl | 
+        <span class="texto-verde">DVD and Blu-ray Authoring:</span> Guilherme Delamuta | 
+        <span class="texto-verde">Sound Recordists:</span>  Adenilson Sutil de Oliveira, Angela Maria Cordeiro de Oliveira, Itamar Paciornkik and Jonatan Kovalski 
         </p>
         <p>
-        <span class="texto-verde">Elenco de apoio:</span> Monique Rau (voz) | Wellington Sari (voz) | Evandro Scorsin (voz) | Christopher Faust | Wevertton Marques (piloto dublê de Michel) | Ivo Neto, Anderson Simão, Daniel Florencio, Wellington Sari (pilotos dublês de Eric)
+        <span class="texto-verde">Supporting Cast:</span> Monique Rau (voz) | Wellington Sari (voz) | Evandro Scorsin (voz) | Christopher Faust | Wevertton Marques (piloto dublê de Michel) | Ivo Neto, Anderson Simão, Daniel Florencio, Wellington Sari (pilotos dublês de Eric)
         </p>
         <p>
-        <span class="texto-verde">Pilotos:</span> 
+        <span class="texto-verde">Pilots:</span> 
         Agnã Zago | Dayana Ketlyn Alves | Diego Dias Said | Elias Faria da Silva | Jamil Merlin Said | João Luiz Alves | José Lucas Galvão Matos | Josias | Ivo Neto | Samuel Lauro Marques | Wevertton Marques
         </p>
         <p>
-        <span class="texto-verde">Apoio:</span>
+        <span class="texto-verde">Support:</span>
         Kartódromo de São José dos Pinhais | Heaven Advertising | MKI - Marumby Kart Indoor | Off-Beat Audio | Prefeitura Municipal de Curitiba
         </p>
         `,
@@ -426,9 +423,9 @@ const databaseEn = {
   {
     id: '7',
     url: 'dois-amores',
-    titulo: 'DOIS AMORES',
+    titulo: 'TWO LOVES',
     ano: 2013,
-    autor: 'ALEXANDRE RAFAEL GARCIA',
+    autor: 'Dir: ALEXANDRE RAFAEL GARCIA',
     imgIcone: { src: '/imagens/filmes/dois-amores/doisamores_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/dois-amores/doisamores_banner1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/dois-amores/doisamores_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -453,7 +450,7 @@ const databaseEn = {
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Natalie Lira, Wellington Sari, Flávia Scholz.',
-    sinopse: 'Michel que era um jovem amargo, conhece Marcela, uma menina doce.',
+    sinopse: 'Michel, a bitter young man meets Marcela, a sweet girl.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/1lDB0Zn5Zek',
@@ -461,27 +458,27 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Anderson Simão </p>
-        <p><span class="texto-verde">Produção:</span> Alexandre Rafael Garcia, Anderson Simão, Christopher Faust, Evandro Scorsin </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Guilherme Delamuta</p> 
-        <p><span class="texto-verde">Som Direto:</span> Lucas Maffini</p>
-        <p><span class="texto-verde">Montagem e Finalização de Imagem:</span> Guilherme Delamuta</p> 
-        <p><span class="texto-verde">Finalização De Som:</span> Bruno Ito</p>
+        <p><span class="texto-verde">Direction and Screenplay:</span> Anderson Simão </p>
+        <p><span class="texto-verde">Production:</span> Alexandre Rafael Garcia, Anderson Simão, Christopher Faust, Evandro Scorsin </p> 
+        <p><span class="texto-verde">Cinematography:</span> Guilherme Delamuta</p> 
+        <p><span class="texto-verde">Direct Sound:</span> Lucas Maffini</p>
+        <p><span class="texto-verde">Editing and Image Post-Production:</span> Guilherme Delamuta</p> 
+        <p><span class="texto-verde">Sound Post-Production:</span> Bruno Ito</p>
         </p>
         <p>
-        Este filme faz parte do projeto "Filmes de Verão" 2013
+        This film is part of the project “Summer Films” 2013
         </p>
         `,
       },
       adicional: {
         __html: `<p>
-        <span class="texto-verde">Designer Gráfico:</span> Melina Correia |
-        <span class="texto-verde">Assistente de Montagem:</span> Paula Negri |
-        <span class="texto-verde">Legendas Espanhol:</span> Graziela Braz | 
-        <span class="texto-verde">Legendas Inglês:</span> Raquel Ribeiro |
+        <span class="texto-verde">Graphic Designer:</span> Melina Correia |
+        <span class="texto-verde">Editing Assistant:</span> Paula Negri |
+        <span class="texto-verde">Spanish Subtitles:</span> Graziela Braz | 
+        <span class="texto-verde">English Subtitles:</span> Raquel Ribeiro |
         </p>
         <p>
-        <span class="texto-verde">Apoio:</span>
+        <span class="texto-verde">Support:</span>
         Confeitaria Bomfati, Marcolini Alimentari, Bebidas Tissot, Sanepar
         </p>
         `,
@@ -493,7 +490,7 @@ const databaseEn = {
     url: 'eu-te-amo-bressan',
     titulo: 'EU TE AMO, BRESSAN',
     ano: 2020,
-    autor: 'GABRIEL BORGES',
+    autor: 'Dir: GABRIEL BORGES',
     imgIcone: { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_still1.jpeg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/eu-te-amo-bressan/coco-quadro-mecenato_banner.png', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -517,8 +514,8 @@ const databaseEn = {
     ],
     patrocinadores: { src: '/imagens/filmes/eu-te-amo-bressan/coco-quadro-mecenato_banner.png', desc: '', titulo: 'titulo da imagem' },
 
-    participacao: 'Pedro Ramires; Pedro Garcia; Letícia Decker; Victor Curuca e Maicon Douglas.',
-    sinopse: 'Depois do fim de seu namoro, Bressan remonta episódios de seu relacionamento em uma inusitada história de amor.',
+    participacao: 'Pedro Ramires; Pedro Garcia; Letícia Decker; Victor Curuca and Maicon Douglas.',
+    sinopse: 'After a romantic breakup, Bressan narrates episodes of his relationship in an unusual love story.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/ca9pDxzPDfE',
@@ -526,34 +523,35 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Gabriel Borges </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Sabrina Trentim e Gabriel Borges</p>
-        <p><span class="texto-verde">Direção De Produção:</span> Sabrina Trentim</p>  
-        <p><span class="texto-verde">Direção De Fotografia:</span> Nani Colomé</p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Pedro Vilo</p> 
-        <p><span class="texto-verde">Montagem:</span> Rodrigo Tomita</p> 
-        <p><span class="texto-verde">Colorização e Finalização:</span> André F. Diniz</p>
-        <p><span class="texto-verde">Desenho de Som:</span> Vinicius André Maciel</p>
-        <p><span class="texto-verde">Produção:</span> Coco Filmes</p>
-        <p><span class="texto-verde">Co-Produção:</span> O Quadro</p>
+        <p><span class="texto-verde">Direction and Screenplay:</span> Gabriel Borges </p>
+        <p><span class="texto-verde">Executive Production:</span> Sabrina Trentim and Gabriel Borges</p>
+        <p><span class="texto-verde">Production Management:</span> Sabrina Trentim</p>  
+        <p><span class="texto-verde">Cinematography:</span> Nani Colomé</p> 
+        <p><span class="texto-verde">Art Direction:</span> Pedro Vilo</p> 
+        <p><span class="texto-verde">Editing:</span> Rodrigo Tomita</p> 
+        <p><span class="texto-verde">Direct Sound:</span> Vinicius André Maciel and Bruno Araújo</p> 
+        <p><span class="texto-verde">Coloring and Post-Production:</span> André F. Diniz</p>
+        <p><span class="texto-verde">Sound Design:</span> Vinicius André Maciel</p>
+        <p><span class="texto-verde">Sound Design and Soundtrack: </span>Gustavo Mazuroski</p>
+        <p><span class="texto-verde">Production Company:</span> Coco Filmes</p>
+        <p><span class="texto-verde">Co-Production Company:</span> O Quadro</p>
         </p>
         <p>
-        Projeto realizado com o apoio do Programa de Apoio e Incentivo à Cultura - Fundação Cultural de Curitiba e da Prefeitura Municipal de Curitiba.
-        </p>
+        Project developed with the support of the Cultural Support and Incentive Program - Cultural Foundation of Curitiba and the City of Curitiba.        </p>
         `,
       },
       adicional: {
         __html: `<p>
-        <span class="texto-verde">Assistente De Direção:</span> Gabriela Ferreira |
-        <span class="texto-verde">Assistente De Câmera:</span> Bianca Ono |
-        <span class="texto-verde">Maquiagem, cabelo e assistência de arte:</span> Maria Gabriela Goulart | 
-        <span class="texto-verde">Assistência de Maquiagem:</span> Pâmela Kath |
+        <span class="texto-verde">Assistant Director:</span> Gabriela Ferreira |
+        <span class="texto-verde">Assistant Camera:</span> Bianca Ono |
+        <span class="texto-verde">Makeup, Hair, and Art Assistant:</span> Maria Gabriela Goulart | 
+        <span class="texto-verde">Makeup Assistant:</span> Pâmela Kath |
         <span class="texto-verde">Logger:</span> André F. Diniz |
-        <span class="texto-verde">Assistente De Produção e Design Gráfico:</span> Tiago Felipe |
-        <span class="texto-verde">Making Of:</span> Iury Peres Malucelli e Alanis Machado |
+        <span class="texto-verde">Production Assistant and Graphic Design:</span> Tiago Felipe |
+        <span class="texto-verde">Making Of:</span> Iury Peres Malucelli and Alanis Machado |
         </p>
         <p>
-        <span class="texto-verde">Apoio:</span>
+        <span class="texto-verde">Support:</span>
         Unespar
         </p>
         `,
@@ -563,9 +561,9 @@ const databaseEn = {
   {
     id: '9',
     url: 'euller-miller',
-    titulo: 'EULLER MILLER ENTRE DOIS MUNDOS',
+    titulo: 'EULLER MILLER BETWEEN TWO WORLDS',
     ano: 2018,
-    autor: 'FERNANDO SEVERO',
+    autor: 'Dir: FERNANDO SEVERO',
     imgIcone: { src: '/imagens/filmes/euller-miller/eullermiller_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/euller-miller/eullermiller_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/euller-miller/eullermiller_cartaz1.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -591,7 +589,7 @@ const databaseEn = {
     patrocinadores: { src: '/imagens/filmes/euller-miller/eullermiller_creditos_banner.png', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Euller Miller Martins Almeida.',
-    sinopse: 'Euller Miller é um jovem indígena brasileiro da etnia kaiwá que sai de sua pequena aldeia nos arredores de Dourados (MS) para cursar odontologia em uma universidade pública na capital populosa do estado do Paraná. O filme acompanha sua complexa transição entre dois mundos contrastantes e uma busca de novos horizontes que não impliquem na perda de suas raízes indígenas.',
+    sinopse: 'Euller Miller, a young native Brazilian of Kaiwá ethnicity, leaves his small village just outside Dourados (MS) to study dentistry at a public university in the crowded capital city of the state of Paraná. The film follows the complex transition between two very different worlds and the search for new horizons without abandoning his indigenous roots.',
     categoria: 'Longa Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://vimeo.com/228310631',
@@ -599,22 +597,22 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção, roteiro e montagem:</span> Fernando Severo </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Anderson Simão e Christopher Faust </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Evandro Scorsin e Wellington Sari </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Jonathan van Thomaz </p> 
-        <p><span class="texto-verde">Montagem:</span> Tomás von der Osten </p> 
-        <p><span class="texto-verde">Som Direto e Trilha Sonora:</span> Felipe Ayres </p>
-        <p><span class="texto-verde">Edição De Som E Mixagem:</span> Alexandre Rogoski<p>
+        <p><span class="texto-verde">Direction, Screenplay, and Editing:</span> Fernando Severo </p>
+        <p><span class="texto-verde">Executive Production:</span> Anderson Simão and Christopher Faust </p> 
+        <p><span class="texto-verde">Production Management:</span> Evandro Scorsin and Wellington Sari </p> 
+        <p><span class="texto-verde">Cinematography:</span> Jonathan van Thomaz </p> 
+        <p><span class="texto-verde">Editing:</span> Tomás von der Osten </p> 
+        <p><span class="texto-verde">Direct Sound and Soundtrack: </span> Felipe Ayres </p>
+        <p><span class="texto-verde">Sound Editing and Mixing:</span> Alexandre Rogoski<p>
         <p>
-        Projeto realizado via edital Prodav 12 (TVs Públicas) do Fundo Setorial do Audiovisual.
-        <p>
+        Project developed via Prodav 12 public notice (Public TVs) of the Audiovisual Sector Fund. 
+        </p>
         `,
       },
       adicional: {
-        __html: `<p>
+        __html: `
           <p>
-            <span class="texto-verde">Entrevistados:</span> Adalton Barbosa de Almeida | 
+            <span class="texto-verde">Interviewees:</span> Adalton Barbosa de Almeida | 
             Adélia de Lima Martins | Alda Mariano de Lima | Álex de Carvalho Passos | 
             Alipio de Almeida | Ana Elisa de Castro Freitas | Ana Itália Paraná Mariano | 
             Beijamim Benedito Bernardes | Brô MC's | Bruno Veron | Celia Maria Foster Silvestre | 
@@ -630,31 +628,31 @@ const databaseEn = {
             Veronina Duarte Cavalheiro
           </p>
           <p>
-            <span class="texto-verde">Assistente de fotografia e operação de câmera:</span> Carlos Lenine |
-            <span class="texto-verde">2º Assistente de fotografia:</span> Lucas Kosinski |
-            <span class="texto-verde">Edição de diálogos:</span> Samuel Jacintho |
-            <span class="texto-verde">Assistência de edição de som:</span> Yuri Grigoletti |
-            <span class="texto-verde">Estúdio de pós de som:</span> Off-Beat Audio |
-            <span class="texto-verde">Coordenador de pós-produção:</span> Guilherme Delamuta |
-            <span class="texto-verde">Correção de cor:</span> Rafael Werner |
-            <span class="texto-verde">Arte gráfica e cartelas:</span> Pedro Giongo | 
-            <span class="texto-verde">Fotógrafo Still:</span> Henrique Thoms | 
-            <span class="texto-verde">Transcrição de entrevistas:</span> Leonardo Otto |
-            <span class="texto-verde">Conteúdo de acessibilidade:</span> ETC filmes |
-            <span class="texto-verde">Roteiro de audiodescrição:</span> Joana Oliveira |
-            <span class="texto-verde">Consultoria cognitiva de audiodescrição:</span> Edgar Jacques | 
-            <span class="texto-verde">Locução de audiodescrição:</span> Thonny Cavaglieri | 
-            <span class="texto-verde">Legenda descritiva:</span> Claudia Pinheiro | 
-            <span class="texto-verde">Intérprete de LIBRAS:</span> Regiane Pereira | 
-            <span class="texto-verde">Consultoria Especializada de LIBRAS:</span> Diogo Petarnella | 
-            <span class="texto-verde">Coordenação de acessibilidade:</span> Thais Ortega e Natália Blandy | 
-            <span class="texto-verde">Tradução e legendas:</span> ETC filmes e Cinthia Alencar 
+            <span class="texto-verde">Photography Assistant and Camera Operator:</span> Carlos Lenine |
+            <span class="texto-verde">Second Photography Assistant:</span> Lucas Kosinski |
+            <span class="texto-verde">Dialogue Editor:</span> Samuel Jacintho |
+            <span class="texto-verde">Sound Editing Assistant:</span> Yuri Grigoletti |
+            <span class="texto-verde">Sound Editing Assistant:</span> Off-Beat Audio |
+            <span class="texto-verde">Post-production Coordinator:</span> Guilherme Delamuta |
+            <span class="texto-verde">Color Correction: </span> Rafael Werner |
+            <span class="texto-verde">Graphic Art and Cards:</span> Pedro Giongo | 
+            <span class="texto-verde">Still Photographer:</span> Henrique Thoms | 
+            <span class="texto-verde">Transcript of interviews:</span> Leonardo Otto |
+            <span class="texto-verde">Accessibility Content:</span> ETC filmes |
+            <span class="texto-verde">Audio Description Screenplay:</span> Joana Oliveira |
+            <span class="texto-verde">Cognitive Audio Description Consulting:</span> Edgar Jacques | 
+            <span class="texto-verde">Cognitive Audio Description Consulting:</span> Thonny Cavaglieri | 
+            <span class="texto-verde">Descriptive Subtitles:</span> Claudia Pinheiro | 
+            <span class="texto-verde">LIBRAS Translator:</span> Regiane Pereira | 
+            <span class="texto-verde">Specialized LIBRAS Consulting:</span> Diogo Petarnella | 
+            <span class="texto-verde">Accessibility Coordination:</span> Thais Ortega and Natália Blandy | 
+            <span class="texto-verde">Translation and Subtitles:</span> ETC filmes and Cinthia Alencar 
           </p>
           <p>
-          <span class="texto-verde">Apoio:</span>
-          MANC - Câmeras e Acessórios, MAI - Museu de Arte Indígena        
+          <span class="texto-verde">Support:</span>
+          MANC - Câmeras and Acessórios, MAI - Museu de Arte Indígena        
           </p>
-        </p>
+
         `,
       },
     },
@@ -662,9 +660,9 @@ const databaseEn = {
   {
     id: '10',
     url: 'festa-no-apartamento-da-suzana',
-    titulo: 'FESTA NO APARTAMENTO DA SUZANA',
+    titulo: 'PARTY AT THE APT',
     ano: 2012,
-    autor: 'CHRISTOPHER FAUST',
+    autor: 'Dir: CHRISTOPHER FAUST',
     imgIcone: { src: '/imagens/filmes/festa-no-apartamento-da-suzana/festanoap_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/festa-no-apartamento-da-suzana/festanoap_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/festa-no-apartamento-da-suzana/festanoap_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -685,7 +683,7 @@ const databaseEn = {
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Evandro Scorsin, Ana Paula Málaga, Morgana Horst, Alexandre Canetta, Eduardo Colgan, Tomás Von Der Osten, Caroline Biagi, Marisa Merlo.',
-    sinopse: 'Augusto é convidado para uma festa no apartamento de uma colega de faculdade.',
+    sinopse: `Augusto is invited to a party at a college friend's apartment.`,
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/ca9pDxzPDfE',
@@ -693,20 +691,14 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção, Roteiro, Produção e Edição de Som:</span> Christopher Faust </p>
-        <p><span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa</p>
-        <p><span class="texto-verde">Direção De Arte:</span> Caroline Biagi</p>  
-        <p><span class="texto-verde">Captação de Áudio:</span> Tomás von der Osten</p> 
-        <p><span class="texto-verde">Narração:</span> Diego Florentino</p> 
-        <p><span class="texto-verde">Montagem:</span> Rodrigo Tomita</p> 
-        <p><span class="texto-verde">Colorização e Finalização:</span> André F. Diniz</p>
-        <p><span class="texto-verde">Desenho de Som:</span> Vinicius André Maciel</p>
-        <p><span class="texto-verde">Produção:</span> Coco Filmes</p>
-        <p><span class="texto-verde">Co-Produção:</span> O Quadro</p>
+        <p><span class="texto-verde">Direction, Screenplay, Production, and Sound Editing:</span> Christopher Faust </p>
+        <p><span class="texto-verde">Cinematography:</span> Renata Corrêa</p>
+        <p><span class="texto-verde">Art Direction:</span> Caroline Biagi</p>  
+        <p><span class="texto-verde">Audio Recording:</span> Tomás von der Osten</p> 
+        <p><span class="texto-verde">Narration:</span> Diego Florentino</p> 
         </p>
         <p>
-        Projeto realizado para a Oficina Tomada Única, ofertada pelo 7º Curta Oito - Festival Internacional de Cinema Super8 de Curitiba.
-        </p>
+        Project developed for the Single Take Workshop, offered by the 7th Curta Oito - International Super8 Film Festival of Curitiba.        </p>
         `,
       },
       adicional: {
@@ -718,9 +710,9 @@ const databaseEn = {
   {
     id: '11',
     url: 'garota-explosiva',
-    titulo: 'GAROTA EXPLOSIVA',
+    titulo: 'EXPLOSIVE GIRL',
     ano: 2012,
-    autor: 'EVANDRO SCORSIN',
+    autor: 'Dir: EVANDRO SCORSIN',
     imgIcone: { src: '/imagens/filmes/garota-explosiva/garotaexplosiva_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/garota-explosiva/garotaexplosiva_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/garota-explosiva/garotaexplosiva_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -744,8 +736,8 @@ const databaseEn = {
     ],
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
-    participacao: 'John Godoy, Gabriela Dinnies e Marcela Mancino.',
-    sinopse: 'Thiago está apaixonado pela menina que todas as noites aparece em seus sonhos. Obcecado pelo desejo de encontrá-la, o garoto não consegue mais dormir.',
+    participacao: 'John Godoy, Gabriela Dinnies and Marcela Mancino.',
+    sinopse: 'Thiago is in love with the girl that appears every day in his dreams. Obsessed by the desire to find her, the boy can’t sleep anymore.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/IWO3lAiQM3I',
@@ -753,31 +745,31 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Evandro Scorsin </p>
-        <p><span class="texto-verde">Produção:</span> Alexandre Rafael Garcia, Anderson Simão, Christopher Faust, Evandro Scorsin, Wellington Sari </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Daniel Florencio </p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Alex Rocca</p> 
-        <p><span class="texto-verde">Montagem:</span> Christopher Faust </p> 
-        <p><span class="texto-verde">Som Direto:</span> João Menna Barreto </p>
-        <p><span class="texto-verde">Finalização de Som:</span> Alexandre Rogoski<p>
+        <p><span class="texto-verde">Direction and Screenplay:</span> Evandro Scorsin </p>
+        <p><span class="texto-verde">Production:</span> Alexandre Rafael Garcia, Anderson Simão, Christopher Faust, Evandro Scorsin, Wellington Sari </p> 
+        <p><span class="texto-verde">Cinematography:</span> Daniel Florencio </p> 
+        <p><span class="texto-verde">Art Direction:</span> Alex Rocca</p> 
+        <p><span class="texto-verde">Editing:</span> Christopher Faust </p> 
+        <p><span class="texto-verde">Direct Sound:</span> João Menna Barreto </p>
+        <p><span class="texto-verde">Sound Post-Production:</span> Alexandre Rogoski<p>
         <p>
-        Este filme faz parte do projeto "Filmes de Verão" 2012.
+        This film is part of the project "Summer Films" 2012
         <p>
         `,
       },
       adicional: {
         __html: `<p>
           <p>
-            <span class="texto-verde">Design gráfico:</span> Melina Correia |
-            <span class="texto-verde">Assistente De Som Direto:</span> Anderson Simão |
-            <span class="texto-verde">Assistente De Direção:</span> Christopher Faust |
-            <span class="texto-verde">Assistência de edição de som:</span> Samuel Jacintho |
-            <span class="texto-verde">Finalização de Imagem e assistente de montagem:</span> Guilherme Delamuta |
-            <span class="texto-verde">Tradução de Legendas:</span> Clariana Borzone 
+            <span class="texto-verde">Graphic Design:</span> Melina Correia |
+            <span class="texto-verde">Graphic Design:</span> Anderson Simão |
+            <span class="texto-verde">Assistant Director:</span> Christopher Faust |
+            <span class="texto-verde">Sound Editing Assistant:</span> Samuel Jacintho |
+            <span class="texto-verde">Image Post Production and Editing Assistant:</span> Guilherme Delamuta |
+            <span class="texto-verde"> Subtitle Translation:</span> Clariana Borzone 
           </p>
           <p>
-          <span class="texto-verde">Apoio:</span>
-          Off-Beat Audio, Padaria América, Sanepar e Videolocadora Nicarágua
+          <span class="texto-verde">Support:</span>
+          Off-Beat Audio, Padaria América, Sanepar and Videolocadora Nicarágua
           </p>
         </p>
         `,
@@ -787,9 +779,9 @@ const databaseEn = {
   {
     id: '12',
     url: 'garoto-barba',
-    titulo: 'GAROTO BARBA',
+    titulo: 'BEARD BOY',
     ano: 2010,
-    autor: 'CHRISTOPHER FAUST',
+    autor: 'Dir: CHRISTOPHER FAUST',
     imgIcone: { src: '/imagens/filmes/garoto-barba/garotobarba_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/garoto-barba/garotobarba_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/garoto-barba/garotobarba_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -813,7 +805,7 @@ const databaseEn = {
     ],
     patrocinadores: { src: '/imagens/filmes/garoto-barba/garotobarba_creditos_banner.png', desc: '', titulo: 'titulo da imagem' },
     participacao: 'Vitor Steinhaus, Maureen Miranda, Ricardo Alberti.',
-    sinopse: 'Fábula sobre uma criança que, devido a uma rara doença, tem barba. Felipe gosta de ser como é, mas se sente deslocado porque as outras pessoas costumam olhar para ele de forma diferente.',
+    sinopse: 'A fable about a child who, due to a rare disease, has a beard. Felipe likes to be what he is, but feels displaced because other people usually look at him differently.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/1We3NLPocHY',
@@ -821,45 +813,46 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Christopher Faust </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Antonio Junior </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Wellington Sari, Marisa Merlo e Aly Muritiba </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Maurício Baggio </p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Alex Rocca e Ana Paula Málaga</p>
-        <p><span class="texto-verde">Maquiagem:</span> Marcelino de Miranda </p>  
-        <p><span class="texto-verde">Montagem:</span> Diego Florentino </p> 
-        <p><span class="texto-verde">Finalização de Som:</span> Nathália Okimoto<p>
-        <p><span class="texto-verde">Som Direto:</span> João Marcelo Gomes </p>
-        <p><span class="texto-verde">Desenho de Som:</span> Alexandre Rogoski </p>
+        <p><span class="texto-verde">Direction and Screenplay:</span> Christopher Faust </p>
+        <p><span class="texto-verde">Executive Production:</span> Antonio Junior </p> 
+        <p><span class="texto-verde">Production Management:</span> Wellington Sari, Marisa Merlo and Aly Muritiba </p> 
+        <p><span class="texto-verde">Cinematography:</span> Maurício Baggio </p> 
+        <p><span class="texto-verde">Art Direction:</span> Alex Rocca and Ana Paula Málaga</p>
+        <p><span class="texto-verde">Makeup:</span> Marcelino de Miranda </p>  
+        <p><span class="texto-verde">Editing:</span> Diego Florentino </p> 
+        <p><span class="texto-verde">Image Post-Production:</span> Nathália Okimoto<p>
+        <p><span class="texto-verde">Direct Sound:</span> João Marcelo Gomes </p>
+        <p><span class="texto-verde">Sound Design:</span> Alexandre Rogoski </p>
         </p>
         <p>
-        Projeto realizado através do Edital Curta Criança 2009, promovido pelo Ministério da Cultura (MinC).
+        Project developed through the Curta Criança Public Notice 2009, promoted by the Ministry of Culture (MinC).        
         </p>
         `,
       },
       adicional: {
-        __html: `<p>
+        __html: `
           <p>
-            <span class="texto-verde">Elenco Secundário: </span> Joel José da Silva Junior, Pedro Albigo, Ricardo da Rocha, Robert Tomal, Sandro B. Strapasson, Débora Vecchi, Sabine Villatore, Marcel Szymanski, Everaldo Sant 'Anna, Bruno de Oliveira, João Pedro Rocha, Wagner Jovanaci, Camila Jorge, There Postui, Celso Moreira, Matheus Correia Mancini, Handerson Banks.
-            <span class="texto-verde">Narração:</span> Bruno de Oliveira e Evandro Scorsin |
-            <span class="texto-verde">Assistente de Fotografia:</span> André Chesini |
-            <span class="texto-verde">Assistente de Arte:</span> Caroline Biagi e Leandro Telles |
-            <span class="texto-verde">Figurino:</span> Karina de Souza |
-            <span class="texto-verde">Claquete:</span> Ana Paula Cardoso |
-            <span class="texto-verde">Design Gráfico:</span> Melina Correia |
-            <span class="texto-verde">Assistente de Montagem:</span> Stephanie Thomas |
-            <span class="texto-verde">Assistente de Edição de Som:</span> Renan Deodato e Vitor Moraes |
-            <span class="texto-verde">Trilha Sonora:</span> Rodrigo Lemos |
+            <span class="texto-verde">Secondary Cast:</span> Joel José da Silva Junior, Pedro Albigo, Ricardo da Rocha, Robert Tomal, Sandro B. Strapasson, Débora Vecchi, Sabine Villatore, Marcel Szymanski, Everaldo Sant 'Anna, Bruno de Oliveira, João Pedro Rocha, Wagner Jovanaci, Camila Jorge, There Postui, Celso Moreira, Matheus Correia Mancini, Handerson Banks. |
+            <span class="texto-verde">Narration:</span> Narration: Luciano Lacerda |
+            <span class="texto-verde">Assistant Director:</span> Bruno de Oliveira and Evandro Scorsin |
+            <span class="texto-verde">Assistant Photographer:</span> André Chesini |
+            <span class="texto-verde">Assistant Art Director:</span> Caroline Biagi and Leandro Telles |
+            <span class="texto-verde">Costume Design:</span> Karina de Souza |
+            <span class="texto-verde">Clapperboard:</span> Ana Paula Cardoso |
+            <span class="texto-verde">Graphic Design:</span> Melina Correia |
+            <span class="texto-verde">Editing Assistant:</span> Stephanie Thomas |
+            <span class="texto-verde">Sound Editing Assistant:</span> Renan Deodato and Vitor Moraes |
+            <span class="texto-verde">Soundtrack:</span> Rodrigo Lemos |
             <span class="texto-verde">Still:</span> Rosano Mauro Jr. |
             <span class="texto-verde">Making Of:</span> Maria Fernanda Penha |
-            <span class="texto-verde">Eletricista Chefe:</span> Sagui |
-            <span class="texto-verde">Assistente de Elétrica:</span> Maikon Batista |
-            <span class="texto-verde">Maquinista Chefe:</span> Coqueiro |
-            <span class="texto-verde">Motorista:</span> Mano e Leandro Telles 
+            <span class="texto-verde">Chief Electrician:</span> Sagui |
+            <span class="texto-verde">Assistant Electrician:</span> Maikon Batista |
+            <span class="texto-verde">Chief Machinist:</span> Coqueiro |
+            <span class="texto-verde">Driver:</span> Mano and Leandro Telles 
           </p>
 
           <p>
-          <span class="texto-verde">Apoio:</span>
+          <span class="texto-verde">Support:</span>
           Grafo Audiovisual, Off-Beat Audio, Ministério da Defesa - Comando da Aeronáutica, DECEA-CINDACTA2, Prefeitura de Aeronáutica de Curitiba.
           </p>
         </p>
@@ -870,9 +863,9 @@ const databaseEn = {
   {
     id: '13',
     url: 'garoto-propaganda',
-    titulo: 'GAROTO PROPAGANDA',
+    titulo: 'POSTER BOY',
     ano: 2015,
-    autor: 'CHRISTOPHER FAUST',
+    autor: 'Dir: CHRISTOPHER FAUST',
     imgIcone: { src: '/imagens/filmes/garoto-propaganda/garotopropaganda_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/garoto-propaganda/garotopropaganda_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/garoto-propaganda/garotopropaganda_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -897,7 +890,7 @@ const databaseEn = {
     patrocinadores: { src: '/imagens/filmes/garoto-propaganda/garotopropaganda_creditos_banner.png', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Alexandre Zampier, Talita Assis, Kendrik Bittencourt, Vitor Steinhaus, Rafael Magaldi, Olívia Krüger, Gisele Koligowski.',
-    sinopse: 'Vitor, famoso quando criança por ser garoto-propaganda de uma marca de creme dental, tem um reencontro com uma garota do seu passado.',
+    sinopse: 'Vitor, famous as a kid for starring in a toothpaste commercial, has a date with a girl from his past.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/OsSUb6Pt4no',
@@ -905,50 +898,49 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção:</span> Christopher Faust </p>
-        <p><span class="texto-verde">Roteiro:</span> Christopher Faust e Diego Florentino </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Anderson Simão </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Alexandre Rafael Garcia, Evandro Scorsin e Wellington Sari </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Daniel Florencio </p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Alex Rocca </p>
-        <p><span class="texto-verde">Montagem e Finalização:</span> Diego Florentino </p> 
-        <p><span class="texto-verde">Som Direto:</span> Guilherme Cordova </p>
-        <p><span class="texto-verde">Edição De Som E Mixagem:</span> Alexandre Rogoski </p>
+        <p><span class="texto-verde">Direction:</span> Christopher Faust </p>
+        <p><span class="texto-verde">Screenplay:</span> Christopher Faust and Diego Florentino </p>
+        <p><span class="texto-verde">Executive Production:</span> Anderson Simão </p> 
+        <p><span class="texto-verde">Production Management:</span> Alexandre Rafael Garcia, Evandro Scorsin and Wellington Sari </p> 
+        <p><span class="texto-verde">Cinematography:</span> Daniel Florencio </p> 
+        <p><span class="texto-verde">Art Direction:</span> Alex Rocca </p>
+        <p><span class="texto-verde">Editing and Post Production:</span> Diego Florentino </p> 
+        <p><span class="texto-verde">Direct Sound:</span> Guilherme Cordova </p>
+        <p><span class="texto-verde">Sound Editing and Mixing:</span> Alexandre Rogoski </p>
         </p>
         <p>
-        Projeto realizado com o apoio do Programa de Apoio e Incentivo à Cultura - Fundação Cultural de Curitiba e da Prefeitura Municipal de Curitiba, com incentivo da Bwt Operadora de Turismo, Celepar, HigiServ e Serra Verde Express
-        </p>
+        Project developed with the support of the Cultural Support and Incentive Program - Cultural Foundation of Curitiba and City of Curitiba, with incentives from Bwt Tour Operator, Celepar, HigiServ, and Serra Verde Express.        </p>
         `,
       },
       adicional: {
         __html: `<p>
-            <span class="texto-verde">Elenco Secundário: </span> Daniel Keller (voz) | Thami A. | Rodrigo Nossaki | Guilherme Ribas | Ana Paula Málaga | Caroline Biagi | Muhammad El Chab | Bruce Cantarim | Júnior Ventura | Rafael Basso | Morgana Horst | Bruno Abil Russ | Milena Bastos | Gaby Rivoly | Maria Eduarda Machado | Vicenzo Viesser | Emanuel Pilati | Kayo Francisco | Maria Eduarda Rangel | Louise Forgueri | Larissa Freitas
+            <span class="texto-verde">Secondary Cast: </span> Daniel Keller (voz) | Thami A. | Rodrigo Nossaki | Guilherme Ribas | Ana Paula Málaga | Caroline Biagi | Muhammad El Chab | Bruce Cantarim | Júnior Ventura | Rafael Basso | Morgana Horst | Bruno Abil Russ | Milena Bastos | Gaby Rivoly | Maria Eduarda Machado | Vicenzo Viesser | Emanuel Pilati | Kayo Francisco | Maria Eduarda Rangel | Louise Forgueri | Larissa Freitas
           </p>
           <p>
-          <span class="texto-verde">Assistente de Direção:</span> Evandro Scorsin |
-          <span class="texto-verde">Assistente de Fotografia:</span> Marcelo Tanaka |
-          <span class="texto-verde">Assistente de Arte e Figurino:</span> Annie Cantarini |
-          <span class="texto-verde">Assistente de Arte e Produção de Objetos:</span> Susana Pedrozenco |
-          <span class="texto-verde">Finalização de Imagem:</span> Diego Florentino |
-          <span class="texto-verde">Logagem e Syncagem:</span> Eduardo Neves Camargo |
-          <span class="texto-verde">Design Gráfico:</span> Bruna Michelin |
-          <span class="texto-verde">Assistente de Som Direto:</span> Guilherme Ferreira | 
-          <span class="texto-verde">Elétrica:</span> Pablo Treis | 
-          <span class="texto-verde">Assistente de elétrica:</span> Sergio Singer |
-          <span class="texto-verde">Edição de som:</span> Bruno Ito |
-          <span class="texto-verde">Assistência de Edição de Som:</span> Rodrigo Grigoletti |
-          <span class="texto-verde">Estúdio de Som:</span> Off-Beat Audio | 
-          <span class="texto-verde">Trilha Sonora - Jingle:</span> Maurício Ramos Marques | 
-          <span class="texto-verde">Still:</span> Ana Paula Málaga e Nathália Tereza | 
+          <span class="texto-verde">Assistant Director:</span> Evandro Scorsin |
+          <span class="texto-verde">Photography Assistant:</span> Marcelo Tanaka |
+          <span class="texto-verde">Art Assistant and Costume Design:</span> Annie Cantarini |
+          <span class="texto-verde">Art Assistant and Object Production:</span> Susana Pedrozenco |
+          <span class="texto-verde">Image Post-Production:</span> Diego Florentino |
+          <span class="texto-verde">Logging and Syncing:</span> Eduardo Neves Camargo |
+          <span class="texto-verde">Graphic Design:</span> Bruna Michelin |
+          <span class="texto-verde">Direct Sound Assistant:</span> Guilherme Ferreira | 
+          <span class="texto-verde">Electrician:</span> Pablo Treis | 
+          <span class="texto-verde"> Assistant Electrician:</span> Sergio Singer |
+          <span class="texto-verde">Sound Editing:</span> Bruno Ito |
+          <span class="texto-verde">Sound Editing Assistant:</span> Rodrigo Grigoletti |
+          <span class="texto-verde">Sound Studio:</span> Off-Beat Audio | 
+          <span class="texto-verde">Soundtrack - Jingle:</span> Maurício Ramos Marques | 
+          <span class="texto-verde">Still:</span> Ana Paula Málaga and Nathália Tereza | 
           <span class="texto-verde">Making of:</span> Patrícia Evans | 
-          <span class="texto-verde">Claquete:</span> Dewi Jost | 
-          <span class="texto-verde">Designer pré-produção:</span> Melina Correia | 
-          <span class="texto-verde">Legendagem Inglês:</span> Raquel Ribeiro |
-          <span class="texto-verde">Legendagem Espanhol:</span>  Larissa Mehl | 
-          <span class="texto-verde">Captação:</span> Anderson Simão, Stely Brodowski Andrade e Itamar Paciornik 
+          <span class="texto-verde">Clapperboard:</span> Dewi Jost | 
+          <span class="texto-verde">Pre-production Designer:</span> Melina Correia | 
+          <span class="texto-verde">English Subtitles:</span> Raquel Ribeiro |
+          <span class="texto-verde">Spanish Subtitles:</span>  Larissa Mehl | 
+          <span class="texto-verde">Sound Recording:</span> Anderson Simão, Stely Brodowski Andrade and Itamar Paciornik 
           <p>
-          <span class="texto-verde">Apoio:</span>
-          Casa da Coxinha | Áudio Off-Beat | Papel Caneta e Cia | Prefeitura de Curitiba | Sanepar | Sociedade Morgenau </p>
+          <span class="texto-verde">Support:</span>
+          Casa da Coxinha | Áudio Off-Beat | Papel Caneta and Cia | Prefeitura de Curitiba | Sanepar | Sociedade Morgenau </p>
         </p>
         `,
       },
@@ -957,9 +949,9 @@ const databaseEn = {
   {
     id: '14',
     url: 'intervalo',
-    titulo: 'INTERVALO',
+    titulo: 'BREAK',
     ano: 2010,
-    autor: ' ALEXANDRE RAFAEL GARCIA',
+    autor: 'Dir:  ALEXANDRE RAFAEL GARCIA',
     imgIcone: { src: '/imagens/filmes/intervalo/intervalo_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/intervalo/intervalo_banner.png', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/intervalo/intervalo_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -983,7 +975,7 @@ const databaseEn = {
     ],
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
-    sinopse: 'Pedro tem 16 anos, namora Ana e cursa o ensino médio. Em uma tarde qualquer: o colégio, olhares, a piscina. O azul.',
+    sinopse: 'Pedro is 16 years old, dates Ana and attends high school. In any given afternoon: the school, gazes, the pool. Blue color.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/mrO3pA6YFjs',
@@ -991,36 +983,36 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Alexandre Rafael Garcia </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Alexandre Rafael Garcia, Sandra Zawadzki </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Sandra Zawadzki</p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa </p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Alex Rocca, Ana Deliberador </p>
-        <p><span class="texto-verde">Montagem:</span> Christopher Faust, Tomás von der Osten </p> 
-        <p><span class="texto-verde">Som Direto:</span> Eugênio Hoch Jr., Samuel Jacintho </p>
-        <p><span class="texto-verde">Edição De Som E Mixagem:</span> Samuel Jacintho </p>
+        <p><span class="texto-verde">Direction and Screenplay:</span> Alexandre Rafael Garcia </p>
+        <p><span class="texto-verde">Executive Production:</span> Alexandre Rafael Garcia, Sandra Zawadzki </p> 
+        <p><span class="texto-verde">Production Management:</span> Sandra Zawadzki</p> 
+        <p><span class="texto-verde">Cinematography:</span> Renata Corrêa </p> 
+        <p><span class="texto-verde">Art Direction:</span> Alex Rocca, Ana Deliberador </p>
+        <p><span class="texto-verde">Editing:</span> Christopher Faust, Tomás von der Osten </p> 
+        <p><span class="texto-verde">Direct Sound:</span> Eugênio Hoch Jr., Samuel Jacintho </p>
+        <p><span class="texto-verde">Sound Editing and Mixing:</span> Samuel Jacintho </p>
         </p>
         <p>
-        Projeto realizado como TCC do curso de Cinema e Vídeo da Faculdade de Artes do Paraná.
+        Project developed as the Final Graduation Project of the Film and Video course at the Parana Arts College. 
         </p>
         `,
       },
       adicional: {
         __html: `
           <p>
-          <span class="texto-verde">Assistente de Direção:</span> Evandro Scorsin |
-          <span class="texto-verde">Assistente De Produção/Direção:</span> Álvaro Zeini Cruz |
-          <span class="texto-verde">Assistente de Produção/Direção de Arte:</span> Rubiana Perucci |
-          <span class="texto-verde">Assistente de Produção:</span> Brisa Verena, Juliana Rodrigues |
-          <span class="texto-verde">Material Gráfico:</span> Fábio Rocha
+          <span class="texto-verde">Assistant Director:</span> Evandro Scorsin |
+          <span class="texto-verde">Production Assistant/Direction:</span> Álvaro Zeini Cruz |
+          <span class="texto-verde">Production Assistant/Art Direction:</span> Rubiana Perucci |
+          <span class="texto-verde">Production Assistant:</span> Brisa Verena, Juliana Rodrigues |
+          <span class="texto-verde">Graphic material:</span> Fábio Rocha
           </p>
           <p>
-          <span class="texto-verde">Co-Produção:</span>
+          <span class="texto-verde">Co-Production:</span>
           SIMULACRUM
           </p>
           <p>
-          <span class="texto-verde">Apoio:</span>
-          Colégio Estadual do Paraná        
+          <span class="texto-verde">Support:</span>
+          Paraná State School          
           </p>
         `,
       },
@@ -1029,9 +1021,9 @@ const databaseEn = {
   {
     id: '15',
     url: 'lavanderia-shermer',
-    titulo: 'LAVANDERIA SHERMER',
+    titulo: 'SHERMER LAUNDRY',
     ano: 2008,
-    autor: 'WELLINGTON SARI',
+    autor: 'Dir: WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/lavanderia-shermer/lavanderiashermer_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/lavanderia-shermer/lavanderiashermer_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/lavanderia-shermer/lavanderiashermer_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -1048,7 +1040,7 @@ const databaseEn = {
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Arno Pruner, Juliana Biancato, Leandro Daniel Colombo, Rafael Magaldi.',
-    sinopse: 'Quatro jovens ficam presos dentro da Lavanderia Shermer. Enquanto isso o problema é resolvido, Wilson Borges, Norberto, Jo e o funcionário Waldo começam a interagir e descobrem que tem muito mais coisas em comum do que apenas roupas sujas.',
+    sinopse: 'Four young people become trapped inside the Shermer Laundry Shop. While the problem is resolved, Wilson Borges, Norberto, Jo, and the employee Waldo begin to interact and discover they have much more in common than just dirty clothes.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/j96oOOQ4vXI',
@@ -1056,33 +1048,33 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Wellington Sari </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Diego Florentino e Wellington Sari </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Diego Florentino</p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Antonio Junior </p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Ana Paula Málaga </p>
-        <p><span class="texto-verde">Montagem:</span> Christopher Faust </p> 
-        <p><span class="texto-verde">Som Direto:</span> João Marcelo Gomes e Guilherme Cordova </p>
-        <p><span class="texto-verde">Desenho de Som:</span> Alexandre Rogoski e Vinícius Nisi </p>
-        <p><span class="texto-verde">Música:</span> Mordida </p>
+        <p><span class="texto-verde">Direction and Screenplay:</span> Wellington Sari </p>
+        <p><span class="texto-verde">Executive Production:</span> Diego Florentino and Wellington Sari </p> 
+        <p><span class="texto-verde">Production Management:</span> Diego Florentino</p> 
+        <p><span class="texto-verde">Cinematography:</span> Antonio Junior </p> 
+        <p><span class="texto-verde">Art Direction:</span> Ana Paula Málaga </p>
+        <p><span class="texto-verde">Editing:</span> Christopher Faust </p> 
+        <p><span class="texto-verde">Direct Sound:</span> João Marcelo Gomes and Guilherme Cordova </p>
+        <p><span class="texto-verde">Sound Design:</span> Alexandre Rogoski and Vinícius Nisi </p>
+        <p><span class="texto-verde">Music:</span> Mordida </p>
         </p>
         `,
       },
       adicional: {
         __html: `
           <p>
-          <span class="texto-verde">Assistente de Direção:</span> Christopher Faust |
-          <span class="texto-verde">Assistente de Produção:</span> Maria Fernanda Penha e Kahito Jucoski |
-          <span class="texto-verde">Produção de Elenco:</span> Arno Pruner |
-          <span class="texto-verde">Assistente de Câmera:</span> Marisa Merlo |
-          <span class="texto-verde">Assistente de Arte:</span> Maria Fernanda Penha |
-          <span class="texto-verde">Pós-Produção:</span> Nathália Okimoto |
-          <span class="texto-verde">Continuísta:</span> Karina de Souza |
+          <span class="texto-verde">Assistant Director:</span> Christopher Faust |
+          <span class="texto-verde">Production Assistant:</span> Maria Fernanda Penha and Kahito Jucoski |
+          <span class="texto-verde">Cast Production:</span> Arno Pruner |
+          <span class="texto-verde">Assistant Camera:</span> Marisa Merlo |
+          <span class="texto-verde">Assistant Art Director:</span> Maria Fernanda Penha |
+          <span class="texto-verde">Post Production:</span> Nathália Okimoto |
+          <span class="texto-verde">Continuity supervisor:</span> Karina de Souza |
           <span class="texto-verde">Still:</span> Talitha Bodnar |
           </p>
           <p>
-          <span class="texto-verde">Apoio:</span>
-          Off-Beat Audio, Art Banner, Casa do Zé, Lav e Lev - Cristo Rei, Pizza Clock
+          <span class="texto-verde">Support:</span>
+          Off-Beat Audio, Art Banner, Casa do Zé, Lav and Lev - Cristo Rei, Pizza Clock
           </p>
         `,
       },
@@ -1091,9 +1083,9 @@ const databaseEn = {
   {
     id: '16',
     url: 'mal-me-quer',
-    titulo: 'MAL ME QUER, MAL ME QUER',
+    titulo: 'LOVE ME NOT, LOVE ME NOT',
     ano: 2010,
-    autor: 'WELLINGTON SARI',
+    autor: 'Dir: WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/mal-me-quer/malmequer_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/mal-me-quer/malmequer_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/mal-me-quer/malmequer_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -1117,8 +1109,8 @@ const databaseEn = {
     ],
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
-    participacao: 'Monique Rau, Evandro Scorsin e Karina de Souza.',
-    sinopse: 'Depois de levar o fora do namorado, Pri encontra um obstáculo no caminho.',
+    participacao: 'Monique Rau, Evandro Scorsin and Karina de Souza.',
+    sinopse: 'After breaking up with her boyfriend, Pri finds an obstacle in the way.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/ctGG9OL5nrQ',
@@ -1126,13 +1118,13 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Wellington Sari </p>
-        <p><span class="texto-verde">Produção:</span> Wellington Sari e Christopher Faust </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa </p> 
-        <p><span class="texto-verde">Assistência de Fotografia:</span> João Marcelo Gomes</p> 
-        <p><span class="texto-verde">Assistência de Direção:</span> Karina de Souza</p>
-        <p>Projeto realizado para a Oficina Tomada Única, ofertada pelo 7º Curta Oito - Festival Internacional de Cinema Super8 de Curitiba.</p>
-        </p>
+        <p><span class="texto-verde">Direction and Screenplay:</span> Wellington Sari </p>
+        <p><span class="texto-verde">Production:</span> Wellington Sari and Christopher Faust </p> 
+        <p><span class="texto-verde">Cinematography:</span> Renata Corrêa </p> 
+        <p><span class="texto-verde">Photography Assistant:</span> João Marcelo Gomes</p> 
+        <p><span class="texto-verde">Direction Assistant:</span> Karina de Souza</p>
+        <p>
+        Project developed for the Single Take Workshop, offered by the 7th Curta Oito - International Super8 Film Festival of Curitiba.         </p>
         `,
       },
       adicional: {
@@ -1144,9 +1136,9 @@ const databaseEn = {
   {
     id: '17',
     url: 'manu-baunilha-bia-chocolate',
-    titulo: 'MANU BAUNILHA, BIA CHOCOLATE',
+    titulo: 'VANILLA MANU, CHOCOLATE BIA',
     ano: 2014,
-    autor: ' EVANDRO SCORSIN',
+    autor: 'Dir:  EVANDRO SCORSIN',
     imgIcone: { src: '/imagens/filmes/manu-baunilha-bia-chocolate/manubaunilha_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/manu-baunilha-bia-chocolate/manubaunilha_banner2.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/manu-baunilha-bia-chocolate/manubaunilha_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -1171,7 +1163,7 @@ const databaseEn = {
     patrocinadores: { src: '/imagens/filmes/manu-baunilha-bia-chocolate/estacao-mecenato_banner.png', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Wellington Sari, Eloisa Ferrarini, Roberta Wilke, Rafael Breternitz, Evandro Scorsin, Victor Nascimento, Guilherme Cordova.',
-    sinopse: 'Deco marca acidentalmente um encontro com duas amigas. De dia se encontra com Manu, de noite com Bia.',
+    sinopse: 'Deco accidentally makes a date with two friends. He is going to meet Manu during the day and Bia at night.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/GX42VnFXjm8',
@@ -1179,19 +1171,19 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção:</span> Evandro Scorsin </p>
-        <p><span class="texto-verde">Roteiro:</span> Wellington Sari </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Anderson Simão </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Alexandre Rafael Garcia</p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Daniel Florencio </p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Alex Rocca </p>
-        <p><span class="texto-verde">Montagem:</span> Christopher Faust </p> 
-        <p><span class="texto-verde">Som Direto:</span> Lucas Maffini </p>
-        <p><span class="texto-verde">Finalização de Som:</span> Alexandre Rogoski </p>
-        <p><span class="texto-verde">Trilha Sonora:</span> Paulo de Nadal </p>
+        <p><span class="texto-verde">Direction:</span> Evandro Scorsin </p>
+        <p><span class="texto-verde">Screenplay:</span> Wellington Sari </p>
+        <p><span class="texto-verde">Executive Production:</span> Anderson Simão </p> 
+        <p><span class="texto-verde">Production Management:</span> Alexandre Rafael Garcia</p> 
+        <p><span class="texto-verde">Cinematography:</span> Daniel Florencio </p> 
+        <p><span class="texto-verde">Art Direction:</span> Alex Rocca </p>
+        <p><span class="texto-verde">Editing:</span> Christopher Faust </p> 
+        <p><span class="texto-verde">Direct Sound:</span> Lucas Maffini </p>
+        <p><span class="texto-verde">Sound Post-Production:</span> Alexandre Rogoski </p>
+        <p><span class="texto-verde">Soundtrack:</span> Paulo de Nadal </p>
         </p>
         <p>
-        Projeto realizado com o apoio do Programa de Apoio e Incentivo à Cultura - Fundação Cultural de Curitiba e da Prefeitura Municipal de Curitiba, com incentivo do Shopping Estação.
+        Project developed with the support of the Cultural Support and Incentive Program - Cultural Foundation of Curitiba and City of Curitiba, with incentives from Shopping Estação.        
         </p>
         `,
       },
@@ -1201,23 +1193,23 @@ const databaseEn = {
           Jujuba Faust | Jujuba Garcia | Jujuba Sari | Jujuba Scorsin | Jujuba Simão
           </p>
           <p>
-          <span class="texto-verde">Assistência de arte:</span> André Luiz Pinto |
-          <span class="texto-verde">Assistência de produção:</span> Caroline Biagi |
-          <span class="texto-verde">Assistência de som direto:</span> Bruno Ito |
-          <span class="texto-verde">Assistência de fotografia:</span> Marcelo Tanaka |
-          <span class="texto-verde">Claquete e assistência de montagem:</span> Paula Negri |
+          <span class="texto-verde">Art Assistant:</span> André Luiz Pinto |
+          <span class="texto-verde">Production Assistant:</span> Caroline Biagi |
+          <span class="texto-verde">Direct Sound Assistant:</span> Bruno Ito |
+          <span class="texto-verde">Photography Assistant:</span> Marcelo Tanaka |
+          <span class="texto-verde">Clapperboard and Editing Assistant:</span> Paula Negri |
           <span class="texto-verde">Designer:</span> Melina Correia |
-          <span class="texto-verde">Designer pré-produção:</span> Fábio R. Rocha |
-          <span class="texto-verde">Elétrica:</span> Leandro Telles |
-          <span class="texto-verde">Gravação e mixagem da trilha sonora:</span> Rogerio Sabatella |
-          <span class="texto-verde">Músicos de estúdio:</span> Paulo de Nadal, Raphael Vinotti, Fernando de Nadal e Ivan Rodrigues |
-          <span class="texto-verde">Legendas espanhol:</span> Graziela Braz |
-          <span class="texto-verde">Legendas inglês:</span> Raquel Ribeiro |
-          <span class="texto-verde">Still e finalização de imagem:</span> Guilherme Delamuta
+          <span class="texto-verde">Pre-production Designer:</span> Fábio R. Rocha |
+          <span class="texto-verde">Electrician:</span> Leandro Telles |
+          <span class="texto-verde">Soundtrack Recording and Mixing:</span> Rogerio Sabatella |
+          <span class="texto-verde">Studio Musicians:</span> Paulo de Nadal, Raphael Vinotti, Fernando de Nadal and Ivan Rodrigues |
+          <span class="texto-verde">Spanish Subtitles:</span> Graziela Braz |
+          <span class="texto-verde">English Subtitles:</span> Raquel Ribeiro |
+          <span class="texto-verde">Stills and Image Post-Production:</span> Guilherme Delamuta
           </p>
           <p>
-          <span class="texto-verde">Apoio:</span>
-          Confeitaria Bomfati | Prefeitura de Curitiba | Sanepar | Teatro Regina Vogue
+          <span class="texto-verde">Support:</span>
+          Confeitaria Bomfati | City of Curitiba | Sanepar | Teatro Regina Vogue
           </p>
         `,
       },
@@ -1226,9 +1218,9 @@ const databaseEn = {
   {
     id: '18',
     url: 'maquina-de-sorvetes',
-    titulo: 'MÁQUINA DE SORVETES',
+    titulo: 'ICE CREAM MACHINE',
     ano: 2011,
-    autor: 'CHRISTOPHER FAUST',
+    autor: 'Dir: CHRISTOPHER FAUST',
     imgIcone: { src: '/imagens/filmes/maquina-de-sorvetes/maquinadesorvetes_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/maquina-de-sorvetes/maquinadesorvetes_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/maquina-de-sorvetes/maquinadesorvetes_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -1252,7 +1244,7 @@ const databaseEn = {
     patrocinadores: { src: '/imagens/filmes/maquina-de-sorvetes/cultura-inglesa_banner.png', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Rafael Andrés Pittaluga, Manoela Militão, Karen Shimabukuro,.',
-    sinopse: 'Martin há um ano trabalha com uma máquina expressa de sorvetes em frente a um mercadinho. Martin há um ano está apaixonado pela garçonete que trabalha na lanchonete do outro lado da rua, com quem nunca trocou uma palavra.',
+    sinopse: 'Martin, an ice cream machine operator, falls in love with a waitress who works at a coffee shop across the street, with whom he had never exchanged a word.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/CV7xsEZlZPM',
@@ -1260,42 +1252,41 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção:</span> Christopher Faust </p>
-        <p><span class="texto-verde">Roteiro:</span> Christopher Faust e Wellington Sari </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Alexandre Rafael Garcia </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Evandro Scorsin, Wellington Sari</p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa</p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Alex Rocca e Ana Paula Málaga </p>
-        <p><span class="texto-verde">Montagem:</span> Alexandre Rafael Garcia </p> 
-        <p><span class="texto-verde">Som Direto:</span> Samuel Jacintho </p>
-        <p><span class="texto-verde">Edição De Som E Mixagem:</span> Alexandre Rogoski </p>
+        <p><span class="texto-verde">Direction:</span> Christopher Faust </p>
+        <p><span class="texto-verde">Screenplay:</span> Christopher Faust and Wellington Sari </p>
+        <p><span class="texto-verde">Executive Production:</span> Alexandre Rafael Garcia </p> 
+        <p><span class="texto-verde">Production Management:</span> Evandro Scorsin, Wellington Sari</p> 
+        <p><span class="texto-verde">Cinematography:</span> Renata Corrêa</p> 
+        <p><span class="texto-verde">Art Direction:</span> Alex Rocca and Ana Paula Málaga </p>
+        <p><span class="texto-verde">Editing:</span> Alexandre Rafael Garcia </p> 
+        <p><span class="texto-verde">Direct Sound:</span> Samuel Jacintho </p>
+        <p><span class="texto-verde">Sound Editing and Mixing:</span> Alexandre Rogoski </p>
         </p>
         <p>
-        Projeto realizado através do edital 15º Cultura Inglesa Festival na categoria “Cinema”.
-        </p>
+        Project developed through the public notice of the 15th Cultura Inglesa Festival in the “Cinema” category.         </p>
         `,
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Elenco:</span>
+          <p><span class="texto-verde">Cast:</span>
           Marcel Szymanski, Fábio Silvestre, Alexandre Canetta, Tomás von der Osten, Paulo Hey, Gustavo Pinheiro, Camila Jorge, Sophia Butture, Marcos Neguers, Sandro Strapasson, Juliana Kametani, Juliana da Rocha, Leco Wzorek, Bruno de Oliveira, Amanda Tortato, Vitor Steinhaus
           </p>
           <p>
-          <span class="texto-verde">Assistência de direção:</span> Anderson Simão |
-          <span class="texto-verde">Assistência de produção:</span> Camilla Mageski |
-          <span class="texto-verde">Operação de câmera:</span> Hellen Braga |
-          <span class="texto-verde">Assistência de fotografia:</span> Eduardo Azevedo |
-          <span class="texto-verde">Figurino e maquiagem:</span> Ana Deliberador |
-          <span class="texto-verde">Assistência de arte:</span> Caroline Biagi |
-          <span class="texto-verde">Elétrica:</span> Odair da Silva (Salim) |
-          <span class="texto-verde">Asistência de elétrica:</span> Luciano de Almeida (Soda) |
-          <span class="texto-verde">Assistência de edição de som:</span> Samuel Jacintho |
-          <span class="texto-verde">Efeitos visuais:</span> Diego Florentino |
-          <span class="texto-verde">Trilha sonora:</span> Rodrigo Lemos |
+          <span class="texto-verde">Direction Assistant:</span> Anderson Simão |
+          <span class="texto-verde">Production Assistant:</span> Camilla Mageski |
+          <span class="texto-verde">Camera operator:</span> Hellen Braga |
+          <span class="texto-verde">Photography Assistant:</span> Eduardo Azevedo |
+          <span class="texto-verde">Costume and Makeup:</span> Ana Deliberador |
+          <span class="texto-verde">Art Assistant:</span> Caroline Biagi |
+          <span class="texto-verde">Electrician:</span> Odair da Silva (Salim) |
+          <span class="texto-verde">Assistant Electrician:</span> Luciano de Almeida (Soda) |
+          <span class="texto-verde">Sound Editing Assistant:</span> Samuel Jacintho |
+          <span class="texto-verde">Visual Effects:</span> Diego Florentino |
+          <span class="texto-verde">Soundtrack:</span> Rodrigo Lemos |
           <span class="texto-verde">Still:</span> Daniel Florencio
           </p>
           <p>
-          <span class="texto-verde">Apoio:</span>
+          <span class="texto-verde">Support:</span>
           Italianinha Máquina de Sorvetes Expresso          
           </p>
         `,
@@ -1305,9 +1296,9 @@ const databaseEn = {
   {
     id: '19',
     url: 'meio-dia-isabela',
-    titulo: 'MEIO-DIA, ISABELA',
+    titulo: 'NOON, ISABELA',
     ano: 2011,
-    autor: 'EVANDRO SCORSIN',
+    autor: 'Dir: EVANDRO SCORSIN',
     imgIcone: { src: '/imagens/filmes/meio-dia-isabela/meiodiaisabela_still01.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/meio-dia-isabela/meiodiaisabela_banner.png', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/meio-dia-isabela/meiodiaisabela_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -1323,8 +1314,8 @@ const databaseEn = {
     ],
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
-    participacao: 'Isabela Zanotim Da Silva, Amanda Saskoski Leal, Caroline Kerniske e Wellington Sari.',
-    sinopse: 'E se esses forem os melhores dias de nossas vidas?',
+    participacao: 'Isabela Zanotim Da Silva, Amanda Saskoski Leal, Caroline Kerniske and Wellington Sari.',
+    sinopse: 'What if these are the best days of our lives?',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/6Q2KpChnIzs',
@@ -1332,16 +1323,15 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `
-        <p><span class="texto-verde">Direção e roteiro:</span> Evandro Scorsin </p>
-        <p><span class="texto-verde">Produção:</span> Anderson Simão, Evandro Scorsin, Juliana Rodrigues, Nuno Chinaglia Poli </p>
-        <p><span class="texto-verde">Direção De Fotografia:</span> Juliana Rodrigues</p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Juliana Rodrigues </p>
-        <p><span class="texto-verde">Montagem:</span> Tomás von der Osten </p> 
-        <p><span class="texto-verde">Som Direto:</span> Anderson Simão e Nuno Chinaglia Poli </p>
-        <p><span class="texto-verde">Edição De Som:</span> Evandro Scorsin </p>
+        <p><span class="texto-verde">Direction and Screenplay:</span> Evandro Scorsin </p>
+        <p><span class="texto-verde">Production:</span> Anderson Simão, Evandro Scorsin, Juliana Rodrigues, Nuno Chinaglia Poli </p>
+        <p><span class="texto-verde">Cinematography:</span> Juliana Rodrigues</p> 
+        <p><span class="texto-verde">Art Direction:</span> Juliana Rodrigues </p>
+        <p><span class="texto-verde">Editing:</span> Tomás von der Osten </p> 
+        <p><span class="texto-verde">Direct Sound:</span> Anderson Simão and Nuno Chinaglia Poli </p>
+        <p><span class="texto-verde">Sound Editing:</span> Evandro Scorsin </p>
         <p>
-        Projeto realizado como TCC do curso de Cinema e Vídeo da Faculdade de Artes do Paraná.       
-        </p>
+        Project developed as the Final Graduation Project of the Film and Video course at the Paraná Arts College.        </p>
         `,
       },
       adicional: {
@@ -1353,9 +1343,9 @@ const databaseEn = {
   {
     id: '20',
     url: 'memoria-a-dois',
-    titulo: 'MEMÓRIA A DOIS',
+    titulo: 'TWO MEMORIES',
     ano: 2009,
-    autor: 'ANDERSON SIMÃO, EVANDRO SCORSIN, NUNO CHINAGLIA POLI',
+    autor: 'Dir: ANDERSON SIMÃO, EVANDRO SCORSIN, NUNO CHINAGLIA POLI',
     imgIcone: { src: '/imagens/filmes/memoria-a-dois/memoriaadois_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/memoria-a-dois/memoriaadois_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/memoria-a-dois/memoriaadois_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -1371,8 +1361,8 @@ const databaseEn = {
     ],
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
-    participacao: 'Sarah Scorsin, José Zaleski, Ailen Scandurra e Pedro Henrique Mello.',
-    sinopse: 'Diante de uma fotografia antiga, deve pensar que são possíveis a resgatar lembranças que instiguem as memórias da fotografia em questão.',
+    participacao: 'Sarah Scorsin, José Zaleski, Ailen Scandurra and Pedro Henrique Mello.',
+    sinopse: 'In front of an old family picture, two couples are invited to bring memories that kindle the memories of the picture itself.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/CV7xsEZlZPM',
@@ -1380,7 +1370,7 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `
-        <span class="texto-verde">Realizado por:</span> Anderson Simão, Evandro Scorsin e Nuno Chinaglia Poli
+        <span class="texto-verde">Direction: </span> Anderson Simão, Evandro Scorsin and Nuno Chinaglia Poli
         `,
       },
       adicional: {
@@ -1392,9 +1382,9 @@ const databaseEn = {
   {
     id: '21',
     url: 'memorias-do-meu-tio',
-    titulo: 'MEMÓRIAS DO MEU TIO',
+    titulo: 'MEMORIES OF MY UNCLE',
     ano: 2011,
-    autor: 'ALEXANDRE RAFAEL GARCIA E ALVARO ZEINI CRUZ',
+    autor: 'Dir: ALEXANDRE RAFAEL GARCIA and ALVARO ZEINI CRUZ',
     imgIcone: { src: '/imagens/filmes/memorias-do-meu-tio/memoriasdomeutio_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/memorias-do-meu-tio/memoriasdomeutio_banner2.png', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/memorias-do-meu-tio/memoriasdomeutio_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -1419,7 +1409,7 @@ const databaseEn = {
     patrocinadores: { src: '/imagens/filmes/memorias-do-meu-tio/celepar-mecenato_banner.png', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Daniel Jorge, Roberto Innocente, Dulce Tramujas, Maureen Miranda, Luiz Godói, Rayane Lopes, Rossana Ceres, Blaise Musepere, Klaus Faryj.',
-    sinopse: 'As aventuras de Ariel, um garoto de 10 anos que encontra seu falecido tio-avô e ao lado dele parte em busca de um tesouro inimaginável.',
+    sinopse: 'The adventures of Ariel, a 10-year-old-boy who finds his dead granduncle and follows him in search of an unimaginable treasure.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/nw_c-gyAq98',
@@ -1427,40 +1417,39 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção:</span> Alexandre Rafael Garcia, Alvaro Zeini Cruz </p>
-        <p><span class="texto-verde">Roteiro:</span> Alexandre Rafael Garcia, Alvaro Zeini Cruz, Carlos Debiasi </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Sandra Zawadzki </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Christopher Faust, Natu Marques, Wellington Sari</p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa</p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Alex Rocca, Ana Paula Málaga </p>
-        <p><span class="texto-verde">Montagem:</span> Alexandre Rafael Garcia, Alvaro Zeini Cruz, Marcos Sabóia </p> 
-        <p><span class="texto-verde">Som Direto e Finalização de Som:</span> Alexandre Rogoski </p>
-        <p><span class="texto-verde">Trilha Sonora:</span> Maurício Ramos Marques </p>
-        <p><span class="texto-verde">Pós-Produção e Efeitos Visuais:</span> Everton Sebben </p>
+        <p><span class="texto-verde">Direction:</span> Alexandre Rafael Garcia, Alvaro Zeini Cruz </p>
+        <p><span class="texto-verde">Screenplay:</span> Alexandre Rafael Garcia, Alvaro Zeini Cruz, Carlos Debiasi </p>
+        <p><span class="texto-verde">Executive Production:</span> Sandra Zawadzki </p> 
+        <p><span class="texto-verde">Production Management:</span> Christopher Faust, Natu Marques, Wellington Sari</p> 
+        <p><span class="texto-verde">Cinematography:</span> Renata Corrêa</p> 
+        <p><span class="texto-verde">Art Direction:</span> Alex Rocca, Ana Paula Málaga </p>
+        <p><span class="texto-verde">Editing:</span> Alexandre Rafael Garcia, Alvaro Zeini Cruz, Marcos Sabóia </p> 
+        <p><span class="texto-verde">Direct Sound and Sound Post Production:</span> Alexandre Rogoski </p>
+        <p><span class="texto-verde">Soundtrack:</span> Maurício Ramos Marques </p>
+        <p><span class="texto-verde">Post-Production and Visual Effects:</span> Everton Sebben </p>
         </p>
         <p>
-        Projeto realizado com o apoio do Programa de Apoio e Incentivo à Cultura - Fundação Cultural de Curitiba e da Prefeitura Municipal de Curitiba, com incentivo da CELEPAR - Companhia de Informática do Paraná
-        </p>
+        Project developed with the support of the Cultural Support and Incentive Program - Cultural Foundation of Curitiba and City of Curitiba, with incentive from CELEPAR - Companhia de Informática do Paraná        </p>
         `,
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Assistente De Direção:</span>Evandro Scorsin |         
-          <span class="texto-verde">Assistente De Produção:</span> Camilla Mageski |
-          <span class="texto-verde">Operação de câmera:</span> Hellen Braga |
-          <span class="texto-verde">Figurino:</span> Ana Deliberador |
-          <span class="texto-verde">Maquiagem:</span> Andrea Tristão |
-          <span class="texto-verde">Assistente de Arte:</span> Guilherme Málaga Carreiro |
-          <span class="texto-verde">Claquete e Continuidade:</span> Anderson Simão |
-          <span class="texto-verde">Elétrica:</span> Edi, Loro |
-          <span class="texto-verde">Material Gráfico:</span> Mariana Alub |
+          <p><span class="texto-verde">Assistant Director:</span>Evandro Scorsin |         
+          <span class="texto-verde">Production Assistant:</span> Camilla Mageski |
+          <span class="texto-verde">Camera operator:</span> Hellen Braga |
+          <span class="texto-verde">Costume Design:</span> Ana Deliberador |
+          <span class="texto-verde">Makeup:</span> Andrea Tristão |
+          <span class="texto-verde">Assistant Art Director:</span> Guilherme Málaga Carreiro |
+          <span class="texto-verde">Clapperboard and Continuity:</span> Anderson Simão |
+          <span class="texto-verde">Electrician:</span> Edi, Loro |
+          <span class="texto-verde">Graphic material:</span> Mariana Alub |
           <span class="texto-verde">Still:</span> Juliana Rodrigues |
-          <span class="texto-verde">Assistente De Som Direto e Finalização de Som:</span> Samuel Jacintho |
-          <span class="texto-verde">Tradução e Legendas:</span> Gustavo Pinheiro, Massimo Stulfa 
+          <span class="texto-verde">Direct Sound Assistant and Sound Post Production:</span> Samuel Jacintho |
+          <span class="texto-verde">Translation and Subtitles:</span> Gustavo Pinheiro, Massimo Stulfa 
 
           </p>
           <p>
-          <span class="texto-verde">Apoio:</span>
+          <span class="texto-verde">Support:</span>
           Lokal Grill, Movimento Cine Digital, Padaria América, Sanepar
           </p>
         `,
@@ -1470,9 +1459,9 @@ const databaseEn = {
   {
     id: '22',
     url: 'meu-amigo-virtual',
-    titulo: 'MEU AMIGO VIRTUAL',
+    titulo: 'MY VIRTUAL FRIEND',
     ano: 2013,
-    autor: 'CHRISTOPHER FAUST',
+    autor: 'Dir: CHRISTOPHER FAUST',
     imgIcone: { src: '/imagens/filmes/meu-amigo-virtual/meuamigovirtual_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/meu-amigo-virtual/meuamigovirtual_banner1.png', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/meu-amigo-virtual/meuamigovirtual_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -1496,8 +1485,8 @@ const databaseEn = {
     ],
     patrocinadores: { src: '/imagens/filmes/meu-amigo-virtual/quadro-rpc_mecenato_banner.png', desc: '', titulo: 'titulo da imagem' },
 
-    participacao: 'Vitor Steinhaus, Luly Strapasson, Fernando Turri, Gabriel Merling, Edy Gahr, Kainã Jaquetti, Chiara Vedova, Lucas Vicenzo, Leonara Mariel, Aline Angela e Izabela Milita.',
-    sinopse: 'André é um menino de 14 anos solitário e viciado em jogos de computador. Em um dia conturbado, um personagem criado em seu jogo de computador favorito se materializa em seu quarto. É a chance de André ter um amigo e se tornar popular em seu colégio.',
+    participacao: 'Vitor Steinhaus, Luly Strapasson, Fernando Turri, Gabriel Merling, Edy Gahr, Kainã Jaquetti, Chiara Vedova, Lucas Vicenzo, Leonara Mariel, Aline Angela and Izabela Milita.',
+    sinopse: 'Andre is a 14-year-old boy, odd-looking, lonely, and addicted to computer games. During a thunderstorm, a character created in his favorite computer game materializes in his room. Andre sees an opportunity to have a friend and become popular in his high school.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/ABKJMIFTUts',
@@ -1505,50 +1494,50 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção, roteiro e montagem:</span> Christopher Faust </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Alexandre Rafael Garcia, Anderson Simão </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Evandro Scorsin </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa</p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Alex Rocca </p>
-        <p><span class="texto-verde">Som Direto:</span> João Menna Barreto </p>
-        <p><span class="texto-verde">Finalização de Imagem e efeitos:</span> Everton Sebben </p> 
-        <p><span class="texto-verde">Edição De Som E Mixagem:</span> Alexandre Rogoski </p>
-        <p><span class="texto-verde">Trilha Sonora:</span> Maurício Ramos Marques </p>
+        <p><span class="texto-verde">Direction, Screenplay, and Editing:</span> Christopher Faust </p>
+        <p><span class="texto-verde">Executive Production:</span> Alexandre Rafael Garcia, Anderson Simão </p> 
+        <p><span class="texto-verde">Production Management:</span> Evandro Scorsin </p> 
+        <p><span class="texto-verde">Cinematography:</span> Renata Corrêa</p> 
+        <p><span class="texto-verde">Art Direction:</span> Alex Rocca </p>
+        <p><span class="texto-verde">Direct Sound:</span> João Menna Barreto </p>
+        <p><span class="texto-verde">Image and effects Post Production:</span> Everton Sebben </p> 
+        <p><span class="texto-verde">Sound Editing and Mixing:</span> Alexandre Rogoski </p>
+        <p><span class="texto-verde">Soundtrack:</span> Maurício Ramos Marques </p>
         </p>
         <p>
-        Projeto realizado com incentivo da Fundação Cultural de Curitiba e da Prefeitura Municipal de Curitiba.        
+        Project developed with the support of the Cultural Foundation of Curitiba and the City of Curitiba. 
         </p>
         `,
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Produtora de Animação:</span> SPIRIT Animation Studios </p>
-          <p><span class="texto-verde">Co-Produção:</span> RPC TV </p>
-          <p><span class="texto-verde">Figuração:</span> Gabriela Dinnies, Carolina Alves </p>
+          <p><span class="texto-verde">Animation Production Company:</span> SPIRIT Animation Studios </p>
+          <p><span class="texto-verde">Co-Production:</span> RPC TV </p>
+          <p><span class="texto-verde">Extras:</span> Gabriela Dinnies, Carolina Alves </p>
 
-          <p><span class="texto-verde">Assistente De Direção:</span>Evandro Scorsin |         
-          <span class="texto-verde">Figurino:</span> Ana Cardoso |
-          <span class="texto-verde">Design Gráfico:</span> Melina Correia |
-          <span class="texto-verde">Câmera:</span> Hellen Braga |
-          <span class="texto-verde">Assistente de fotografia:</span> cc |
-          <span class="texto-verde">Chefe de eletricidade:</span> Salim |
-          <span class="texto-verde">Assistente elétrico:</span> Soda |
-          <span class="texto-verde">Assistente de arte:</span> Felipe Potenza |
-          <span class="texto-verde">Still e making of:</span> Daniel Florencio |
-          <span class="texto-verde">Assistente de som direto:</span> Lucas Maffini |
-          <span class="texto-verde">Assistente de montagem:</span> Guilherme Delamuta |
-          <span class="texto-verde">Supervisor de produto 3D:</span> Fernando Macedo (Digital Spirit) |
-          <span class="texto-verde">Modelagens 3D:</span> Cleber Coutinho (Digital Spirit) |
+          <p><span class="texto-verde">Assistant Director:</span>Evandro Scorsin |         
+          <span class="texto-verde">Costume Design:</span> Ana Cardoso |
+          <span class="texto-verde">Graphic Design:</span> Melina Correia |
+          <span class="texto-verde">Camera:</span> Hellen Braga |
+          <span class="texto-verde">Photography Assistant:</span> cc |
+          <span class="texto-verde">Chief Electrician:</span> Salim |
+          <span class="texto-verde">Assistant Electrician:</span> Soda |
+          <span class="texto-verde">Assistant Art Director:</span> Felipe Potenza |
+          <span class="texto-verde">Still and making of:</span> Daniel Florencio |
+          <span class="texto-verde">Direct Sound Assistant:</span> Lucas Maffini |
+          <span class="texto-verde">Editing Assistant:</span> Guilherme Delamuta |
+          <span class="texto-verde">3D Product Supervisor:</span> Fernando Macedo (Digital Spirit) |
+          <span class="texto-verde">3D Modelling:</span> Cleber Coutinho (Digital Spirit) |
           <span class="texto-verde">Rigging:</span> Fernando Macedo (Digital Spirit) |
-          <span class="texto-verde">Texturização 3D:</span> Cleber Coutinho (Digital Spirit) |
-          <span class="texto-verde">Animação 3D:</span> Rene Singer e Jonathan Edward (Digital Spirit) |
-          <span class="texto-verde">Iluminação e Composição 3D:</span> Cleber Coutinho (Digital Spirit) |
-          <span class="texto-verde">Assistentes de produção:</span> Bruno Mendes e Ricardo Lima (Digital Spirit) |
-          <span class="texto-verde">Legendas:</span> Karina Buzzi |
-          <span class="texto-verde">Motorista:</span> Luis 
+          <span class="texto-verde">3D Texturing:</span> Cleber Coutinho (Digital Spirit) |
+          <span class="texto-verde">3D Animation:</span> Rene Singer and Jonathan Edward (Digital Spirit) |
+          <span class="texto-verde">3D Lighting and Composition:</span> Cleber Coutinho (Digital Spirit) |
+          <span class="texto-verde">Production Assistants:</span> Bruno Mendes and Ricardo Lima (Digital Spirit) |
+          <span class="texto-verde">Subtitles:</span> Karina Buzzi |
+          <span class="texto-verde">Driver:</span> Luis 
           </p>
           <p>
-          <span class="texto-verde">Apoio:</span>
+          <span class="texto-verde">Support:</span>
           Tissot, Sanepar          
           </p>
         `,
@@ -1558,9 +1547,9 @@ const databaseEn = {
   {
     id: '23',
     url: 'monique-ao-sol',
-    titulo: 'MONIQUE AO SOL',
+    titulo: 'MONIQUE IN THE SUN',
     ano: 2011,
-    autor: 'WELLINGTON SARI',
+    autor: 'Dir: WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_banner1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/monique-ao-sol/moniqueaosol_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -1584,8 +1573,8 @@ const databaseEn = {
     ],
     patrocinadores: { src: '/imagens/filmes/monique-ao-sol/quadro-rpc_mecenato_banner.png', desc: '', titulo: 'titulo da imagem' },
 
-    participacao: 'Monique Rau e Wellington Sari.',
-    sinopse: 'Férias de inverno. Monique vai na praia com os pais. Sem amigos por perto, tenta arranjar algo pra fazer. Até que conhece um jovem na quadra de vôlei.',
+    participacao: 'Monique Rau and Wellington Sari.',
+    sinopse: 'Winter holidays. Monique goes to the beach with her parents. With no friends around, she tries to find something to do. Until she meets a young man at the volleyball court.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/oyjnPws1uIA',
@@ -1593,30 +1582,29 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Wellington Sari </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Alexandre Rafael Garcia </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Alexandre Rafael Garcia e Juliana Rodrigues </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa</p> 
-        <p><span class="texto-verde">Montagem:</span> Christopher Faust </p>
-        <p><span class="texto-verde">Som Direto:</span> Guilherme Cordova </p>
+        <p><span class="texto-verde">Direction and Screenplay:</span> Wellington Sari </p>
+        <p><span class="texto-verde">Executive Production:</span> Alexandre Rafael Garcia </p> 
+        <p><span class="texto-verde">Production Management:</span> Alexandre Rafael Garcia and Juliana Rodrigues </p> 
+        <p><span class="texto-verde">Cinematography:</span> Renata Corrêa</p> 
+        <p><span class="texto-verde">Editing:</span> Christopher Faust </p>
+        <p><span class="texto-verde">Direct Sound:</span> Guilherme Cordova </p>
         </p>
         <p>
-        Projeto realizado como TCC do curso de Cinema e Vídeo da Faculdade de Artes do Paraná.
-        </p>
+        Project developed as the Final Graduation Project of the Film and Video course at the Paraná Arts College.        </p>
         `,
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Figuração:</span> Aline de Lima </p>
+          <p><span class="texto-verde">Extras:</span> Aline de Lima </p>
 
-          <p><span class="texto-verde">Assistente De Direção:</span> Christopher Faust |         
-          <span class="texto-verde">Figurino:</span> Monique Rau |
-          <span class="texto-verde">Edição de Som:</span> Christopher Faust e Wellington Sari |
-          <span class="texto-verde">Supervisão ADR:</span> Renan Deodato |
-          <span class="texto-verde">Design Gráfico:</span> Melina Correia 
+          <p><span class="texto-verde">Assistant Director:</span> Christopher Faust |         
+          <span class="texto-verde">Costume Design:</span> Monique Rau |
+          <span class="texto-verde">Sound Editing:</span> Christopher Faust and Wellington Sari |
+          <span class="texto-verde">ADR Supervisor:</span> Renan Deodato |
+          <span class="texto-verde">Graphic Design:</span> Melina Correia 
           </p>
           <p>
-          <span class="texto-verde">Apoio:</span>
+          <span class="texto-verde">Support:</span>
           CINETVPR, WG7          
           </p>
         `,
@@ -1626,9 +1614,9 @@ const databaseEn = {
   {
     id: '24',
     url: 'o-ultimo-dia',
-    titulo: 'O ÚLTIMO DIA',
+    titulo: 'THE LAST DAY',
     ano: 2010,
-    autor: 'CHRISTOPHER FAUST',
+    autor: 'Dir: CHRISTOPHER FAUST',
     imgIcone: { src: '/imagens/filmes/o-ultimo-dia/oultimodia_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/o-ultimo-dia/oultimodia_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/o-ultimo-dia/oultimodia_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -1645,7 +1633,7 @@ const databaseEn = {
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Evandro Scorsin, Alexandre Canetta, Leandro Rocha, Monique Rau.',
-    sinopse: 'Toni irá se mudar. Decide passar seu último dia na cidade bebendo com os amigos de infância.',
+    sinopse: 'Toni will soon move to another city. He decides to spend his last day in town drinking with his childhood friends.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/kPqxwq8xqvM',
@@ -1653,18 +1641,18 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `
-        <p><span class="texto-verde">Direção e roteiro:</span> Christopher Faust </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Christopher Faust e Wellington Sari </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa</p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Christopher Faust </p>
-        <p><span class="texto-verde">Montagem:</span> Diego Florentino </p> 
-        <p><span class="texto-verde">Som Direto:</span> Wellington Sari e Rodrigo Janiszewski </p>
+        <p><span class="texto-verde">Direction and Screenplay:</span> Christopher Faust </p>
+        <p><span class="texto-verde">Executive Production:</span> Christopher Faust and Wellington Sari </p> 
+        <p><span class="texto-verde">Cinematography:</span> Renata Corrêa</p> 
+        <p><span class="texto-verde">Art Direction:</span> Christopher Faust </p>
+        <p><span class="texto-verde">Editing:</span> Diego Florentino </p> 
+        <p><span class="texto-verde">Direct Sound:</span> Wellington Sari and Rodrigo Janiszewski </p>
         `,
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Claquete:</span> Karina de Souza |         
-          <span class="texto-verde">Produção:</span> Alexandre Rafael Garcia 
+          <p><span class="texto-verde">Clapperboard:</span> Karina de Souza |         
+          <span class="texto-verde">Production:</span> Alexandre Rafael Garcia 
           </p>
         `,
       },
@@ -1673,9 +1661,9 @@ const databaseEn = {
   {
     id: '25',
     url: 'olhares',
-    titulo: 'OLHARES',
+    titulo: 'LOOKS',
     ano: 2010,
-    autor: 'EVANDRO SCORSIN',
+    autor: 'Dir: EVANDRO SCORSIN',
     imgIcone: { src: '/imagens/filmes/olhares/olhares_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/olhares/olhares_banner1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/olhares/olhares_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -1692,7 +1680,7 @@ const databaseEn = {
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Gabriel Boso Alves, Anídria Stadler, Eloi Vieira Magalhães, Therezinha Alves Postui.',
-    sinopse: 'Junior, um garoto de oito anos, encontra um retrato de uma família feliz no pátio de sua escola. Após isso, passa a buscar sorrisos no seu cotidiano.',
+    sinopse: 'Junior, an eight-year-old boy, finds a portrait of a happy family in his schoolyard and starts to look for smiles in his daily life.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/FwqQDucxM3U',
@@ -1700,28 +1688,29 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção, Roteiro e Produção Executiva:</span> Evandro Scorsin </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Pedro Henrique de Mello </p> 
-        <p><span class="texto-verde">Direção De Produção e Produção Executiva:</span> Anderson Simão </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Daniel Rodriguez </p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Alex Rocca </p> 
-        <p><span class="texto-verde">Montagem:</span> João Krefer </p>
-        <p><span class="texto-verde">Edição De Som E Mixagem:</span> Vinicius Nisi </p>
+        <p><span class="texto-verde">Direction, Screenplay, and Executive Production:</span> Evandro Scorsin </p>
+        <p><span class="texto-verde">Executive Production:</span> Pedro Henrique de Mello </p> 
+        <p><span class="texto-verde">Production Management and Executive Production:</span> Anderson Simão </p> 
+        <p><span class="texto-verde">Cinematography:</span> Daniel Rodriguez </p> 
+        <p><span class="texto-verde">Art Direction:</span> Alex Rocca </p> 
+        <p><span class="texto-verde">Editing:</span> João Krefer </p>
+        <p><span class="texto-verde">Sound Editing and Mixing:</span> Vinicius Nisi </p>
         </p>
         `,
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Assistente De Direção:</span> Pedro Henrique Mello |         
-          <span class="texto-verde">Assistente De Produção e Arte Gráfica:</span> Rudolfo Auffinger |
-          <span class="texto-verde">Assistente de Arte e Still:</span> Ana Paula Málaga |
+          <p><span class="texto-verde">Assistant Director:</span> Pedro Henrique Mello |         
+          <span class="texto-verde">Production Assistant and Graphic Art:</span> Rudolfo Auffinger |
+          <span class="texto-verde">Art Assistant and Still:</span> Ana Paula Málaga |
           <span class="texto-verde">Still:</span> Daniel Florencio |
-          <span class="texto-verde">Figurino e Maquiagem:</span> Daiane Scorsin | 
-          <span class="texto-verde">Operadora De Câmera:</span> Hellen Braga | 
-          <span class="texto-verde">1º Assistente de Fotografia:</span> André Senna | André Senna Eduardo Belik 
-          <span class="texto-verde">Elétrica:</span> Max Olsen | 
-          <span class="texto-verde">Som Direto:</span> Rodrigo Janiszewski | 
-          <span class="texto-verde">Produção de Elenco:</span> Clariana Borzone e Thiago Moreno 
+          <span class="texto-verde">Costume and Makeup:</span> Daiane Scorsin | 
+          <span class="texto-verde">Camera Operator:</span> Hellen Braga | 
+          <span class="texto-verde">First Photography Assistant:</span> André Senna |
+          <span class="texto-verde">First and Second Photography Assistant:</span> Eduardo Belik | 
+          <span class="texto-verde">Electrician:</span> Max Olsen | 
+          <span class="texto-verde">Direct Sound:</span> Rodrigo Janiszewski | 
+          <span class="texto-verde">Cast Production:</span> Clariana Borzone and Thiago Moreno 
           </p>
         `,
       },
@@ -1730,9 +1719,9 @@ const databaseEn = {
   {
     id: '26',
     url: 'parabens-pra-vc',
-    titulo: 'PARABÉNS PRA VC',
+    titulo: 'HAPPY BIRTHDAY TO U',
     ano: 2011,
-    autor: 'ANDERSON SIMÃO',
+    autor: 'Dir: ANDERSON SIMÃO',
     imgIcone: { src: '/imagens/filmes/parabens-pra-vc/parabenspravc_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/parabens-pra-vc/parabenspravc_banner2.png', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/parabens-pra-vc/parabenspravc_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -1748,8 +1737,8 @@ const databaseEn = {
     ],
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
-    participacao: 'Isabela Zanotim Da Silva, Aline Vanessa Santoro e Daniele Zanotin da Silva.',
-    sinopse: 'É o dia do aniversário de Isabela. Ela planeja ter um dia legal com suas amigas e com sua família.',
+    participacao: 'Isabela Zanotim Da Silva, Aline Vanessa Santoro and Daniele Zanotin da Silva.',
+    sinopse: `It's Isabela's birthday. She plans on having a good day with her friends and her family.`,
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/KENeqiZsics',
@@ -1757,21 +1746,20 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `
-        <p><span class="texto-verde">Direção e roteiro:</span> Anderson Simão </p>
-        <p><span class="texto-verde">Produção:</span> Anderson Simão, Evandro Scorsin, Juliana Rodrigues, Nuno Chinaglia Poli </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Juliana Rodrigues </p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Juliana Rodrigues </p> 
-        <p><span class="texto-verde">Montagem:</span> Tomás von der Osten </p>
-        <p><span class="texto-verde">Som Direto:</span> Evandro Scorsin, Nuno Chinaglia Poli </p> 
-        <p><span class="texto-verde">Edição De Som:</span> Nuno Chinaglia Poli </p>
+        <p><span class="texto-verde">Direction and Screenplay:</span> Anderson Simão </p>
+        <p><span class="texto-verde">Production:</span> Anderson Simão, Evandro Scorsin, Juliana Rodrigues, Nuno Chinaglia Poli </p> 
+        <p><span class="texto-verde">Cinematography:</span> Juliana Rodrigues </p> 
+        <p><span class="texto-verde">Art Direction:</span> Juliana Rodrigues </p> 
+        <p><span class="texto-verde">Editing:</span> Tomás von der Osten </p>
+        <p><span class="texto-verde">Direct Sound:</span> Evandro Scorsin, Nuno Chinaglia Poli </p> 
+        <p><span class="texto-verde">Sound Editing:</span> Nuno Chinaglia Poli </p>
         <p>
-        Projeto realizado como TCC do curso de Cinema e Vídeo da Faculdade de Artes do Paraná.
-        </p>
+        Project developed as the Final Graduation Project of the Cinema and Video course at the Paraná Arts College.        </p>
         `,
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Apoio:</span> Colégio Estadual Leoncio Correia, Colégio Estadual Prof. Loureiro Fernandes </p>
+          <p><span class="texto-verde">Support:</span> State School Leoncio Correia, State School Prof. Loureiro Fernandes </p>
         `,
       },
     },
@@ -1779,9 +1767,9 @@ const databaseEn = {
   {
     id: '27',
     url: 'paranoia-doce',
-    titulo: 'PARANOIA DOCE',
+    titulo: 'SWEET PARANOIA',
     ano: 2018,
-    autor: 'EVANDRO SCORSIN',
+    autor: 'Dir: EVANDRO SCORSIN',
     imgIcone: { src: '/imagens/filmes/paranoia-doce/paranoiadoce_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/paranoia-doce/paranoiadoce_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/paranoia-doce/paranoiadoce_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -1805,8 +1793,8 @@ const databaseEn = {
     ],
     patrocinadores: { src: '/imagens/filmes/paranoia-doce/paranoiadoce_creditos_banner.png', desc: '', titulo: 'titulo da imagem' },
 
-    participacao: 'Gustavo Piaskoski, Letícia Roza, Isa Rocco, Daniel Alexs e Daniel Martins.',
-    sinopse: 'Quatro jovens viajam para uma cidade litorânea buscando diversão. Após uma noite de bebedeira, jogos e pegação, desejamos uma gosma rosada e viscosa, que inexplicavelmente os seduz. O clima de curtição acaba, e um a um os jovens começar a morrer.',
+    participacao: 'Gustavo Piaskoski, Letícia Roza, Isa Rocco, Daniel Alexs and Daniel Martins.',
+    sinopse: 'Four young people travel to a seaside town looking for fun. After a night of drunkenness, funny games, and fooling around, they discover a pink and viscous goo that inexplicably seduces them. The fun mood is over, and one by one they begin to die.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://vimeo.com/356583258',
@@ -1814,59 +1802,58 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Evandro Scorsin </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Anderson Simão </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Wellington Sari </p>
-        <p><span class="texto-verde">Direção De Fotografia:</span> André Senna </p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Alex Rocca </p> 
-        <p><span class="texto-verde">Montagem:</span> Christopher Faust </p>
-        <p><span class="texto-verde">Som Direto:</span> Bruno Ito </p> 
-        <p><span class="texto-verde">Trilha Sonora:</span> Felipe Ayres </p>
-        <p><span class="texto-verde">Finalização De Som:</span> Alexandre Rogoski </p>
+        <p><span class="texto-verde">Direction and Screenplay:</span> Evandro Scorsin </p>
+        <p><span class="texto-verde">Executive Production:</span> Anderson Simão </p> 
+        <p><span class="texto-verde">Production Management:</span> Wellington Sari </p>
+        <p><span class="texto-verde">Cinematography:</span> André Senna </p> 
+        <p><span class="texto-verde">Art Direction:</span> Alex Rocca </p> 
+        <p><span class="texto-verde">Editing:</span> Christopher Faust </p>
+        <p><span class="texto-verde">Direct Sound:</span> Bruno Ito </p> 
+        <p><span class="texto-verde">Soundtrack:</span> Felipe Ayres </p>
+        <p><span class="texto-verde">Sound Post-Production:</span> Alexandre Rogoski </p>
         </p>
         <p>
-        Projeto realizado com o apoio do Estado do Paraná, Secretaria de Cultura do Paraná, Profice - Programa Estadual de Fomento e Incentivo à Cultura do Paraná, com incentivo da Copel. Gravado na cidade de Antonina / PR.
-        </p>
+        Project developed with the support of the State of Paraná, Secretariat of Culture of Paraná, Profice - Paraná State Program for the Promotion and Incentive of Culture of Paraná, with support from Copel. Recorded in the city of Antonina / PR.        </p>
         `,
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Figuração:</span> Edison Gonçalves Corrêa Junior, Guilherme Moreira da Silva, Jamile De Fátima Moreira Teixeira, Laila Milcharski Gonçalves </p>
-          <p><span class="texto-verde">Operação de Câmera:</span> Rosano Mauro Jr |         
-          <span class="texto-verde">Assistente de câmera:</span> André Senna |
-          <span class="texto-verde">Elétrica e assistência de fotografia:</span> Murilo Lazarin |
-          <span class="texto-verde">Auxiliar Elétrico:</span> Danilo Custódio |
-          <span class="texto-verde">Figurino:</span> Morgana Horst | 
-          <span class="texto-verde">Produção de objetos e assistência de arte:</span> Debora Padial | 
-          <span class="texto-verde">Maquiagem de efeito:</span> Andrea Tristão |
-          <span class="texto-verde">Assistente de maquiagem:</span> Alexsandra Steibel | 
+          <p><span class="texto-verde">Extras:</span> Edison Gonçalves Corrêa Junior, Guilherme Moreira da Silva, Jamile De Fátima Moreira Teixeira, Laila Milcharski Gonçalves </p>
+          <p><span class="texto-verde">Camera operator:</span> Rosano Mauro Jr |         
+          <span class="texto-verde">Assistant Camera:</span> André Senna |
+          <span class="texto-verde">Electrician and photography Assistant:</span> Murilo Lazarin |
+          <span class="texto-verde">Assistant Electrician:</span> Danilo Custódio |
+          <span class="texto-verde">Costume Design:</span> Morgana Horst | 
+          <span class="texto-verde">Object Production and Art Assistance:</span> Debora Padial | 
+          <span class="texto-verde">Effects Makeup:</span> Andrea Tristão |
+          <span class="texto-verde">Makeup Assistant:</span> Alexsandra Steibel | 
           <span class="texto-verde">Still:</span> Wellington Sari | 
-          <span class="texto-verde">Design gráfico:</span> Melina Correia |
-          <span class="texto-verde">Produtor local:</span> Kahito Borcath Jucoski |
-          <span class="texto-verde">Captação de recursos:</span> Carol Roehrig |
-          <span class="texto-verde">Estúdio de pós-produção de som:</span> Off-Beat Audio |
-          <span class="texto-verde">Edição de diálogo:</span> Samuel Jacintho | 
-          <span class="texto-verde">Gravação de ADR:</span> Bruno Ito e Samuel Jacintho | 
-          <span class="texto-verde">Artista Foley:</span> Roger “Hands” Castro |
-          <span class="texto-verde">Gravação de foley:</span> Yuri Grigoletti | 
-          <span class="texto-verde">Edição de foley:</span> Adriano Elias | 
-          <span class="texto-verde">Edição de efeitos sonoros:</span> Bruno Ito, Yuri Grigoletti e Alexandre Rogoski |
-          <span class="texto-verde">Correção de cor:</span> Guilherme Delamuta |
+          <span class="texto-verde">Graphic Design:</span> Melina Correia |
+          <span class="texto-verde">Local Producer:</span> Kahito Borcath Jucoski |
+          <span class="texto-verde">Fundraising:</span> Carol Roehrig |
+          <span class="texto-verde">Post Production Sound Studio:</span> Off-Beat Audio |
+          <span class="texto-verde">Dialogue Editing:</span> Samuel Jacintho | 
+          <span class="texto-verde">ADR Recording:</span> Bruno Ito and Samuel Jacintho | 
+          <span class="texto-verde">Foley Artist:</span> Roger “Hands” Castro |
+          <span class="texto-verde">Foley Recording:</span> Yuri Grigoletti | 
+          <span class="texto-verde">Foley Editing:</span> Adriano Elias | 
+          <span class="texto-verde">Sound Effects Editing:</span> Bruno Ito, Yuri Grigoletti and Alexandre Rogoski |
+          <span class="texto-verde">Color Correction:</span> Guilherme Delamuta |
           <span class="texto-verde">Logger:</span> Hvgo Henrique |
-          <span class="texto-verde">Tradução e legendas:</span> ETC Fimes |
-          <span class="texto-verde">Versão inglês:</span> Marcelo Gouvêa | 
-          <span class="texto-verde">Versão espanhol:</span> Bruno Freitas | 
-          <span class="texto-verde">Revisão de legendas:</span> Cinthia Alencar |
-          <span class="texto-verde">Conteúdo de acessibilidade:</span> Filmes ETC | 
-          <span class="texto-verde">Legenda descritiva:</span> Célia Medeiros | 
-          <span class="texto-verde">Roteiro de audiodescrição:</span> Paula Lousada |
-          <span class="texto-verde">Locução de audiodescrição:</span> Thonny Cavaglieri |
-          <span class="texto-verde">Técnico de audiodescrição:</span> Mariana Sabini |
-          <span class="texto-verde">Consultor cego:</span> Edgard Jacques |
-          <span class="texto-verde">Revisão de acessibilidade:</span> Gabriela Flores |
-          <span class="texto-verde">Direção de acessibilidade:</span> Thais Ortega
+          <span class="texto-verde">Translation and Subtitles:</span> ETC Fimes |
+          <span class="texto-verde">English Version:</span> Marcelo Gouvêa | 
+          <span class="texto-verde">Spanish Version:</span> Bruno Freitas | 
+          <span class="texto-verde">Subtitle Proofreading:</span> Cinthia Alencar |
+          <span class="texto-verde">Accessibility Content:</span> Filmes ETC | 
+          <span class="texto-verde">Descriptive Subtitles:</span> Célia Medeiros | 
+          <span class="texto-verde">Audio Description Script:</span> Paula Lousada |
+          <span class="texto-verde">Audio Description Narration:</span> Thonny Cavaglieri |
+          <span class="texto-verde">Audio Description Technician:</span> Mariana Sabini |
+          <span class="texto-verde">Blind Consultant:</span> Edgard Jacques |
+          <span class="texto-verde">Accessibility Review:</span> Gabriela Flores |
+          <span class="texto-verde">Accessibility Direction: </span> Thais Ortega
           </p>
-          <p><span class="texto-verde">Apoio:</span> Camboa Hotéis, Hollywood Film Academy, BackBros, Videoloc </p>
+          <p><span class="texto-verde">Support:</span> Camboa Hotéis, Hollywood Film Academy, BackBros, Videoloc </p>
 
         `,
       },
@@ -1875,9 +1862,9 @@ const databaseEn = {
   {
     id: '28',
     url: 'pequenos',
-    titulo: 'PEQUENOS',
+    titulo: 'LITTLE ONES',
     ano: 2012,
-    autor: 'ALEXANDRE RAFAEL GARCIA',
+    autor: 'Dir: ALEXANDRE RAFAEL GARCIA',
     imgIcone: { src: '/imagens/filmes/pequenos/pequenos_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/pequenos/pequenos_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/pequenos/pequenos_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -1901,8 +1888,8 @@ const databaseEn = {
     ],
     patrocinadores: { src: '/imagens/filmes/pequenos/cultura-inglesa_banner.png', desc: '', titulo: 'titulo da imagem' },
 
-    participacao: 'Lucas Gabriel, Julia Yara, Augusto Cerqueira, Ana Henriqueta, Anderson Da Silva, Daniel Miqueias, Lucas Vicenzo e Luiz Godói.',
-    sinopse: 'Férias de verão e o menino Lucas se diverte com seus amigos no bairro onde moram. Cada dia que passa, ele se aproxima mais de Ana.',
+    participacao: 'Lucas Gabriel, Julia Yara, Augusto Cerqueira, Ana Henriqueta, Anderson Da Silva, Daniel Miqueias, Lucas Vicenzo and Luiz Godói.',
+    sinopse: `It's summer vacation and Lucas has fun with his friends in the neighborhood where they live. Every day he gets closer to Ana.`,
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/0P-LSouzEOM',
@@ -1910,36 +1897,36 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Alexandre Rafael Garcia </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Anderson Simão </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Evandro Scorsin, Wellington Sari </p>
-        <p><span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa </p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Ana Deliberador </p> 
-        <p><span class="texto-verde">Montagem:</span> Christopher Faust </p>
-        <p><span class="texto-verde">Som Direto e Desenho de Som:</span>  Alexandre Rogoski </p> 
+        <p><span class="texto-verde">Direction and Screenplay:</span> Alexandre Rafael Garcia </p>
+        <p><span class="texto-verde">Executive Production:</span> Anderson Simão </p> 
+        <p><span class="texto-verde">Production Management:</span> Evandro Scorsin, Wellington Sari </p>
+        <p><span class="texto-verde">Cinematography:</span> Renata Corrêa </p> 
+        <p><span class="texto-verde">Art Direction:</span> Ana Deliberador </p> 
+        <p><span class="texto-verde">Editing:</span> Christopher Faust </p>
+        <p><span class="texto-verde">Som Direto and Sound Design:</span>  Alexandre Rogoski </p> 
         </p>
         <p>
-        Projeto realizado através do edital 16º Cultura Inglesa Festival na categoria “Cinema”.
+        Project developed through the public notice of the 16th Cultura Inglesa Festival in the “Cinema” category. 
         </p>
         `,
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Colaboração no roteiro:</span> Wellington Sari |         
-          <span class="texto-verde">Assistente de direção:</span> Evandro Scorsin |
-          <span class="texto-verde">Assistente de produção:</span> Marianna Helena |
-          <span class="texto-verde">Assistente de fotografia:</span> Daniel Florêncio |
-          <span class="texto-verde">Assistente de arte:</span> Felipe Potenza | 
-          <span class="texto-verde">Assistente de montagem:</span> Guilherme Delamuta | 
-          <span class="texto-verde">Assistente de som direto e finalização de som:</span> Samuel Jacintho |
-          <span class="texto-verde">elétrica:</span> Leandro Telles | 
-          <span class="texto-verde">sincronização e legendas inglês e espanhol: </span> Clariana Borzone | 
-          <span class="texto-verde">legendas italiano:</span> Massimo Stulfa |
+          <p><span class="texto-verde">Screenplay Collaboration:</span> Wellington Sari |         
+          <span class="texto-verde">Assistant Director:</span> Evandro Scorsin |
+          <span class="texto-verde">Production Assistant:</span> Marianna Helena |
+          <span class="texto-verde">Photography Assistant:</span> Daniel Florêncio |
+          <span class="texto-verde">Assistant Art Director:</span> Felipe Potenza | 
+          <span class="texto-verde">Editing Assistant:</span> Guilherme Delamuta | 
+          <span class="texto-verde">Direct Sound Assistant and Sound Post Production:</span> Samuel Jacintho |
+          <span class="texto-verde">Electrician:</span> Leandro Telles | 
+          <span class="texto-verde"> English and Spanish Subtitles and Sync: </span> Clariana Borzone | 
+          <span class="texto-verde">Italian Subtitles:</span> Massimo Stulfa |
           <span class="texto-verde">Still:</span> Tomás von der Osten |
-          <span class="texto-verde">pós-produção de imagem:</span> Everton Sebben |
-          <span class="texto-verde">design gráfico:</span>  Fábio Rrocha 
+          <span class="texto-verde">Image Post Production:</span> Everton Sebben |
+          <span class="texto-verde">Graphic Design:</span>  Fábio Rrocha 
           </p>
-          <p><span class="texto-verde">Apoio:</span> 
+          <p><span class="texto-verde">Support:</span> 
           Cini, Família Sfiha, Padaria América, Sanepar          
           </p>
 
@@ -1952,7 +1939,7 @@ const databaseEn = {
     url: 'raceland',
     titulo: 'RACELAND',
     ano: 2017,
-    autor: 'WELLINGTON SARI',
+    autor: 'Dir: WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/raceland/raceland_still1.png', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/raceland/raceland_banner1.png', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/raceland/raceland_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -1970,7 +1957,7 @@ const databaseEn = {
     patrocinadores: { src: '/imagens/filmes/pequenos/cultura-inglesa_banner.png', desc: '', titulo: 'titulo da imagem' },
 
     participacao: '',
-    sinopse: 'O automobilismo como forma de superar a morte, ao vivo no vídeo. As tecnologias antigas desaparecem, mas algo permanece. Dois homens disputam uma corrida. Uma homenagem a Ayrton Senna.',
+    sinopse: 'Motorsports as a way to overcome death, live on video. Old technologies fade away, but something remains. Two men compete in a race. A tribute to Ayrton Senna.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/VX__e7nkIZw',
@@ -1978,21 +1965,20 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Wellington Sari </p>
-        <p><span class="texto-verde">Produção:</span> Anderson Simão e Christopher Faust </p> 
-        <p><span class="texto-verde">Direção De Fotografia:</span> Evandro Scorsin </p> 
-        <p><span class="texto-verde">Fotografia Adicional:</span> Wellington Sari </p>
-        <p><span class="texto-verde">Assistente de Direção:</span> Bruna Dal Vesco </p>  
+        <p><span class="texto-verde">Direction and Screenplay:</span> Wellington Sari </p>
+        <p><span class="texto-verde">Production:</span> Anderson Simão and Christopher Faust </p> 
+        <p><span class="texto-verde">Cinematography:</span> Evandro Scorsin </p> 
+        <p><span class="texto-verde">Additional Photography:</span> Wellington Sari </p>
+        <p><span class="texto-verde">Assistant Director:</span> Bruna Dal Vesco </p>  
         </p>
         <p>
-        Projeto realizado para a Oficina Tomada Única, ofertada pelo 12º Curta Oito - Festival Internacional de Cinema Super8 de Curitiba.        
-        </p>
+        Project developed for the Single Take Workshop, offered by the 12th Curta Oito - International Super8 Film Festival of Curitiba.        </p>
         `,
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Assistente de Direção:</span> Bruna Dal Vesco </p>         
-          <p><span class="texto-verde">Agradecimentos:</span> Kartódromo Internacional Raceland, Pedro Merege </p>
+          <p><span class="texto-verde">Assistant Director:</span> Bruna Dal Vesco </p>         
+          <p><span class="texto-verde">Acknowledgements:</span> Kartódromo Internacional Raceland, Pedro Merege </p>
         `,
       },
     },
@@ -2000,9 +1986,9 @@ const databaseEn = {
   {
     id: '30',
     url: 'romance-edmottes',
-    titulo: 'ROMANCE EDMOTTÊS',
+    titulo: 'EDMOTTÊS ROMANCE',
     ano: 2010,
-    autor: 'WELLINGTON SARI',
+    autor: 'Dir: WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/romance-edmottes/romanceedmottes_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/romance-edmottes/romanceedmottes_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/romance-edmottes/romanceedmottes_cartaz_web.jpeg', desc: '', titulo: 'Titulo da Imagem' },
@@ -2027,7 +2013,7 @@ const databaseEn = {
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Arno Pruner, Viviane Oliveira, Sabine Villatore, Márcio Paes, Daniele Dorte, Wellington Sari, Vinícius Yurk.',
-    sinopse: 'Tino gosta de duas meninas. Uma delas é sua namorada.',
+    sinopse: 'Tino likes two girls. One of them is his girlfriend.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/T-7iLXqCaak',
@@ -2035,34 +2021,34 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção:</span> Wellington Sari </p> 
-        <p><span class="texto-verde">Roteiro:</span> Wellington Sari </p>
-        <p><span class="texto-verde">Produção Executiva:</span> Marisa Merlo, Wellington Sari </p> 
-        <p><span class="texto-verde">Direção De Produção:</span> Marisa Merlo, Bárbara Felice </p>
-        <p><span class="texto-verde">Direção De Fotografia:</span> Antônio Junior </p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Ana Paula Málaga </p>
-        <p><span class="texto-verde">Montagem:</span> Christopher Faust </p>
-        <p><span class="texto-verde">Som Direto:</span> Guilherme Cordova e Nikola Matevski </p>
-        <p><span class="texto-verde">Edição De Som:</span> Vinicius Nisi </p> 
+        <p><span class="texto-verde">Direction:</span> Wellington Sari </p> 
+        <p><span class="texto-verde">Screenplay:</span> Wellington Sari </p>
+        <p><span class="texto-verde">Executive Production:</span> Marisa Merlo, Wellington Sari </p> 
+        <p><span class="texto-verde">Production Management:</span> Marisa Merlo, Bárbara Felice </p>
+        <p><span class="texto-verde">Cinematography:</span> Antônio Junior </p> 
+        <p><span class="texto-verde">Art Direction:</span> Ana Paula Málaga </p>
+        <p><span class="texto-verde">Editing:</span> Christopher Faust </p>
+        <p><span class="texto-verde">Direct Sound:</span> Guilherme Cordova and Nikola Matevski </p>
+        <p><span class="texto-verde">Sound Editing:</span> Vinicius Nisi </p> 
         </p>
         `,
       },
       adicional: {
         __html: `
           <p>
-          <span class="texto-verde">Produção de elenco:</span> Arno Pruner |         
-          <span class="texto-verde">Assistente de produção:</span> Kahito Jucoski |
-          <span class="texto-verde">Assistente de direção:</span> Christopher Faust |
-          <span class="texto-verde">Assistente de fotografia:</span> Renata Corrêa |
-          <span class="texto-verde">Assistente de arte:</span> Alex Rocca |
-          <span class="texto-verde">Figurino:</span> Ana Paula Cardoso |
-          <span class="texto-verde">Pós-produção:</span> Nathália Okimoto |
-          <span class="texto-verde">Claquete e continuidade:</span> Karina de Souza |
-          <span class="texto-verde">Eletricista:</span> Max Olsen |
+          <span class="texto-verde">Cast Production:</span> Arno Pruner |         
+          <span class="texto-verde">Production Assistant:</span> Kahito Jucoski |
+          <span class="texto-verde">Assistant Director:</span> Christopher Faust |
+          <span class="texto-verde">Photography Assistant:</span> Renata Corrêa |
+          <span class="texto-verde">Assistant Art Director:</span> Alex Rocca |
+          <span class="texto-verde">Costume Design:</span> Ana Paula Cardoso |
+          <span class="texto-verde">Post Production:</span> Nathália Okimoto |
+          <span class="texto-verde">Clapperboard and Continuity:</span> Karina de Souza |
+          <span class="texto-verde">Electrician:</span> Max Olsen |
           <span class="texto-verde">Still:</span> Talitha Bodnar |
-          <span class="texto-verde">Design Gráfico:</span> Melina Correia
+          <span class="texto-verde">Graphic Design:</span> Melina Correia
           </p>
-          <p><span class="texto-verde">Apoio:</span>  
+          <p><span class="texto-verde">Support:</span>  
           CINETVPR, Família Sfiha, Padaria América, Sabor & Sabor
           </p>
           `,
@@ -2072,9 +2058,9 @@ const databaseEn = {
   {
     id: '31',
     url: 'sobrenatural',
-    titulo: 'SOBRENATURAL',
+    titulo: 'SUPERNATURAL',
     ano: 2012,
-    autor: 'ALEXANDRE RAFAEL GARCIA',
+    autor: 'Dir: ALEXANDRE RAFAEL GARCIA',
     imgIcone: { src: '/imagens/filmes/sobrenatural/sobrenatural_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/sobrenatural/sobrenatural_banner.png', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/sobrenatural/sobrenatural_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -2098,7 +2084,7 @@ const databaseEn = {
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Evandro Scorsin, Fran Lipinski, Wellington Sari.',
-    sinopse: 'Giovanni tem 20 anos, trabalha em uma videolocadora e torce para o Santos. Ele procura uma menina parecida com ele para se apaixonar. Até que conhece Nely.',
+    sinopse: 'Giovanni is 20 years old, works in a video store and roots for Santos FC. He’s searching for a girl that looks like him to fall in love with. Until he meets Nely.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/MS_fRvOZjMs',
@@ -2106,28 +2092,28 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção, roteiro e montagem:</span> Alexandre Rafael Garcia </p> 
-        <p><span class="texto-verde">Produção:</span> Alexandre Rafael Garcia, Anderson Simão, Christopher Faust, Evandro Scorsin, Wellington Sari </p>
-        <p><span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa </p> 
-        <p><span class="texto-verde">Direção De Arte:</span> Ana Deliberador </p>
-        <p><span class="texto-verde">Som Direto:</span> Nikola Matevski </p>
-        <p><span class="texto-verde">Finalização De Som:</span> Alexandre Rogoski </p> 
+        <p><span class="texto-verde">Direction, Screenplay, and Editing:</span> Alexandre Rafael Garcia </p> 
+        <p><span class="texto-verde">Production:</span> Alexandre Rafael Garcia, Anderson Simão, Christopher Faust, Evandro Scorsin, Wellington Sari </p>
+        <p><span class="texto-verde">Cinematography:</span> Renata Corrêa </p> 
+        <p><span class="texto-verde">Art Direction:</span> Ana Deliberador </p>
+        <p><span class="texto-verde">Direct Sound:</span> Nikola Matevski </p>
+        <p><span class="texto-verde">Sound Post-Production:</span> Alexandre Rogoski </p> 
         </p>
         <p>
-        Este filme faz parte do projeto "Filmes de Verão" 2012
+        This film is part of the project "Summer Films" 2012
         </p>
         `,
       },
       adicional: {
         __html: `
           <p>
-          <span class="texto-verde">Design Gráfico:</span> Fábio Rrocha |         
-          <span class="texto-verde">Assistente De Som Direto:</span> Anderson Simão |
-          <span class="texto-verde">Assistente de Edição de Som:</span> Samuel Jacintho |
-          <span class="texto-verde">Finalização de Imagem:</span> Guilherme Delamuta |
-          <span class="texto-verde">Tradução e Legendas:</span> Clariana Borzone 
+          <span class="texto-verde">Graphic Design:</span> Fábio Rrocha |         
+          <span class="texto-verde">Direct Sound Assistant:</span> Anderson Simão |
+          <span class="texto-verde">Sound Editing Assistant:</span> Samuel Jacintho |
+          <span class="texto-verde">Image Post-Production:</span> Guilherme Delamuta |
+          <span class="texto-verde">Translation and Subtitles:</span> Clariana Borzone 
           </p>
-          <p><span class="texto-verde">Apoio:</span>  
+          <p><span class="texto-verde">Support:</span>  
           Astro Videolocadora | Padaria América | Sanepar          
           </p>
           `,
@@ -2139,7 +2125,7 @@ const databaseEn = {
     url: 'super-blue',
     titulo: 'SUPER BLUE',
     ano: 2013,
-    autor: 'WELLINGTON SARI',
+    autor: 'Dir: WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/super-blue/superblue_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/super-blue/superblue_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/super-blue/superblue_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -2164,7 +2150,7 @@ const databaseEn = {
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Wellington Sari, Alana Ferri, Beatriz Oliveira, Evandro Scorsin.',
-    sinopse: 'De coração partido graças ao fim de um namoro, Giba caminha sem direção. Ao acaso, encontra seu amigo Conrado, que lhe apresenta Bia.',
+    sinopse: 'With a broken heart due to the end of a relationship, Giba wanders around. All of a sudden he meets his friend Conrado, who introduces him to Bia.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/QjM-y_J0cFo',
@@ -2172,34 +2158,34 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Wellington Sari </p> 
-        <p><span class="texto-verde">Produção:</span> Alexandre Rafael Garcia, Anderson Simão, Christopher Faust, Evandro Scorsin e Wellington Sari </p>
-        <p><span class="texto-verde">Direção De Fotografia:</span> Guilherme Delamuta </p> 
-        <p><span class="texto-verde">Montagem:</span> Christopher Faust </p>
-        <p><span class="texto-verde">Som Direto:</span> Tomás von der Osten </p>
-        <p><span class="texto-verde">Finalização De Som:</span> Tiago Bello </p> 
+        <p><span class="texto-verde">Direction and Screenplay:</span> Wellington Sari </p> 
+        <p><span class="texto-verde">Production:</span> Alexandre Rafael Garcia, Anderson Simão, Christopher Faust, Evandro Scorsin and Wellington Sari </p>
+        <p><span class="texto-verde">Cinematography:</span> Guilherme Delamuta </p> 
+        <p><span class="texto-verde">Editing:</span> Christopher Faust </p>
+        <p><span class="texto-verde">Direct Sound:</span> Tomás von der Osten </p>
+        <p><span class="texto-verde">Sound Post-Production:</span> Tiago Bello </p> 
         </p>
         <p>
-        Este filme faz parte do projeto "Filmes de Verão" 2013 
+        This film is part of the project "Summer Films" 2013 
         </p>
         `,
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Co-Produção:</span> Gogó Estúdio Sonoro</p>
+          <p><span class="texto-verde">Coproduction: </span> Gogó Estúdio Sonoro</p>
           <p>
-          <span class="texto-verde">Finalização de Imagem:</span> Guilherme Delamuta |         
-          <span class="texto-verde">Fotografia Adicional:</span> Renata Corrêa |
-          <span class="texto-verde">Som direto adicional:</span> Anderson Simão |
-          <span class="texto-verde">Artista de foley:</span> Marcos Lopes |
-          <span class="texto-verde">Assistente De Edição de Som:</span> Isabel Cardoso |
-          <span class="texto-verde">Estúdio de Mixagem:</span> Gogó Estúdio Sonoro |
-          <span class="texto-verde">Design Gráfico:</span> Melina Correia |
-          <span class="texto-verde">Assistente De Montagem:</span> Paula Negri |
-          <span class="texto-verde">Legendas Espanhol:</span> Graziela Braz |
-          <span class="texto-verde">Legendas Inglês:</span> Raquel Ribeiro 
+          <span class="texto-verde">Image Post-Production:</span> Guilherme Delamuta |         
+          <span class="texto-verde">Additional Photography:</span> Renata Corrêa |
+          <span class="texto-verde">Additional Direct Sound:</span> Anderson Simão |
+          <span class="texto-verde">Foley Artist:</span> Marcos Lopes |
+          <span class="texto-verde">Sound Editing Assistant:</span> Isabel Cardoso |
+          <span class="texto-verde">Mixing Studio:</span> Gogó Estúdio Sonoro |
+          <span class="texto-verde">Graphic Design:</span> Melina Correia |
+          <span class="texto-verde">Editing Assistant:</span> Paula Negri |
+          <span class="texto-verde">Spanish Subtitles:</span> Graziela Braz |
+          <span class="texto-verde">English Subtitles:</span> Raquel Ribeiro 
           </p>
-          <p><span class="texto-verde">Apoio:</span>  
+          <p><span class="texto-verde">Support:</span>  
           Aldeia do Beto, Bebidas Tissot, Família Sfiha, Sanepar          
           </p>
           `,
@@ -2211,7 +2197,7 @@ const databaseEn = {
     url: 'surf-surf',
     titulo: 'SURF SURF',
     ano: 2012,
-    autor: 'WELLINGTON SARI',
+    autor: 'Dir: WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/surf-surf/surfsurf_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/surf-surf/surfsurf_banner.png', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/surf-surf/surfsurf_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -2235,8 +2221,8 @@ const databaseEn = {
     ],
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
-    participacao: 'Monique Rau, Wellington Sari, Arno Pruner, Evandro Scorsin, Rodolfo Stancki e Paulo De Nadal.',
-    sinopse: 'Bruna quer ficar com André, antes que ele viaje para a praia. Depois de encontrá-lo, a jovem passa o resto do dia com o melhor amigo Jota.',
+    participacao: 'Monique Rau, Wellington Sari, Arno Pruner, Evandro Scorsin, Rodolfo Stancki and Paulo De Nadal.',
+    sinopse: 'Bruna wants to be with André before he travels to the beach. After finding him, the young woman spends the rest of the day with her best friend Jota.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/mVCSmkKa0as',
@@ -2244,31 +2230,31 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Wellington Sari </p> 
-        <p><span class="texto-verde">Produção:</span> Alexandre Rafael Garcia, Anderson Simão, Christopher Faust e Evandro Scorsin </p>
-        <p><span class="texto-verde">Direção De Fotografia:</span> Renata Corrêa </p> 
-        <p><span class="texto-verde">Montagem:</span> Christopher Faust </p>
-        <p><span class="texto-verde">Som Direto:</span> Tomás von der Osten </p>
-        <p><span class="texto-verde">Finalização De Imagem:</span> Guilherme Delamuta </p>
-        <p><span class="texto-verde">Finalização De Som:</span> Alexandre Rogoski </p> 
+        <p><span class="texto-verde">Direction and Screenplay:</span> Wellington Sari </p> 
+        <p><span class="texto-verde">Production:</span> Alexandre Rafael Garcia, Anderson Simão, Christopher Faust and Evandro Scorsin </p>
+        <p><span class="texto-verde">Cinematography:</span> Renata Corrêa </p> 
+        <p><span class="texto-verde">Editing:</span> Christopher Faust </p>
+        <p><span class="texto-verde">Direct Sound:</span> Tomás von der Osten </p>
+        <p><span class="texto-verde">Image Post-Production:</span> Guilherme Delamuta </p>
+        <p><span class="texto-verde">Sound Post-Production:</span> Alexandre Rogoski </p> 
         </p>
         <p>
-        Este filme faz parte do projeto "Filmes de Verão" 2012
+        This film is part of the project "Summer Films" 2012
         </p>
         `,
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Elenco de apoio:</span> Alexandre Rafael Garcia, Aline Angela, Bruna Mazanek, Ge Simões, Isabela Fausto, Izabela Milita, Júlia Simões, Juliana Rodrigues, Marcela Mancino, Sheila Gorski </p>
+          <p><span class="texto-verde">Supporting Cast:</span> Alexandre Rafael Garcia, Aline Angela, Bruna Mazanek, Ge Simões, Isabela Fausto, Izabela Milita, Júlia Simões, Juliana Rodrigues, Marcela Mancino, Sheila Gorski </p>
           <p>
-          <span class="texto-verde">Design Gráfico:</span> Melina Correia |         
-          <span class="texto-verde">Assistente De Direção:</span> Christopher Faust |
-          <span class="texto-verde">Assistente De Som Direto:</span> Anderson Simão |
-          <span class="texto-verde">Assistente De Montagem:</span> Guilherme Delamuta |
-          <span class="texto-verde">Assistente De Edição de Som:</span> Samuel Jacintho |
-          <span class="texto-verde">Tradução e Legendas:</span> Clariana Borzone
+          <span class="texto-verde">Graphic Design:</span> Melina Correia |         
+          <span class="texto-verde">Assistant Director:</span> Christopher Faust |
+          <span class="texto-verde">Direct Sound Assistant:</span> Anderson Simão |
+          <span class="texto-verde">Editing Assistant:</span> Guilherme Delamuta |
+          <span class="texto-verde">Sound Editing Assistant:</span> Samuel Jacintho |
+          <span class="texto-verde">Translation and Subtitles:</span> Clariana Borzone
           </p>
-          <p><span class="texto-verde">Apoio:</span>  
+          <p><span class="texto-verde">Support:</span>  
           Off-Beat Audio, Padaria América, Sanepar          
           </p>
           `,
@@ -2278,9 +2264,9 @@ const databaseEn = {
   {
     id: '34',
     url: 'terror-noturno',
-    titulo: 'TERROR NOTURNO',
+    titulo: 'NIGHT TERROR',
     ano: 2019,
-    autor: 'EVANDRO SCORSIN',
+    autor: 'Dir: EVANDRO SCORSIN',
     imgIcone: { src: '/imagens/filmes/terror-noturno/terrornoturno_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/terror-noturno/terrornoturno_banner.png', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/terror-noturno/terrornoturno_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -2304,8 +2290,8 @@ const databaseEn = {
     ],
     patrocinadores: { src: '/imagens/filmes/terror-noturno/terrornoturno_creditos_banner.png', desc: '', titulo: 'titulo da imagem' },
 
-    participacao: 'Gustavo Piaskoski e Marrara Mara.',
-    sinopse: 'Após uma festa com muita bebedeira e diversão, um casal desperta no dia seguinte sem qualquer recordação sobre os eventos da noite anterior. Quando encontram vestígios de um provável atropelamento no para-choque do carro, passam a acreditar que podem ter cometido um assassinato.',
+    participacao: 'Gustavo Piaskoski and Marrara Mara.',
+    sinopse: `After an ecstatic drunken party, a couple wakes up without any recollection of the events of the previous night. When they find traces of a possible hit and run on the car's bumper, they come to believe they may have committed murder.`,
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://vimeo.com/356585839',
@@ -2313,45 +2299,44 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Evandro Scorsin </p> 
-        <p><span class="texto-verde">Produção Executiva:</span> Anderson Simão </p>
-        <p><span class="texto-verde">Direção De Produção:</span> Wellington Sari </p>
-        <p><span class="texto-verde">Direção De Fotografia:</span> André Senna </p>
-        <p><span class="texto-verde">Arte, Figurino e Maquiagem:</span> Morgana Horst </p>
-        <p><span class="texto-verde">Montagem:</span> Christopher Faust </p>
-        <p><span class="texto-verde">Finalização de Som:</span> Vitor Coroa e Vitor Moraes </p>
-        <p><span class="texto-verde">Trilha Sonora:</span> Felipe Ayres </p>
-        <p><span class="texto-verde">Coordenação:</span> Gustavo Duarte </p> 
-        <p><span class="texto-verde">Co-Produção:</span> House Films </p>
+        <p><span class="texto-verde">Direction and Screenplay:</span> Evandro Scorsin </p> 
+        <p><span class="texto-verde">Executive Production:</span> Anderson Simão </p>
+        <p><span class="texto-verde">Production Management:</span> Wellington Sari </p>
+        <p><span class="texto-verde">Cinematography:</span> André Senna </p>
+        <p><span class="texto-verde">Art, Costume, and Makeup:</span> Morgana Horst </p>
+        <p><span class="texto-verde">Editing:</span> Christopher Faust </p>
+        <p><span class="texto-verde">Sound Post-Production:</span> Vitor Coroa and Vitor Moraes </p>
+        <p><span class="texto-verde">Soundtrack:</span> Felipe Ayres </p>
+        <p><span class="texto-verde">Coordinator:</span> Gustavo Duarte </p> 
+        <p><span class="texto-verde">Co-Production Company:</span> House Films </p>
         </p>
         <p>
-        Projeto realizado com o apoio da Fundação Cultural de Curitiba, através de edital do Fundo Municipal da Cultura em parceria com o Fundo Setorial do Audiovisual.
-        </p>
+        Project developed with the support of the Cultural Foundation of Curitiba, through a public notice of the Municipal Culture Fund in partnership with the Audiovisual Sector Fund.        </p>
         `,
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Elenco de apoio:</span> Martha Chapieski e Altamar Cezar </p>
+          <p><span class="texto-verde">Supporting Cast:</span> Martha Chapieski and Altamar Cezar </p>
           <p>
-          <span class="texto-verde">Operador de Câmera:</span> André Senna |         
-          <span class="texto-verde">Assistente de câmera:</span> Murillo Marchesi |
-          <span class="texto-verde">Assistente de fotografia:</span> Bianca Ono |
-          <span class="texto-verde">Elétrica:</span> Murilo Lazarin |
-          <span class="texto-verde">Correção de cor:</span> Lucas Machado |
-          <span class="texto-verde">Estúdio de correção de cor:</span> House Films |
-          <span class="texto-verde">Logger e assistente de direção:</span> Christopher Faust |
-          <span class="texto-verde">Som direto:</span> Anderson Simão |
-          <span class="texto-verde">Edição de som:</span> Rodrigo Sacic, Vitor Coroa e Vitor Moraes |
+          <span class="texto-verde">Camera Operator:</span> André Senna |         
+          <span class="texto-verde">Assistant Camera:</span> Murillo Marchesi |
+          <span class="texto-verde">Photography Assistant:</span> Bianca Ono |
+          <span class="texto-verde">Electrician:</span> Murilo Lazarin |
+          <span class="texto-verde">Color Correction: </span> Lucas Machado |
+          <span class="texto-verde">Color Correction Studio: </span> House Films |
+          <span class="texto-verde">Logger and Assistant Director:</span> Christopher Faust |
+          <span class="texto-verde">Direct Sound:</span> Anderson Simão |
+          <span class="texto-verde">Sound Editing:</span> Rodrigo Sacic, Vitor Coroa and Vitor Moraes |
           <span class="texto-verde">Foley:</span> Vitor Moraes |
-          <span class="texto-verde">Dublagem:</span> Luiz Lepchak |
-          <span class="texto-verde">Estúdio de mixagem:</span> Estúdio Desterro |
-          <span class="texto-verde">Designer gráfico:</span> Pietro Luigi |
-          <span class="texto-verde">Acessibilidade:</span> Etc Filmes |
-          <span class="texto-verde">Traduções:</span> Ó Editorial - Traduções e Edições |
-          <span class="texto-verde">Sincronização português e tradução inglês:</span> Paulo Scarpa |
-          <span class="texto-verde">Tradução espanhol:</span> Niala Pessuto
+          <span class="texto-verde">Dubbing:</span> Luiz Lepchak |
+          <span class="texto-verde">Mixing Studio:</span> Estúdio Desterro |
+          <span class="texto-verde">Graphic Designer:</span> Pietro Luigi |
+          <span class="texto-verde">Accessibility:</span> Etc Filmes |
+          <span class="texto-verde">Translations:</span> Ó Editorial - Traduções and Edições |
+          <span class="texto-verde">Portuguese Sync and English Translation:</span> Paulo Scarpa |
+          <span class="texto-verde">Spanish Translation:</span> Niala Pessuto
           </p>
-          <p><span class="texto-verde">Apoio:</span>  
+          <p><span class="texto-verde">Support:</span>  
           Backbros, Lamenic Cinefotographia          
           </p>
           `,
@@ -2361,9 +2346,9 @@ const databaseEn = {
   {
     id: '35',
     url: 'tudo-bem',
-    titulo: 'TUDO BEM',
+    titulo: 'IT’S ALRIGHT',
     ano: 2012,
-    autor: 'CHRISTOPHER FAUST',
+    autor: 'Dir: CHRISTOPHER FAUST',
     imgIcone: { src: '/imagens/filmes/tudo-bem/tudobem_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/tudo-bem/tudobem_banner.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/tudo-bem/tudobem_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -2381,7 +2366,7 @@ const databaseEn = {
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Ailen Scandurra, Ana Azevedo, Evandro Scorsin, Ana Paula Málaga, Tomás von der Osten.',
-    sinopse: 'Camila terminou seu namoro. Divide agora seu tempo entre baladas, amigas e seu cachorro.',
+    sinopse: 'Camila broke up recently. Now she splits her time between going out, girlfriends, and her dog.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://vimeo.com/356585839',
@@ -2389,20 +2374,19 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `
-        <p><span class="texto-verde">Direção, roteiro, produção executiva e montagem:</span> Christopher Faust </p> 
-        <p><span class="texto-verde">Produção e Direção de Arte:</span> Ana Paula Câmara e Caroline Biagi </p>
-        <p><span class="texto-verde">Direção De Fotografia:</span> Daniel Florencio </p>
-        <p><span class="texto-verde">Som Direto:</span> João Menna Barreto </p>
-        <p><span class="texto-verde">Microfonista:</span> Lucas Maffini </p>
-        <p><span class="texto-verde">Desenho de Som:</span> Kleber Gregorio </p>
+        <p><span class="texto-verde">Direction, Screenplay, Executive Production, and Editing:</span> Christopher Faust </p> 
+        <p><span class="texto-verde">Production and Art Direction:</span> Ana Paula Câmara and Caroline Biagi </p>
+        <p><span class="texto-verde">Cinematography:</span> Daniel Florencio </p>
+        <p><span class="texto-verde">Direct Sound:</span> João Menna Barreto </p>
+        <p><span class="texto-verde">Microphone Operator:</span> Lucas Maffini </p>
+        <p><span class="texto-verde">Sound Design:</span> Kleber Gregorio </p>
         <p>
-        Projeto realizado como TCC do curso de Cinema e Vídeo da Faculdade de Artes do Paraná.
-        </p>
+        Project developed as the Final Graduation Project of the Film and Video course at the Paraná Arts College.        </p>
         `,
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Som Direto Adicional:</span> Tomás von der Osten </p>
+          <p><span class="texto-verde">Additional Direct Sound:</span> Tomás von der Osten </p>
           
           `,
       },
@@ -2411,9 +2395,9 @@ const databaseEn = {
   {
     id: '36',
     url: 'um-verao-em-venus',
-    titulo: 'UM VERÃO EM VÊNUS',
+    titulo: 'SUMMER IN VENUS',
     ano: 2013,
-    autor: 'EVANDRO SCORSIN',
+    autor: 'Dir: EVANDRO SCORSIN',
     imgIcone: { src: '/imagens/filmes/um-verao-em-venus/umveraoemvenus_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/um-verao-em-venus/umveraoemvenus_banner2.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/um-verao-em-venus/umveraoemvenus_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -2437,8 +2421,8 @@ const databaseEn = {
     ],
     patrocinadores: { src: '', desc: '', titulo: 'titulo da imagem' },
 
-    participacao: 'Evandro Scorsin e Morgana Horst.',
-    sinopse: 'A passagem de Vênus pelo Sol pode reaproximar um casal com o amor desgastado.',
+    participacao: 'Evandro Scorsin and Morgana Horst.',
+    sinopse: 'The transit of Venus by the Sun can reconnect a frayed relationship.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
     linkVideo: 'https://youtu.be/9otTk9Qm3oE',
@@ -2446,29 +2430,29 @@ const databaseEn = {
       principal: {
         // eslint-disable-next-line quotes
         __html: `<p>
-        <p><span class="texto-verde">Direção e roteiro:</span> Evandro Scorsin </p> 
-        <p><span class="texto-verde">Produção:</span> Alexandre Rafael Garcia, Anderson Simão, Christopher Faust, Evandro Scorsin e Wellington Sari </p>
-        <p><span class="texto-verde">Direção De Fotografia:</span> Daniel Florencio </p>
-        <p><span class="texto-verde">Montagem:</span>  Christopher Faust </p>
-        <p><span class="texto-verde">Som Direto:</span> Tomás von der Osten </p>
-        <p><span class="texto-verde">Finalização de Imagem:</span> Guilherme Delamuta </p>
-        <p><span class="texto-verde">Finalização De Som:</span> Bruno Ito</p>
+        <p><span class="texto-verde">Direction and Screenplay:</span> Evandro Scorsin </p> 
+        <p><span class="texto-verde">Production:</span> Alexandre Rafael Garcia, Anderson Simão, Christopher Faust, Evandro Scorsin and Wellington Sari </p>
+        <p><span class="texto-verde">Cinematography:</span> Daniel Florencio </p>
+        <p><span class="texto-verde">Editing:</span>  Christopher Faust </p>
+        <p><span class="texto-verde">Direct Sound:</span> Tomás von der Osten </p>
+        <p><span class="texto-verde">Image Post-Production:</span> Guilherme Delamuta </p>
+        <p><span class="texto-verde">Sound Post-Production:</span> Bruno Ito</p>
         </p>
         <p>
-        Este filme faz parte do projeto "Filmes de Verão" 2013        
+        This film is part of the project "Summer Films" 2013        
         </p>
         `,
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Som Direto Adicional:</span> Design Gráfico: Melina Correia | 
-          <span class="texto-verde">Assistente De Montagem:</span> Paula Negri |
-          <span class="texto-verde">Fotografia Still:</span> Guilherme Delamuta |
-          <span class="texto-verde">Legendas Espanhol:</span> Graziela Braz |
-          <span class="texto-verde"> Legendas Inglês:</span> Raquel Ribeiro
+          <p><span class="texto-verde">Graphic Design:Graphic Design:</span> Graphic Design: Melina Correia | 
+          <span class="texto-verde">Editing Assistant:</span> Paula Negri |
+          <span class="texto-verde">Still Photography:</span> Guilherme Delamuta |
+          <span class="texto-verde">Spanish Subtitles:</span> Graziela Braz |
+          <span class="texto-verde"> English Subtitles:</span> Raquel Ribeiro
           </p>
           <p>
-          <span class="texto-verde">Apoio:</span>
+          <span class="texto-verde">Support:</span>
           Bebidas Tissot, OACEP, Sanepar
           </p>
           
@@ -2480,7 +2464,7 @@ const databaseEn = {
   editora: {
     titulo: 'A quadro',
     img: { src: '/imagens/teste/previaCard.png', desc: '', titulo: 'Titulo da Imagem' },
-    texto: 'A Quadro é O Quadro, mas um pouco diferente. Sonho antigo da produtora, em 2021 conseguimos viabilizar um selo voltado para o lançamento de publicações sobre cinema. Para separar o joio da joia, demos um nome alternativo para a atividade, com a intenção de marcar a diferença, sem desmontar a unidade: fazemos cinema, seja produzindo filmes, um festival, ou editando e lançando livros.',
+    texto: 'A Quadro is O Quadro, but slightly different. A longtime dream of the production company, in 2021 we created publishing label devoted to cinema. To separate one from another, we baptized the activity under an alternative name, marking the difference without dismantling the whole: we make cinema, whether producing films, a festival, or editing and publishing books.',
   },
   colecoes: {
     logo: {
@@ -2488,7 +2472,7 @@ const databaseEn = {
       src: '/imagens/publicacoes/colecaoescreverocinema_logo_alta.jpg',
       desc: '',
     },
-    texto: 'A Coleção Escrever o Cinema expande para a página dos livros o ato de se fazer cinema, trocando a lente pela letra, substituindo o roteiro pela reflexão. Nos volumes da coleção, pesquisadoras e pesquisadores ligados à universidade lançam luz sobre aspectos teóricos, históricos e críticos de diferentes obras da cinematografia mundial, em diálogo com outros campos do conhecimento, mas sempre retornando para os filmes em si.',
+    texto: 'The Writing Cinema Collection expands the act of making cinema to the pages of books, changing the lens for the letter, replacing the script with reflection. In the volumes comprising the collection, academic researchers shed light on theoretical, historical, and critical dimensions of different works of world cinema, in dialogue with other fields of knowledge, yet always returning to the films themselves.',
     patrocinadores: {
       titulo: 'Logo de Patrocinadores',
       src: '/imagens/publicacoes/livro01_ 04_05_creditos_banner.png',
@@ -2504,97 +2488,97 @@ const databaseEn = {
     {
       imgPoster: { src: '/imagens/publicacoes/livro01antonioni_capa_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
       url: 'a-aventura',
-      titulo: 'A AVENTURA: NOTAS SOBRE O ESTILO DE MICHELANGELO ANTONIONI',
-      autor: 'DE JULIANA RODRIGUES PEREIRA',
-      sobreoAutor: 'Juliana Rodrigues Pereira é assessora de comunicação e pesquisadora. Nasceu no Rio de Janeiro e, depois de morar em três regiões diferentes do País, criou raiz em Curitiba. É mestre em História pela UFPR; e bacharel em Jornalismo pela PUC-PR e em Cinema e Audiovisual pela Faculdade de Artes do Paraná.',
-      sinopse: 'A aventura: notas sobre o estilo de Michelangelo Antonioni evidencia os elementos que consolidaram as bases do estilo do cineasta italiano a partir de um filme-chave de sua carreira, A aventura, de 1960. Por meio da análise fílmica minuciosa, a autora explica e desfaz lugares-comuns sobre este artista fundamental para a história do cinema moderno. ',
+      titulo: 'THE ADVENTURE: NOTES ON THE STYLE OF MICHELANGELO ANTONIONI',
+      autor: 'Dir: Author: JULIANA RODRIGUES PEREIRA',
+      sobreoAutor: 'Juliana Rodrigues Pereira is a communication advisor and researcher. She was born in Rio de Janeiro and, after living in three different regions of the country, took root in Curitiba. She holds an MA in History from UFPR; a BA in Journalism from PUC-PR, and a BA in Cinema and Audiovisual from the Parana Arts College.',
+      sinopse: 'The adventure: notes on the style of Michelangelo Antonioni explores the elements that underpinned the foundations of the Italian filmmaker’s style from a key film of his career, The adventure, from 1960. In a thoroughly detailed film analysis, the author elucidates and unfastens commonplace notions about this fundamental artist in the history of modern cinema ',
       patrocinadores: { src: '/imagens/publicacoes/livro01_04_05_banner.png', desc: '', titulo: 'Titulo da Imagem' },
       textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'fica técnica' }],
       tags: [],
       fichaTecnica: {
         isbn: '978-65-996017-0-5',
         paginas: '156',
-        idioma: 'Português',
+        idioma: 'Portuguese',
         dimensoes: '21 x 14 cm',
-        formato: 'Livro - Brochura',
-        edicao: '1ª - 2021',
-        editora: 'Edições A Quadro',
-        colecao: 'Coleção Escrever o Cinema',
+        formato: 'Book - Paperback',
+        edicao: '1st - 2021',
+        editora: 'A Quadro',
+        colecao: 'Writing Cinema Collection',
       },
     },
     {
       imgPoster: { src: '/imagens/publicacoes/livro02green_capa_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
       url: 'eugene-green',
-      titulo: 'EUGÈNE GREEN E A HIPÓTESE DO CINEMA DESCORTINADO',
-      autor: 'DE PEDRO FAISSOL',
-      sobreoAutor: 'Pedro Faissol é pesquisador e professor de Cinema. Doutor e Mestre em Meios e Processos Audiovisuais pela Escola de Comunicações e Artes da Universidade de São Paulo (ECA/USP). Bacharel em Comunicação Social (Cinema) pela Universidade Federal Fluminense (UFF). Docente do curso de Bacharelado em Cinema e Audiovisual e do Programa de Pós-Graduação em Cinema e Artes do Vídeo da Universidade Estadual do Paraná (PPG-CINEAV/Unespar). ',
-      sinopse: 'Pedro Faissol lança luz sobre um intrigante padrão de encenação no cinema de Eugène Green. Para comprovar a hipótese, examina de perto os seus dois primeiros filmes: Todas as noites (2001) e O mundo vivente (2003). A abordagem proposta desfaz as fronteiras entre análise imanente, cotejo teórico e expressão pessoal, o que confere à escrita um mimetismo tonal capaz de prolongar a experiência singular do cinema de Eugène Green. ',
+      titulo: 'EUGÈNE GREEN AND THE UNVEILED CINEMA HYPOTHESIS',
+      autor: 'Dir: Author: PEDRO FAISSOL',
+      sobreoAutor: 'Pedro Faissol is a film researcher and professor. He holds a PhD and an MA in Audiovisual Media and Processes from the School of Communications and Arts of the University of São Paulo (ECA/USP). He also holds a Bachelor’s Degree in Social Communication (Cinema) from the Fluminense Federal University (UFF). He is a professor at the BA course in Cinema and Audiovisual and the Graduate Program in Cinema and Video Arts at the State University of Paraná (PPG-CINEAV/Unespar).',
+      sinopse: `Pedro Faissol sheds light on Eugène Green’s cinema and its intriguing mise-en-scène. To test his hypothesis, the author closely examines Green’s first two films: Toutes les nuits (2001) and Le Monde vivant (2003). The author’s approach dissolves the boundaries between immanent analysis, theoretical comparison, and personal expression, infusing the text with a tonal mimicry which expands the unique experience of Eugène Green's cinema.`,
       textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'fica técnica' }],
       patrocinadores: { src: '/imagens/publicacoes/livro02_03_creditos_banner.png', desc: '', titulo: 'Titulo da Imagem' },
       fichaTecnica: {
         isbn: '978-65-996017-2-9',
         paginas: '184',
-        idioma: 'Português',
+        idioma: 'Portuguese',
         dimensoes: '21 x 14 cm',
-        formato: 'Livro - Brochura',
-        edicao: '1ª - 2021',
-        editora: 'Edições A Quadro',
-        colecao: 'Coleção Escrever o Cinema',
+        formato: 'Book - Paperback',
+        edicao: '1st - 2021',
+        editora: 'A Quadro',
+        colecao: 'Writing Cinema Collection',
       },
     }, {
       imgPoster: { src: '/imagens/publicacoes/livro03rohmer_capa_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
       url: 'contos-morais',
-      titulo: 'CONTOS MORAIS E O CINEMA DE ÉRIC ROHMER',
-      autor: 'DE ALEXANDRE GARCIA',
-      sobreoAutor: 'Alexandre Rafael Garcia nasceu em 1985 em Curitiba. É pesquisador, realizador e professor de cinema. Doutorando em História na UFPR, mestre em Multimeios no Instituto de Artes da Unicamp e bacharel em Cinema pela Faculdade de Artes do Paraná. Fundou e foi sócio da produtora O Quadro de 2010 a 2015. Criador da Coleção Escrever o Cinema e da série Dicionário de Cinema. Hoje trabalha na Universidade Estadual do Paraná (Unespar).',
-      sinopse: 'A partir da análise dos seis filmes do ciclo dos Contos Morais, realizados entre 1963 e 1972, Alexandre Rafael Garcia apresenta o estilo de Éric Rohmer. O recorte se constitui como importante porta de entrada para a compreensão dos modos de produção, da narrativa e da mise en scène do cineasta francês, singular personagem na história das artes.',
+      titulo: 'MORAL TALES AND THE CINEMA OF ÉRIC ROHMER ',
+      autor: 'Dir: Author: ALEXANDRE GARCIA',
+      sobreoAutor: 'Alexandre Rafael Garcia was born in 1985 in Curitiba. He is a researcher, director, and film professor. He is a doctoral candidate in History at UFPR, and holds an MA in Multimedia at the Unicamp Institute of Arts and a BA in Film from the Parana Arts College. He founded and was a partner in the production company O Quadro from 2010 to 2015. He created the Writing Cinema Collection and the Dictionary of Cinema series. He currently works at the State University of Paraná (Unespar).',
+      sinopse: 'Based on the analysis of the six films from Moral Tales series, made between 1963 and 1972, Alexandre Rafael Garcia delves into the style of Éric Rohmer. The analytical selection establishes an important gateway for understanding the modes of production, narrative, and mise-en-scène of the French filmmaker, a unique character in the history of the arts.',
       patrocinadores: { src: '/imagens/publicacoes/livro02_03_creditos_banner.png', desc: '', titulo: 'Titulo da Imagem' },
       fichaTecnica: {
         isbn: '978-65-996017-1-2',
         paginas: '184',
-        idioma: 'Português',
+        idioma: 'Portuguese',
         dimensoes: '21 x 14 cm',
-        formato: 'Livro - Brochura',
-        edicao: '1ª - 2021',
-        editora: 'Edições A Quadro',
-        colecao: 'Coleção Escrever o Cinema',
+        formato: 'Book - Paperback',
+        edicao: '2nd - 2021',
+        editora: 'A Quadro',
+        colecao: 'Writing Cinema Collection',
       },
     }, {
       imgPoster: { src: '/imagens/publicacoes/livro04milagre_capa_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
       url: 'a-representacao',
-      titulo: 'A REPRESENTAÇÃO DO MILAGRE NO CINEMA: ICONOGRAFIA, IDOLATRIA E CRENÇA',
-      autor: 'DE PEDRO FAISSOL',
-      sobreoAutor: 'Pedro Faissol é pesquisador e professor de Cinema. Doutor e Mestre em Meios e Processos Audiovisuais pela Escola de Comunicações e Artes da Universidade de São Paulo (ECA/USP). Bacharel em Comunicação Social (Cinema) pela Universidade Federal Fluminense (UFF). Docente do curso de Bacharelado em Cinema e Audiovisual e do Programa de Pós-Graduação em Cinema e Artes do Vídeo da Universidade Estadual do Paraná (PPG-CINEAV/Unespar).',
-      sinopse: 'O milagre no cinema se apresenta como um problema de representação. Essa premissa ensejou o recorte deste livro. Para cada milagre selecionado (Anunciação, Cura do cego, Ressurreição), foi eleito um dilema correspondente: 1. Como retrabalhar no cinema os motivos plásticos da iconografia cristã? 2. Como figurar o rosto de Cristo, sob o risco de provocar a idolatria? 3. Quais as estratégias adotadas para o problema da descrença na representação? As análises fílmicas mostram um amplo repertório de caminhos para essas perguntas.',
+      titulo: 'THE REPRESENTATION OF MIRACLE IN CINEMA: ICONOGRAPHY, IDOLATRY, AND BELIEF',
+      autor: 'Dir: Author: PEDRO FAISSOL',
+      sobreoAutor: 'Pedro Faissol is a film researcher and professor. He holds a PhD and an MA in Audiovisual Media and Processes from the School of Communications and Arts of the University of São Paulo (ECA/USP). He also holds a Bachelor’s Degree in Social Communication (Cinema) from the Fluminense Federal University (UFF). He is a professor at the BA course in Cinema and Audiovisual and the Graduate Program in Cinema and Video Arts at the State University of Paraná (PPG-CINEAV/Unespar).',
+      sinopse: 'Miracle in cinema presents itself as a representational dilemma. This premise led to the analytical selection in this book. For each miracle (Annunciation, Healing the Blind, Resurrection), a corresponding dilemma was chosen: 1. How to rework the plastic motifs of Christian iconography in cinema? 2. How to portray the face of Christ, at the risk of inducing idolatry? 3. What are the adopted strategies for the problem of disbelief in representation? The film analyses in this book detail a wide repertoire of pathways to these questions.',
       patrocinadores: { src: '/imagens/publicacoes/livro01_04_05_banner.png', desc: '', titulo: 'Titulo da Imagem' },
       fichaTecnica: {
         isbn: '978-65-996017-3-6',
         paginas: '308',
-        idioma: 'Português',
+        idioma: 'Portuguese',
         dimensoes: '21 x 14 cm',
-        formato: 'Livro - Brochura',
-        edicao: '1ª - 2021',
-        editora: 'Edições A Quadro',
-        colecao: 'Coleção Escrever o Cinema',
+        formato: 'Book - Paperback',
+        edicao: '1st - 2021',
+        editora: 'A Quadro',
+        colecao: 'Writing Cinema Collection',
       },
     },
     {
       imgPoster: { src: '/imagens/publicacoes/livro05documentario_capa_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
       url: 'documentario',
-      titulo: 'DOCUMENTÁRIO: FILMES PARA SALAS DE CINEMA COM JANELAS',
-      autor: 'DE EDUARDO TULIO BAGGIO',
-      sobreoAutor: 'Eduardo Tulio Baggio é professor do Bacharelado em Cinema e Audiovisual e do Mestrado em Cinema e Artes do Vídeo, ambos da Unespar. Colíder do grupo de pesquisa Cinecriare (Unespar/CNPq). Membro do ST Teoria de Cineastas da Socine e do GT Teoria dos Cineastas da AIM. Publicou textos em revistas como Cine Documental, Aniki, Doc Online, Galáxia e Cognítio. Um dos organizadores dos livros Teoria dos Cineastas (Vols.1, 2 e 3). Entre seus filmes destacam-se A Alma do Gesto (2020), João & Maria (2016) e Santa Teresa (2014). ',
-      sinopse: 'Documentário: Filmes para Salas de Cinema com Janelas traça um percurso histórico-conceitual para debater criticamente definições de documentário. Pela perspectiva realista, o livro discute as relações, próprias desse tipo de filme, entre mundo fático experiencial, os processos de realização, a obra audiovisual em si e a recepção A partir desses quatro polos, o autor propõe a metáfora das salas de cinema com janelas para uma abordagem amplificada e relacional do cinema documentário.',
+      titulo: 'DOCUMENTARY: FILMS FOR WINDOWED MOVIE THEATERS',
+      autor: 'Dir: Author: EDUARDO TULIO BAGGIO',
+      sobreoAutor: 'Eduardo Tulio Baggio is a professor in the BA course in Cinema and Audiovisual and the Masters course in Cinema and Video Arts, both at Unespar. Co-leader of the Cinecriare research group (Unespar/CNPq). Member of ST Theory of Filmmakers at Socine and the Workgroup Theory of Filmmakers at AIM. He has published in magazines such as Cine Documental, Aniki, Doc Online, Galáxia, and Cognitio. He was one editors of the books Theory of Filmmakers (Vols.1, 2, and 3). His filmography includes A Alma do Gesto (2020), João & Maria (2016), and Santa Teresa (2014).',
+      sinopse: 'Documentary: Films for Windowed Movie Theaters traces a historical-conceptual path towards a critical debate on the definitions of documentary. From a realist perspective, the book discusses the typical relationships of this film category between the factual and experiential world, the production processes, the audiovisual work itself, and reception. From these four poles, the author proposes the metaphor of windowed movie theaters to formulate an augmented and relational approach to documentary cinema.',
       patrocinadores: { src: '/imagens/publicacoes/livro01_04_05_banner.png', desc: '', titulo: 'Titulo da Imagem' },
       fichaTecnica: {
         isbn: '978-65-996017-4-3',
         paginas: '140',
-        idioma: 'Português',
+        idioma: 'Portuguese',
         dimensoes: '21 x 14 cm',
-        formato: 'Livro - Brochura',
-        edicao: '1ª - 2021',
-        editora: 'Edições A Quadro',
-        colecao: 'Coleção Escrever o Cinema',
+        formato: 'Book - Paperback',
+        edicao: '1st - 2021',
+        editora: 'A Quadro',
+        colecao: 'Writing Cinema Collection',
       },
     },
 
@@ -2603,10 +2587,10 @@ const databaseEn = {
     titulo: 'QUEM SOMOS',
     imgDestaque: { src: '/imagens/quemsomos/integrantes_grupo_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
     texto: {
-      primeiroParagrafo: 'Formada em 2010, a produtora O Quadro realiza filmes, um festival de cinema, mostras, oficinas e, também, lança livros.',
-      segundoParagrafo: 'São dezenas de curtas-metragens, longas, médias exibidos e premiados nos mais diversos festivais de cinema, lançados em circuito comercial, e programados em canais de TV e plataformas VOD.',
-      terceiroParagrafo: 'Em 2017, O Quadro criou o Metrô – Festival do Cinema Universitário Brasileiro, evento que vem se destacando no campo dos festivais, com a projeção de obras universitárias das mais diversas, além de numerosas atividades de formação.',
-      quartoParagrafo: 'Em 2021, a produtora amplia o campo de ação, a partir do lançamento do selo Edições A Quadro, responsável pelo lançamento de livros sobre cinema.',
+      primeiroParagrafo: 'Created in 2010, the production company O Quadro makes films, organizes a film festival, and publishes books.',
+      segundoParagrafo: 'The catalogue includes dozens of short, feature, and medium-length films screened and awarded in the most diverse film festivals, released on the commercial circuit as well as programmed on TV channels and VOD platforms.',
+      terceiroParagrafo: 'In 2017, O Quadro created Metro – Brazilian University Film Festival, an event that has distinguished itself among film festivals, with the screening of the most varied university works, in addition to several educational activities.',
+      quartoParagrafo: 'In 2021, the production company has expanded its activities, with the launch of the Publishing Company A Quadro, responsible for launching books about cinema.',
     },
 
     membros: [{
@@ -2617,19 +2601,18 @@ const databaseEn = {
     {
       nome: 'Christopher Faust',
       img:
-        { src: '/imagens/teste/posterTerror.png', desc: '' },
+        { src: '/imagens/quemsomos/integrantes_christopher_web.jpg', desc: '' },
     },
     {
       nome: 'Evandro Scorsin',
       img:
-        { src: '/imagens/teste/posterTerror.png', desc: '' },
+        { src: '/imagens/quemsomos/integrantes_evandro_web.jpg', desc: '' },
     },
     {
       nome: 'Wellington Sari',
       img:
-        { src: '/imagens/teste/posterTerror.png', desc: '' },
+        { src: '/imagens/quemsomos/integrantes_wellington_web.jpg', desc: '' },
     },
-
     ],
 
   },
@@ -2638,7 +2621,7 @@ const databaseEn = {
     logo: { src: '/imagens/festivalMetro.svg', desc: 'Logo Festival Metro' },
     titulo: 'FESTIVAL METRÔ',
     button: 'Embarque',
-    texto: 'O Metrô – Festival do Cinema Universitário Brasileiro, idealizado e produzido pelo O Quadro, com a ajuda valiosa de diversos parceiros, acontece desde 2017. Espaço para exibição e a reflexão do cinema brasileiro realizado por estudantes, o Metrô é a estação que possibilita a jornada, o encontro, a troca e a invenção.',
+    texto: 'Metro – Brazilian University Film Festival, conceived and produced by O Quadro, with the valuable help of several partners, has been an ongoing event since 2017. A space for screening and reflecting about film made by filmmaking students, Metro is the station that enables journeys, encounters, exchanges, and inventions.',
     img: { src: '/imagens/4edicao.png', desc: '', titulo: 'Titulo da Imagem' },
     link: 'https://metrouniversitario.com.br',
     slideshow: [
@@ -2667,7 +2650,7 @@ const databaseEn = {
       instagram: { src: '/imagens/icone/instagramIcone.svg', desc: 'Instagram Logo' },
       vimeo: { src: '/imagens/icone/vimeoIcone.svg', desc: 'Vimeo Logo' },
       youtube: { src: '/imagens/icone/youtubeIcone.svg', desc: 'Youtube Logo' },
-      email: { src: '/imagens/icone/emailIcone.svg', desc: 'E-mail Logo' },
+      email: { src: '/imagens/icone/emailIcone.svg', desc: 'and-mail Logo' },
     },
 
   },
