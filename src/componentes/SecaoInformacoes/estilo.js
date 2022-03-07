@@ -113,6 +113,7 @@ export const ContainerFilmes = styled.div`
 export const DivFlex = styled.div`
   display: flex;
   flex-direction: ${(props) => (props.eColuna ? 'column' : 'row')};
+    width:100%;
 `;
 export const InfoFilme = styled.div`
   width: 60%;

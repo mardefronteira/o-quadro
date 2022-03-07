@@ -165,7 +165,7 @@ const database = {
       { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still6_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
 
     ],
-    patrocinadores: { src: '/imagens/filmes/bye-bye-jaqueline/ebanx-mecenato_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+    patrocinadores: { src: '/imagens/filmes/bia-mais-um/ebanx-mecenato_banner.png', desc: '', titulo: 'titulo da imagem' },
     participacao: 'Poliana Oliveira, Gabrielle Pizzato Santana, Victor Carlim, Leonardo Oliveira, Wellington Sari, Evandro Scorsin, Flávia Cassias e Iza Kürten.',
     sinopse: 'Ter 16 anos é fácil. O difícil é ter 16 anos e ser obrigada a ir à escola todo dia. Mais difícil ainda é ter 16, ser obrigada a frequentar a escola e acabar se apaixonando por Fernando, o menino da sala ao lado. Ser a Jaqueline é fácil. O difícil é ser Jaqueline e saber que Fernando não está nem aí.',
     categoria: 'Longa Metragem',
@@ -444,7 +444,7 @@ const database = {
     url: 'dois-amores',
     titulo: 'DOIS AMORES',
     ano: 2013,
-    autor: 'ALEXANDRE RAFAEL GARCIA',
+    autor: 'ANDERSON SIMÃO',
     imgIcone: { src: '/imagens/filmes/dois-amores/doisamores_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgDestaque: { src: '/imagens/filmes/dois-amores/doisamores_banner1.jpg', desc: '', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/dois-amores/doisamores_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -2403,7 +2403,7 @@ const database = {
     sinopse: 'Camila terminou seu namoro. Divide agora seu tempo entre baladas, amigas e seu cachorro.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
-    linkVideo: 'https://vimeo.com/356585839',
+    linkVideo: 'https://youtu.be/C6KddDq6G10',
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
@@ -2480,7 +2480,7 @@ const database = {
       },
       adicional: {
         __html: `
-          <p><span class="texto-verde">Som Direto Adicional:</span> Design Gráfico: Melina Correia | 
+          <p><span class="texto-verde">Design Gráfico:</span>  Melina Correia | 
           <span class="texto-verde">Assistente De Montagem:</span> Paula Negri |
           <span class="texto-verde">Fotografia Still:</span> Guilherme Delamuta |
           <span class="texto-verde">Legendas Espanhol:</span> Graziela Braz |
@@ -2528,7 +2528,7 @@ const database = {
       sobreoAutor: 'Juliana Rodrigues Pereira é assessora de comunicação e pesquisadora. Nasceu no Rio de Janeiro e, depois de morar em três regiões diferentes do País, criou raiz em Curitiba. É mestre em História pela UFPR; e bacharel em Jornalismo pela PUC-PR e em Cinema e Audiovisual pela Faculdade de Artes do Paraná.',
       sinopse: 'A aventura: notas sobre o estilo de Michelangelo Antonioni evidencia os elementos que consolidaram as bases do estilo do cineasta italiano a partir de um filme-chave de sua carreira, A aventura, de 1960. Por meio da análise fílmica minuciosa, a autora explica e desfaz lugares-comuns sobre este artista fundamental para a história do cinema moderno. ',
       patrocinadores: { src: '/imagens/publicacoes/livro01_ 04_05_creditos_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
-      textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'fica técnica' }],
+      textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'ficha técnica' }],
       tags: [],
       fichaTecnica: {
         isbn: '978-65-996017-0-5',
@@ -2548,7 +2548,7 @@ const database = {
       autor: 'DE PEDRO FAISSOL',
       sobreoAutor: 'Pedro Faissol é pesquisador e professor de Cinema. Doutor e Mestre em Meios e Processos Audiovisuais pela Escola de Comunicações e Artes da Universidade de São Paulo (ECA/USP). Bacharel em Comunicação Social (Cinema) pela Universidade Federal Fluminense (UFF). Docente do curso de Bacharelado em Cinema e Audiovisual e do Programa de Pós-Graduação em Cinema e Artes do Vídeo da Universidade Estadual do Paraná (PPG-CINEAV/Unespar). ',
       sinopse: 'Pedro Faissol lança luz sobre um intrigante padrão de encenação no cinema de Eugène Green. Para comprovar a hipótese, examina de perto os seus dois primeiros filmes: Todas as noites (2001) e O mundo vivente (2003). A abordagem proposta desfaz as fronteiras entre análise imanente, cotejo teórico e expressão pessoal, o que confere à escrita um mimetismo tonal capaz de prolongar a experiência singular do cinema de Eugène Green. ',
-      textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'fica técnica' }],
+      textoEstatico: [{ sinopse: 'sinopse', sobreAutor: 'sobre o autor', fichaTecnica: 'ficha técnica' }],
       patrocinadores: { src: '/imagens/publicacoes/livro02_03_creditos_banner.png', desc: '', titulo: 'Titulo da Imagem' },
       fichaTecnica: {
         isbn: '978-65-996017-2-9',
@@ -2570,11 +2570,11 @@ const database = {
       patrocinadores: { src: '/imagens/publicacoes/livro02_03_creditos_banner.png', desc: '', titulo: 'Titulo da Imagem' },
       fichaTecnica: {
         isbn: '978-65-996017-1-2',
-        paginas: '184',
+        paginas: '256',
         idioma: 'Português',
         dimensoes: '21 x 14 cm',
         formato: 'Livro - Brochura',
-        edicao: '1ª - 2021',
+        edicao: '2ª - 2021',
         editora: 'Edições A Quadro',
         colecao: 'Coleção Escrever o Cinema',
       },
@@ -2631,22 +2631,22 @@ const database = {
     membros: [{
       nome: 'Anderson Simão',
       img:
-        { src: '/imagens/quemsomos/integrantes_anderson_web.jpg', desc: '' },
+        { src: '/imagens/quemsomos/integrantes_anderson.jpg', desc: '' },
     },
     {
       nome: 'Christopher Faust',
       img:
-        { src: '/imagens/quemsomos/integrantes_christopher_web.jpg', desc: '' },
+        { src: '/imagens/quemsomos/integrantes_christopher.jpg', desc: '' },
     },
     {
       nome: 'Evandro Scorsin',
       img:
-        { src: '/imagens/quemsomos/integrantes_evandro_web.jpg', desc: '' },
+        { src: '/imagens/quemsomos/integrantes_evandro.jpg', desc: '' },
     },
     {
       nome: 'Wellington Sari',
       img:
-        { src: '/imagens/quemsomos/integrantes_wellington_web.jpg', desc: '' },
+        { src: '/imagens/quemsomos/integrantes_wellington.jpg', desc: '' },
     },
     ],
 

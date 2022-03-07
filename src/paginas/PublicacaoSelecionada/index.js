@@ -53,7 +53,7 @@ function PublicacaoSelecionada() {
               </p>
             </DivFlex>
             <DivFlex id="ficha-tecnica" eColuna>
-              <TituloVermelho eVermelho>FICHA TECNICA</TituloVermelho>
+              <TituloVermelho eVermelho>FICHA TÉCNICA</TituloVermelho>
               <p>
                 ISBN:
                 {publicacao.fichaTecnica.isbn}

@@ -83,8 +83,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
       <DivFlex className="titulo-secao" eColuna>
         <TituloDestaque>{filme.titulo.toUpperCase()}</TituloDestaque>
         <H3Destaque>
-          DE
-          {' '}
+          {global.ptBr ? 'DE ' : 'BY '}
           {filme.autor.toUpperCase()}
         </H3Destaque>
       </DivFlex>
@@ -118,7 +117,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
         <VisualizadorImagens galeria={galeria} galeriaAlta={galeriaAlta} className="galeria-fotos" />
 
       </DivFlex>
-      <DivFlex eColuna>
+      <DivFlex className="conteiner" eColuna>
         <DivFlex className="equipe" eColuna>
           <SubTituloDestaque>EQUIPE</SubTituloDestaque>
           <p dangerouslySetInnerHTML={filme.equipe.principal} />
