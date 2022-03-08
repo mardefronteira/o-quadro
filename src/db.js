@@ -81,7 +81,7 @@ const database = {
       { src: '/imagens/filmes/bia-mais-um/biamaisum_still6_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
 
     ],
-    patrocinadores: { src: '/imagens/filmes/bia-mais-um/ebanx-mecenato_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
+    patrocinadores: { src: '/imagens/filmes/bia-mais-um/biamaisum_creditos_banner.png', desc: 'descrição da imagem', titulo: 'titulo da imagem' },
     participacao: 'Gabrielle Pizzato, Gustavo Piaskoski, Ivo Müller, Dafne Viola.',
     sinopse: 'Bia tenta lidar com várias mudanças. Quando conhece Jean, tenta dormir um pouco mais antes de acordar para a realidade.',
     categoria: 'Longa Metragem',
@@ -165,7 +165,7 @@ const database = {
       { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still6_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
 
     ],
-    patrocinadores: { src: '/imagens/filmes/bia-mais-um/ebanx-mecenato_banner.png', desc: '', titulo: 'titulo da imagem' },
+    patrocinadores: { src: '/imagens/filmes/bia-mais-um/byebyejaqueline_creditos_banner.png', desc: '', titulo: 'titulo da imagem' },
     participacao: 'Poliana Oliveira, Gabrielle Pizzato Santana, Victor Carlim, Leonardo Oliveira, Wellington Sari, Evandro Scorsin, Flávia Cassias e Iza Kürten.',
     sinopse: 'Ter 16 anos é fácil. O difícil é ter 16 anos e ser obrigada a ir à escola todo dia. Mais difícil ainda é ter 16, ser obrigada a frequentar a escola e acabar se apaixonando por Fernando, o menino da sala ao lado. Ser a Jaqueline é fácil. O difícil é ser Jaqueline e saber que Fernando não está nem aí.',
     categoria: 'Longa Metragem',
@@ -373,7 +373,7 @@ const database = {
       { src: '/imagens/filmes/dias-de-trovao/diasdetrovao_still6_alta.png', desc: '', titulo: 'Titulo da Imagem' },
 
     ],
-    patrocinadores: { src: '/imagens/filmes/dias-de-trovao/condor-mecenato_banner.png', desc: '', titulo: 'titulo da imagem' },
+    patrocinadores: { src: '/imagens/filmes/dias-de-trovao/diasdetrovao_creditos_banner.png', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Gustavo Piaskoski, Bruna Roveda, João Maurílio, Wellington Sari, Jean Guilherme Filho, Pedro Gaeta, Izabela Cruz e Pâmela Branchi.',
     sinopse: 'Eric é apaixonado por sua melhor amiga, Eduarda. Mas, Michel é mais rápido e conquista primeiro a menina. Na pista de kart, Eric tem uma chance de superar o adversário em uma competição feroz. Amor e velocidade, amor pela velocidade. Aqueles eram os Dias de Trovão',

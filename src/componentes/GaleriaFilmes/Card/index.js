@@ -5,9 +5,11 @@ import MediaQuery, { useMediaQuery } from 'react-responsive';
 import {
   FundoCard, Legenda, Info, ItemInfo, InfoMovel,
 } from './estilo';
+import { useGlobal } from '../../../AcessoGlobal';
 
 function Card({ filme }) {
   const eMovel = useMediaQuery({ query: '(max-width: 799px)' });
+  const [global, mudarGlobal] = useGlobal();
   return (
     <FundoCard as={Link} to={`/filme/${filme.url}`}>
       <img
@@ -19,7 +21,7 @@ function Card({ filme }) {
           <Info>
             <ItemInfo>{filme.titulo}</ItemInfo>
             <ItemInfo>
-              de
+              {global.ptBr ? 'de' : 'by'}
               {' '}
               {filme.autor}
             </ItemInfo>
@@ -33,7 +35,7 @@ function Card({ filme }) {
         <InfoMovel>
           <p>{filme.titulo}</p>
           <p>
-            de
+          {global.ptBr ? 'de' : 'by'}
             {' '}
             {filme.autor}
           </p>

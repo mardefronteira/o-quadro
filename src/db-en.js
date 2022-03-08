@@ -2522,7 +2522,7 @@ const databaseEn = {
         formato: 'Book - Paperback',
         edicao: '1st - 2021',
         editora: 'A Quadro',
-        colecao: 'Writing Cinema Collection',
+        colecao: 'Cinema in Writing Collection',
       },
     },
     {
@@ -2542,7 +2542,7 @@ const databaseEn = {
         formato: 'Book - Paperback',
         edicao: '1st - 2021',
         editora: 'A Quadro',
-        colecao: 'Writing Cinema Collection',
+        colecao: 'Cinema in Writing Collection',
       },
     }, {
       imgPoster: { src: '/imagens/publicacoes/livro03rohmer_capa_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -2560,7 +2560,7 @@ const databaseEn = {
         formato: 'Book - Paperback',
         edicao: '2nd - 2021',
         editora: 'A Quadro',
-        colecao: 'Writing Cinema Collection',
+        colecao: 'Cinema in Writing Collection',
       },
     }, {
       imgPoster: { src: '/imagens/publicacoes/livro04milagre_capa_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
@@ -2578,7 +2578,7 @@ const databaseEn = {
         formato: 'Book - Paperback',
         edicao: '1st - 2021',
         editora: 'A Quadro',
-        colecao: 'Writing Cinema Collection',
+        colecao: 'Cinema in Writing Collection',
       },
     },
     {
@@ -2597,7 +2597,7 @@ const databaseEn = {
         formato: 'Book - Paperback',
         edicao: '1st - 2021',
         editora: 'A Quadro',
-        colecao: 'Writing Cinema Collection',
+        colecao: 'Cinema in Writing Collection',
       },
     },
 
@@ -2639,7 +2639,7 @@ const databaseEn = {
   metro: {
     logo: { src: '/imagens/festivalMetro.svg', desc: 'Logo Festival Metro' },
     titulo: 'FESTIVAL METRÔ',
-    button: 'Embarque',
+    button: 'step in',
     texto: 'Metro – Brazilian University Film Festival, conceived and produced by O Quadro, with the valuable help of several partners, has been an ongoing event since 2017. A space for screening and reflecting about film made by filmmaking students, Metro is the station that enables journeys, encounters, exchanges, and inventions.',
     img: { src: '/imagens/4edicao.png', desc: '', titulo: 'Titulo da Imagem' },
     link: 'https://metrouniversitario.com.br',

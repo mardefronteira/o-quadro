@@ -25,7 +25,6 @@ function PublicacaoSelecionada() {
 
   const { id } = useParams();
   const publicacao = global.db.publicacoes.filter((publicacaoDb) => publicacaoDb.url === id)[0];
-  const patrocinio = global.db.patrocinadores;
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [id]);
@@ -43,57 +42,57 @@ function PublicacaoSelecionada() {
         <DivFlex id="conteiner-info" eColuna={false}>
           <DivFlex id="secao-info" eColuna>
             <DivFlex id="secao-titulo" eColuna>
-              <TituloVermelho eVermelho>SINOPSE</TituloVermelho>
+              <TituloVermelho eVermelho>{global.ptBr ? 'SINOPSE' : 'Synopsis'}</TituloVermelho>
               <p>{publicacao.sinopse}</p>
             </DivFlex>
             <DivFlex id="artigo" eColuna>
-              <TituloVermelho eVermelho>SOBRE O AUTOR</TituloVermelho>
+              <TituloVermelho eVermelho>{global.ptBr ? 'SOBRE O AUTOR' : 'About the Author'}</TituloVermelho>
               <p>
                 {publicacao.sobreoAutor}
               </p>
             </DivFlex>
             <DivFlex id="ficha-tecnica" eColuna>
-              <TituloVermelho eVermelho>FICHA TÉCNICA</TituloVermelho>
+              <TituloVermelho eVermelho>{global.ptBr ? 'FICHA TÉCNICA' : 'TECHNICAL DETAILS'}</TituloVermelho>
               <p>
-                ISBN:
+              {global.ptBr ? 'ISBN: ' : ''}
                 {publicacao.fichaTecnica.isbn}
               </p>
               <p>
-                Páginas:
+              {global.ptBr ? 'Páginas: ' : ''}
                 {publicacao.fichaTecnica.paginas}
               </p>
               <p>
-                Idioma:
+              {global.ptBr ? 'Idioma: ' : ''}
                 {publicacao.fichaTecnica.idioma}
               </p>
               <p>
-                Dimensões:
+              {global.ptBr ? 'Dimensões:' : ''}
                 {publicacao.fichaTecnica.dimensoes}
 
               </p>
               <p>
-                Formato:
+              {global.ptBr ? 'Formato:' : ''}
                 {publicacao.fichaTecnica.formato}
               </p>
               <p>
-                Edição:
+              {global.ptBr ? 'Edição:' : ''}
                 {publicacao.fichaTecnica.edicao}
 
               </p>
               <p>
-                Editora:
+              {global.ptBr ? 'Editora:' : ''}
                 {publicacao.fichaTecnica.editora}
 
               </p>
               <p>
-                Coleção:
+              {global.ptBr ? 'Coleção:' : ''}
                 {publicacao.fichaTecnica.colecao}
               </p>
             </DivFlex>
           </DivFlex>
           <ImgDestaqueDireita src={publicacao.imgPoster.src} alt={publicacao.imgPoster.desc} />
         </DivFlex>
-        <ImgPatrocinio src={patrocinio.src} alt={patrocinio.desc} />
+        <ImgPatrocinio src={publicacao.patrocinadores.src} alt={publicacao.patrocinadores.desc} />
 
       </DivFlexPublicacao>
       <Linha />

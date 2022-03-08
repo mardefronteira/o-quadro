@@ -106,7 +106,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
               <p>{filme.participacao}</p>
             </DivFlex>
             <DivFlex className="caixa-texto" id="sinopse" eColuna>
-              <H3Destaque class="texto-verde">SINOPSE</H3Destaque>
+              <H3Destaque class="texto-verde">{global.ptBr ? 'SINOPSE' : 'Synopsis'}</H3Destaque>
               <p>{filme.sinopse}</p>
             </DivFlex>
           </DivFlex>

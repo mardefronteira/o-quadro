@@ -42,23 +42,54 @@ function Menu({ estado = 1 }) {
               />
             </ItemMenu>
             <ConteinerLinguagemMobile>
-              <ItemLangMobile>PT </ItemLangMobile>
+              <ItemLangMobile estado={estado}
+              lingua={global.ptBr}
+              onClick={() => {
+                mudarGlobal({ ptBr: true });
+              }}
+            >
+              {'PT '} </ItemLangMobile>
               /
-              <ItemLangMobile>EN</ItemLangMobile>
+              <ItemLangMobile estado={estado}
+              lingua={!global.ptBr}
+              onClick={() => {
+                mudarGlobal({ ptBr: false });
+              console.log(global)
+              }}
+            >
+              {' EN'}</ItemLangMobile>
             </ConteinerLinguagemMobile>
           </Cabecalho>
           <ConteinerTaAberto onClick={() => { setTaAberto(!taAberto); }}>
             <ConteinerItens taAberto={taAberto}>
               <OpcoesMenu>
-                <li><ItemMenuMobile as={Link} to="/filmes/">Filmes</ItemMenuMobile></li>
-                <li><SubItemMenuMobile as={Link} to="/filmes/curtas">Curta Metragem</SubItemMenuMobile></li>
-                <li><SubItemMenuMobile as={Link} to="/filmes/medias">Média Metragem</SubItemMenuMobile></li>
-                <li><SubItemMenuMobile as={Link} to="/filmes/longas">Longa Metragem</SubItemMenuMobile></li>
-                <li><ItemMenuMobile as={Link} to="/metro/">Festival Metrô</ItemMenuMobile></li>
-                <li><ItemMenuMobile as={Link} to="/publicacoes">Publicações</ItemMenuMobile></li>
-                <li><SubItemMenuMobile as={Link} to="/sobre" estado={estado}>O que é? </SubItemMenuMobile></li>
-                <li><SubItemMenuMobile as={Link} to="/colecao" estado={estado}>Coleção Escrever o Cinema </SubItemMenuMobile></li>
-                <li><ItemMenuMobile as={Link} to="/quem-somos">Quem Somos</ItemMenuMobile></li>
+                <li><ItemMenuMobile as={Link} to="/filmes/">
+                  {global.ptBr ? 'Filmes ' : 'FILMS '}
+                </ItemMenuMobile></li>
+                <li><SubItemMenuMobile as={Link} to="/filmes/longas">
+                  {global.ptBr ? 'Longa Metragem' : 'Feature-length films'}
+                </SubItemMenuMobile></li>
+                <li><SubItemMenuMobile as={Link} to="/filmes/medias">
+                  {global.ptBr ? 'Média Metragem' : 'Medium-length films'}
+                </SubItemMenuMobile></li>
+                <li><SubItemMenuMobile as={Link} to="/filmes/curtas">
+                  {global.ptBr ? 'Curta Metragem' : 'Short-length films'}
+                </SubItemMenuMobile></li>
+                <li><ItemMenuMobile as={Link} to="/metro/">
+                  {global.ptBr ? 'Festival Metrô' : 'METRO FESTIVAL'}
+                </ItemMenuMobile></li>
+                <li><ItemMenuMobile as={Link} to="/publicacoes">
+                  {global.ptBr ? 'Publicações' : 'BOOKS '}
+                </ItemMenuMobile></li>
+                <li><SubItemMenuMobile as={Link} to="/sobre" estado={estado}>
+                  {global.ptBr ? 'O que é?' : 'About'}
+                </SubItemMenuMobile></li>
+                <li><SubItemMenuMobile as={Link} to="/colecao" estado={estado}>
+                  {global.ptBr ? 'Coleção Escrever o Cinema' : 'Cinema In Writing Collection'}
+                </SubItemMenuMobile></li>
+                <li><ItemMenuMobile as={Link} to="/quem-somos">
+                  {global.ptBr ? 'Quem Somos' : 'ABOUT US'}
+                </ItemMenuMobile></li>
               </OpcoesMenu>
             </ConteinerItens>
           </ConteinerTaAberto>
@@ -71,12 +102,22 @@ function Menu({ estado = 1 }) {
           ) : ''}
           <ConteinerItensMenu estado={estado}>
             <ul className="dropdown">
-              <li><ItemMenu as={Link} to="/filmes/" estado={estado}>FILMES </ItemMenu></li>
-              <li><ItemMenu as={Link} to="/filmes/longas" estado={estado}>LONGAS METRAGEM </ItemMenu></li>
-              <li><ItemMenu as={Link} to="/filmes/medias" estado={estado}>MÉDIAS METRAGENS </ItemMenu></li>
-              <li><ItemMenu as={Link} to="/filmes/curtas" estado={estado}>CURTAS METRAGENS </ItemMenu></li>
+              <li><ItemMenu as={Link} to="/filmes/" estado={estado}>
+                {global.ptBr ? 'Filmes ' : 'FILMS '}
+              </ItemMenu></li>
+              <li><ItemMenu as={Link} to="/filmes/longas" estado={estado}>
+                {global.ptBr ? 'Longa Metragem' : 'Feature-length films'}
+              </ItemMenu></li>
+              <li><ItemMenu as={Link} to="/filmes/medias" estado={estado}>
+                {global.ptBr ? 'Média Metragem' : 'Medium-length films'}
+              </ItemMenu></li>
+              <li><ItemMenu as={Link} to="/filmes/curtas" estado={estado}>
+                {global.ptBr ? 'Curta Metragem' : 'Short-length films'}
+              </ItemMenu></li>
             </ul>
-            <ItemMenu as={Link} to="/metro/" estado={estado}>FESTIVAL METRÔ </ItemMenu>
+            <ItemMenu as={Link} to="/metro/" estado={estado}>
+              {global.ptBr ? 'Festival Metrô' : 'METRO FESTIVAL'}
+            </ItemMenu>
 
             {estado !== 0 ? (
               <ItemMenu as={Link} to="/" className="logo">
@@ -87,11 +128,18 @@ function Menu({ estado = 1 }) {
               </ItemMenu>
             ) : ''}
             <ul className="dropdown">
-              <li><ItemMenu as={Link} to="/publicacoes" estado={estado}>PUBLICAÇÕES </ItemMenu></li>
-              <li><ItemMenu as={Link} to="/publicacoes" estado={estado}>O QUE É? </ItemMenu></li>
-              <li><ItemMenu as={Link} to="/colecao" estado={estado}>COLEÇÃO ESCREVER O CINEMA </ItemMenu></li>
+              <li><ItemMenu as={Link} to="/publicacoes" estado={estado}>
+                {global.ptBr ? 'Publicações' : 'BOOKS '}
+              </ItemMenu></li>
+              <li><ItemMenu as={Link} to="/publicacoes" estado={estado}>
+                {global.ptBr ? 'O que é?' : 'About'}
+              </ItemMenu></li>
+              <li><ItemMenu as={Link} to="/colecao" estado={estado}>
+                {global.ptBr ? 'Coleção Escrever o Cinema' : 'Cinema In Writing Collection'} </ItemMenu></li>
             </ul>
-            <ItemMenu as={Link} to="/quem-somos" estado={estado}>QUEM SOMOS </ItemMenu>
+            <ItemMenu as={Link} to="/quem-somos" estado={estado}>
+              {global.ptBr ? 'Quem Somos' : 'ABOUT US'}
+            </ItemMenu>
           </ConteinerItensMenu>
           <ConteinerLinguagem estado={estado}>
             <ItemLang
@@ -109,6 +157,7 @@ function Menu({ estado = 1 }) {
               lingua={!global.ptBr}
               onClick={() => {
                 mudarGlobal({ ptBr: false });
+              console.log(global)
               }}
             >
               {' EN'}

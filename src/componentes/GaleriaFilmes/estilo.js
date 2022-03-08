@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 const Galeria = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    -webkit-grid-columns: repeat(auto-fit, minmax(250px,auto));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+    -webkit-grid-columns: repeat(auto-fit, minmax(250px, 250px));
+    grid-gap: 3vh;
     justify-items: space-around;
     align-items: center;
-    grid-gap: 3vh;
     padding-bottom: 10vh;
 
     @media (max-width: 800px) {
