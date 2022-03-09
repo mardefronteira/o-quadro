@@ -42,11 +42,11 @@ function PublicacaoSelecionada() {
         <DivFlex id="conteiner-info" eColuna={false}>
           <DivFlex id="secao-info" eColuna>
             <DivFlex id="secao-titulo" eColuna>
-              <TituloVermelho eVermelho>{global.ptBr ? 'SINOPSE' : 'Synopsis'}</TituloVermelho>
+              <TituloVermelho eVermelho>{global.ptBr ? 'SINOPSE' : 'SYNOPSIS'}</TituloVermelho>
               <p>{publicacao.sinopse}</p>
             </DivFlex>
             <DivFlex id="artigo" eColuna>
-              <TituloVermelho eVermelho>{global.ptBr ? 'SOBRE O AUTOR' : 'About the Author'}</TituloVermelho>
+              <TituloVermelho eVermelho>{global.ptBr ? 'SOBRE O AUTOR' : 'ABOUT THE AUTHOR'}</TituloVermelho>
               <p>
                 {publicacao.sobreoAutor}
               </p>
@@ -54,38 +54,38 @@ function PublicacaoSelecionada() {
             <DivFlex id="ficha-tecnica" eColuna>
               <TituloVermelho eVermelho>{global.ptBr ? 'FICHA TÉCNICA' : 'TECHNICAL DETAILS'}</TituloVermelho>
               <p>
-              {global.ptBr ? 'ISBN: ' : ''}
+                {global.ptBr ? 'ISBN: ' : 'ISBN'}
                 {publicacao.fichaTecnica.isbn}
               </p>
               <p>
-              {global.ptBr ? 'Páginas: ' : ''}
+                {global.ptBr ? 'Páginas: ' : 'Pages'}
                 {publicacao.fichaTecnica.paginas}
               </p>
               <p>
-              {global.ptBr ? 'Idioma: ' : ''}
+                {global.ptBr ? 'Idioma: ' : 'Language'}
                 {publicacao.fichaTecnica.idioma}
               </p>
               <p>
-              {global.ptBr ? 'Dimensões:' : ''}
+                {global.ptBr ? 'Dimensões:' : 'Dimensions'}
                 {publicacao.fichaTecnica.dimensoes}
 
               </p>
               <p>
-              {global.ptBr ? 'Formato:' : ''}
+                {global.ptBr ? 'Formato:' : 'Format'}
                 {publicacao.fichaTecnica.formato}
               </p>
               <p>
-              {global.ptBr ? 'Edição:' : ''}
+                {global.ptBr ? 'Edição:' : 'Edition'}
                 {publicacao.fichaTecnica.edicao}
 
               </p>
               <p>
-              {global.ptBr ? 'Editora:' : ''}
+                {global.ptBr ? 'Editora:' : 'Publisher'}
                 {publicacao.fichaTecnica.editora}
 
               </p>
               <p>
-              {global.ptBr ? 'Coleção:' : ''}
+                {global.ptBr ? 'Coleção:' : ''}
                 {publicacao.fichaTecnica.colecao}
               </p>
             </DivFlex>

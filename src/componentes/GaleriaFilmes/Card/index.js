@@ -9,6 +9,7 @@ import { useGlobal } from '../../../AcessoGlobal';
 
 function Card({ filme }) {
   const eMovel = useMediaQuery({ query: '(max-width: 799px)' });
+  // eslint-disable-next-line no-unused-vars
   const [global, mudarGlobal] = useGlobal();
   return (
     <FundoCard as={Link} to={`/filme/${filme.url}`}>
@@ -35,7 +36,7 @@ function Card({ filme }) {
         <InfoMovel>
           <p>{filme.titulo}</p>
           <p>
-          {global.ptBr ? 'de' : 'by'}
+            {global.ptBr ? 'de' : 'by'}
             {' '}
             {filme.autor}
           </p>

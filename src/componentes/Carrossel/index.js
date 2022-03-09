@@ -45,7 +45,11 @@ const Carrossel = ({ categoria, taVermelho = true }) => {
         <FundoCarrossel>
 
           <TituloCarrossel taVermelho>
-            {taVermelho ? 'LIVROS' : 'FILMES'}
+            {global.ptBr && !taVermelho && 'FILMES'}
+            {!global.ptBr && !taVermelho && 'FILMS'}
+            {global.ptBr && taVermelho && 'LIVROS'}
+            {!global.ptBr && taVermelho && 'BOOKS'}
+            {/* {taVermelho ? 'LIVROS' : 'FILMES'} */}
           </TituloCarrossel>
           <Conteiner>
             <SetaCarrossel
@@ -103,7 +107,10 @@ const Carrossel = ({ categoria, taVermelho = true }) => {
       <MediaQuery minWidth={800}>
         <FundoCarrossel>
           <TituloCarrossel taVermelho>
-            {taVermelho ? 'LIVROS' : 'FILMES'}
+            {global.ptBr && !taVermelho && 'FILMES'}
+            {!global.ptBr && !taVermelho && 'FILMS'}
+            {global.ptBr && taVermelho && 'LIVROS'}
+            {!global.ptBr && taVermelho && 'BOOKS'}
           </TituloCarrossel>
           <Conteiner>
             <SetaCarrossel

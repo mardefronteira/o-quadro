@@ -38,7 +38,7 @@ function Filmes() {
             <img className="lupaHover" src="./imagens/barraPesquisa/lupaIconeHover.svg" alt="" />
           </BotaoPesquisa> */}
       </Barra>
-      <Titulo>Filmes</Titulo>
+      <Titulo>{global.ptBr ? 'Filmes' : 'Films'}</Titulo>
       <GaleriaFilmes categoria={busca !== '' ? busca : categoria} />
 
     </Base>

@@ -15,7 +15,7 @@ function QuemSomos() {
   console.log(somos);
   return (
     <Base menuSocialVermelho={false}>
-      <Titulo>{somos.titulo.toUpperCase()}</Titulo>
+      <Titulo>{global.ptBr ? 'QUEM SOMOS' : 'ABOUT US'}</Titulo>
       <Conteiner>
         <FotoPrincipal>
           <img src={somos.imgDestaque.src} alt={somos.imgDestaque.desc} />

@@ -97,16 +97,16 @@ function SecaoInformacoes({ taVermelho = false, id }) {
             {filme.ano}
           </SubTituloDestaque>
           <H3Destaque>
-            {'DE '}
+            {global.ptBr ? 'DE ' : 'BY '}
             {filme.autor.toUpperCase()}
           </H3Destaque>
           <DivFlex className="info-filme">
             <DivFlex className="caixa-texto" eColuna>
-              <H3Destaque class="texto-verde">COM</H3Destaque>
+              <H3Destaque class="texto-verde">{global.ptBr ? 'COM' : 'CAST'}</H3Destaque>
               <p>{filme.participacao}</p>
             </DivFlex>
             <DivFlex className="caixa-texto" id="sinopse" eColuna>
-              <H3Destaque class="texto-verde">{global.ptBr ? 'SINOPSE' : 'Synopsis'}</H3Destaque>
+              <H3Destaque class="texto-verde">{global.ptBr ? 'SINOPSE' : 'SYNOPSIS'}</H3Destaque>
               <p>{filme.sinopse}</p>
             </DivFlex>
           </DivFlex>
@@ -119,7 +119,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
       </DivFlex>
       <DivFlex className="conteiner" eColuna>
         <DivFlex className="equipe" eColuna>
-          <SubTituloDestaque>EQUIPE</SubTituloDestaque>
+          <SubTituloDestaque>{global.ptBr ? 'EQUIPE' : 'CREW'}</SubTituloDestaque>
           <p dangerouslySetInnerHTML={filme.equipe.principal} />
         </DivFlex>
         {filme.equipe.adicional

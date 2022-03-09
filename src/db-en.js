@@ -6,8 +6,8 @@ const databaseEn = {
     ano: 2011,
     autor: ' WELLINGTON SARI',
     imgIcone: { src: '/imagens/filmes/amador/amador_still1.jpg', desc: '', titulo: 'Titulo da Imagem' },
-    imgDestaque: { src: '/imagens/filmes/amador/amador_banner.png', desc: '', titulo: 'Titulo da Imagem' },
-    imgPoster: { src: '/imagens/filmes/amador/', desc: '', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: '/imagens/filmes/amador/amador_banner.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
+    imgPoster: { src: '/imagens/filmes/amador/amador_cartaz_web.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     galeria: [
       { src: '/imagens/filmes/amador/amador_still1.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
       { src: '/imagens/filmes/amador/amador_still2.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },

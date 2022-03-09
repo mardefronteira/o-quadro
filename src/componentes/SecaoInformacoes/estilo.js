@@ -172,6 +172,7 @@ export const ImgDestaque = styled.img`
   height: 38vh;
   width: 100%;
   object-fit: cover;
+  object-position: top;
   @media (max-width: 800px) {
     width: 100%;
     height: auto;

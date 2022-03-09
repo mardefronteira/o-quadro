@@ -64,7 +64,7 @@ function MenuSocial({ vermelho = false, taVermelho = true }) {
 
       <ItemMenuSocial
         href={
-          taVermelho
+          vermelho
             ? 'https://instagram.com/aquadroedicoes'
             : 'https://www.instagram.com/oquadrofilmes/'
         }
@@ -78,9 +78,8 @@ function MenuSocial({ vermelho = false, taVermelho = true }) {
 
       <ItemMenuSocial
         href={
-          taVermelho
-            ? 'https://facebook.com/aquadroedicoes'
-            : 'https://www.facebook.com/OQuadro'
+          vermelho
+            ? 'https://facebook.com/aquadroedicoes' : 'https://facebook.com/OQuadro'
         }
         target="_blank"
       >
@@ -103,6 +102,7 @@ function MenuSocial({ vermelho = false, taVermelho = true }) {
 }
 
 MenuSocial.propTypes = {
+  taVermelho: PropTypes.bool.isRequired,
   vermelho: PropTypes.bool.isRequired,
 };
 
