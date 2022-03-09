@@ -13,6 +13,7 @@ import {
   SetaCarrossel,
   TituloCarrossel,
 } from './estilo';
+import { useGlobal } from '../../AcessoGlobal';
 
 const Carrossel = ({ categoria, taVermelho = true }) => {
   const restringir = (val, min, max) => {
@@ -37,6 +38,8 @@ const Carrossel = ({ categoria, taVermelho = true }) => {
   };
   /* variável pra conter a posição do Carrossel */
   const [pos, moverCarrossel] = DefinirPos(0);
+  // eslint-disable-next-line no-unused-vars
+  const [global, mudarGlobal] = useGlobal();
 
   return (
     <>
@@ -49,6 +52,7 @@ const Carrossel = ({ categoria, taVermelho = true }) => {
             {!global.ptBr && !taVermelho && 'FILMS'}
             {global.ptBr && taVermelho && 'LIVROS'}
             {!global.ptBr && taVermelho && 'BOOKS'}
+
             {/* {taVermelho ? 'LIVROS' : 'FILMES'} */}
           </TituloCarrossel>
           <Conteiner>
