@@ -69,47 +69,47 @@ function Menu({ estado = 1 }) {
               <OpcoesMenu>
                 <li>
                   <ItemMenuMobile as={Link} to="/filmes/">
-                    {global.ptBr ? 'Filmes ' : 'Films '}
+                    {global.ptBr ? 'FILMES ' : 'FILMS '}
                   </ItemMenuMobile>
                 </li>
                 <li>
                   <SubItemMenuMobile as={Link} to="/filmes/longas">
-                    {global.ptBr ? 'Longa Metragem' : 'Feature-length films'}
+                    {global.ptBr ? 'LONGA METRAGEM' : 'FEATURE-LENGTH FILMS'}
                   </SubItemMenuMobile>
                 </li>
                 <li>
                   <SubItemMenuMobile as={Link} to="/filmes/medias">
-                    {global.ptBr ? 'Média Metragem' : 'Medium-length films'}
+                    {global.ptBr ? 'MÉDIA METRAGEM' : 'MEDIUM-LENGTH FILMS'}
                   </SubItemMenuMobile>
                 </li>
                 <li>
                   <SubItemMenuMobile as={Link} to="/filmes/curtas">
-                    {global.ptBr ? 'Curta Metragem' : 'Short-length films'}
+                    {global.ptBr ? 'CURTA METRAGEM' : 'SHORT-LENGTH FILMS'}
                   </SubItemMenuMobile>
                 </li>
                 <li>
                   <ItemMenuMobile as={Link} to="/metro/">
-                    {global.ptBr ? 'Festival Metrô' : 'Metro Festival'}
+                    {global.ptBr ? 'FESTIVAL METRÔ' : 'METRO FESTIVAL'}
                   </ItemMenuMobile>
                 </li>
                 <li>
                   <ItemMenuMobile as={Link} to="/publicacoes">
-                    {global.ptBr ? 'Publicações' : 'Books '}
+                    {global.ptBr ? 'PUBLICAÇÕES' : 'BOOKS '}
                   </ItemMenuMobile>
                 </li>
                 <li>
                   <SubItemMenuMobile as={Link} to="/sobre" estado={estado}>
-                    {global.ptBr ? 'O que é?' : 'About'}
+                    {global.ptBr ? 'O QUE É?' : 'ABOUT'}
                   </SubItemMenuMobile>
                 </li>
                 <li>
                   <SubItemMenuMobile as={Link} to="/colecao" estado={estado}>
-                    {global.ptBr ? 'Coleção Escrever o Cinema' : 'Cinema In Writing Collection'}
+                    {global.ptBr ? 'COLEÇÃO ESCREVER O CINEMA' : 'CINEMA IN WRITING COLLECTION'}
                   </SubItemMenuMobile>
                 </li>
                 <li>
                   <ItemMenuMobile as={Link} to="/quem-somos">
-                    {global.ptBr ? 'Quem Somos' : 'About Us'}
+                    {global.ptBr ? 'QUEM SOMOS' : 'ABOUT US'}
                   </ItemMenuMobile>
                 </li>
               </OpcoesMenu>
@@ -126,27 +126,27 @@ function Menu({ estado = 1 }) {
             <ul className="dropdown">
               <li>
                 <ItemMenu as={Link} to="/filmes/" estado={estado}>
-                  {global.ptBr ? 'Filmes ' : 'Films '}
+                  {global.ptBr ? 'FILMES ' : 'FILMS '}
                 </ItemMenu>
               </li>
               <li>
                 <ItemMenu as={Link} to="/filmes/longas" estado={estado}>
-                  {global.ptBr ? 'Longa Metragem' : 'Feature-length films'}
+                  {global.ptBr ? 'LONGA METRAGEM' : 'FEATURE-LENGTH FILMS'}
                 </ItemMenu>
               </li>
               <li>
                 <ItemMenu as={Link} to="/filmes/medias" estado={estado}>
-                  {global.ptBr ? 'Média Metragem' : 'Medium-length films'}
+                  {global.ptBr ? 'MÉDIA METRAGEM' : 'MEDIUM-LENGTH FILMS'}
                 </ItemMenu>
               </li>
               <li>
                 <ItemMenu as={Link} to="/filmes/curtas" estado={estado}>
-                  {global.ptBr ? 'Curta Metragem' : 'Short-length films'}
+                  {global.ptBr ? 'CURTA METRAGEM' : 'SHORT-LENGTH FILMS'}
                 </ItemMenu>
               </li>
             </ul>
             <ItemMenu as={Link} to="/metro/" estado={estado}>
-              {global.ptBr ? 'Festival Metrô' : 'Metro Festival'}
+              {global.ptBr ? 'FESTIVAL METRÔ' : 'METRO FESTIVAL'}
             </ItemMenu>
 
             {estado !== 0 ? (
@@ -160,22 +160,22 @@ function Menu({ estado = 1 }) {
             <ul className="dropdown">
               <li>
                 <ItemMenu as={Link} to="/publicacoes" estado={estado}>
-                  {global.ptBr ? 'Publicações' : 'Books '}
+                  {global.ptBr ? 'PUBLICAÇÕES' : 'BOOKS '}
                 </ItemMenu>
               </li>
               <li>
                 <ItemMenu as={Link} to="/publicacoes" estado={estado}>
-                  {global.ptBr ? 'O que é?' : 'About'}
+                  {global.ptBr ? 'O QUE É?' : 'ABOUT'}
                 </ItemMenu>
               </li>
               <li>
                 <ItemMenu as={Link} to="/colecao" estado={estado}>
-                  {global.ptBr ? 'Coleção Escrever o Cinema' : 'Cinema In Writing Collection'}
+                  {global.ptBr ? 'COLEÇÃO ESCREVER O CINEMA' : 'CINEMA IN WRITING COLLECTION'}
                 </ItemMenu>
               </li>
             </ul>
             <ItemMenu as={Link} to="/quem-somos" estado={estado}>
-              {global.ptBr ? 'Quem Somos' : 'About Us'}
+              {global.ptBr ? 'QUEM SOMOS' : 'ABOUT US'}
             </ItemMenu>
           </ConteinerItensMenu>
           <ConteinerLinguagem estado={estado}>
