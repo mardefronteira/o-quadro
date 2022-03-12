@@ -15,28 +15,9 @@ function VisualizadorImagens({ galeria, galeriaAlta }) {
     setimagemAtual(0);
     setVisualizadorAberto(false);
   };
-  const download = (e) => {
-    console.log(e.target.href);
-    fetch(e.target.href, {
-      method: 'GET',
-      headers: {},
-    })
-      .then((response) => {
-        response.arrayBuffer().then((buffer) => {
-          const url = window.URL.createObjectURL(new Blob([buffer]));
-          const link = document.createElement('a');
-          link.href = url;
-          link.setAttribute('download', 'image.jpg'); // or any other extension
-          document.body.appendChild(link);
-          link.click();
-        });
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
+
   const imagens = galeria.map((imagem) => imagem.src);// flat map
-  // const imagensAlta = galeriaAlta.map((imagem) => imagem.src);
+  const imagensAlta = galeriaAlta.map((imagem) => imagem.src);
   return (
     <ContainerBackGround>
       {galeria.map(({ src, alt, key }, index) => (
@@ -61,7 +42,7 @@ function VisualizadorImagens({ galeria, galeriaAlta }) {
               zIndex: 100, height: '100%', width: '100vw',
             }}
           />
-          <Download onClick={(e) => download(e)} />
+          <Download href={imagensAlta[imagemAtual]} download />
         </>
       )}
 

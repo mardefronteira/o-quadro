@@ -45,7 +45,7 @@ export const ContainerBackGround = styled.div`
   }
 `;
 
-export const Download = styled.button`
+export const Download = styled.a`
   background-image: url("../imagens/download.svg");
   width: 2rem;
   height: 2rem;
