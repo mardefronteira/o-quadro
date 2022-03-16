@@ -27,7 +27,6 @@ export const AcessoGlobal = ({ children }) => {
     useEffect(() => {
         const thisDb = global.ptBr ? database : databaseEn;
         mudarGlobal({ db: thisDb });
-        console.log('atualizou state');
     }, [global.ptBr]);
 
     return (

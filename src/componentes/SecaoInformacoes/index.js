@@ -75,7 +75,7 @@ function SecaoInformacoes({ taVermelho = false, id }) {
     } if (filmHost === 'vimeo') {
       return `https://player.vimeo.com/video/${filmId}`;
     }
-    return 'tá loco bicho';
+    return 'Filme não encontrado';
   }
 
   return (

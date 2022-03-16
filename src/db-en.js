@@ -2615,22 +2615,22 @@ const databaseEn = {
     membros: [{
       nome: 'Anderson Simão',
       img:
-        { src: '/imagens/quemsomos/integrantes_anderson_web.jpg', desc: '' },
+        { src: '/imagens/quemsomos/integrantes_anderson.jpg', desc: '' },
     },
     {
       nome: 'Christopher Faust',
       img:
-        { src: '/imagens/quemsomos/integrantes_christopher_web.jpg', desc: '' },
+        { src: '/imagens/quemsomos/integrantes_christopher.jpg', desc: '' },
     },
     {
       nome: 'Evandro Scorsin',
       img:
-        { src: '/imagens/quemsomos/integrantes_evandro_web.jpg', desc: '' },
+        { src: '/imagens/quemsomos/integrantes_evandro.jpg', desc: '' },
     },
     {
       nome: 'Wellington Sari',
       img:
-        { src: '/imagens/quemsomos/integrantes_wellington_web.jpg', desc: '' },
+        { src: '/imagens/quemsomos/integrantes_wellington.jpg', desc: '' },
     },
     ],
 

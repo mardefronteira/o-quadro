@@ -57,7 +57,6 @@ function Menu({ estado = 1 }) {
                 lingua={!global.ptBr}
                 onClick={() => {
                   mudarGlobal({ ptBr: false });
-                  console.log(global);
                 }}
               >
                 {' EN'}
@@ -194,7 +193,6 @@ function Menu({ estado = 1 }) {
               lingua={!global.ptBr}
               onClick={() => {
                 mudarGlobal({ ptBr: false });
-                console.log(global);
               }}
             >
               {' EN'}

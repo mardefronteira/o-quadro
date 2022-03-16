@@ -12,7 +12,6 @@ function QuemSomos() {
   const [global, mudarGlobal] = useGlobal();
 
   const somos = global.db.quemSomos;
-  console.log(somos);
   return (
     <Base menuSocialVermelho={false}>
       <Titulo>{global.ptBr ? 'QUEM SOMOS' : 'ABOUT US'}</Titulo>
