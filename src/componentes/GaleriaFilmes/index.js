@@ -4,9 +4,8 @@ import Card from './Card/index';
 import { useGlobal } from '../../AcessoGlobal';
 
 function GaleriaFilmes({ categoria }) {
-  // eslint-disable-next-line no-unused-vars
-  const [global, mudarGlobal] = useGlobal();
-  console.log(categoria);
+  const [global] = useGlobal();
+
   const { filmes } = global.db;
   const [categoriaSelecionada, setCategoriaSelecionada] = useState(categoria);
   const [filmesCategoria, setFilmesCategoria] = useState(filmes);
