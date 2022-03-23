@@ -162,11 +162,11 @@ function Menu({ estado = 1 }) {
                   {global.ptBr ? 'PUBLICAÇÕES' : 'BOOKS '}
                 </ItemMenu>
               </li>
-              <li>
+              {/* <li>
                 <ItemMenu as={Link} to="/publicacoes" estado={estado}>
                   {global.ptBr ? 'O QUE É?' : 'ABOUT'}
                 </ItemMenu>
-              </li>
+              </li> */}
               <li>
                 <ItemMenu as={Link} to="/colecao" estado={estado}>
                   {global.ptBr ? 'COLEÇÃO ESCREVER O CINEMA' : 'CINEMA IN WRITING COLLECTION'}
