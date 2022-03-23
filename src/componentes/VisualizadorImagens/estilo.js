@@ -70,6 +70,9 @@ export const ImagemCard = styled.img`
   width: 40%;
   height: 40%;
   padding-bottom: 5vh;
+  &:hover, &:focus{
+    cursor: pointer;
+  }
   @media (max-width: 800px) {
     padding-bottom: 2vh;
   }

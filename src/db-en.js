@@ -506,7 +506,7 @@ const databaseEn = {
     ano: 2020,
     autor: ' GABRIEL BORGES',
     imgIcone: { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_still1.jpeg', desc: '', titulo: 'Titulo da Imagem' },
-    imgDestaque: { src: '/imagens/filmes/eu-te-amo-bressan/coco-quadro-mecenato_banner.png', desc: '', titulo: 'Titulo da Imagem' },
+    imgDestaque: { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_banner.jpg', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
     imgPoster: { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_cartaz_web.jpg', desc: '', titulo: 'Titulo da Imagem' },
     galeria: [
       { src: '/imagens/filmes/eu-te-amo-bressan/euteamobressan_still1.jpeg', desc: '', titulo: 'Titulo da Imagem' },
