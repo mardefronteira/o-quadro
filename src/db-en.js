@@ -375,7 +375,7 @@ const databaseEn = {
     sinopse: 'Eric is in love with his best friend Eduarda. But Michel is quicker and wins her heart first. At the kart tracks, Eric has a chance to beat his opponent in a wild competition. Love and speed, love for speed. Those were the Days of Thunder.',
     categoria: 'Média Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
-    linkVideo: 'https://youtu.be/HMkA8M9cSj4',
+    linkVideo: 'https://youtu.be/8LUHCTKb2Bs',
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
@@ -704,7 +704,7 @@ const databaseEn = {
     sinopse: `Augusto is invited to a party at a college friend's apartment.`,
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
-    linkVideo: 'https://youtu.be/ca9pDxzPDfE',
+    linkVideo: 'https://youtu.be/5IdN79q8rWQ',
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
@@ -2491,7 +2491,7 @@ const databaseEn = {
       src: '/imagens/publicacoes/colecaoescreverocinema_logo_alta.jpg',
       desc: '',
     },
-    texto: 'The Writing Cinema Collection expands the act of making cinema to the pages of books, changing the lens for the letter, replacing the script with reflection. In the volumes comprising the collection, academic researchers shed light on theoretical, historical, and critical dimensions of different works of world cinema, in dialogue with other fields of knowledge, yet always returning to the films themselves.',
+    texto: 'Cinema in writing collection expands the act of making cinema to the pages of books, changing the lens for the letter, replacing the script with reflection. In the volumes comprising the collection, academic researchers shed light on theoretical, historical, and critical dimensions of different works of world cinema, in dialogue with other fields of knowledge, yet always returning to the films themselves.',
     patrocinadores: {
       titulo: 'Logo de Patrocinadores',
       src: '/imagens/publicacoes/livro01_ 04_05_creditos_banner.png',
