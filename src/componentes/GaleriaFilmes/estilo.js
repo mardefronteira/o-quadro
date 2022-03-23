@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 const Galeria = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 310px));
-    -webkit-grid-columns: repeat(auto-fit, minmax(250px, 310px));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+    -webkit-grid-columns: repeat(auto-fit, minmax(250px, 250px));
     grid-gap: 3vh;
     justify-items: space-around;
     align-items: center;

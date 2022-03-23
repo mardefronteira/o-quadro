@@ -162,7 +162,7 @@ const databaseEn = {
       { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still6_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
 
     ],
-    patrocinadores: { src: '/imagens/filmes/bia-mais-um/ebanx-mecenato_banner.png', desc: '', titulo: 'titulo da imagem' },
+    patrocinadores: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_creditos_banner.png', desc: '', titulo: 'titulo da imagem' },
     participacao: 'Poliana Oliveira, Gabrielle Pizzato Santana, Victor Carlim, Leonardo Oliveira, Wellington Sari, Evandro Scorsin, Flávia Cassias and Iza Kürten.',
     sinopse: `It’s easy being sixteen. The hard part is being sixteen and having to go to school every day. It's even harder being sixteen and having to go to school and falling in love with Fernando, the boy in the next class. It's easy being Jaqueline. The hard part is being Jaqueline and knowing Fernando doesn't care.`,
     categoria: 'Longa Metragem',
@@ -369,7 +369,7 @@ const databaseEn = {
       { src: '/imagens/filmes/dias-de-trovao/diasdetrovao_still6_alta.png', desc: '', titulo: 'Titulo da Imagem' },
 
     ],
-    patrocinadores: { src: '/imagens/filmes/dias-de-trovao/condor-mecenato_banner.png', desc: '', titulo: 'titulo da imagem' },
+    patrocinadores: { src: '/imagens/filmes/dias-de-trovao/diasdetrovao_creditos_banner.png', desc: '', titulo: 'titulo da imagem' },
 
     participacao: 'Gustavo Piaskoski, Bruna Roveda, João Maurílio, Wellington Sari, Jean Guilherme Filho, Pedro Gaeta, Izabela Cruz and Pâmela Branchi.',
     sinopse: 'Eric is in love with his best friend Eduarda. But Michel is quicker and wins her heart first. At the kart tracks, Eric has a chance to beat his opponent in a wild competition. Love and speed, love for speed. Those were the Days of Thunder.',
@@ -1384,7 +1384,7 @@ const databaseEn = {
     sinopse: 'In front of an old family picture, two couples are invited to bring memories that kindle the memories of the picture itself.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
-    linkVideo: 'https://youtu.be/CV7xsEZlZPM',
+    linkVideo: 'https://youtu.be/jx__v2Dku18',
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
@@ -1508,7 +1508,7 @@ const databaseEn = {
     sinopse: 'Andre is a 14-year-old boy, odd-looking, lonely, and addicted to computer games. During a thunderstorm, a character created in his favorite computer game materializes in his room. Andre sees an opportunity to have a friend and become popular in his high school.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
-    linkVideo: 'https://youtu.be/ABKJMIFTUts',
+    linkVideo: 'https://youtu.be/w8a9MWHJdHw',
     equipe: {
       principal: {
         // eslint-disable-next-line quotes

@@ -165,7 +165,7 @@ const database = {
       { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_still6_alta.png', desc: 'descrição da imagem', titulo: 'Titulo da Imagem' },
 
     ],
-    patrocinadores: { src: '/imagens/filmes/bia-mais-um/byebyejaqueline_creditos_banner.png', desc: '', titulo: 'titulo da imagem' },
+    patrocinadores: { src: '/imagens/filmes/bye-bye-jaqueline/byebyejaqueline_creditos_banner.png', desc: '', titulo: 'titulo da imagem' },
     participacao: 'Poliana Oliveira, Gabrielle Pizzato Santana, Victor Carlim, Leonardo Oliveira, Wellington Sari, Evandro Scorsin, Flávia Cassias e Iza Kürten.',
     sinopse: 'Ter 16 anos é fácil. O difícil é ter 16 anos e ser obrigada a ir à escola todo dia. Mais difícil ainda é ter 16, ser obrigada a frequentar a escola e acabar se apaixonando por Fernando, o menino da sala ao lado. Ser a Jaqueline é fácil. O difícil é ser Jaqueline e saber que Fernando não está nem aí.',
     categoria: 'Longa Metragem',
@@ -1394,7 +1394,7 @@ const database = {
     sinopse: 'Diante de uma fotografia antiga, deve pensar que são possíveis a resgatar lembranças que instiguem as memórias da fotografia em questão.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
-    linkVideo: 'https://youtu.be/CV7xsEZlZPM',
+    linkVideo: 'https://youtu.be/jx__v2Dku18',
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
@@ -1519,7 +1519,7 @@ const database = {
     sinopse: 'André é um menino de 14 anos solitário e viciado em jogos de computador. Em um dia conturbado, um personagem criado em seu jogo de computador favorito se materializa em seu quarto. É a chance de André ter um amigo e se tornar popular em seu colégio.',
     categoria: 'Curta Metragem',
     tags: ['Comédia', 'Adolescente', 'Terror'],
-    linkVideo: 'https://youtu.be/ABKJMIFTUts',
+    linkVideo: 'https://youtu.be/w8a9MWHJdHw',
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
