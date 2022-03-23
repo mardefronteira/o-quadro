@@ -86,21 +86,21 @@ const databaseEn = {
     equipe: {
       principal: {
         // eslint-disable-next-line quotes
-        __html: `<p><span class="texto-verde">Direction and Screenplay:</span> Wellington Sari </p> 
+        __html: `<p><span class="texto-verde">Written and Directed by: </span> Wellington Sari </p> 
         <p><span class="texto-verde">Executive Production:</span> Anderson Simão, Christopher Faust </p> 
         <p><span class="texto-verde">Production Management:</span> Leonardo Otto, Evandro Scorsin </p> 
         <p><span class="texto-verde">Cinematography:</span> André Senna </p> 
-        <p><span class="texto-verde">Art Direction:</span> Aricia Machado </p> 
-        <p><span class="texto-verde">Editing:</span> Tomás Von Der Osten </p> 
-        <p><span class="texto-verde">Direct Sound:</span> Bruno Ito </p>
+        <p><span class="texto-verde">Art Director:</span> Aricia Machado </p> 
+        <p><span class="texto-verde">Editor:</span> Tomás Von Der Osten </p> 
+        <p><span class="texto-verde">Sound engineer:</span> Bruno Ito </p>
         <p><span class="texto-verde">Colorist:</span> Lucas Kosinski </p>
-        <p><span class="texto-verde">Sound Editing and Mixing:</span> Leandro Cordeiro <p>
+        <p><span class="texto-verde">Sound Designer and Mixing:</span> Leandro Cordeiro <p>
         <p>
         Project developed with the support of the Cultural Support and Incentive Program - Cultural Foundation of Curitiba and the City of Curitiba, with incentives from the Ebanx corporation.        </p>
         `,
       },
       adicional: {
-        __html: `<p><span class="texto-verde">Secondary Cast:</span> Juliana Spricigo, 
+        __html: `<p><span class="texto-verde">Suporting Cast:</span> Juliana Spricigo, 
         Alex Barbosa, 
         Lorena Lima, 
         Beatriz Rodrigues, 
@@ -173,15 +173,15 @@ const databaseEn = {
         // eslint-disable-next-line quotes
         __html: `<p>
         <p><span class="texto-verde">Direction:</span> Anderson Simão </p>
-        <p><span class="texto-verde">Screenplay:</span> Wellington Sari </p> 
+        <p><span class="texto-verde">Writer:</span> Wellington Sari </p> 
         <p><span class="texto-verde">Executive Production:</span> Christopher Faust and Anderson Simão </p> 
         <p><span class="texto-verde">Production Management:</span> Evandro Scorsin and Wellington Sari </p> 
         <p><span class="texto-verde">Cinematography:</span> Daniel Florencio </p> 
         <p><span class="texto-verde">Costume:</span> Isbella Fonseca </p> 
-        <p><span class="texto-verde">Editing:</span> Christopher Faust </p> 
-        <p><span class="texto-verde">Direct Sound:</span> Bruno Ito </p>
+        <p><span class="texto-verde">Editor:</span> Christopher Faust </p> 
+        <p><span class="texto-verde">Sound Engineer:</span> Bruno Ito </p>
         <p><span class="texto-verde">Colorist:</span> Marcelo Tanaka </p>
-        <p><span class="texto-verde">Sound Post-Production:</span> Alexandre Rogoski<p>
+        <p><span class="texto-verde">Sound Designer and Mixing:</span> Alexandre Rogoski<p>
         <p>
         Project developed with the support of the Cultural Support and Incentive Program - Cultural Foundation of Curitiba and the City of Curitiba, with incentives from Robert Bosch and Pátio Batel. Distribution by Lança Filmes.         </p>  
         `,
@@ -190,7 +190,7 @@ const databaseEn = {
         __html: `
         <p><span class="texto-verde">Supporting cast:</span> Lois Schmidt, Bruno Ito, Christopher Faust</p>
         <p><span class="texto-verde">Assistant Director:</span> Evandro Scorsin |
-        <span class="texto-verde">Art Direction:</span> G. Sari |
+        <span class="texto-verde">Art Director:</span> G. Sari |
         <span class="texto-verde">Production Assistant: </span> Alexandre Rafael Garcia |
         <span class="texto-verde">Photography Assistant/Camera Operator:</span> Marcelo Tanaka |
         <span class="texto-verde">Direct Sound Assistant:</span> Alexandre Magno | 
@@ -200,7 +200,7 @@ const databaseEn = {
         <span class="texto-verde">Object Production:</span> Cassiana Maranha |
         <span class="texto-verde">Graphic Design:</span> Melina Correia | 
         <span class="texto-verde">Dialogue Editing and ADR:</span> Samuel Jacintho | 
-        <span class="texto-verde"> Foley Editing and Sound Effects:</span> Adriano Elias | 
+        <span class="texto-verde">Foley Editing and Sound Effects:</span> Adriano Elias | 
         <span class="texto-verde">Sound Effects Editor:</span> Felipe Ayres, Bruno Ito | 
         <span class="texto-verde">Sound Studio:</span> Off-Beat Audio | 
         <span class="texto-verde">Spanish Subtitles:</span> Larissa Mehl  | 
@@ -615,9 +615,9 @@ const databaseEn = {
         <p><span class="texto-verde">Executive Production:</span> Anderson Simão and Christopher Faust </p> 
         <p><span class="texto-verde">Production Management:</span> Evandro Scorsin and Wellington Sari </p> 
         <p><span class="texto-verde">Cinematography:</span> Jonathan van Thomaz </p> 
-        <p><span class="texto-verde">Editing:</span> Tomás von der Osten </p> 
-        <p><span class="texto-verde">Direct Sound and Soundtrack: </span> Felipe Ayres </p>
-        <p><span class="texto-verde">Sound Editing and Mixing:</span> Alexandre Rogoski<p>
+        <p><span class="texto-verde">Editor:</span> Tomás von der Osten </p> 
+        <p><span class="texto-verde">Sound Enginnering and Soundtrack: </span> Felipe Ayres </p>
+        <p><span class="texto-verde">Sound Design and Mixing: </span> Alexandre Rogoski<p>
         <p>
         Project developed via Prodav 12 public notice (Public TVs) of the Audiovisual Sector Fund. 
         </p>
@@ -646,7 +646,7 @@ const databaseEn = {
             <span class="texto-verde">Second Photography Assistant:</span> Lucas Kosinski |
             <span class="texto-verde">Dialogue Editor:</span> Samuel Jacintho |
             <span class="texto-verde">Sound Editing Assistant:</span> Yuri Grigoletti |
-            <span class="texto-verde">Sound Editing Assistant:</span> Off-Beat Audio |
+            <span class="texto-verde">Post Sound Production Studio:</span> Off-Beat Audio |
             <span class="texto-verde">Post-production Coordinator:</span> Guilherme Delamuta |
             <span class="texto-verde">Color Correction: </span> Rafael Werner |
             <span class="texto-verde">Graphic Art and Cards:</span> Pedro Giongo | 
@@ -655,7 +655,7 @@ const databaseEn = {
             <span class="texto-verde">Accessibility Content:</span> ETC filmes |
             <span class="texto-verde">Audio Description Screenplay:</span> Joana Oliveira |
             <span class="texto-verde">Cognitive Audio Description Consulting:</span> Edgar Jacques | 
-            <span class="texto-verde">Cognitive Audio Description Consulting:</span> Thonny Cavaglieri | 
+            <span class="texto-verde">Audio Description Narrator:</span> Thonny Cavaglieri | 
             <span class="texto-verde">Descriptive Subtitles:</span> Claudia Pinheiro | 
             <span class="texto-verde">LIBRAS Translator:</span> Regiane Pereira | 
             <span class="texto-verde">Specialized LIBRAS Consulting:</span> Diogo Petarnella | 
