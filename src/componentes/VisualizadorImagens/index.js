@@ -16,6 +16,7 @@ function VisualizadorImagens({ galeria, galeriaAlta }) {
 
   const imagens = galeria.map((imagem) => imagem.src);// flat map
   const imagensAlta = galeriaAlta.map((imagem) => imagem.src);
+
   return (
     <ContainerBackGround>
       {galeria.map(({ src, alt, key }, index) => (
@@ -40,6 +41,7 @@ function VisualizadorImagens({ galeria, galeriaAlta }) {
               zIndex: 100, height: '100%', width: '100vw',
             }}
           />
+          {console.log(imagensAlta[imagemAtual])}
           <Download href={imagensAlta[imagemAtual]} download />
         </>
       )}

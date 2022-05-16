@@ -25,12 +25,13 @@ function Base({ estadoMenu = 1, menuSocialVermelho = false, children }) {
 Base.propTypes = {
   estadoMenu: PropTypes.number,
   menuSocialVermelho: PropTypes.bool,
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
 };
 
 Base.defaultProps = {
   estadoMenu: 1,
   menuSocialVermelho: false,
+  children: '',
 };
 
 export default Base;

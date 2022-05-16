@@ -9,7 +9,7 @@ import {
 } from './estilo';
 import { useGlobal } from '../../AcessoGlobal';
 
-function MenuSocial({ vermelho = false, taVermelho = true }) {
+function MenuSocial({ vermelho = false }) {
   const [global, mudarGlobal] = useGlobal();
 
   const { logos } = global.db;
@@ -102,7 +102,6 @@ function MenuSocial({ vermelho = false, taVermelho = true }) {
 }
 
 MenuSocial.propTypes = {
-  taVermelho: PropTypes.bool.isRequired,
   vermelho: PropTypes.bool.isRequired,
 };
 

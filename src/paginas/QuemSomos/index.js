@@ -41,7 +41,7 @@ function QuemSomos() {
       </Conteiner>
       <GridIntegrantes>
         {somos.membros.map((membro) => (
-          <Card>
+          <Card key={membro.nome}>
             <Nome>{membro.nome.toUpperCase()}</Nome>
             <FotoPerfil src={membro.img.src} alt={membro.img.desc} />
           </Card>

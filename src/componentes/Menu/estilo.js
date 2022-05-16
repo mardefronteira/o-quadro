@@ -97,7 +97,12 @@ export const ItemLang = styled.button`
   }
   margin-top: 1vh;
   font-size: 0.85em;
-  ${(props) => props.lingua && ('color: #009f66')}
+  ${(props) => {
+    if (props.linguaItem === props.ptBr) {
+      return `color: ${props.estado === 2 ? '#CF0018' : '#009f66'};`;
+    }
+    return 'color: black;';
+  }}
   ${(props) => {
     if (props.estado === 0) {
       return `

@@ -175,7 +175,8 @@ function Menu({ estado = 1 }) {
           <ConteinerLinguagem estado={estado}>
             <ItemLang
               estado={estado}
-              lingua={global.ptBr}
+              ptBr={global.ptBr}
+              linguaItem
               onClick={() => {
                 mudarGlobal({ ptBr: true });
               }}
@@ -185,7 +186,8 @@ function Menu({ estado = 1 }) {
             /
             <ItemLang
               estado={estado}
-              lingua={!global.ptBr}
+              ptBr={global.ptBr}
+              linguaItem={false}
               onClick={() => {
                 mudarGlobal({ ptBr: false });
               }}
